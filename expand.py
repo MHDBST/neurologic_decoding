@@ -1,5 +1,6 @@
 import argparse
 from tqdm import tqdm
+import transformers
 
 
 if __name__ == '__main__':
