@@ -6,7 +6,7 @@ import math
 import numpy as np
 from typing import Iterable, List, Optional, Tuple
 
-from seq2seq.topK import topk_huggingface, ConstrainedHypothesis
+from topK import topk_huggingface, ConstrainedHypothesis
 
 logger = logging.getLogger(__name__)
 
@@ -462,7 +462,7 @@ def _generate_beam_search(
 
     # init number of met clauses
     num_mets = [x.num_met() for x in constraints]
-
+    ### Check this part MOHA
     while cur_len < max_length:
         model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs

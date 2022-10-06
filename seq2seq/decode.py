@@ -7,11 +7,11 @@ from tqdm import tqdm
 
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-from seq2seq.utils import calculate_rouge, use_task_specific_params, calculate_bleu_score, trim_batch
+from utils import calculate_rouge, use_task_specific_params, calculate_bleu_score, trim_batch
 from unilm import utils_seq2seq
 from lexical_constraints import init_batch
 
-from seq2seq.generate import generate
+from generate import generate
 #from zero_shot.generate_baseline import generate
 
 DEFAULT_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
