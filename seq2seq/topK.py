@@ -4,7 +4,9 @@ import torch
 from operator import attrgetter
 from typing import Dict, List, Optional, Tuple, Set, Union
 from scipy.stats import rankdata
-from lexical_constraints import ConstrainedHypothesis, ConstrainedCandidate
+# from lexical_constraints import ConstrainedHypothesis, ConstrainedCandidate
+from lexical_constraints import ConstrainedDtreeHypothesis, ConstrainedCandidate
+
 
 ## CHECK THIS Moha
 def topk_huggingface(timestep: int,
@@ -17,10 +19,10 @@ def topk_huggingface(timestep: int,
                      beta: float,
                      inactive: np.array,
                      scores: np.array,
-                     hypotheses: List[ConstrainedHypothesis],
+                     hypotheses: List[ConstrainedDtreeHypothesis],
                      num_fill: int,
                      early_stop: float = None) -> Tuple[np.array, np.array,
-                                                        List[List[Union[ConstrainedHypothesis, None]]],
+                                                        List[List[Union[ConstrainedDtreeHypothesis, None]]],
                                                         List[List[int]]]:
     """
     Builds a new topk list such that the beam contains hypotheses having completed different numbers of constraints.
@@ -94,13 +96,13 @@ def _sequential_topk(timestep: int,
                      beta: float,
                      inactive: np.array,
                      scores: np.array,
-                     hypotheses: List[ConstrainedHypothesis],
+                     hypotheses: List[ConstrainedDtreeHypothesis],
                      best_ids: np.array,
                      best_word_ids: np.array,
                      sequence_scores: np.array,
                      num_fill: int = None,
                      early_stop: float = None) -> Tuple[np.array, np.array, np.array,
-                                                        List[ConstrainedHypothesis], List[int]]:
+                                                        List[ConstrainedDtreeHypothesis], List[int]]:
     """
     Builds a new topk list such that the beam contains hypotheses having completed different numbers of constraints.
     These items are built from three different types: (1) the best items across the whole

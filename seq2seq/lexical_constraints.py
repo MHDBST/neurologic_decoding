@@ -750,7 +750,7 @@ class ConstrainedCandidate:
                  row: int,
                  col: int,
                  score: float,
-                 hypothesis: ConstrainedHypothesis,
+                 hypothesis: ConstrainedDtreeHypothesis,
                  rank: float = None,) -> None:
         self.row = row
         self.col = col
