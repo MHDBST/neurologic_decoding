@@ -6,7 +6,7 @@ import math
 import numpy as np
 from typing import Iterable, List, Optional, Tuple
 
-from topK import topk_huggingface, ConstrainedHypothesis
+from topK import topk_huggingface, ConstrainedDtreeHypothesis#ConstrainedHypothesis
 
 logger = logging.getLogger(__name__)
 
@@ -34,11 +34,13 @@ def generate(
     attention_mask: Optional[torch.LongTensor] = None,
     decoder_start_token_id: Optional[int] = None,
     use_cache: Optional[bool] = None,
-    constraints: Optional[List[Optional[ConstrainedHypothesis]]] = None,
+    constraints: Optional[List[Optional[ConstrainedDtreeHypothesis]]] = None,
     prune_factor: Optional[int] = None,
     sat_tolerance: Optional[int] = None,
     beta: Optional[int] = None,
     early_stop: Optional[float] = None,
+    tokenizer=None,
+
     **model_specific_kwargs
 ) -> torch.LongTensor:
     r""" Generates sequences for models with a LM head. The method currently supports greedy decoding, beam-search decoding, sampling with temperature, sampling with top-k or nucleus sampling.
@@ -193,7 +195,7 @@ def generate(
     assert (
         bad_words_ids is None or isinstance(bad_words_ids, list) and isinstance(bad_words_ids[0], list)
     ), "`bad_words_ids` is either `None` or a list of lists of tokens that should not be generated"
-
+    
     if input_ids is None:
         assert isinstance(bos_token_id, int) and bos_token_id >= 0, (
             "you should either supply a context to complete as `input_ids` input "
@@ -204,7 +206,7 @@ def generate(
         )
     else:
         assert input_ids.dim() == 2, "Input prompt should be of shape (batch_size, sequence length)."
-
+    
     # not allow to duplicate outputs when greedy decoding
     if do_sample is False:
         if num_beams == 1:
@@ -281,7 +283,7 @@ def generate(
         attention_mask = attention_mask.contiguous().view(
             effective_batch_size * num_beams, input_ids_len
         )  # shape: (batch_size * num_return_sequences * num_beams, cur_len)
-
+    # print('input ids before:',input_ids)
     if self.config.is_encoder_decoder:
         # create empty decoder_input_ids
         input_ids = torch.full(
@@ -310,7 +312,12 @@ def generate(
     else:
         encoder_outputs = None
         cur_len = input_ids.shape[-1]
-
+    # cur_len =0
+    # print('input ids after:',input_ids)
+    # print('input id is,',input_ids)
+    # print('decoded is',tokenizer.batch_decode(input_ids))
+    # print('generation started')
+    # exit()
     if num_beams > 1:
         output = _generate_beam_search(
             self,
@@ -344,6 +351,7 @@ def generate(
             beta=beta,
             early_stop=early_stop,
             model_specific_kwargs=model_specific_kwargs,
+            tokenizer=tokenizer,
         )
     else:
         raise NotImplementedError
@@ -434,6 +442,7 @@ def _generate_beam_search(
         beta,
         early_stop,
         model_specific_kwargs,
+        tokenizer,
 ):
     """ Generate sequences for each example with beam search.
     """
@@ -462,11 +471,16 @@ def _generate_beam_search(
 
     # init number of met clauses
     num_mets = [x.num_met() for x in constraints]
+
     ### Check this part MOHA
     while cur_len < max_length:
         model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
         )
+        print('model_inputs',model_inputs)
+        print('input_ids',input_ids)
+        print('input_ids shape',input_ids.shape)
+        
         outputs = self(**model_inputs)  # (batch_size * num_beams, cur_len, vocab_size)
         next_token_logits = outputs[0][:, -1, :]  # (batch_size * num_beams, vocab_size)
 
@@ -498,7 +512,7 @@ def _generate_beam_search(
         assert scores.shape == (batch_size * num_beams, vocab_size), "Shapes of scores: {} != {}".format(
             scores.shape, (batch_size * num_beams, vocab_size)
         )
-
+        print('scores shape',scores.shape)
         if do_sample:
             raise NotImplementedError
         else:
@@ -523,7 +537,9 @@ def _generate_beam_search(
                                                                                scores=full_scores,
                                                                                hypotheses=constraints,
                                                                                num_fill=2 * num_beams,
-                                                                               early_stop=early_stop)
+                                                                               early_stop=early_stop,
+                                                                               tokenizer=tokenizer,
+                                                                               cur_len=cur_len)
 
             next_scores = torch.tensor(pick_scores, dtype=next_scores.dtype, device=next_scores.device)
             next_tokens = torch.tensor(pick_tokens, dtype=next_tokens.dtype, device=next_tokens.device)

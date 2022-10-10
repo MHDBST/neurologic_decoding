@@ -279,7 +279,7 @@ class PositiveDtree:
         self.object = object
         self.verb = verb
         self.met=met
-    def advance_dtree(self,sentence) -> 'PositiveState':
+    def advance_dtree(self,sentence) -> 'PositiveDtree':
         """
         Updates the constraints object based on advancing on word_id.
         There is a complication, in that we may have started but not
@@ -293,28 +293,31 @@ class PositiveDtree:
         :return: A deep copy of the object, advanced on word_id.
         """
         connections=predict_dtree.get_tree(nlp,sentence)
-        print(connections)
+        # print(connections)
         if len(connections) ==0:
             return self
-        if self.subject in connections[0]:
+        # print('self.subject',self.subject,self.object,self.verb)
+        if self.subject.strip()==connections[0][0].strip() and \
+            self.object.strip()==connections[0][1].strip() and \
+                self.verb.strip()==connections[0][2].strip():
             self.met=True
             return PositiveDtree(self.subject, self.object,self.verb,True)
         else:
             return self
             
-        # if new_state:
-        #     print('new state')
-        #     return PositiveState(self.root, new_state, met_phrases if met_phrases else None)
-        # else:
-        #     print('no new_state')
-        #     if len(self.state) == 1 and self.root == self.state[0] and not met_phrases:
-        #         print('no new_state',len(self.state) ,self.root , self.state[0],met_phrases)
-        #         return self
-        #     else:
-        #         print('no new_state, met phrases',len(self.state) ,self.root , self.state[0],met_phrases)
-        #         return PositiveState(self.root, [self.root], met_phrases if met_phrases else None)
+    def allowed(self) -> Set[int]:
+        """
+        Returns the set of constrained words that could follow this one.
+        For unfinished phrasal constraints, it is the next word in the phrase.
+        In other cases, it is the list of all unmet constraints.
+        If all constraints are met, an empty set is returned.
 
-
+        :return: The ID of the next required word, or -1 if any word can follow
+        """
+        allow = self.root.final().union(*[state.final() for state in self.state])
+        ## in place or
+        allow |= set(self.root.children.keys()).union(*[set(state.children.keys()) for state in self.state])
+        return allow    
 
 
 class PositiveState:
@@ -468,7 +471,7 @@ class ConstrainedDtreeHypothesis:
         self.max_process = 0
         
         
-    def advance_dtree(self, sentence: str) -> 'ConstrainedDtreeHypothesis':
+    def advance_dtree(self, sentence: str,cur_len:int) -> 'ConstrainedDtreeHypothesis':
         """
         Updates the constraints object based on advancing on word_id.
         If one of literals in a clause is satisfied, we mark this clause as satisfied
@@ -476,20 +479,22 @@ class ConstrainedDtreeHypothesis:
         :param word_id: The word ID to advance on.
         """
         obj = copy.deepcopy(self)
+        if cur_len < 3:
+            return obj
 
         if obj.soft_negative_state is not None:
             raise NotImplementedError
 
         if obj.hard_negative_state is not None:
-            obj.hard_negative_state = obj.hard_negative_state.consume(word_list[-1])
+            obj.hard_negative_state = obj.hard_negative_state.consume(sentence[-1])
         
         ## this is the current positive constraint in the clasuse
         if obj.positive_dtree is not None: 
-            print('obj',obj)
-            print('obj.positive_dtree is not none',obj.positive_dtree)
+            # print('obj',obj)
+            # print('obj.positive_dtree is not none',obj.positive_dtree)
             ## this checks the next unsatisfied constraint
             temp_pos_state = obj.positive_dtree.advance_dtree(sentence)
-            print('temp_pos_state here',temp_pos_state)
+            # print('temp_pos_state here',temp_pos_state)
             ## enters this condition if the constraint is satisfied
             if temp_pos_state.met :
                 # get newly satisfied positive literals
@@ -502,7 +507,7 @@ class ConstrainedDtreeHypothesis:
                 
                 obj.positive_state = temp_pos_state
             else:
-                print('obj.positive_dtree',obj.positive_dtree)
+                # print('obj.positive_dtree',obj.positive_dtree)
                 obj.positive_state = temp_pos_state
 
             # history = [s.trace_arcs() for s in obj.positive_state.state]
@@ -520,7 +525,73 @@ class ConstrainedDtreeHypothesis:
             # obj.in_process = sorted(newly_in_process)
             # obj.max_process = max_process
         return obj
+    def __len__(self) -> int:
+        """
+        :return: The number of constraints.
+        """
+        return len(self.clauses)
 
+    def __str__(self) -> str:
+        return '\n'.join([str(c) for c in self.clauses])
+
+    def size(self) -> int:
+        """
+        :return: the number of constraints
+        """
+        return len(self.clauses)
+
+    def num_met(self) -> int:
+        """
+        :return: the number of constraints that have been met.
+        """
+        if not self.clauses:
+            return 0
+        return sum([int(c.satisfy) for c in self.clauses])
+
+    def met_order(self) -> tuple:
+        """
+        :return: the number of constraints that have been met.
+        """
+        return tuple(sorted(self.orders))
+
+    def clause_in_process(self) -> tuple:
+        """
+        :return: the index of clause that's in generation.
+        """
+        return tuple(self.in_process)
+
+    def num_needed(self) -> int:
+        """
+        :return: the number of un-met constraints.
+        """
+        return self.size() - self.num_met()
+
+    def finished(self) -> bool:
+        """
+        Return true if all the constraints have been met.
+
+        :return: True if all the constraints are met.
+        """
+        return self.num_needed() == 0
+
+    def is_valid(self, wordid: int) -> bool:
+        """
+        Ensures </s> is only generated when the hypothesis is completed.
+
+        :param wordid: The wordid to validate.
+        :return: True if all constraints are already met or the word ID is not the EOS id.
+        """
+        return self.finished() or wordid not in self.eos_id
+
+    def avoid(self) -> Set[int]:
+        banned = self.hard_negative_state.avoid() if self.hard_negative_state is not None else set()
+        return banned
+
+    def eos(self) -> list:
+        """
+        :return: Return EOS id.
+        """
+        return self.eos_id
 
 class ConstrainedHypothesis:
     """
@@ -774,7 +845,7 @@ if __name__ == '__main__':
     #            [[([3, 4, 5], True)], [([3, 4], True)], [([4, 5], True)]],
     #            [[([3, 4], True)], [([2, 3, 5], True)], [([6, 5], True)]]]
     
-    clauses = [[[(['i','opened','box'], True)]]]
+    clauses = [[[(['cat','catches','ball'], True)]]]
     print('init batch')
     constraints = init_batch(raw_constraints=clauses,
                              beam_size=1,
@@ -786,11 +857,12 @@ if __name__ == '__main__':
     print(constraint)
     print(constraints)
     print()
-    words=[2, 4, 3, 4, 5]
-    
-    for i in range(len(words)):
-        print('------------%s----------'%str(words[i]))
-        constraint = constraint.advance_dtree('I opened the box')
+    words=[2]
+    strr='the cat catches the large round green ball .'
+    words=strr.split(' ')
+    for i in range(len(words)-2):
+        print('------------%s----------'%str(words[:i+3]))
+        constraint = constraint.advance_dtree(' '.join(words[:i+3]))
         print('constraint>>>\n',constraint)
         print('constraint.positive_state>>>\n',constraint.positive_dtree.met)
 

@@ -49,21 +49,31 @@ def generate_summaries_or_translations(
     if "bart" in args.model_name:
         period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
     eos_ids = [tokenizer.eos_token_id] + period_id
-
+    print('constraints_list before',constraints_list)
     constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
-
+    print('constraints_list after',constraints_list)
+    constraints_list=[[[(["person", "bicycle", "riding"],True)]]]
+    # exit()
     # update config with summarization specific params
     use_task_specific_params(model, task)
 
     for batch, cons in tqdm(zip(list(chunks(examples, batch_size)), list(chunks(constraints_list, batch_size)))):
+        
+        
         constraints = init_batch(raw_constraints=cons,
                                  beam_size=args.beam_size,
                                  eos_id=eos_ids)
+        print('batch constraints initialized')
 
         if "t5" in model_name:
             batch = ['generate a sentence with: ' + text + ' </s>' for text in batch]
+            print('text is: ', [text for text in batch])
         batch = tokenizer(batch, return_tensors="pt", truncation=True, padding="max_length").to(device)
         input_ids, attention_mask = trim_batch(**batch, pad_token_id=tokenizer.pad_token_id)
+        # print('input id is,',input_ids)
+        # print('decoded is',tokenizer.batch_decode(input_ids))
+        # print('generation started')
+        # exit()
         summaries = generate(self=model,
                              input_ids=input_ids,
                              attention_mask=attention_mask,
@@ -77,7 +87,9 @@ def generate_summaries_or_translations(
                              prune_factor=args.prune_factor,
                              sat_tolerance=args.sat_tolerance,
                              beta=args.beta,
-                             early_stop=args.early_stop)
+                             early_stop=args.early_stop,
+                             tokenizer=tokenizer)
+        print('generation done!')
         dec = tokenizer.batch_decode(summaries, skip_special_tokens=True, clean_up_tokenization_spaces=False)
         for hypothesis in dec:
             fout.write(hypothesis.strip() + "\n")

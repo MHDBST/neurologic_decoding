@@ -28,6 +28,7 @@ def get_dep_tree_connections(mapp,entity):
     return None
 
 def get_tree(nlp,sentence):
+    print('input here is>>',sentence)
     doc = nlp(sentence)
     # for sent in doc:
     sent=doc.sentences[0]

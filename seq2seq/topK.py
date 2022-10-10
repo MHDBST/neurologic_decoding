@@ -21,7 +21,9 @@ def topk_huggingface(timestep: int,
                      scores: np.array,
                      hypotheses: List[ConstrainedDtreeHypothesis],
                      num_fill: int,
-                     early_stop: float = None) -> Tuple[np.array, np.array,
+                     early_stop: float = None,
+                     tokenizer =None,
+                     cur_len:int = None) -> Tuple[np.array, np.array,
                                                         List[List[Union[ConstrainedDtreeHypothesis, None]]],
                                                         List[List[int]]]:
     """
@@ -43,8 +45,12 @@ def topk_huggingface(timestep: int,
     :return: A tuple containing the best hypothesis rows, the best hypothesis words, the scores,
         the updated constrained hypotheses, and the updated set of inactive hypotheses.
     """
+    print('scores here',scores)
 
     seq_scores, raw_token_idx = torch.topk(scores, beam_size, dim=1, largest=True, sorted=True)
+    print('raw_token_idx',raw_token_idx)
+    # print()
+    # exit()
     best_ids = (raw_token_idx // vocab_size).cpu().numpy()
     best_word_ids = (raw_token_idx % vocab_size).cpu().numpy()
     seq_scores = seq_scores.cpu().numpy()
@@ -58,6 +64,7 @@ def topk_huggingface(timestep: int,
     select_num_mets = [[-1] * num_fill for _ in range(batch_size)]
 
     for sentno in range(batch_size):
+
         rows = slice(sentno * beam_size, sentno * beam_size + beam_size)
         if all([x is None for x in hypotheses[rows]]):
             select_best_ids[sentno] = [0] * num_fill
@@ -82,7 +89,9 @@ def topk_huggingface(timestep: int,
                                                                                   best_word_ids[sentno],
                                                                                   seq_scores[sentno],
                                                                                   num_fill=num_fill,
-                                                                                  early_stop=early_stop)
+                                                                                  early_stop=early_stop,
+                                                                                  tokenizer=tokenizer,
+                                                                                  cur_len=cur_len)
     print('select_hypotheses[sentno]',select_hypotheses[sentno])
     exit()
     select_raw_token_idx = select_best_ids * vocab_size + select_best_word_ids
@@ -101,7 +110,9 @@ def _sequential_topk(timestep: int,
                      best_word_ids: np.array,
                      sequence_scores: np.array,
                      num_fill: int = None,
-                     early_stop: float = None) -> Tuple[np.array, np.array, np.array,
+                     early_stop: float = None,
+                     tokenizer=None,
+                     cur_len:int=None) -> Tuple[np.array, np.array, np.array,
                                                         List[ConstrainedDtreeHypothesis], List[int]]:
     """
     Builds a new topk list such that the beam contains hypotheses having completed different numbers of constraints.
@@ -128,10 +139,16 @@ def _sequential_topk(timestep: int,
 
     # (1) Add all of the top-k items (which were passed) in as long as they pass the constraints
     for row, col, seq_score in zip(best_ids, best_word_ids, sequence_scores):
+        print('col',col)
         row, col = int(row), int(col)
+        
 
         seq_score = float(seq_score)
-        new_item = hypotheses[row].advance(col)
+        col = tokenizer.decode(col, skip_special_tokens=True)#, clean_up_tokenization_spaces=False)
+        print('col now is:>>',col)
+        # exit()
+        
+        new_item = hypotheses[row].advance_dtree(col,cur_len)
 
         cand = ConstrainedCandidate(row, col, seq_score, new_item)
         print('row',row)
@@ -155,7 +172,9 @@ def _sequential_topk(timestep: int,
         hyp = hypotheses[row]
 
         # (2) add all the constraints that could extend this
-        nextones = hyp.positive_state.allowed()
+        # nextones = hyp.positive_state.allowed()
+        nextones = hyp.positive_dtree.allowed()
+
 
         # (3) add the best items (if it's valid)
         best_k = np.argsort(scores[row])[::-1][:beam_size]
