@@ -1,9 +1,3 @@
-import stanza
-
-
-
-
-
 def get_dep_tree_connections(mapp,entity):
     connection_arr=[]
     if entity in mapp:
@@ -28,8 +22,11 @@ def get_dep_tree_connections(mapp,entity):
     return None
 
 def get_tree(nlp,sentence):
-    print('input here is>>',sentence)
-    doc = nlp(sentence)
+    # print('input here is>>',sentence)
+    sentence=sentence.strip()
+    if not sentence:
+        return []
+    doc = nlp(str(sentence))
     # for sent in doc:
     sent=doc.sentences[0]
     a_ents=[]
@@ -71,7 +68,7 @@ def get_tree(nlp,sentence):
 
 def get_tree_1(nlp,sentence):
     doc = nlp(sentence)
-    print('doc',doc)
+    # print('doc',doc)
     # for sent in doc:
     sent=doc.sentences[0]
     a_ents=[]
@@ -88,5 +85,5 @@ def get_tree_1(nlp,sentence):
     for ent in a_ents:
         a_connection_arr=get_dep_tree_connections(a_map,ent)
         a_connection_arrs.append(a_connection_arr)
-    print('a_connection_arr:',a_connection_arrs)
+    # print('a_connection_arr:',a_connection_arrs)
     return(a_connection_arrs)

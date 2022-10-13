@@ -40,7 +40,6 @@ def generate(
     beta: Optional[int] = None,
     early_stop: Optional[float] = None,
     tokenizer=None,
-
     **model_specific_kwargs
 ) -> torch.LongTensor:
     r""" Generates sequences for models with a LM head. The method currently supports greedy decoding, beam-search decoding, sampling with temperature, sampling with top-k or nucleus sampling.
@@ -353,6 +352,8 @@ def generate(
             model_specific_kwargs=model_specific_kwargs,
             tokenizer=tokenizer,
         )
+        # print('output is',output)
+        # exit()
     else:
         raise NotImplementedError
     return output
@@ -474,15 +475,23 @@ def _generate_beam_search(
 
     ### Check this part MOHA
     while cur_len < max_length:
+        # if cur_len==5:
+        #     exit
+        # print('past is',past[0][0].shape)
+        # exit()
         model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
         )
-        print('model_inputs',model_inputs)
-        print('input_ids',input_ids)
-        print('input_ids shape',input_ids.shape)
-        
+        # print('model_inputs',model_inputs.keys())
+        # print('input_ids',input_ids)
+
+        # print('input_ids shape',input_ids.shape)
         outputs = self(**model_inputs)  # (batch_size * num_beams, cur_len, vocab_size)
+        # print('outputs>>',outputs)
+        # print('outputs shape',outputs[0].shape)
+        # exit()
         next_token_logits = outputs[0][:, -1, :]  # (batch_size * num_beams, vocab_size)
+        # print('next_token_logits shape',next_token_logits.shape)
 
         # if model has past, then set the past variable to speed up decoding
         if self._use_cache(outputs, use_cache):
@@ -512,7 +521,7 @@ def _generate_beam_search(
         assert scores.shape == (batch_size * num_beams, vocab_size), "Shapes of scores: {} != {}".format(
             scores.shape, (batch_size * num_beams, vocab_size)
         )
-        print('scores shape',scores.shape)
+        # print('scores shape',scores.shape)
         if do_sample:
             raise NotImplementedError
         else:
@@ -539,7 +548,7 @@ def _generate_beam_search(
                                                                                num_fill=2 * num_beams,
                                                                                early_stop=early_stop,
                                                                                tokenizer=tokenizer,
-                                                                               cur_len=cur_len)
+                                                                               input_ids=input_ids)
 
             next_scores = torch.tensor(pick_scores, dtype=next_scores.dtype, device=next_scores.device)
             next_tokens = torch.tensor(pick_tokens, dtype=next_tokens.dtype, device=next_tokens.device)

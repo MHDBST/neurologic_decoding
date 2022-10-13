@@ -297,9 +297,22 @@ class PositiveDtree:
         if len(connections) ==0:
             return self
         # print('self.subject',self.subject,self.object,self.verb)
-        if self.subject.strip()==connections[0][0].strip() and \
-            self.object.strip()==connections[0][1].strip() and \
-                self.verb.strip()==connections[0][2].strip():
+        # print('self.subject',self.subject)
+        # print('connections[0][0]',connections[0][0])
+        s_expected=self.subject[0].strip().lower()
+        s_generated =connections[0][0].strip().lower()
+
+        o_expected=self.object[0].strip().lower()
+        o_generated =connections[0][1].strip().lower()
+                
+        v_expected=self.verb[0].lower().strip()
+        v_generated =connections[0][2].strip().lower()
+        
+
+        if s_expected in s_generated and \
+            v_expected in v_generated and \
+                o_expected in o_generated:
+            print('meeet')
             self.met=True
             return PositiveDtree(self.subject, self.object,self.verb,True)
         else:
@@ -314,10 +327,11 @@ class PositiveDtree:
 
         :return: The ID of the next required word, or -1 if any word can follow
         """
-        allow = self.root.final().union(*[state.final() for state in self.state])
-        ## in place or
-        allow |= set(self.root.children.keys()).union(*[set(state.children.keys()) for state in self.state])
-        return allow    
+        # allow = self.root.final().union(*[state.final() for state in self.state])
+        # ## in place or
+        # allow |= set(self.root.children.keys()).union(*[set(state.children.keys()) for state in self.state])
+        # return allow
+        return set()    
 
 
 class PositiveState:
@@ -373,9 +387,9 @@ class PositiveState:
         """
         new_state, met_phrases = [], []
         for state in set(self.state + [self.root]):
-            print('here state',state)
-            print('state.children',state.children)
-            print('state.final_ids',state.final_ids)
+            # print('here state',state)
+            # print('state.children',state.children)
+            # print('state.final_ids',state.final_ids)
             
             if word_id in state.children:
                 new_state.append(state.step(word_id))
@@ -383,15 +397,15 @@ class PositiveState:
                 met_phrases.append(state.trace_phrase(word_id))
 
         if new_state:
-            print('new state')
+            # print('new state')
             return PositiveState(self.root, new_state, met_phrases if met_phrases else None)
         else:
-            print('no new_state')
+            # print('no new_state')
             if len(self.state) == 1 and self.root == self.state[0] and not met_phrases:
-                print('no new_state',len(self.state) ,self.root , self.state[0],met_phrases)
+                # print('no new_state',len(self.state) ,self.root , self.state[0],met_phrases)
                 return self
             else:
-                print('no new_state, met phrases',len(self.state) ,self.root , self.state[0],met_phrases)
+                # print('no new_state, met phrases',len(self.state) ,self.root , self.state[0],met_phrases)
                 return PositiveState(self.root, [self.root], met_phrases if met_phrases else None)
 
 
@@ -460,9 +474,10 @@ class ConstrainedDtreeHypothesis:
         self.hard_negative_state = NegativeState(Trie(hard_neg_pool)) if hard_neg_pool else None
         self.soft_negative_state = NegativeState(Trie(soft_neg_pool)) if soft_neg_pool else None
         # self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
-        print('pos_phrases',pos_phrases)
-        self.positive_dtree =PositiveDtree(pos_phrases[0][0],pos_phrases[0][1],pos_phrases[0][2])
-        print('positive_dtree:',self.positive_dtree )
+        # print('pos_phrases',pos_phrases)
+        # self.positive_dtree =PositiveDtree(pos_phrases[0][0],pos_phrases[0][1],pos_phrases[0][2])
+        self.positive_dtree =PositiveDtree(pos_phrases[0],pos_phrases[1],pos_phrases[2])
+        # print('positive_dtree:',self.positive_dtree )
         
         # exit()
 
@@ -471,13 +486,16 @@ class ConstrainedDtreeHypothesis:
         self.max_process = 0
         
         
-    def advance_dtree(self, sentence: str,cur_len:int) -> 'ConstrainedDtreeHypothesis':
+    def advance_dtree(self, sentence: str) -> 'ConstrainedDtreeHypothesis':
         """
         Updates the constraints object based on advancing on word_id.
         If one of literals in a clause is satisfied, we mark this clause as satisfied
 
         :param word_id: The word ID to advance on.
         """
+        
+        cur_len =len(sentence.split())
+        sentence=' '.join(sentence.split())
         obj = copy.deepcopy(self)
         if cur_len < 3:
             return obj
@@ -635,7 +653,7 @@ class ConstrainedHypothesis:
         self.hard_negative_state = NegativeState(Trie(hard_neg_pool)) if hard_neg_pool else None
         self.soft_negative_state = NegativeState(Trie(soft_neg_pool)) if soft_neg_pool else None
         self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
-        print('positive state:',self.positive_state )
+        # print('positive state:',self.positive_state )
 
         self.orders = []
         self.in_process = None
@@ -726,16 +744,16 @@ class ConstrainedHypothesis:
         
         ## this is the current positive constraint in the clasuse
         if obj.positive_state is not None: 
-            print('obj',obj)
-            print('obj.positive_state is not none',obj.positive_state)
-            print('word_id',word_id)
+            # print('obj',obj)
+            # print('obj.positive_state is not none',obj.positive_state)
+            # print('word_id',word_id)
             ## this checks the next unsatisfied constraint
             temp_pos_state = obj.positive_state.advance(sentence)
-            print('temp_pos_state here',temp_pos_state)
+            # print('temp_pos_state here',temp_pos_state)
             ## enters this condition if the constraint is satisfied
             if temp_pos_state.met_phrases is not None:
                 # get newly satisfied positive literals
-                print('temp_pos_state.met_phrases',temp_pos_state.met_phrases)
+                # print('temp_pos_state.met_phrases',temp_pos_state.met_phrases)
                 phrases_to_delete = []
                 newly_met_clause = set()
                 for phrase in temp_pos_state.met_phrases:
@@ -765,11 +783,11 @@ class ConstrainedHypothesis:
                             new_trie_states.add(new_state)
                 obj.positive_state = PositiveState(positive_trie=new_root, state=list(new_trie_states))
             else:
-                print('obj.positive_state',obj.positive_state)
+                # print('obj.positive_state',obj.positive_state)
                 obj.positive_state = temp_pos_state
 
             history = [s.trace_arcs() for s in obj.positive_state.state]
-            print('history',history)
+            # print('history',history)
             newly_in_process = set()
             max_process = 0
             for phrase in history:

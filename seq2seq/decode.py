@@ -5,7 +5,7 @@ from pathlib import Path
 import torch
 from tqdm import tqdm
 
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, AutoModelWithLMHead
 
 from utils import calculate_rouge, use_task_specific_params, calculate_bleu_score, trim_batch
 from unilm import utils_seq2seq
@@ -40,19 +40,22 @@ def generate_summaries_or_translations(
     model_name = str(model_name)
     print(f'Decode with {model_name}')
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
+    # model = AutoModelWithLMHead.from_pretrained(model_name).to(device)
     if fp16:
         model = model.half()
 
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    # tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained('t5-large')
 
     period_id = [tokenizer.convert_tokens_to_ids('.')]
     if "bart" in args.model_name:
         period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
     eos_ids = [tokenizer.eos_token_id] + period_id
-    print('constraints_list before',constraints_list)
+    # print('constraints_list before',constraints_list)
     constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
-    print('constraints_list after',constraints_list)
-    constraints_list=[[[(["person", "bicycle", "riding"],True)]]]
+    # print('constraints_list after',constraints_list)
+    # exit()
+    # constraints_list=[[[(["person", "bicycle", "riding"],True)]]]
     # exit()
     # update config with summarization specific params
     use_task_specific_params(model, task)
@@ -67,7 +70,7 @@ def generate_summaries_or_translations(
 
         if "t5" in model_name:
             batch = ['generate a sentence with: ' + text + ' </s>' for text in batch]
-            print('text is: ', [text for text in batch])
+            # print('text is: ', [text for text in batch])
         batch = tokenizer(batch, return_tensors="pt", truncation=True, padding="max_length").to(device)
         input_ids, attention_mask = trim_batch(**batch, pad_token_id=tokenizer.pad_token_id)
         # print('input id is,',input_ids)

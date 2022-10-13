@@ -23,7 +23,7 @@ def topk_huggingface(timestep: int,
                      num_fill: int,
                      early_stop: float = None,
                      tokenizer =None,
-                     cur_len:int = None) -> Tuple[np.array, np.array,
+                     input_ids= None) -> Tuple[np.array, np.array,
                                                         List[List[Union[ConstrainedDtreeHypothesis, None]]],
                                                         List[List[int]]]:
     """
@@ -45,10 +45,10 @@ def topk_huggingface(timestep: int,
     :return: A tuple containing the best hypothesis rows, the best hypothesis words, the scores,
         the updated constrained hypotheses, and the updated set of inactive hypotheses.
     """
-    print('scores here',scores)
+    # print('scores here',scores)
 
     seq_scores, raw_token_idx = torch.topk(scores, beam_size, dim=1, largest=True, sorted=True)
-    print('raw_token_idx',raw_token_idx)
+    # print('raw_token_idx',raw_token_idx)
     # print()
     # exit()
     best_ids = (raw_token_idx // vocab_size).cpu().numpy()
@@ -75,9 +75,8 @@ def topk_huggingface(timestep: int,
             continue
 
         assert not any([x is None for x in hypotheses[rows]]), 'Bad state'
-
-        select_best_ids[sentno], select_best_word_ids[sentno], select_seq_scores[sentno],\
-            select_hypotheses[sentno], select_num_mets[sentno] = _sequential_topk(timestep,
+        select_best_ids[sentno],select_best_word_ids[sentno], select_seq_scores[sentno],\
+            select_hypotheses[sentno], select_num_mets[sentno] =_sequential_topk(timestep,
                                                                                   beam_size,
                                                                                   prune_factor,
                                                                                   sat_tolerance,
@@ -91,9 +90,8 @@ def topk_huggingface(timestep: int,
                                                                                   num_fill=num_fill,
                                                                                   early_stop=early_stop,
                                                                                   tokenizer=tokenizer,
-                                                                                  cur_len=cur_len)
-    print('select_hypotheses[sentno]',select_hypotheses[sentno])
-    exit()
+                                                                                  input_ids=input_ids)
+
     select_raw_token_idx = select_best_ids * vocab_size + select_best_word_ids
     return select_seq_scores, select_raw_token_idx, select_hypotheses, select_num_mets
 
@@ -112,7 +110,7 @@ def _sequential_topk(timestep: int,
                      num_fill: int = None,
                      early_stop: float = None,
                      tokenizer=None,
-                     cur_len:int=None) -> Tuple[np.array, np.array, np.array,
+                     input_ids=None) -> Tuple[np.array, np.array, np.array,
                                                         List[ConstrainedDtreeHypothesis], List[int]]:
     """
     Builds a new topk list such that the beam contains hypotheses having completed different numbers of constraints.
@@ -139,23 +137,28 @@ def _sequential_topk(timestep: int,
 
     # (1) Add all of the top-k items (which were passed) in as long as they pass the constraints
     for row, col, seq_score in zip(best_ids, best_word_ids, sequence_scores):
-        print('col',col)
+        # print('col',col)
         row, col = int(row), int(col)
         
 
         seq_score = float(seq_score)
         col = tokenizer.decode(col, skip_special_tokens=True)#, clean_up_tokenization_spaces=False)
-        print('col now is:>>',col)
         # exit()
+        sentence=tokenizer.decode(input_ids[row,:], skip_special_tokens=True,clean_up_tokenization_spaces=True)
+        # print('input_ids[row,:]>>',input_ids[row,:])
+        # print('sentence+col is>>',sentence+' '+col )
+        new_item = hypotheses[row].advance_dtree(sentence)
+        # print('new_item',new_item)
         
-        new_item = hypotheses[row].advance_dtree(col,cur_len)
-
         cand = ConstrainedCandidate(row, col, seq_score, new_item)
-        print('row',row)
-        print('col',col)
-        print('new_item',new_item)
-        print('seq_score',seq_score)
-        print('cand',cand)
+        # print('row',row)
+        # print('col',col)
+        # print('new_item',new_item)
+        # print('seq_score',seq_score)
+        # print('cand',cand)
+        # exit()
+        # print('encode col',tokenizer.encode(col))
+        col=tokenizer.encode(col)
         # exit()
         if hypotheses[row].finished():
             finished_candidates.add(cand)
@@ -175,7 +178,6 @@ def _sequential_topk(timestep: int,
         # nextones = hyp.positive_state.allowed()
         nextones = hyp.positive_dtree.allowed()
 
-
         # (3) add the best items (if it's valid)
         best_k = np.argsort(scores[row])[::-1][:beam_size]
         for col in best_k:
@@ -185,7 +187,7 @@ def _sequential_topk(timestep: int,
         # Now, create new candidates for each of these items
         for col in nextones:
             if [row, col] not in hit and rank[row, col] < prune_factor:
-                new_item = hyp.advance(col)
+                new_item = hyp.advance_dtree(sentence)
                 score = scores[row, col]
                 cand = ConstrainedCandidate(row, col, score, new_item)
                 if hyp.finished() and col in hyp.eos():
@@ -198,17 +200,18 @@ def _sequential_topk(timestep: int,
             best_k = np.argsort(scores[row])[::-1][:int(beam_size * early_stop)]
             for col in best_k:
                 if col in hyp.eos():
-                    new_item = hyp.advance(col)
+                    new_item = hyp.advance_dtree(sentence)
                     score = scores[row, col]
                     cand = ConstrainedCandidate(row, col, score, new_item)
                     finished_candidates.add(cand)
-
+    
     if num_fill is not None:
         assert num_fill > beam_size, "at least select number of beam candidates"
     else:
         num_fill = beam_size
 
     chunk_candidates = []
+    # print('candidates',candidates)
     if candidates:
         # Sort the candidates.
         sorted_candidates = sorted(candidates, key=attrgetter('score'), reverse=True)
@@ -236,8 +239,8 @@ def _sequential_topk(timestep: int,
             chunk_candidates.append(chunk_i)
         # Sort candidates in each chunk by score
         chunk_candidates = [sorted(x, key=attrgetter('rank'), reverse=True) for x in chunk_candidates]
-
     pruned_candidates = sorted(finished_candidates, key=attrgetter('score'), reverse=True)[:beam_size]
+    # print('pruned_candidates inja',pruned_candidates)
     num_finish = len(pruned_candidates)
     for chunk in chunk_candidates:
         if len(pruned_candidates) >= num_fill:
@@ -269,9 +272,9 @@ def _sequential_topk(timestep: int,
         pruned_candidates += [pruned_candidates[num_pruned_candidates - 1]] * (num_fill - num_pruned_candidates)
 
     assert len(pruned_candidates) == num_fill, 'candidates number mismatch'
-
+    # print('np.array([x.col for x in pruned_candidates]',np.array([x.col for x in pruned_candidates]))
     return (np.array([x.row for x in pruned_candidates]),
-            np.array([x.col for x in pruned_candidates]),
+            np.array([tokenizer.encode(str(x.col))[0] if x.col else 3 for x in pruned_candidates]),
             np.array([x.score for x in pruned_candidates]),
             [x.hypothesis for x in pruned_candidates],
             [x.hypothesis.num_met() for x in pruned_candidates])
