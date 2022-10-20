@@ -13,15 +13,15 @@ TARGET="${DATA_DIR}/commongen.${SPLIT}.tgt.txt"
 # MODEL_RECOVER_PATH="${MODEL_DIR}/best_tfmr"
 # MODEL_RECOVER_PATH="${MODEL_DIR}/model_file"
 MODEL_RECOVER_PATH="${MODEL_DIR}"
-
+# length_penalty: < 1.0  encourage the model to generate shorter sequences, > 1.0 encourage the model to produce longer sequences.
 # bart
 CUDA_VISIBLE_DEVICES=${DEVICES} python3 decode.py \
   --model_name ${MODEL_RECOVER_PATH} \
   --input_path ${INPUT} --reference_path ${TARGET} \
   --constraint_file ${DATA_DIR}/constraint/${SPLIT}.constraint.json \
-  --min_tgt_length 20 --max_tgt_length 256 \
-  --bs 64 --beam_size 20 --length_penalty 0.2 --ngram_size 10 \
-  --prune_factor 50 --sat_tolerance 2 --beta 2 --early_stop 1.5 \
+  --min_tgt_length 5 --max_tgt_length 40 \
+  --bs 1 --beam_size 50 --length_penalty 0.8 --ngram_size 3 \
+  --prune_factor 100 --sat_tolerance 1 --beta 0 --early_stop 1.5 \
   --save_path "${OUTPUT_DIR}/${OUTPUT_FILE}.${SPLIT}" --score_path "${OUTPUT_DIR}/${OUTPUT_FILE}.json"
 
 # t5-large

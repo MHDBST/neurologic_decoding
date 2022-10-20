@@ -292,6 +292,7 @@ class PositiveDtree:
         :param word_list: A list of generated word IDs so far
         :return: A deep copy of the object, advanced on word_id.
         """
+        # print('sentence is',sentence)
         connections=predict_dtree.get_tree(nlp,sentence)
         # print(connections)
         if len(connections) ==0:
@@ -312,7 +313,10 @@ class PositiveDtree:
         if s_expected in s_generated and \
             v_expected in v_generated and \
                 o_expected in o_generated:
-            print('meeet')
+            # print('self',self.subject,self.object,self.verb)
+            # print('connections',connections)
+            # exit()
+            # print('meeet')
             self.met=True
             return PositiveDtree(self.subject, self.object,self.verb,True)
         else:
