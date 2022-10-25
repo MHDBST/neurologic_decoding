@@ -1,0 +1,3 @@
+conda activate /home/mbastan/context_home/anaconda2/envs/hug
+bash decode.sh 0 toy_test "mrm8488/t5-base-finetuned-common_gen" ../dataset/ ../dataset/removeme
+bash decode.sh 0  toy_test  "../t5-common-gen" ../dataset/ ../dataset/removeme
