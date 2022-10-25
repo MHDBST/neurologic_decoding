@@ -9,13 +9,17 @@ from pathlib import Path
 from os import path
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
-from lm.generate import generate
+from generate import generate
 from unilm import utils_seq2seq
 from lexical_constraints import init_batch
 
 logger = logging.getLogger(__name__)
 
-
+if torch.cuda.is_available():    
+    device = torch.device("cuda")
+else:
+    print('No GPU available, using the CPU instead.')
+    device = torch.device("cpu")
 def main():
     parser = argparse.ArgumentParser()
 
@@ -55,7 +59,7 @@ def main():
 
     torch.cuda.empty_cache()
     model.eval()
-    model = model.to('cuda')
+    model = model.to(device)
 
     period_id = [tokenizer.convert_tokens_to_ids('.')]
     period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
@@ -103,9 +107,9 @@ def main():
             buf = [x + [PAD_ID] * (max_len - len(x)) for x in buf]
 
             input_ids = torch.stack([torch.from_numpy(np.array(x)) for x in buf])
-            input_ids = input_ids.to('cuda')
+            input_ids = input_ids.to(device)
             attention_mask = (~torch.eq(input_ids, PAD_ID)).int()
-            attention_mask = attention_mask.to('cuda')
+            attention_mask = attention_mask.to(device)
 
             outputs = generate(self=model,
                                input_ids=input_ids,

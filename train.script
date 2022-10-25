@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --job-name=train.job
+#SBATCH --output=/home/mbastan/test_train_out_part1.txt
+#SBATCH --error=/home/mbastan/test_train_err_part1.txt
+#SBATCH --time=2-00:00
+#SBATCH --mem=30000
+#SBATCH --gres=gpu:1
+#SBATCH --nodelist=ai02
+
+
+
+
+
+
+# Test nvidia-smi
+nvidia-smi
+part=part4
+# Test Python conda environment
+source /home/mbastan/anaconda3/bin/activate hug
+cd /home/mbastan/XP/neurologic_decoding/seq2seq
+# CUDA_VISIBLE_DEVICES=0 bash decode.sh 0  my_dev_v8 '/home/mbastan/XP/neurologic_decoding/mymodel/4' mydev_out_script
+# bash decode.sh 0  my_train_v8_negative '/home/mbastan/XP/neurologic_decoding/mymodel/t5' my_train_v8_negative_no_ent_tag_v2
+# bash decode.sh 0  my_train_v8_negative '/home/mbastan/XP/ie_t5/model_out/v8/afterpretrain/pretrain_all_4_no_entit_tag_v8/4' my_train_v8_positive_no_ent_tag_v8
+mkdir splits/SEN/my_dev_v8_$part\_SEN
+# bash decode.sh 0  my_dev_v8_part4_negative '/home/mbastan/XP/ie_t5/model_out/v8/afterpretrain/5splits/notag/$part/pretrain_all_4/15' splits/my_dev_v8_part4_negative
+# bash decode.sh 0  my_dev_v8_$part\_negative /home/mbastan/XP/ie_t5/model_out/v8/afterpretrain/5splits/notag/$part/pretrain_all_4/15 splits/my_dev_v8_$part\_negative_from1696
+bash decode.sh 1  my_dev_v8_$part\_SEN /home/mbastan/XP/ie_t5/model_out/v8/afterpretrain/5splits/notag/$part/pretrain_all_4/15 splits/SEN/my_dev_v8_$part\_SEN

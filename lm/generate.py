@@ -6,7 +6,7 @@ import math
 import numpy as np
 from typing import Iterable, List, Optional, Tuple
 
-from lm.topK import topk_huggingface, ConstrainedHypothesis
+from topK import topk_huggingface, ConstrainedHypothesis
 
 logger = logging.getLogger(__name__)
 
@@ -486,8 +486,8 @@ def _generate_beam_search(
             next_token_logits = outputs[0][:, -1, :]  # (batch_size * num_beams, vocab_size)
 
         # if model has past, then set the past variable to speed up decoding
-        if self._use_cache(outputs, use_cache):
-            past = outputs[1]
+        # if self._use_cache(outputs, use_cache):
+        #     past = outputs[1]
         if self.config.is_encoder_decoder and do_sample is False:
             # TODO (PVP) still a bit hacky here - there might be a better solution
             next_token_logits = self.adjust_logits_during_generation(

@@ -6,7 +6,7 @@ import math
 import numpy as np
 from typing import Iterable, List, Optional, Tuple
 
-from seq2seq.topK import topk_huggingface, ConstrainedHypothesis
+from topK import topk_huggingface, ConstrainedHypothesis
 
 logger = logging.getLogger(__name__)
 
@@ -464,6 +464,7 @@ def _generate_beam_search(
     num_mets = [x.num_met() for x in constraints]
 
     while cur_len < max_length:
+        ### Moha inja kar dari
         model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
         )
@@ -480,7 +481,7 @@ def _generate_beam_search(
             )
 
         scores = F.log_softmax(next_token_logits, dim=-1)  # (batch_size * num_beams, vocab_size)
-
+        ### Moha inja kar dari
         scores = self.postprocess_next_token_scores(
             scores=scores,
             input_ids=input_ids,
@@ -508,9 +509,7 @@ def _generate_beam_search(
             full_scores = next_scores.view(
                 batch_size, num_beams * vocab_size
             )  # (batch_size, num_beams * vocab_size)
-
             next_scores, next_tokens = torch.topk(full_scores, 2 * num_beams, dim=1, largest=True, sorted=True)
-
             pick_scores, pick_tokens, constraints, num_mets = topk_huggingface(timestep=cur_len,
                                                                                batch_size=batch_size,
                                                                                beam_size=num_beams,

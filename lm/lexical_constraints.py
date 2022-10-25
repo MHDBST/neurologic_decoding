@@ -381,15 +381,12 @@ class ConstrainedHypothesis:
                  ) -> None:
         self.eos_id = eos_id if isinstance(eos_id, list) else [eos_id]
         self.clauses = []  # type: List[Clause]
-        print('man injam')
+
         hard_neg_pool, soft_neg_pool, pos_pool = [], [], []  # type: RawConstraintList
         for idx, clause in enumerate(constraint_list):
             if not clause:
                 continue
             pos_phrases, neg_phrases = [l[0] for l in clause if l[1]], [l[0] for l in clause if not l[1]]
-            print('pos_phrases',pos_phrases)
-            print('neg_phrases',neg_phrases)
-            exit()
             # clause contains single negative literal
             if not pos_phrases and len(neg_phrases) == 1:
                 hard_neg_pool.extend(neg_phrases)
@@ -406,7 +403,7 @@ class ConstrainedHypothesis:
                 import ipdb
                 ipdb.set_trace()
                 raise ValueError(f'Invalid state {clause}, should not be reached')
-        exit()
+
         self.hard_negative_state = NegativeState(Trie(hard_neg_pool)) if hard_neg_pool else None
         self.soft_negative_state = NegativeState(Trie(soft_neg_pool)) if soft_neg_pool else None
         self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
@@ -559,7 +556,6 @@ def init_batch(raw_constraints: List[ClauseConstraintList],
     :return: A list of ConstrainedHypothesis objects (shape: (batch_size * beam_size,)).
     """
     constraints_list = [None] * (len(raw_constraints) * beam_size)  # type: List[Optional[ConstrainedHypothesis]]
-    
     for i, raw_list in enumerate(raw_constraints):
         hyp = ConstrainedHypothesis(raw_list, eos_id)
         idx = i * beam_size

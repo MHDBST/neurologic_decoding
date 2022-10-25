@@ -7,13 +7,12 @@ from tqdm import tqdm
 
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-from seq2seq.utils import calculate_rouge, use_task_specific_params, calculate_bleu_score, trim_batch
+from utils import calculate_rouge, use_task_specific_params, calculate_bleu_score, trim_batch
 from unilm import utils_seq2seq
 from lexical_constraints import init_batch
 
-from seq2seq.generate import generate
+from generate import generate
 #from zero_shot.generate_baseline import generate
-
 DEFAULT_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 
@@ -22,7 +21,48 @@ def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i : i + n]
 
+def my_encode(batch,tokenizer,input_len,EOS_ID,device):
+    sample_output = []
+    sample_mask = []
+    shod=0
+    for current_sent in batch:
+        try:
+            import nltk
+            current_pieces = nltk.sent_tokenize(current_sent)
+        except Exception as e:
+            print(e)
+        sample = tokenizer.batch_encode_plus(current_pieces, add_special_tokens=False)#,pad_to_max_length=True,padding='max_length',\
+           
+        current_input = sample['input_ids']
+        used_input_temp = []
+        used_input = ''
+        idd = 0
+        while True :
+            used_input_temp += current_input[idd]
+            if len(used_input_temp) >= input_len-5:
+                break
+            used_input = used_input_temp.copy()
+            idd += 1
+            if idd == len(current_input):
+                shod += 1
+                break
+        if len(used_input) < 2:
+            print('input sentence is long')
+            continue
+        padded_input = [21603,    10]+used_input+ [EOS_ID]+[0]*(input_len-len(used_input)-3)#+ EOS_ID#+[0]*(input_len-len(used_inputs)-3)
 
+        input_attention_mask = [1] * (3+len(used_input)) + [0]*(input_len-len(used_input)-3) #+ [0]*(input_len-len(used_inputs)-3)
+        assert len(padded_input) == len(input_attention_mask) == input_len
+        
+        sample_output.append(padded_input)
+        
+        sample_mask.append(input_attention_mask)
+
+    torch.cuda.empty_cache()
+    # exit()
+    print('completed:', shod)
+    print('all succedded:' , len(sample_output))
+    return torch.tensor(sample_output).to(device),torch.tensor(sample_mask).to(device)
 def generate_summaries_or_translations(
     args,
     examples: list,
@@ -33,37 +73,41 @@ def generate_summaries_or_translations(
     fp16=False,
     task="summarization",
     constraints_list=None,
+    label=False,
     **gen_kwargs,
 ) -> None:
 
     fout = Path(out_file).open("w", encoding="utf-8")
     model_name = str(model_name)
     print(f'Decode with {model_name}')
+    print(f'device is {device}')
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
     if fp16:
         model = model.half()
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    period_id = [tokenizer.convert_tokens_to_ids('.')]
-    if "bart" in args.model_name:
-        period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
-    eos_ids = [tokenizer.eos_token_id] + period_id
-
-    constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
-
+    # period_id = [tokenizer.convert_tokens_to_ids('.')]
+    # if "bart" in args.model_name:
+        # period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
+    eos_ids = [tokenizer.eos_token_id] #+ period_id
+    constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list,label=label)
     # update config with summarization specific params
     use_task_specific_params(model, task)
-
+    max_input_len=512
     for batch, cons in tqdm(zip(list(chunks(examples, batch_size)), list(chunks(constraints_list, batch_size)))):
         constraints = init_batch(raw_constraints=cons,
                                  beam_size=args.beam_size,
                                  eos_id=eos_ids)
-
-        if "t5" in model_name:
-            batch = ['generate a sentence with: ' + text + ' </s>' for text in batch]
-        batch = tokenizer(batch, return_tensors="pt", truncation=True, padding="max_length").to(device)
-        input_ids, attention_mask = trim_batch(**batch, pad_token_id=tokenizer.pad_token_id)
+        # print('constraints0',constraints[0])
+        # print('constraints1',constraints[1])
+        # exit()
+        # if "t5" in model_name:
+        #     # batch = ['generate a sentence with: ' + text + ' </s>' for text in batch]
+        #     batch = ['summarize: ' + text + ' </s>' for text in batch]
+        input_ids, attention_mask =my_encode(batch,tokenizer,max_input_len,tokenizer.eos_token_id,device)
+        # batch = tokenizer(batch, return_tensors="pt", truncation=True, padding=True).to(device)
+        # input_ids, attention_mask = trim_batch(**batch, pad_token_id=tokenizer.pad_token_id)
         summaries = generate(self=model,
                              input_ids=input_ids,
                              attention_mask=attention_mask,
@@ -78,7 +122,7 @@ def generate_summaries_or_translations(
                              sat_tolerance=args.sat_tolerance,
                              beta=args.beta,
                              early_stop=args.early_stop)
-        dec = tokenizer.batch_decode(summaries, skip_special_tokens=True, clean_up_tokenization_spaces=False)
+        dec = tokenizer.batch_decode(summaries, skip_special_tokens=False, clean_up_tokenization_spaces=False)
         for hypothesis in dec:
             fout.write(hypothesis.strip() + "\n")
             fout.flush()
@@ -115,9 +159,12 @@ def run_generate():
     parser.add_argument('--sat_tolerance', type=int, default=2, help="minimum satisfied clause of valid candidates")
     parser.add_argument('--beta', type=float, default=0., help="reward factor for in progress constraint")
     parser.add_argument('--early_stop', type=float, default=None, help="optional early stop if all constraints are satisfied")
-
+    parser.add_argument("--pos_constraint", default=False,action="store_true",help="whether to create negative or positive constraints")
     parser.add_argument("--fp16", action="store_true")
+    parser.add_argument('--index', type=int, default=0, help="index to start processing")
+
     args = parser.parse_args()
+    print('input path',args.input_path)
     examples = [" " + x.rstrip() if "t5" in args.model_name else x.rstrip() for x in open(args.input_path).readlines()]
 
     def lemma(x):
@@ -135,7 +182,10 @@ def run_generate():
 
     if args.n_obs > 0:
         examples = examples[: args.n_obs]
-
+    index=args.index
+    examples=examples[index:]
+    constraints_list=constraints_list[index:]
+    print('args.label',args.pos_constraint)
     generate_summaries_or_translations(
         args,
         examples,
@@ -147,6 +197,7 @@ def run_generate():
         task=args.task,
         constraints_list=constraints_list,
         decoder_start_token_id=args.decoder_start_token_id,
+        label=args.pos_constraint,
     )
     if args.reference_path is None:
         return
@@ -154,6 +205,7 @@ def run_generate():
     score_fn = calculate_bleu_score if "translation" in args.task else calculate_rouge
     output_lns = [x.rstrip() for x in open(args.save_path).readlines()]
     reference_lns = [x.rstrip() for x in open(args.reference_path).readlines()][: len(output_lns)]
+    reference_lns=reference_lns[index:]
     scores: dict = score_fn(output_lns, reference_lns)
     if args.score_path is not None:
         json.dump(scores, open(args.score_path, "w+"))
