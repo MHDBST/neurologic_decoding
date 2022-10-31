@@ -475,25 +475,13 @@ def _generate_beam_search(
 
     ### Check this part MOHA
     while cur_len < max_length:
-        # if cur_len==5:
-        #     exit
-        # print('past is',past[0][0].shape)
-        # exit()
         model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
         )
-        # print('model_inputs',model_inputs.keys())
-        # print('input_ids',input_ids)
 
-        # print('input_ids shape',input_ids.shape)
         outputs = self(**model_inputs)  # (batch_size * num_beams, cur_len, vocab_size)
-        # print('outputs>>',outputs)
-        # print('outputs shape',outputs[0].shape)
-        # exit()
         next_token_logits = outputs[0][:, -1, :]  # (batch_size * num_beams, vocab_size)
-        # print('next_token_logits shape',next_token_logits.shape)
 
-        # if model has past, then set the past variable to speed up decoding
         if self._use_cache(outputs, use_cache):
             past = outputs[1]
         if self.config.is_encoder_decoder and do_sample is False:
@@ -517,7 +505,13 @@ def _generate_beam_search(
             batch_size=batch_size,
             num_beams=num_beams,
         )
-
+        with open('removeme.out','a') as f:
+            np.savetxt(f,scores[0].cpu().numpy())
+            f.write('\n----------------------------\n')
+            np.savetxt(f,np.argsort(scores[0].cpu().numpy()))
+            f.write('\n--------NEXT--------------------\n')
+        # print('scores:',scores[0])
+        # exit()
         assert scores.shape == (batch_size * num_beams, vocab_size), "Shapes of scores: {} != {}".format(
             scores.shape, (batch_size * num_beams, vocab_size)
         )
