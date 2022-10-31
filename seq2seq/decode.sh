@@ -19,10 +19,14 @@ CUDA_VISIBLE_DEVICES=${DEVICES} python3 decode.py \
   --model_name ${MODEL_RECOVER_PATH} \
   --input_path ${INPUT} --reference_path ${TARGET} \
   --constraint_file ${DATA_DIR}/constraint/${SPLIT}.constraint.json \
-  --min_tgt_length 10 --max_tgt_length 40 \
-  --bs 4 --beam_size 20 --length_penalty 0.8 --ngram_size 3 \
+  --min_tgt_length 20 --max_tgt_length 256 \
+  --bs 1 --beam_size 50 --length_penalty 0.2 --ngram_size 3 \
   --prune_factor 50 --sat_tolerance 1 --beta 0 --early_stop 1.5 \
   --save_path "${OUTPUT_DIR}/${OUTPUT_FILE}.${SPLIT}" --score_path "${OUTPUT_DIR}/${OUTPUT_FILE}.json"
+  # --min_tgt_length 10 --max_tgt_length 40 \
+  # --bs 4 --beam_size 20 --length_penalty 0.8 --ngram_size 3 \
+  # --prune_factor 50 --sat_tolerance 1 --beta 0 --early_stop 0 \
+  
 
 # t5-large
 #CUDA_VISIBLE_DEVICES=${DEVICES} python decode.py \
