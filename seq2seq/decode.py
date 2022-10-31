@@ -95,7 +95,7 @@ def generate_summaries_or_translations(
         print('generation done!')
         dec = tokenizer.batch_decode(summaries, skip_special_tokens=True, clean_up_tokenization_spaces=False)
         for hypothesis in dec:
-            fout.write(hypothesis.strip() + "\n")
+            fout.write(' '.join(hypothesis.strip().split()) + "\n") ## remove extra spaces
             fout.flush()
 
 
