@@ -1,4 +1,4 @@
-[["team", "run", "field"]]
-[["girl", "select", "doll"]]
-[["dog", "catch", "ball"]]
-[["boy", "eat", "food"]]
+[["team","nsubj","csubj:pass","cc:preconj"], ["run","root","csubj","ccomp","xcomp","acl"], ["field","nsubj:pass","obj","obl","iobj","cc:preconj"]]
+[["girl","nsubj"],["playing","root"],["doll","obj","obl"]]
+[["dog","nsubj"],["likes","root"],["balls","obj"]]
+[["boy","nsubj"],["entered","root"],["table","obl"]]
