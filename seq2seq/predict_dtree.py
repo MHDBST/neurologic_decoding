@@ -32,12 +32,12 @@ def get_tree(nlp,sentence):
     a_ents=[]
     a_map={}
     for word in sent.words:
-        if word.text.lower() not in a_map:
-            a_map[word.text.lower()]=[[word.deprel,sent.words[word.head-1].text if word.head>0 else "root"]]
+        if word.lemma not in a_map:
+            a_map[word.lemma]=[[word.deprel,sent.words[word.head-1].text if word.head>0 else "root"]]
         else:
-            a_map[word.text.lower()].append([word.deprel,sent.words[word.head-1].text if word.head>0 else "root"])
+            a_map[word.lemma].append([word.deprel,sent.words[word.head-1].text if word.head>0 else "root"])
         if word.deprel=='nsubj' or word.deprel=='obj':
-            a_ents.append(word.text.lower())
+            a_ents.append(word.lemma)
         
     a_connection_arrs=[]
     for ent in a_ents:

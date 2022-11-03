@@ -142,6 +142,7 @@ def _sequential_topk(timestep: int,
         
 
         seq_score = float(seq_score)
+        col_id = col
         col = tokenizer.decode(col, skip_special_tokens=True)#, clean_up_tokenization_spaces=False)
         # exit()
         sentence=tokenizer.decode(input_ids[row,:], skip_special_tokens=True,clean_up_tokenization_spaces=True)
@@ -150,7 +151,7 @@ def _sequential_topk(timestep: int,
         new_item = hypotheses[row].advance_dtree(sentence)
         # print('new_item',new_item)
         
-        cand = ConstrainedCandidate(row, col, seq_score, new_item)
+        cand = ConstrainedCandidate(row, col_id, seq_score, new_item)
         # print('row',row)
         # print('col',col)
         # print('new_item',new_item)
@@ -158,11 +159,11 @@ def _sequential_topk(timestep: int,
         # print('cand',cand)
         # exit()
         # print('encode col',tokenizer.encode(col))
-        col=tokenizer.encode(col)
+        # col=tokenizer.encode(col)
         # exit()
         if hypotheses[row].finished():
             finished_candidates.add(cand)
-        elif hypotheses[row].is_valid(col) or int(best_next[row]) == col:
+        elif hypotheses[row].is_valid(col_id) or int(best_next[row]) == col_id:
             candidates.add(cand)
 
     hit = np.stack([best_ids, best_word_ids], axis=1).tolist()
@@ -273,8 +274,10 @@ def _sequential_topk(timestep: int,
 
     assert len(pruned_candidates) == num_fill, 'candidates number mismatch'
     # print('np.array([x.col for x in pruned_candidates]',np.array([x.col for x in pruned_candidates]))
+    # np.array([tokenizer.encode(str(x.col))[0] if x.col else 3 for x in pruned_candidates]),
+
     return (np.array([x.row for x in pruned_candidates]),
-            np.array([tokenizer.encode(str(x.col))[0] if x.col else 3 for x in pruned_candidates]),
+            np.array([x.col for x in pruned_candidates]),
             np.array([x.score for x in pruned_candidates]),
             [x.hypothesis for x in pruned_candidates],
             [x.hypothesis.num_met() for x in pruned_candidates])
