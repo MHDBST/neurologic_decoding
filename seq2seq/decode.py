@@ -34,7 +34,7 @@ def generate_summaries_or_translations(
     task="summarization",
     constraints_list=None,
     **gen_kwargs,
-) -> None:
+) :
 
     fout = Path(out_file).open("w", encoding="utf-8")
     model_name = str(model_name)
@@ -51,7 +51,6 @@ def generate_summaries_or_translations(
     if "bart" in args.model_name:
         period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
     eos_ids = [tokenizer.eos_token_id] + period_id
-    # print('constraints_list before',constraints_list)
     constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
     # print('constraints_list after',constraints_list)
     # exit()
@@ -95,7 +94,7 @@ def generate_summaries_or_translations(
         print('generation done!')
         dec = tokenizer.batch_decode(summaries, skip_special_tokens=True, clean_up_tokenization_spaces=False)
         for hypothesis in dec:
-            fout.write(hypothesis.strip() + "\n")
+            fout.write(' '.join(hypothesis.strip().split()) + "\n") ## remove extra spaces
             fout.flush()
 
 
