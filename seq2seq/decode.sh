@@ -28,8 +28,8 @@ CUDA_VISIBLE_DEVICES=${DEVICES} python3 decode.py \
   --input_path ${INPUT} --reference_path ${TARGET} \
   --constraint_file ${DATA_DIR}/constraint/${SPLIT}.constraint.json \
   --min_tgt_length 20 --max_tgt_length 256 \
-  --bs 4 --beam_size 60 --length_penalty 1.1 --ngram_size 10 \
-  --prune_factor 50 --sat_tolerance 2 --beta 0 --early_stop 1.5 \
+  --bs 1 --beam_size 10 --length_penalty 1.1 --ngram_size 3 \
+  --prune_factor 20 --sat_tolerance 2 --beta 0 --early_stop 1.5 \
   --save_path "${OUTPUT_DIR}/${OUTPUT_FILE}.${SPLIT}" --score_path "${OUTPUT_DIR}/${OUTPUT_FILE}.json"
 
 

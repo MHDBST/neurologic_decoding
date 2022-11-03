@@ -41,7 +41,7 @@ def generate(
     early_stop: Optional[float] = None,
     tokenizer=None,
     **model_specific_kwargs
-) -> torch.LongTensor:
+): 
     r""" Generates sequences for models with a LM head. The method currently supports greedy decoding, beam-search decoding, sampling with temperature, sampling with top-k or nucleus sampling.
 
     Adapted in part from `Facebook's XLM beam search code`_.
@@ -535,6 +535,7 @@ def _generate_beam_search(
             next_scores, next_tokens = torch.topk(full_scores, 2 * num_beams, dim=1, largest=True, sorted=True)
             # print('constraints inja',constraints)
             # exit()
+            # print('next tokens',next_tokens)
             pick_scores, pick_tokens, constraints, num_mets = topk_huggingface(timestep=cur_len,
                                                                                batch_size=batch_size,
                                                                                beam_size=num_beams,
@@ -553,6 +554,8 @@ def _generate_beam_search(
 
             next_scores = torch.tensor(pick_scores, dtype=next_scores.dtype, device=next_scores.device)
             next_tokens = torch.tensor(pick_tokens, dtype=next_tokens.dtype, device=next_tokens.device)
+            print('after next tokens',next_tokens)
+            exit()
 
         assert next_scores.size() == next_tokens.size() == (batch_size, 2 * num_beams)
 
@@ -582,6 +585,7 @@ def _generate_beam_search(
                 # get beam and token IDs
                 beam_id = beam_token_id // vocab_size
                 token_id = beam_token_id % vocab_size
+                print('token id',token_id)
 
                 effective_beam_id = batch_idx * num_beams + beam_id
                 sentence_end = token_id.item() in constraint.eos()
