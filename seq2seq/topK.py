@@ -49,7 +49,7 @@ def topk_huggingface(timestep: int,
     # print('raw_token_idx',raw_token_idx)
     # print()
     # exit()
-    best_ids = (raw_token_idx // vocab_size).cpu().numpy()
+    best_ids = (torch.div(raw_token_idx, vocab_size, rounding_mode='floor')).cpu().numpy()
     best_word_ids = (raw_token_idx % vocab_size).cpu().numpy()
     seq_scores = seq_scores.cpu().numpy()
 
