@@ -140,7 +140,10 @@ def _sequential_topk(timestep: int,
 
         seq_score = float(seq_score)
         col_id=col
+        sentence=''
         col = tokenizer.decode(col, skip_special_tokens=True)#, clean_up_tokenization_spaces=False)
+        if not col:
+            continue
         # exit()
         sentence=tokenizer.decode(input_ids[row,:], skip_special_tokens=True,clean_up_tokenization_spaces=True)
         # print('input_ids[row,:]>>',input_ids[row,:])
@@ -151,7 +154,7 @@ def _sequential_topk(timestep: int,
 
         # print('new_item',new_item)
         
-        cand = ConstrainedCandidate(row, col, seq_score, new_item)
+        cand = ConstrainedCandidate(row, col_id, seq_score, new_item)
         # print('can is',cand)
 
         if hypotheses[row].finished():
@@ -215,7 +218,9 @@ def _sequential_topk(timestep: int,
     if candidates:
         # Sort the candidates.
         sorted_candidates = sorted(candidates, key=attrgetter('score'), reverse=True)
+        # print(len(sorted_candidates))
         max_satisfy = max([x.hypothesis.num_met() for x in sorted_candidates])
+        # print('max_satisfy',max_satisfy)
         sorted_candidates = [x for x in sorted_candidates if x.hypothesis.num_met() >= max_satisfy - sat_tolerance]
 
         for cand in sorted_candidates:
@@ -241,6 +246,7 @@ def _sequential_topk(timestep: int,
         chunk_candidates = [sorted(x, key=attrgetter('rank'), reverse=True) for x in chunk_candidates]
     pruned_candidates = sorted(finished_candidates, key=attrgetter('score'), reverse=True)[:beam_size]
     # print('pruned_candidates inja',pruned_candidates)
+    # exit()
     num_finish = len(pruned_candidates)
     for chunk in chunk_candidates:
         if len(pruned_candidates) >= num_fill:
@@ -270,11 +276,11 @@ def _sequential_topk(timestep: int,
     if num_pruned_candidates < num_fill:
         inactive[num_pruned_candidates:] = 1
         pruned_candidates += [pruned_candidates[num_pruned_candidates - 1]] * (num_fill - num_pruned_candidates)
-
     assert len(pruned_candidates) == num_fill, 'candidates number mismatch'
     # print('np.array([x.col for x in pruned_candidates]',np.array([x.col for x in pruned_candidates]))
+    # np.array([tokenizer.encode(str(x.col))[0] if x.col else 3 for x in pruned_candidates]),
     return (np.array([x.row for x in pruned_candidates]),
-            np.array([tokenizer.encode(str(x.col))[0] if x.col else 3 for x in pruned_candidates]),
+            np.array([x.col for x in pruned_candidates]),
             np.array([x.score for x in pruned_candidates]),
             [x.hypothesis for x in pruned_candidates],
             [x.hypothesis.num_met() for x in pruned_candidates])
