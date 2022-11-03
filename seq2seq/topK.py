@@ -139,29 +139,24 @@ def _sequential_topk(timestep: int,
         
 
         seq_score = float(seq_score)
+        col_id=col
         col = tokenizer.decode(col, skip_special_tokens=True)#, clean_up_tokenization_spaces=False)
         # exit()
         sentence=tokenizer.decode(input_ids[row,:], skip_special_tokens=True,clean_up_tokenization_spaces=True)
         # print('input_ids[row,:]>>',input_ids[row,:])
         # print('sentence+col is>>',sentence+' '+col )
         # new_item = hypotheses[row].advance_dtree(sentence)
-        new_item = hypotheses[row].advance(sentence)
+        # print('sentence<<',sentence,'>>',col)
+        new_item = hypotheses[row].advance(sentence+' '+col)
 
         # print('new_item',new_item)
         
         cand = ConstrainedCandidate(row, col, seq_score, new_item)
-        # print('row',row)
-        # print('col',col)
-        # print('new_item',new_item)
-        # print('seq_score',seq_score)
-        # print('cand',cand)
-        # exit()
-        # print('encode col',tokenizer.encode(col))
-        col=tokenizer.encode(col)
-        # exit()
+        # print('can is',cand)
+
         if hypotheses[row].finished():
             finished_candidates.add(cand)
-        elif hypotheses[row].is_valid(col) or int(best_next[row]) == col:
+        elif hypotheses[row].is_valid(col_id) or int(best_next[row]) == col_id:
             candidates.add(cand)
 
     hit = np.stack([best_ids, best_word_ids], axis=1).tolist()
@@ -183,12 +178,15 @@ def _sequential_topk(timestep: int,
         for col in best_k:
             if hyp.is_valid(col):
                 nextones.add(col)
-
+        # print('nextones',nextones)
         # Now, create new candidates for each of these items
         for col in nextones:
+            # print('row,col',row,col)
+            # print('rank[row, col]',rank[row, col])
             if [row, col] not in hit and rank[row, col] < prune_factor:
                 # new_item = hyp.advance_dtree(sentence)
                 new_item = hyp.advance(sentence)
+                # print('new item',new_item)
 
                 score = scores[row, col]
                 cand = ConstrainedCandidate(row, col, score, new_item)
