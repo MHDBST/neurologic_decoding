@@ -25,18 +25,17 @@ class Trie:
     def __init__(self,
                  raw_phrases: Optional[RawConstraintList] = None,
                  parent_arc: int = None,
-                 parent_trie: 'Trie' = None) -> None:
+                 parent_trie: 'Trie' = None):
         self.final_ids = set()  # type: Set[int]
         self.children = {}  # type: Dict[int,'Trie']
         self.parent_arc = parent_arc
         self.parent_trie = parent_trie
-
         if raw_phrases:
             for phrase in raw_phrases:
                 self.add_phrase(phrase)
-
+                
     def add_phrase(self,
-                   phrase: List[int]) -> None:
+                   phrase: List[int]):
         """
         Recursively adds a phrase to this trie node.
 
@@ -44,6 +43,7 @@ class Trie:
         """
         if len(phrase) == 1:
             self.final_ids.add(phrase[0])
+            print('injaaam')
         else:
             next_word = phrase[0]
             if next_word not in self.children:
@@ -71,7 +71,7 @@ class Trie:
                 self.children.pop(arc)
 
     def check_phrase(self,
-                     phrase: List[int]) -> bool:
+                     phrase: List[int]):
         """
         Check whether a phrase is in this trie.
 
@@ -86,7 +86,7 @@ class Trie:
             return False
 
     def trace_phrase(self,
-                     word_id: int) -> List[int]:
+                     word_id: int):
         """
         Recursively backward to get word ids in a phrase.
 
@@ -97,7 +97,7 @@ class Trie:
         phrase.append(word_id)
         return phrase
 
-    def trace_arcs(self,) -> List[int]:
+    def trace_arcs(self,):
         """
         Recursively backward to get arc to ancestor
         """
@@ -117,7 +117,7 @@ class Trie:
         s += ')'
         return s
 
-    def __len__(self) -> int:
+    def __len__(self):
         """
         Returns the number of phrases represented in the trie.
         """
@@ -126,7 +126,7 @@ class Trie:
             phrase_count += len(child)
         return phrase_count
 
-    def step(self, word_id: int) -> Optional['Trie']:
+    def step(self, word_id: int):
         """
         Returns the child node along the requested arc.
 
@@ -136,7 +136,7 @@ class Trie:
         return self.children.get(word_id, None)
 
     def descend(self,
-              arcs: List[int]) -> Optional['Trie']:
+              arcs: List[int]):
         pointer = self
         for arc in arcs:
             if pointer is None:
@@ -144,7 +144,7 @@ class Trie:
             pointer = pointer.step(word_id=arc)
         return pointer
 
-    def final(self) -> Set[int]:
+    def final(self):
         """
         Returns the set of final ids at this node.
 
@@ -152,10 +152,44 @@ class Trie:
         """
         return self.final_ids
 
+class Pair:
+    
+    def __init__(self,
+                 raw_phrases: Optional[RawConstraintList] = None):
+        self.i = 0
+        self.pairs =[]
+        if raw_phrases:
+            for phrase in raw_phrases:
+                self.add_phrase(phrase)
+    def add_phrase(self,phrase):
+        self.pairs.append({'word':phrase[0],'role':phrase[1:]})
+        
+    def __str__(self):
+        # s = f'({list(self.final_ids)}'
+        s ='('
+        for item in self.pairs:
+            # s += f' -> {child_id} {self.children[child_id]}'
+            s += f" {item['word']} : {item['role']},"
+        s += ')'
+        return s
+    def __iter__(self):
+        return self.pairs
 
+    def __next__(self):
+        x = self.pairs[self.i]
+        self.i += 1
+        return x
+    def get_item(self,ind):
+        return self.pairs[ind]
+    
+    def __len__(self):
+        return len(self.pairs)
+        
+                    
+    
 class NegativeState:
     """
-    Represents the state of a hypothesis in the AvoidTrie.
+    Repesrents the state of a hypothesis in the AvoidTrie.
     The offset is used to return actual positions in the one-dimensionally-resized array that
     get set to infinity.
 
@@ -164,12 +198,12 @@ class NegativeState:
     """
     def __init__(self,
                  avoid_trie: Trie,
-                 state: List[Trie] = None) -> None:
+                 state: List[Trie] = None):
 
         self.root = avoid_trie
         self.state = state if state else [self.root]
 
-    def consume(self, word_id: int) -> 'NegativeState':
+    def consume(self, word_id: int):
         """
         Consumes a word, and updates the state based on it. Returns new objects on a state change.
 
@@ -197,7 +231,7 @@ class NegativeState:
             else:
                 return NegativeState(self.root, [self.root])
 
-    def avoid(self) -> Set[int]:
+    def avoid(self):
         """
         Returns a set of word IDs that should be avoided. This includes the set of final states from the
         root node, which are single tokens that must never be generated.
@@ -206,7 +240,7 @@ class NegativeState:
         """
         return self.root.final().union(*[state.final() for state in self.state])
 
-    def __str__(self) -> str:
+    def __str__(self):
         return str(self.state)
 
 
@@ -220,7 +254,7 @@ class NegativeBatch:
     """
     def __init__(self,
                  beam_size: int,
-                 avoid_list: Optional[List[RawConstraintList]] = None) -> None:
+                 avoid_list: Optional[List[RawConstraintList]] = None):
 
         self.avoid_states = []  # type: List[NegativeState]
 
@@ -229,7 +263,7 @@ class NegativeBatch:
             for literal_phrases in avoid_list:
                 self.avoid_states += [NegativeState(Trie(literal_phrases))] * beam_size
 
-    def reorder(self, indices: torch.Tensor) -> None:
+    def reorder(self, indices: torch.Tensor):
         """
         Reorders the avoid list according to the selected row indices.
         This can produce duplicates, but this is fixed if state changes occur in consume().
@@ -239,7 +273,7 @@ class NegativeBatch:
         if self.avoid_states:
             self.avoid_states = [self.avoid_states[x] for x in indices.numpy()]
 
-    def consume(self, word_ids: torch.Tensor) -> None:
+    def consume(self, word_ids: torch.Tensor):
         """
         Consumes a word for each trie, updating respective states.
 
@@ -269,17 +303,16 @@ class NegativeBatch:
 class PositiveDtree:
     
     def __init__(self,
-                 subject: str,
-                 object: str,
-                 verb: str,
+                 word: str,
+                 rel: str,
                  met:bool =False,
-                 ) -> None:
+                 ):
 
-        self.subject = subject
-        self.object = object
-        self.verb = verb
+        self.word = word
+        self.rel = rel
         self.met=met
-    def advance_dtree(self,sentence) -> 'PositiveDtree':
+        # print('>self.word:',self.word,'>self.rel:',self.rel,'>self.met:',self.met)
+    def advance_dtree(self,sentence):
         """
         Updates the constraints object based on advancing on word_id.
         There is a complication, in that we may have started but not
@@ -292,37 +325,46 @@ class PositiveDtree:
         :param word_list: A list of generated word IDs so far
         :return: A deep copy of the object, advanced on word_id.
         """
-        # print('sentence is',sentence)
-        connections=predict_dtree.get_tree(nlp,sentence)
-        # print(connections)
-        if len(connections) ==0:
+        print('sentence is',sentence)
+        # connections=predict_dtree.get_tree(nlp,sentence)
+        a_map = predict_dtree.get_tree(nlp,sentence)
+        ## example of an a_map:
+        # {'the': [{'dep': 'det', 'head': 'cat', 'id': 1, 'word.head_id': 2}], 
+        # 'cat': [{'dep': 'nsubj', 'head': 'catches', 'id': 2, 'word.head_id': 3}], 
+        # 'catches': [{'dep': 'root', 'head': 'root', 'id': 3, 'word.head_id': 0}]}
+        if len(a_map) ==0:
             return self
-        # print('self.subject',self.subject,self.object,self.verb)
-        # print('self.subject',self.subject)
-        # print('connections[0][0]',connections[0][0])
-        s_expected=self.subject[0].strip().lower()
-        s_generated =connections[0][0].strip().lower()
+        w_expected=self.word[0].strip().lower()
+        r_expected=self.rel[0].strip().lower()
+        for item in a_map:
+            if w_expected != item.lower().strip():
+                continue
+            for dict in a_map[item]:
+                if dict['dep']==r_expected:
+                    self.met=True
+                    print('meeeeeeeet')
+                    return PositiveDtree(self.word, self.rel,True)
+        return self
+            
+         # w_generated =connections[0][0].strip().lower()
 
-        o_expected=self.object[0].strip().lower()
-        o_generated =connections[0][1].strip().lower()
+        # r_expected=self.rel[0].strip().lower()
+        # r_generated =connections[0][1].strip().lower()
                 
-        v_expected=self.verb[0].lower().strip()
-        v_generated =connections[0][2].strip().lower()
         
 
-        if s_expected in s_generated and \
-            v_expected in v_generated and \
-                o_expected in o_generated:
-            # print('self',self.subject,self.object,self.verb)
-            # print('connections',connections)
-            # exit()
-            # print('meeet')
-            self.met=True
-            return PositiveDtree(self.subject, self.object,self.verb,True)
-        else:
-            return self
+        # if w_expected in w_generated and \
+        #     r_expected in r_generated:
+        #     # print('self',self.subject,self.object,self.verb)
+        #     # print('connections',connections)
+        #     # exit()
+        #     # print('meeet')
+        #     self.met=True
+        #     return PositiveDtree(self.subject, self.object,self.verb,True)
+        # else:
+        #     return self
             
-    def allowed(self) -> Set[int]:
+    def allowed(self):
         """
         Returns the set of constrained words that could follow this one.
         For unfinished phrasal constraints, it is the next word in the phrase.
@@ -331,10 +373,6 @@ class PositiveDtree:
 
         :return: The ID of the next required word, or -1 if any word can follow
         """
-        # allow = self.root.final().union(*[state.final() for state in self.state])
-        # ## in place or
-        # allow |= set(self.root.children.keys()).union(*[set(state.children.keys()) for state in self.state])
-        # return allow
         return set()    
 
 
@@ -347,23 +385,36 @@ class PositiveState:
     :param positive_trie: The trie containing the phrases to appear.
     :param state: The current state (defaults to root).
     """
+    # def __init__(self,
+    #              positive_trie: Trie,
+    #              state: List[Trie] = None,
+    #              met_phrases: RawConstraintList = None) -> None:
     def __init__(self,
-                 positive_trie: Trie,
-                 state: List[Trie] = None,
-                 met_phrases: RawConstraintList = None) -> None:
-
-        self.root = positive_trie
-        self.state = state if state else [self.root]
+                 positive_pair: Pair,
+                 met_phrases: RawConstraintList = None):  #  state: List[Pair] = None,
+        # self.root = positive_trie
+        self.root = positive_pair
+        print('self.root',self.root)
+        # self.state = state if state else self.root
         self.met_phrases = met_phrases
 
     def __str__(self):
-        s = f'Root: {self.root}\nState: ['
-        for state in self.state:
-            s += f'{state}, '
+        # s = f'Root: {self.root}\nState: ['
+        s = f'Root: ['
+        for i in range(len(self.root)):
+            s += f'{self.root.get_item(i)}, '
+        # while True:
+        #     try:
+        #         s += f'{next(self.root)}, '
+        #     except StopIteration:
+        #         # if StopIteration is raised, break from loop
+        #         break
+        # # for state in self.root:
+        # #     s += f'{state}, '
         s += f']\nMet_phrases: {self.met_phrases}'
         return s
 
-    def allowed(self) -> Set[int]:
+    def allowed(self):
         """
         Returns the set of constrained words that could follow this one.
         For unfinished phrasal constraints, it is the next word in the phrase.
@@ -372,11 +423,12 @@ class PositiveState:
 
         :return: The ID of the next required word, or -1 if any word can follow
         """
-        allow = self.root.final().union(*[state.final() for state in self.state])
-        allow |= set(self.root.children.keys()).union(*[set(state.children.keys()) for state in self.state])
-        return allow
+        # allow = self.root.final().union(*[state.final() for state in self.state])
+        # allow |= set(self.root.children.keys()).union(*[set(state.children.keys()) for state in self.state])
+        # return allow
+        return set()
 
-    def advance(self, word_id: int) -> 'PositiveState':
+    def advance(self, sentence: str):
         """
         Updates the constraints object based on advancing on word_id.
         There is a complication, in that we may have started but not
@@ -389,30 +441,27 @@ class PositiveState:
         :param word_list: A list of generated word IDs so far
         :return: A deep copy of the object, advanced on word_id.
         """
-        new_state, met_phrases = [], []
-        for state in set(self.state + [self.root]):
-            # print('here state',state)
-            # print('state.children',state.children)
-            # print('state.final_ids',state.final_ids)
+        
+        a_map = predict_dtree.get_tree(nlp,sentence)
+        # print('amapppp,',a_map)
+        met_phrases = []
+        # for state in set(self.state + [self.root]):
+        # for item in self.root:
+        for i in range(len(self.root)):
+            item=self.root.get_item(i)
+            # print('item',item)
             
-            if word_id in state.children:
-                new_state.append(state.step(word_id))
-            if word_id in state.final_ids:
-                met_phrases.append(state.trace_phrase(word_id))
-
-        if new_state:
-            # print('new state')
-            return PositiveState(self.root, new_state, met_phrases if met_phrases else None)
-        else:
-            # print('no new_state')
-            if len(self.state) == 1 and self.root == self.state[0] and not met_phrases:
-                # print('no new_state',len(self.state) ,self.root , self.state[0],met_phrases)
-                return self
-            else:
-                # print('no new_state, met phrases',len(self.state) ,self.root , self.state[0],met_phrases)
-                return PositiveState(self.root, [self.root], met_phrases if met_phrases else None)
-
-
+            word = item['word']
+            roles = item['role']
+            if word.lower().strip() not in a_map:
+                continue
+            arr = a_map[word.lower().strip()][0]
+            if  arr['dep'] in roles:
+                met_phrases.append(item)
+        if not met_phrases:
+            return self    
+        return PositiveState(self.root, met_phrases if met_phrases else None)    
+     
 class Clause:
     """
     Object used to hold clause.
@@ -429,7 +478,7 @@ class Clause:
                  idx: int,
                  positive: List[Phrase],
                  negative: List[Phrase],
-                 satisfy: float) -> None:
+                 satisfy: float):
         self.idx = idx
         self.positive = positive
         self.negative = negative
@@ -450,7 +499,7 @@ class ConstrainedDtreeHypothesis:
     def __init__(self,
                  constraint_list: ClauseConstraintList,
                  eos_id: Union[int, list]
-                 ) -> None:
+                 ):
         self.eos_id = eos_id if isinstance(eos_id, list) else [eos_id]
         self.clauses = []  # type: List[Clause]
 
@@ -478,7 +527,7 @@ class ConstrainedDtreeHypothesis:
         self.hard_negative_state = NegativeState(Trie(hard_neg_pool)) if hard_neg_pool else None
         self.soft_negative_state = NegativeState(Trie(soft_neg_pool)) if soft_neg_pool else None
         # self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
-        # print('pos_phrases',pos_phrases)
+        # print('pos_phrases>>>',pos_phrases)
         # self.positive_dtree =PositiveDtree(pos_phrases[0][0],pos_phrases[0][1],pos_phrases[0][2])
         self.positive_dtree =PositiveDtree(pos_phrases[0],pos_phrases[1],pos_phrases[2])
         # print('positive_dtree:',self.positive_dtree )
@@ -490,7 +539,7 @@ class ConstrainedDtreeHypothesis:
         self.max_process = 0
         
         
-    def advance_dtree(self, sentence: str) -> 'ConstrainedDtreeHypothesis':
+    def advance_dtree(self, sentence: str):
         """
         Updates the constraints object based on advancing on word_id.
         If one of literals in a clause is satisfied, we mark this clause as satisfied
@@ -516,7 +565,7 @@ class ConstrainedDtreeHypothesis:
             # print('obj.positive_dtree is not none',obj.positive_dtree)
             ## this checks the next unsatisfied constraint
             temp_pos_state = obj.positive_dtree.advance_dtree(sentence)
-            # print('temp_pos_state here',temp_pos_state)
+            print('temp_pos_state here',temp_pos_state)
             ## enters this condition if the constraint is satisfied
             if temp_pos_state.met :
                 # get newly satisfied positive literals
@@ -547,22 +596,22 @@ class ConstrainedDtreeHypothesis:
             # obj.in_process = sorted(newly_in_process)
             # obj.max_process = max_process
         return obj
-    def __len__(self) -> int:
+    def __len__(self):
         """
         :return: The number of constraints.
         """
         return len(self.clauses)
 
-    def __str__(self) -> str:
+    def __str__(self):
         return '\n'.join([str(c) for c in self.clauses])
 
-    def size(self) -> int:
+    def size(self):
         """
         :return: the number of constraints
         """
         return len(self.clauses)
 
-    def num_met(self) -> int:
+    def num_met(self):
         """
         :return: the number of constraints that have been met.
         """
@@ -570,25 +619,25 @@ class ConstrainedDtreeHypothesis:
             return 0
         return sum([int(c.satisfy) for c in self.clauses])
 
-    def met_order(self) -> tuple:
+    def met_order(self):
         """
         :return: the number of constraints that have been met.
         """
         return tuple(sorted(self.orders))
 
-    def clause_in_process(self) -> tuple:
+    def clause_in_process(self):
         """
         :return: the index of clause that's in generation.
         """
         return tuple(self.in_process)
 
-    def num_needed(self) -> int:
+    def num_needed(self):
         """
         :return: the number of un-met constraints.
         """
         return self.size() - self.num_met()
 
-    def finished(self) -> bool:
+    def finished(self):
         """
         Return true if all the constraints have been met.
 
@@ -596,7 +645,7 @@ class ConstrainedDtreeHypothesis:
         """
         return self.num_needed() == 0
 
-    def is_valid(self, wordid: int) -> bool:
+    def is_valid(self, wordid: int):
         """
         Ensures </s> is only generated when the hypothesis is completed.
 
@@ -605,11 +654,11 @@ class ConstrainedDtreeHypothesis:
         """
         return self.finished() or wordid not in self.eos_id
 
-    def avoid(self) -> Set[int]:
+    def avoid(self):
         banned = self.hard_negative_state.avoid() if self.hard_negative_state is not None else set()
         return banned
 
-    def eos(self) -> list:
+    def eos(self):
         """
         :return: Return EOS id.
         """
@@ -628,7 +677,7 @@ class ConstrainedHypothesis:
     def __init__(self,
                  constraint_list: ClauseConstraintList,
                  eos_id: Union[int, list]
-                 ) -> None:
+                 ):
         self.eos_id = eos_id if isinstance(eos_id, list) else [eos_id]
         self.clauses = []  # type: List[Clause]
 
@@ -653,32 +702,36 @@ class ConstrainedHypothesis:
                 import ipdb
                 ipdb.set_trace()
                 raise ValueError(f'Invalid state {clause}, should not be reached')
-
+        # print('self.clauses',self.clauses)
+        # print('pos_pool',pos_pool)
+        
         self.hard_negative_state = NegativeState(Trie(hard_neg_pool)) if hard_neg_pool else None
         self.soft_negative_state = NegativeState(Trie(soft_neg_pool)) if soft_neg_pool else None
-        self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
+        # self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
+        self.positive_state = PositiveState(Pair(pos_pool)) if pos_pool else None
+
         # print('positive state:',self.positive_state )
 
         self.orders = []
         self.in_process = None
         self.max_process = 0
 
-    def __len__(self) -> int:
+    def __len__(self):
         """
         :return: The number of constraints.
         """
         return len(self.clauses)
 
-    def __str__(self) -> str:
+    def __str__(self):
         return '\n'.join([str(c) for c in self.clauses])
 
-    def size(self) -> int:
+    def size(self):
         """
         :return: the number of constraints
         """
         return len(self.clauses)
 
-    def num_met(self) -> int:
+    def num_met(self):
         """
         :return: the number of constraints that have been met.
         """
@@ -686,25 +739,25 @@ class ConstrainedHypothesis:
             return 0
         return sum([int(c.satisfy) for c in self.clauses])
 
-    def met_order(self) -> tuple:
+    def met_order(self):
         """
         :return: the number of constraints that have been met.
         """
         return tuple(sorted(self.orders))
 
-    def clause_in_process(self) -> tuple:
+    def clause_in_process(self):
         """
         :return: the index of clause that's in generation.
         """
         return tuple(self.in_process)
 
-    def num_needed(self) -> int:
+    def num_needed(self):
         """
         :return: the number of un-met constraints.
         """
         return self.size() - self.num_met()
 
-    def finished(self) -> bool:
+    def finished(self):
         """
         Return true if all the constraints have been met.
 
@@ -712,7 +765,7 @@ class ConstrainedHypothesis:
         """
         return self.num_needed() == 0
 
-    def is_valid(self, wordid: int) -> bool:
+    def is_valid(self, wordid: int):
         """
         Ensures </s> is only generated when the hypothesis is completed.
 
@@ -721,17 +774,17 @@ class ConstrainedHypothesis:
         """
         return self.finished() or wordid not in self.eos_id
 
-    def avoid(self) -> Set[int]:
+    def avoid(self):
         banned = self.hard_negative_state.avoid() if self.hard_negative_state is not None else set()
         return banned
 
-    def eos(self) -> list:
+    def eos(self):
         """
         :return: Return EOS id.
         """
         return self.eos_id
 
-    def advance(self, word_id:int,sentence: str) -> 'ConstrainedHypothesis':
+    def advance(self, sentence: str):
         """
         Updates the constraints object based on advancing on word_id.
         If one of literals in a clause is satisfied, we mark this clause as satisfied
@@ -744,53 +797,64 @@ class ConstrainedHypothesis:
             raise NotImplementedError
 
         if obj.hard_negative_state is not None:
-            obj.hard_negative_state = obj.hard_negative_state.consume(word_id)
+            obj.hard_negative_state = obj.hard_negative_state.consume(sentence[-1])
         
         ## this is the current positive constraint in the clasuse
         if obj.positive_state is not None: 
             # print('obj',obj)
             # print('obj.positive_state is not none',obj.positive_state)
-            # print('word_id',word_id)
             ## this checks the next unsatisfied constraint
             temp_pos_state = obj.positive_state.advance(sentence)
             # print('temp_pos_state here',temp_pos_state)
             ## enters this condition if the constraint is satisfied
+            # print('temp_pos_state.met_phrases',temp_pos_state.met_phrases)
             if temp_pos_state.met_phrases is not None:
                 # get newly satisfied positive literals
                 # print('temp_pos_state.met_phrases',temp_pos_state.met_phrases)
-                phrases_to_delete = []
+                # phrases_to_delete = []
                 newly_met_clause = set()
                 for phrase in temp_pos_state.met_phrases:
+                    # print('phrase',phrase)
                     for clause in obj.clauses:
-                        if not clause.satisfy and phrase in clause.positive:
-                            phrases_to_delete.extend(clause.positive)
+                        # print('clasuse',clause.positive)
+                        if not clause.satisfy and phrase['word'].strip().lower() in clause.positive[0]:
+                            # phrases_to_delete.extend(clause.positive)
                             clause.satisfy = True
                             assert clause.idx not in obj.orders, 'clause has already satisfied, impossible state'
                             newly_met_clause.add(clause.idx)
                 obj.orders.extend(sorted(newly_met_clause))
+                # print('phrases_to_delete',phrases_to_delete)
+                # # delete newly satisfied literals from positive trie state
+                # print('temp_pos_state.root',temp_pos_state.root)
+                # new_root = copy.deepcopy(temp_pos_state.root)
+                # phrases_to_delete = [list(i) for i in set(map(tuple, phrases_to_delete))]
+                # for phrase in phrases_to_delete:
+                #     if new_root.check_phrase(phrase):
+                #         new_root.delete_phrase(phrase)
+                # print('new_root',new_root)
+                # new_trie_states = set()
+                # for state in temp_pos_state.state:
+                #     # pointer at root state
+                #     if state.parent_trie is None:
+                #         new_trie_states.add(new_root)
+                #     else:
+                #         trace = state.trace_arcs()
+                #         new_state = new_root.descend(trace)
+                #         if new_state is not None:
+                #             new_trie_states.add(new_state)
+                # obj.positive_state = PositiveState(positive_trie=new_root)#, state=list(new_trie_states))
+                obj.positive_state = temp_pos_state #PositiveState(positive_pair=new_root)#, state=list(new_trie_states))
 
-                # delete newly satisfied literals from positive trie state
-                new_root = copy.deepcopy(temp_pos_state.root)
-                phrases_to_delete = [list(i) for i in set(map(tuple, phrases_to_delete))]
-                for phrase in phrases_to_delete:
-                    if new_root.check_phrase(phrase):
-                        new_root.delete_phrase(phrase)
-                new_trie_states = set()
-                for state in temp_pos_state.state:
-                    # pointer at root state
-                    if state.parent_trie is None:
-                        new_trie_states.add(new_root)
-                    else:
-                        trace = state.trace_arcs()
-                        new_state = new_root.descend(trace)
-                        if new_state is not None:
-                            new_trie_states.add(new_state)
-                obj.positive_state = PositiveState(positive_trie=new_root, state=list(new_trie_states))
             else:
                 # print('obj.positive_state',obj.positive_state)
                 obj.positive_state = temp_pos_state
-
-            history = [s.trace_arcs() for s in obj.positive_state.state]
+            # exit()
+            # history = [s.trace_arcs() for s in obj.positive_state.state]
+            # print('obj.positive_state.root',len(obj.positive_state.root))
+            history = []
+            for i in range(len(obj.positive_state.root)):
+                history.append(obj.positive_state.root.get_item(i))
+            # history = [item for item in obj.positive_state.root]
             # print('history',history)
             newly_in_process = set()
             max_process = 0
@@ -811,7 +875,7 @@ class ConstrainedHypothesis:
 
 def init_batch(raw_constraints: List[ClauseConstraintList],
                beam_size: int,
-               eos_id: Union[int, list]) -> List[Optional[ConstrainedHypothesis]]:
+               eos_id: Union[int, list]):
     """
     :param raw_constraints: The list of clause constraints.
     :param beam_size: The beam size.
@@ -821,7 +885,11 @@ def init_batch(raw_constraints: List[ClauseConstraintList],
     constraints_list = [None] * (len(raw_constraints) * beam_size)  # type: List[Optional[ConstrainedHypothesis]]
     for i, raw_list in enumerate(raw_constraints):
         # hyp = ConstrainedHypothesis(raw_list, eos_id)
-        hyp = ConstrainedDtreeHypothesis(raw_list, eos_id)
+        # hyp = ConstrainedDtreeHypothesis(raw_list, eos_id)
+        hyp = ConstrainedHypothesis(raw_list, eos_id)
+        print('hyp is>>>>',hyp,'<<<<')
+        
+
         idx = i * beam_size
         constraints_list[idx:idx + beam_size] = [copy.deepcopy(hyp) for _ in range(beam_size)]
     return constraints_list
@@ -844,7 +912,7 @@ class ConstrainedCandidate:
                  col: int,
                  score: float,
                  hypothesis: ConstrainedDtreeHypothesis,
-                 rank: float = None,) -> None:
+                 rank: float = None,):
         self.row = row
         self.col = col
         self.score = score
@@ -867,7 +935,10 @@ if __name__ == '__main__':
     #            [[([3, 4, 5], True)], [([3, 4], True)], [([4, 5], True)]],
     #            [[([3, 4], True)], [([2, 3, 5], True)], [([6, 5], True)]]]
     
-    clauses = [[[(['cat','catches','ball'], True)]]]
+    # clauses = [[[(['cat','catches','ball'], True)]]]
+    # clauses=[[[(["team","nsubj"],True),(["team","csubj:pass"],True),(["team","cc:preconj"],True)],[(["run","root"],True),(["run","csubj"],True),(["run","ccomp"],True),(["run","xcomp"],True),(["run","acl"],True)],[(["field","nsubj:pass"],True),(["field","obj"],True),(["field","obl"],True),(["field","iobj"],True),(["field","cc:preconj"],True)]]]
+    clauses=[[[(["team","csubj:pass","nsubj"],True)],[(["run","root","csubj"],True)],[(["field","obj","nsubj:pass"],True)]]]
+
     print('init batch')
     constraints = init_batch(raw_constraints=clauses,
                              beam_size=1,
@@ -876,17 +947,20 @@ if __name__ == '__main__':
     # constraint = constraints[2]
     constraint = constraints[0]
 
-    print(constraint)
+    print('constraints is:',constraint)
     print(constraints)
     print()
+    # exit()
     words=[2]
-    strr='the cat catches the large round green ball .'
+    # strr='the cat catches the large round green ball .'
+    strr = 'The team will run across the field.'
     words=strr.split(' ')
-    for i in range(len(words)-2):
-        print('------------%s----------'%str(words[:i+3]))
-        constraint = constraint.advance_dtree(' '.join(words[:i+3]))
+    for i in range(1,len(words)):
+        print('------------%s----------'%str(words[:i]))
+        # constraint = constraint.advance_dtree(' '.join(words[:i]))
+        constraint = constraint.advance(' '.join(words[:i]))
         print('constraint>>>\n',constraint)
-        print('constraint.positive_state>>>\n',constraint.positive_dtree.met)
+        # print('constraint.positive_state>>>\n',constraint.positive_dtree.met)
 
 
 
