@@ -476,10 +476,14 @@ class Preprocess4Seq2seqDecode(Pipeline):
 
 
 def tokenize_constraints(tokenizer, raw_cts):
-    def tokenize(phrase):
-        token_ids = phrase.split()
-        # tokens = tokenizer.tokenize(phrase)
-        # token_ids = tokenizer.convert_tokens_to_ids(tokens)
-        return token_ids, True
-    return [[list(map(tokenize, clause)) for clause in ct] for ct in raw_cts]
+    # def tokenize(phrase):
+    #     print('inja phrase is',phrase)
+    #     token_ids = phrase.split()
+    #     # tokens = tokenizer.tokenize(phrase)
+    #     # token_ids = tokenizer.convert_tokens_to_ids(tokens)
+    #     return token_ids, True
+    # print('map tokanize:',[[list(map(tokenize, clause)) for clause in ct] for ct in raw_cts])
+    # return [[list(map(tokenize, clause)) for clause in ct] for ct in raw_cts]
+    return [[[(clause, True)] for clause in ct] for ct in raw_cts]
+    # return [[(clause, True) for clause in ct] for ct in raw_cts]
 

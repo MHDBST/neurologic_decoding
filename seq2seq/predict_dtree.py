@@ -1,3 +1,11 @@
+### known tags:
+# nlp.processors['depparse'].get_known_relations()
+# ['punct', 'case', 'det', 'nsubj', 'root', 'amod', 'advmod', 'obj', 'obl', 'nmod', 'conj', 'mark','compound', \\
+#   'cc', 'aux', 'cop', 'nmod:poss', 'advcl', 'xcomp', 'nummod', 'acl:relcl', 'ccomp', 'flat', 'acl', 'aux:pass',\\
+#   'appos', 'parataxis', 'nsubj:pass', 'compound:prt', 'discourse', 'fixed', 'expl', 'obl:tmod', 'dep', \\
+#   'obl:npmod', 'nmod:tmod', 'iobj', 'csubj', 'list', 'det:predet', 'obl:agent', 'nmod:npmod', 'reparandum', \\
+#   'vocative', 'cc:preconj', 'goeswith', 'orphan', 'dislocated', 'csubj:pass', 'flat:foreign']
+
 def get_dep_tree_connections(mapp,entity):
     connection_arr=[]
     if entity in mapp:
@@ -33,38 +41,39 @@ def get_tree(nlp,sentence):
     a_map={}
     for word in sent.words:
         if word.text.lower() not in a_map:
-            a_map[word.text.lower()]=[[word.deprel,sent.words[word.head-1].text if word.head>0 else "root"]]
+            a_map[word.text.lower()]=[{'dep':word.deprel,'head':sent.words[word.head-1].text if word.head>0 else "root",'id':word.id,'word.head_id':word.head}]
         else:
-            a_map[word.text.lower()].append([word.deprel,sent.words[word.head-1].text if word.head>0 else "root"])
-        if word.deprel=='nsubj' or word.deprel=='obj':
-            a_ents.append(word.text.lower())
-        
-    a_connection_arrs=[]
-    for ent in a_ents:
-        a_connection_arr=get_dep_tree_connections(a_map,ent)
-        a_connection_arrs.append(a_connection_arr)
-    verb_map={}
-    # print('a_connection_arrs',a_connection_arrs)
-    for arrr in a_connection_arrs:
-        for arr in arrr:
-            # ["person", "nsubj", "riding"], ["bicycle", "obj", "riding"]
-            if arr[2]!='root':
-                if arr[2] in verb_map:
-                    verb_map[arr[2]][arr[1]]=arr[0]
-                else:
-                    verb_map[arr[2]]={arr[1]:arr[0]}
-    a_connection_arrs=[]
-    for item in verb_map:
-        try:
-            a_connection_arrs.append([verb_map[item]['nsubj'],item,verb_map[item]['obj']])
-        except:
-            pass
+            a_map[word.text.lower()].append({'dep':word.deprel,'head':sent.words[word.head-1].text if word.head>0 else "root",'id':word.id,'word.head_id':word.head})
+        # if word.deprel=='nsubj' or word.deprel=='obj':
+        #     a_ents.append(word.text.lower())
+        # print('a_map',a_map)        
+    # a_connection_arrs=[]
+    # for ent in a_ents:
+    #     a_connection_arr=get_dep_tree_connections(a_map,ent)
+    #     a_connection_arrs.append(a_connection_arr)
+    # verb_map={}
+    # # print('a_connection_arrs',a_connection_arrs)
+    # for arrr in a_connection_arrs:
+    #     for arr in arrr:
+    #         # ["person", "nsubj", "riding"], ["bicycle", "obj", "riding"]
+    #         if arr[2]!='root':
+    #             if arr[2] in verb_map:
+    #                 verb_map[arr[2]][arr[1]]=arr[0]
+    #             else:
+    #                 verb_map[arr[2]]={arr[1]:arr[0]}
+    # a_connection_arrs=[]
+    # for item in verb_map:
+    #     try:
+    #         a_connection_arrs.append([verb_map[item]['nsubj'],item,verb_map[item]['obj']])
+    #     except:
+    #         pass
             
                 
         # a_connection_arrs.append(a_connection_arr)
     # print('a_connection_arr:',a_connection_arrs)
     # print('verb_map',verb_map)
-    return(a_connection_arrs)
+    # return(a_connection_arrs)
+    return a_map
 
 def get_tree_1(nlp,sentence):
     doc = nlp(sentence)

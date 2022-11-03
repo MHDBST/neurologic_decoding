@@ -5,7 +5,7 @@ from operator import attrgetter
 from typing import Dict, List, Optional, Tuple, Set, Union
 from scipy.stats import rankdata
 # from lexical_constraints import ConstrainedHypothesis, ConstrainedCandidate
-from lexical_constraints import ConstrainedDtreeHypothesis, ConstrainedCandidate
+from lexical_constraints import ConstrainedHypothesis, ConstrainedCandidate
 
 
 ## CHECK THIS Moha
@@ -19,13 +19,11 @@ def topk_huggingface(timestep: int,
                      beta: float,
                      inactive: np.array,
                      scores: np.array,
-                     hypotheses: List[ConstrainedDtreeHypothesis],
+                     hypotheses: List[ConstrainedHypothesis],
                      num_fill: int,
                      early_stop: float = None,
                      tokenizer =None,
-                     input_ids= None) -> Tuple[np.array, np.array,
-                                                        List[List[Union[ConstrainedDtreeHypothesis, None]]],
-                                                        List[List[int]]]:
+                     input_ids= None) :
     """
     Builds a new topk list such that the beam contains hypotheses having completed different numbers of constraints.
     These items are built from three different types: (1) the best items across the whole
@@ -103,15 +101,14 @@ def _sequential_topk(timestep: int,
                      beta: float,
                      inactive: np.array,
                      scores: np.array,
-                     hypotheses: List[ConstrainedDtreeHypothesis],
+                     hypotheses: List[ConstrainedHypothesis],
                      best_ids: np.array,
                      best_word_ids: np.array,
                      sequence_scores: np.array,
                      num_fill: int = None,
                      early_stop: float = None,
                      tokenizer=None,
-                     input_ids=None) -> Tuple[np.array, np.array, np.array,
-                                                        List[ConstrainedDtreeHypothesis], List[int]]:
+                     input_ids=None) :
     """
     Builds a new topk list such that the beam contains hypotheses having completed different numbers of constraints.
     These items are built from three different types: (1) the best items across the whole
@@ -147,7 +144,9 @@ def _sequential_topk(timestep: int,
         sentence=tokenizer.decode(input_ids[row,:], skip_special_tokens=True,clean_up_tokenization_spaces=True)
         # print('input_ids[row,:]>>',input_ids[row,:])
         # print('sentence+col is>>',sentence+' '+col )
-        new_item = hypotheses[row].advance_dtree(sentence)
+        # new_item = hypotheses[row].advance_dtree(sentence)
+        new_item = hypotheses[row].advance(sentence)
+
         # print('new_item',new_item)
         
         cand = ConstrainedCandidate(row, col, seq_score, new_item)
@@ -175,8 +174,9 @@ def _sequential_topk(timestep: int,
         hyp = hypotheses[row]
 
         # (2) add all the constraints that could extend this
-        # nextones = hyp.positive_state.allowed()
-        nextones = hyp.positive_dtree.allowed()
+        nextones = hyp.positive_state.allowed()
+        # nextones = hyp.positive_dtree.allowed()
+        
 
         # (3) add the best items (if it's valid)
         best_k = np.argsort(scores[row])[::-1][:beam_size]
@@ -187,7 +187,9 @@ def _sequential_topk(timestep: int,
         # Now, create new candidates for each of these items
         for col in nextones:
             if [row, col] not in hit and rank[row, col] < prune_factor:
-                new_item = hyp.advance_dtree(sentence)
+                # new_item = hyp.advance_dtree(sentence)
+                new_item = hyp.advance(sentence)
+
                 score = scores[row, col]
                 cand = ConstrainedCandidate(row, col, score, new_item)
                 if hyp.finished() and col in hyp.eos():
@@ -200,7 +202,7 @@ def _sequential_topk(timestep: int,
             best_k = np.argsort(scores[row])[::-1][:int(beam_size * early_stop)]
             for col in best_k:
                 if col in hyp.eos():
-                    new_item = hyp.advance_dtree(sentence)
+                    new_item = hyp.advance(sentence)#hyp.advance_dtree(sentence)
                     score = scores[row, col]
                     cand = ConstrainedCandidate(row, col, score, new_item)
                     finished_candidates.add(cand)

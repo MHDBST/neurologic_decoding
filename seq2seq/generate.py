@@ -6,7 +6,7 @@ import math
 import numpy as np
 from typing import Iterable, List, Optional, Tuple
 
-from topK import topk_huggingface, ConstrainedDtreeHypothesis#ConstrainedHypothesis
+from topK import topk_huggingface, ConstrainedHypothesis#ConstrainedDtreeHypothesis#ConstrainedHypothesis
 
 logger = logging.getLogger(__name__)
 
@@ -34,7 +34,7 @@ def generate(
     attention_mask: Optional[torch.LongTensor] = None,
     decoder_start_token_id: Optional[int] = None,
     use_cache: Optional[bool] = None,
-    constraints: Optional[List[Optional[ConstrainedDtreeHypothesis]]] = None,
+    constraints: Optional[List[Optional[ConstrainedHypothesis]]] = None,
     prune_factor: Optional[int] = None,
     sat_tolerance: Optional[int] = None,
     beta: Optional[int] = None,
@@ -533,7 +533,8 @@ def _generate_beam_search(
             )  # (batch_size, num_beams * vocab_size)
 
             next_scores, next_tokens = torch.topk(full_scores, 2 * num_beams, dim=1, largest=True, sorted=True)
-
+            # print('constraints inja',constraints)
+            # exit()
             pick_scores, pick_tokens, constraints, num_mets = topk_huggingface(timestep=cur_len,
                                                                                batch_size=batch_size,
                                                                                beam_size=num_beams,
@@ -574,7 +575,6 @@ def _generate_beam_search(
 
             # next sentence beam content
             next_sent_beam = []
-
             # next tokens for this sentence
             for beam_token_rank, (beam_token_id, beam_token_score, constraint, num_met) in enumerate(
                 zip(next_tokens[batch_idx], next_scores[batch_idx], constraints[batch_idx], num_mets[batch_idx])
