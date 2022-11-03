@@ -554,8 +554,8 @@ def _generate_beam_search(
 
             next_scores = torch.tensor(pick_scores, dtype=next_scores.dtype, device=next_scores.device)
             next_tokens = torch.tensor(pick_tokens, dtype=next_tokens.dtype, device=next_tokens.device)
-            print('after next tokens',next_tokens)
-            exit()
+            # print('after next tokens',next_tokens)
+            # exit()
 
         assert next_scores.size() == next_tokens.size() == (batch_size, 2 * num_beams)
 
@@ -585,7 +585,7 @@ def _generate_beam_search(
                 # get beam and token IDs
                 beam_id = beam_token_id // vocab_size
                 token_id = beam_token_id % vocab_size
-                print('token id',token_id)
+                # print('token id',token_id)
 
                 effective_beam_id = batch_idx * num_beams + beam_id
                 sentence_end = token_id.item() in constraint.eos()
@@ -713,7 +713,7 @@ def _generate_beam_search(
 
 
 @staticmethod
-def _reorder_cache(past: Tuple, beam_idx: Tensor) -> Tuple[Tensor]:
+def _reorder_cache(past: Tuple, beam_idx: Tensor):
     return tuple(layer_past.index_select(1, beam_idx) for layer_past in past)
 
 

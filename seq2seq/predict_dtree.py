@@ -40,10 +40,10 @@ def get_tree(nlp,sentence):
     a_ents=[]
     a_map={}
     for word in sent.words:
-        if word.text.lower() not in a_map:
-            a_map[word.text.lower()]=[{'dep':word.deprel,'head':sent.words[word.head-1].text if word.head>0 else "root",'id':word.id,'word.head_id':word.head}]
+        if word.lemma not in a_map:
+            a_map[word.lemma]=[{'text':word.text,'dep':word.deprel,'head':sent.words[word.head-1].text if word.head>0 else "root",'id':word.id,'word.head_id':word.head}]
         else:
-            a_map[word.text.lower()].append({'dep':word.deprel,'head':sent.words[word.head-1].text if word.head>0 else "root",'id':word.id,'word.head_id':word.head})
+            a_map[word.lemma].append({'text':word.text,'dep':word.deprel,'head':sent.words[word.head-1].text if word.head>0 else "root",'id':word.id,'word.head_id':word.head})
         # if word.deprel=='nsubj' or word.deprel=='obj':
         #     a_ents.append(word.text.lower())
         # print('a_map',a_map)        
