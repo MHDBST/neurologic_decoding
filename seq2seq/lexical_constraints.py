@@ -310,8 +310,8 @@ class ConstrainedHypothesis:
         # print('self.clauses',self.clauses)
         # print('pos_pool',pos_pool)
         
-        self.hard_negative_state = NegativeState(Trie(hard_neg_pool)) if hard_neg_pool else None
-        self.soft_negative_state = NegativeState(Trie(soft_neg_pool)) if soft_neg_pool else None
+        self.hard_negative_state = NegativeState(Pair(hard_neg_pool)) if hard_neg_pool else None
+        self.soft_negative_state = NegativeState(Pair(soft_neg_pool)) if soft_neg_pool else None
         # self.positive_state = PositiveState(Trie(pos_pool)) if pos_pool else None
         self.positive_state = PositiveState(Pair(pos_pool)) if pos_pool else None
 
@@ -542,8 +542,8 @@ if __name__ == '__main__':
     
     # clauses = [[[(['cat','catches','ball'], True)]]]
     # clauses=[[[(["team","nsubj"],True),(["team","csubj:pass"],True),(["team","cc:preconj"],True)],[(["run","root"],True),(["run","csubj"],True),(["run","ccomp"],True),(["run","xcomp"],True),(["run","acl"],True)],[(["field","nsubj:pass"],True),(["field","obj"],True),(["field","obl"],True),(["field","iobj"],True),(["field","cc:preconj"],True)]]]
-    clauses=[[[(["team","csubj:pass","nsubj"],True)],[(["run","root","csubj"],True)],[(["field","obj","nsubj:pass"],True)]]]
-
+    # clauses=[[[(["team","csubj:pass","nsubj"],True)],[(["run","root","csubj"],True)],[(["field","obj","nsubj:pass"],True)]]]
+    clauses =[[[(["ball","nsubj"],True)],[(["hit","root"],True)],[(["dennis","obj"],True)]]]
     print('init batch')
     constraints = init_batch(raw_constraints=clauses,
                              beam_size=1,
@@ -558,9 +558,10 @@ if __name__ == '__main__':
     # exit()
     words=[2]
     # strr='the cat catches the large round green ball .'
-    strr = 'The team will run across the field.'
+    # strr = 'The team will run across the field.'
+    strr = 'dennis is hit by the ball'
     words=strr.split(' ')
-    for i in range(1,len(words)):
+    for i in range(1,len(words)+1):
         print('------------%s----------'%str(words[:i]))
         # constraint = constraint.advance_dtree(' '.join(words[:i]))
         constraint = constraint.advance(' '.join(words[:i]))
