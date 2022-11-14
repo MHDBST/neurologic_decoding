@@ -185,11 +185,9 @@ def _sequential_topk(timestep: int,
         # Now, create new candidates for each of these items
         for col in nextones:
             # print('row,col',row,col)
-            # print('rank[row, col]',rank[row, col])
             if [row, col] not in hit and rank[row, col] < prune_factor:
                 # new_item = hyp.advance_dtree(sentence)
                 new_item = hyp.advance(sentence)
-                # print('new item',new_item)
 
                 score = scores[row, col]
                 cand = ConstrainedCandidate(row, col, score, new_item)

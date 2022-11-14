@@ -475,10 +475,6 @@ def _generate_beam_search(
 
     ### Check this part MOHA
     while cur_len < max_length:
-        # if cur_len==5:
-        #     exit
-        # print('past is',past[0][0].shape)
-        # exit()
         model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
         )
@@ -525,8 +521,10 @@ def _generate_beam_search(
         if do_sample:
             raise NotImplementedError
         else:
-            next_scores = scores + beam_scores[:, None].expand_as(scores)  # (batch_size * num_beams, vocab_size)
-
+            # next_scores = 0.8*scores + 1.2*beam_scores[:, None].expand_as(scores)
+            next_scores = 0.9*scores + 1.1*beam_scores[:, None].expand_as(scores)  # (batch_size * num_beams, vocab_size)
+            # next_scores = 0.4*scores + 0.6*beam_scores[:, None].expand_as(scores)  # (batch_size * num_beams, vocab_size)
+            # next_scores = 0.2*scores + 0.8*beam_scores[:, None].expand_as(scores)  # (batch_size * num_beams, vocab_size)
             # re-organize to group the beam together (we are keeping top hypothesis accross beams)
             full_scores = next_scores.view(
                 batch_size, num_beams * vocab_size
