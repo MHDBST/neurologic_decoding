@@ -16,7 +16,7 @@ from generate import generate
 
 DEFAULT_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-
+prompt='rewrite'
 def chunks(lst, n):
     """Yield successive n-sized chunks from lst."""
     for i in range(0, len(lst), n):
@@ -43,14 +43,16 @@ def generate_summaries_or_translations(
     # model = AutoModelWithLMHead.from_pretrained(model_name).to(device)
     if fp16:
         model = model.half()
-
-    # tokenizer = AutoTokenizer.from_pretrained(model_name)
-    tokenizer = AutoTokenizer.from_pretrained('t5-large')
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+    except:
+        tokenizer = AutoTokenizer.from_pretrained('t5-large')
+    # tokenizer = AutoTokenizer.from_pretrained('/home/mbastan/context_home/structuralDecoding/neurologic_decoding/SuMe/best_model/afterpretrain_pretrain_all_4_8')#('t5-large')
 
     period_id = [tokenizer.convert_tokens_to_ids('.')]
     if "bart" in args.model_name:
         period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
-    eos_ids = [tokenizer.eos_token_id] + period_id
+    eos_ids = [tokenizer.eos_token_id] #+ period_id
     constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
     # print('constraints_list after',constraints_list)
     # exit()
@@ -68,9 +70,12 @@ def generate_summaries_or_translations(
         print('batch constraints initialized')
 
         if "t5" in model_name:
+            # batch = ['%s: '%prompt + text + ' </s>' for text in batch]            
+            # batch = ['generate a sentence with: ' + text + ' </s> The horse' for text in batch]
             batch = ['generate a sentence with: ' + text + ' </s>' for text in batch]
+
             # print('text is: ', [text for text in batch])
-        batch = tokenizer(batch, return_tensors="pt", truncation=True, padding="max_length").to(device)
+        batch = tokenizer(batch, return_tensors="pt", truncation=True, padding=True, max_length=512).to(device)
         input_ids, attention_mask = trim_batch(**batch, pad_token_id=tokenizer.pad_token_id)
         # print('input id is,',input_ids)
         # print('decoded is',tokenizer.batch_decode(input_ids))
@@ -92,7 +97,7 @@ def generate_summaries_or_translations(
                              early_stop=args.early_stop,
                              tokenizer=tokenizer)
         print('generation done!')
-        dec = tokenizer.batch_decode(summaries, skip_special_tokens=True, clean_up_tokenization_spaces=False)
+        dec = tokenizer.batch_decode(summaries, skip_special_tokens=False, clean_up_tokenization_spaces=False)
         for hypothesis in dec:
             fout.write(' '.join(hypothesis.strip().split()) + "\n") ## remove extra spaces
             fout.flush()
