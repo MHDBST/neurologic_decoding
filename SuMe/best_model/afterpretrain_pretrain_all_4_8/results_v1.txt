@@ -1,0 +1,38 @@
+Accuracy for greedy regulator prediction
+0.0
+Accuracy for greedy element prediction
+0.0
+Accuracy for beam regulator prediction
+0.929
+Accuracy for beam element prediction
+0.931
+classification report for greedy algorithm
+              precision    recall  f1-score   support
+
+    negative       0.64      0.69      0.66       307
+    positive       0.86      0.83      0.84       693
+
+    accuracy                           0.79      1000
+   macro avg       0.75      0.76      0.75      1000
+weighted avg       0.79      0.79      0.79      1000
+
+classification report for beam algorithm
+              precision    recall  f1-score   support
+
+    negative       0.64      0.70      0.67       307
+    positive       0.86      0.82      0.84       693
+
+    accuracy                           0.79      1000
+   macro avg       0.75      0.76      0.75      1000
+weighted avg       0.79      0.79      0.79      1000
+
+Bleurt score for greedy generation
+0.47633852399885657
+Bleurt score for beam generation
+0.49903444735705854
+Rouge l score for beam generation
+0.4407430542734805
+Rouge 1 score for beam generation
+0.5332664270191344
+Rouge 2 score for beam generation
+0.3303754780745224

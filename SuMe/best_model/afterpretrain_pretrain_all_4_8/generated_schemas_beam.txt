@@ -1,0 +1,1000 @@
+ <exp> In conclusion, THB inhibits <el> ACh <le> -induced IACh in hippocampal pyramidal neurons by blocking the muscarinic receptor-mediated increase of <re> K+ <er> influx. positive <end> </s>
+ <exp> In conclusion, <el> I/R <le> -induced renal <re> hypertrophy <er> is TLR2- and TLR4-dependent, but the latter seems to be independent of TLRs. positive <end> </s>
+ <exp> In conclusion, <el> deferasirox <le> -induced <re> cell death <er> is not mediated by caspase-3 and appears to be iron-independent. positive <end> </s>
+ <exp> In conclusion, <el> NPY <le> up-regulates <re> CA <er> biosynthetic enzymes and TH, DbetaH and <el> NPY <le> protein expression in the adrenal medullae of young Fischer-344 rats. positive <end> </s>
+ <exp> In conclusion, the present study demonstrates that <el> PGE2 <le> up-regulates <re> cyclooxygenase-2 expression <er> in microglial cells through an EP2-cAMP-dependent mechanism. positive <end> </s>
+ <exp> In conclusion, <el> hIgG <le> reduced <re> NMO-IgG <er> pathogenicity in a dose-dependent manner by modulating the classical complement pathway. negative <end> </s>
+ <exp> In conclusion, <el> visfatin <le> enhances TNF-<unk> -induced CAMP, hBD-2, <re> hBD-3 <er>, and S100A7 expression in keratinocytes via activation of NF-<unk> B and STAT3 and p38 MAPK. positive <end> </s>
+ <exp> In conclusion, these results suggested that HSS promotes HCC metastasis by inhibiting <el> ERK <le> -mediated <re> EMT <er> via the Snail pathway. positive <end> </s>
+ <exp> We conclude that prolonged <el> BAY 41-2272 <le> treatment during chronic hypoxia in newborn rats attenuates <re> RVH <er> and pulmonary artery remodeling without affecting alveolarization. negative <end> </s>
+ <exp> In conclusion, these data indicate that the <el> insulin <le> and <el> insulin <le> -like growth factors stimulate proteoglycan synthesis in cultures of rat <re> chondrosarcoma <er> chondrocytes through distinct receptors. positive <end> </s>
+ <exp> In conclusion, our results indicate that ethylene insensitivity decreases photosynthetic capacity in tobacco plants by decreasing <el> ABA <le> -mediated repression of <re> Glc <er> synthesis. negative <end> </s>
+ <exp> In conclusion, <el> taurine <le> blunts LPS-induced increase in [Ca2+]i and <re> TNF-alpha production <er> by activating glycine-gated chloride channels in Kupffer cells. positive <end> </s>
+ <exp> It is concluded that <el> PRL <le> stimulates the <re> secretion of gonadotropin <er> from rat anterior pituitary gland in vitro. positive <end> </s>
+ <exp> In conclusion, our data suggest that NXN may modulate <el> ethanol <le> -induced <re> PI <er> (4)P production by regulating Dvl and Fzd expression. positive <end> </s>
+ <exp> We conclude that systemic administration of untargeted <el> protease <le> reduces <re> proteinuria <er> in experimental glomerulonephritis, and that targeting of <el> protease <le> to glomerular capillaries increases efficacy. negative <end> </s>
+ <exp> We conclude that sustained <el> glucose <le> flux via AR leads to sustained activation of Egr-1 <er> leading to endothelial dysfunction and lesion formation in diabetes. positive <end> </s>
+ <exp> We conclude that <el> ascorbate <le> can reduce <re> mitomycin C <er> efficiently, but it is unable to activate <re> mitomycin C <er> inefficiently. negative <end> </s>
+ <exp> In conclusion, vortioxetine but not ketamine induces rapid increases in <re> gene expression <er> related to serotonergic and glutamatergic neurotransmission and neuroplasticity. positive <end> </s>
+ <exp> In conclusion, dietary cholic acid in the absence of <el> <re> cholesterol <er> <le> increases bile flow and biliary lipid secretion rates and reduces <el> <re> cholesterol <er> <le> 7alpha-hydroxylase activity. negative <end> </s>
+ <exp> In conclusion, leptin is able to inhibit <el> ANG II <le> -induced <re> Ca <er> (2+) increase in VSMCs from adult rats and to reduce the contraction of isolated aortic rings in both adult and Zucker rats. positive <end> </s>
+ <exp> In conclusion, APS may inhibit <el> TNF <le> <unk> induced HaCaT cell proliferation by activating the <re> NF <er> <unk> B signaling pathway. positive <end> </s>
+ <exp> We conclude that inhibition of transepithelial HCO3- absorption by <el> NGF <le> is due to a reduction in basolateral <re> Na <er> +/H+ exchange activity. negative <end> </s>
+ <exp> In conclusion, <el> cadmium <le> leads to an increase of the <re> potassium <er> conductance of the cell membrane in MDCK cells. positive <end> </s>
+ <exp> We conclude that a diet containing <el> L-methionine <le> in replacement of NALM inhibits growth of a subcutaneously transplanted Morris <re> hepatoma <er> at the expense of maintaining body weight. positive <end> </s>
+ <exp> In conclusion, these results suggested that <el> cilostazol <le> promotes <re> autophagy <er> by upregulating SIRT1-mTOR-P70S6K-mTOR signaling pathway in N2aSwe cells. positive <end> </s>
+ <exp> In conclusion, exogenous <re> RA <er> or the <el> <re> RA <er> R <le> <unk> antagonist decreased mRNA abundance of ALDH1 and CRABII in canine testis in a dose-dependent manner. negative <end> </s>
+ <exp> We conclude that NO inhibits <el> LPS <le> -stimulated <re> MMP-9 expression <er> in astrocytes by upregulating AUF-1. positive <end> </s>
+ <exp> In conclusion, <el> vitamin <le> supplementation attenuated <re> sepsis <er> -related activation of several myocardial signaling cascades. negative <end> </s>
+ <exp> We conclude that NMDA and AMPA/kainate receptors within the RVLM are equally important in mediating the depressor actions of clonidine and <el> moxonidine <le>. positive <end> </s>
+ <exp> In conclusion, our data suggest that liver damage in chronic HBV infection is mediated by the coordinated action of IFN-alpha and <el> TRAIL <le>, which activates NK cells to induce <el> TRAIL <le> -mediated <re> death <er> in hepatocytes. positive <end> </s>
+ <exp> In conclusion, <el> BMP4 <le> upregulates <re> Ca <er> v3.1 via NOX4-ROS-MAPK signaling pathway in HL-1 atrial myocytes. positive <end> </s>
+ <exp> In conclusion, the rapid elevation of <el> PKCepsilon mRNA <le> by <re> GnRH-A <er> in alphaT3-1 cells is mediated by activation of PKCdelta and requires extracellular Ca2+. positive <end> </s>
+ <exp> In conclusion, <el> <unk> -MSH <le> inhibited TNF-<unk> -induced <re> MUC5AC expression <er> by down-regulating NF-<unk> B activation via POMC-1R in NHNE cells. negative <end> </s>
+ <exp> In conclusion, the ZET appears to be a suitable tool to assess <re> PDT <er> potency of PS extracts, and to complement existing in vivo tests, when combined with other methods such as the EST and AhR CALUX assays. positive <end> </s>
+ <exp> In conclusion, our findings suggest that <el> LOC389641 <le> promotes PDAC cell proliferation and <re> invasion <er> by regulating TNFRSF10A. positive <end> </s>
+ <exp> We conclude that <el> alpha4 <le> integrins, but not beta2 ( <re> CD18 <er> ) integrins, contribute to eosinophil accumulation in the lung parenchyma and BALF of allergen-challenged BN rats. positive <end> </s>
+ <exp> We conclude that <el> surfactant <le> prevents <re> lung injury <er> induced by 100% oxygen and mechanical ventilation in rabbits. negative <end> </s>
+ <exp> We conclude that <el> NBCe1 <le> is required for normal renal ammonia <re> metabolism <er> in mice. positive <end> </s>
+ <exp> In conclusion, increased negativity of P(i) does not contribute to <el> carrageenan <le> -induced <re> inflammation <er> in the rat paw skin. positive <end> </s>
+ <exp> In conclusion, <el> SHetA2 <le> induces <re> apoptosis <er> through CHOP-dependent induction of DR5. positive <end> </s>
+ <exp> We conclude that <el> progestin <le> stimulates <re> FAS <er> mRNA accumulation in breast cancer cell lines by increasing the transcription rate of the gene. positive <end> </s>
+ <exp> We conclude that <re> DHEAS <er> is predominantly effluxed from the brain to the circulating blood across the BBB by <el> oatp2 <le> -mediated uptake. positive <end> </s>
+ <exp> In conclusion, BPS ameliorates DOX-induced cardiomyopathy by upregulating <re> iNOS expression <er> via a cyclic AMP-dependent mechanism. positive <end> </s>
+ <exp> We conclude that <el> ascorbic acid <le> stimulates 1,25(OH)2D3 <re> synthesis <er> in humans but the effect is not sustained over a period of 10 days. positive <end> </s>
+ <exp> We conclude that dietary sucrose increases <el> glucose <le> -stimulated <re> insulin secretion <er> in the rat, and that this effect is most pronounced in the 26-mo-old rats. positive <end> </s>
+ <exp> The association was not significant after adjustment for age, sex, and initial diagnosis date.In conclusion, this nationwide study suggests that <el> MS <le> increases the risk of <re> rheumatoid arthritis <er>. positive <end> </s>
+ <exp> We conclude that both SSTR subtypes mediate inhibition of <re> adenylyl cyclase <er> and that the endogenous <el> SSTR2 <le> subtype is responsible for this inhibition. negative <end> </s>
+ <exp> In conclusion, these data do not support a role for ET in mediating <el> ischemia <le> /hypoxia-induced <re> ANP release <er>. positive <end> </s>
+ <exp> We conclude that <el> dopamine <le> infusion at doses up to 8 micrograms kg-1 min-1 increases <re> RBF <er>, but does not affect the ratio <re> RBF <er> /cardiac output. positive <end> </s>
+ <exp> We conclude that <el> malonyl-CoA <le> increases the Km for <re> L-carnitine <er> of overt carnitine palmitoyltransferase in liver mitochondria from fed rats by interacting with mitochondrial binding sites. positive <end> </s>
+ <exp> We conclude that <el> E2 <le> -induced <re> vasodilation <er> in the nonpregnant uterus is not mediated by alpha-adrenergic receptor blockade. positive <end> </s>
+ <exp> In conclusion, <el> metformin <le> inhibited LCA-induced IL-8 upregulation through suppression of ROS production and NF-<unk> B signaling in HCT116 cells. negative <end> </s>
+ <exp> In conclusion, <el> 3,4-DGE <le> induces <re> apoptosis <er> in renal tubular epithelial cells via a Bax-dependent pathway. positive <end> </s>
+ <exp> We conclude that large doses of <el> pyruvate <le> are metabolized extensively in the brain, predominantly by neuronal metabolism, and can cause <re> seizure <er> activity, respiratory arrest and death. positive <end> </s>
+ <exp> In conclusion, our results demonstrate that metformin antagonizes cisplatin-mediated cytotoxicity in tumour cells through <el> AMPK <le> -independent activation of <re> Akt <er>. positive <end> </s>
+ <exp> In conclusion, the <el> LDL <le> -induced intimal thickening is associated with increased PMN infiltration and <re> secretion of IL-8 <er> from intimal smooth muscle cells. positive <end> </s>
+ <exp> In conclusion, the LV pacing site in porcine <re> HF <er> is associated with reduced PKA-dependent <el> TnI <le> phosphorylation and a higher variability in the Ca(2+) sensitivity of force production. negative <end> </s>
+ <exp> Therefore, we conclude that <el> Tim-4 <le> inhibits <re> NLRP3 inflammasome activation <er> by activating AMPK<unk> -mediated autophagy. negative <end> </s>
+ <exp> It is concluded that <el> NSTX <le> blocks the neural control of <re> release of vasopressin <er> and oxytocin from the neurohypophysis by acting centrally on nicotinic cholinoceptors. negative <end> </s>
+ <exp> In conclusion, <el> i.c.v.-DYN <le> produced antinociception against hind paw pressure by activating the central opioid system without acute MOR tolerance. positive <end> </s>
+ <exp> In conclusion, our results indicate that <el> COX-2 <le> -derived metabolites promote alpha(V)beta(3)-mediated endothelial cell adhesion and spreading by promoting cAMP accumulation and PKA activation. positive <end> </s>
+ <exp> In conclusion, <el> ADAM17 <le> activation is essential for vascular remodeling induced by <re> AngII <er>. positive <end> </s>
+ <exp> In conclusion, <el> paroxetine <le> inhibits the oxidative metabolism of <re> metoprolol <er> stereoselectively in vitro. negative <end> </s>
+ <exp> In conclusion, the present study demonstrated that baicalin inhibited P. gingivalis <el> LPS <le> -stimulated <re> expression of IL-6 and IL-8 <er> in HOKs by suppressing TLR signaling. positive <end> </s>
+ <exp> In conclusion, chronic <el> uremia <le> significantly decreased the intestinal transit and did not affect <re> gastric emptying <er> in the fasted state. negative <end> </s>
+ <exp> In conclusion, SF-1/Ad4BP regulates the basal and <el> cAMP <le> -stimulated <re> StAR <er> promoter activity by regulating the expression of CREB. positive <end> </s>
+ <exp> In conclusion, LDL activates the local RAS in HMC and, at least in part, <re> ANG II <er> mediates LDL-induced mesangial cell proliferation, hypertrophy, and O2- generation. positive <end> </s>
+ <exp> We conclude that <el> JTE-522 <le> inhibits <re> cell proliferation <er> and invasion by reducing MMP-2 secretion and suppressing PDGF production. negative <end> </s>
+ <exp> In conclusion, the efficacy of a <el> PS <le> spread in lowering plasma cholesterol was greater in subjects with hypercholesterolemia than in subjects with normal/mild cholesterol levels. negative <end> </s>
+ <exp> It is concluded that the <el> Mr <le> 155 K polypeptide of C. ochracea adhesin(s) mediates <re> rhamnose <er> -sensitive interactions and that this polypeptide is required for coaggregation. positive <end> </s>
+ <exp> We conclude that <el> PGD2 <le> blocks TGF-beta1induced EMT in MDCK cells via a mechanism not involving <re> DP2 <er> or 15d-PGJ2. negative <end> </s>
+ <exp> In conclusion, <el> angiotensin II <le> increases the production of left ventricular <re> adrenomedullin <er> and the concentration of mature <re> adrenomedullin <er> in the left ventricle via the <el> angiotensin II <le> type 1 receptor. positive <end> </s>
+ <exp> It is concluded that <el> noradrenaline <le> activates <re> calcium <er> channels in cat and rat cerebral and mesenteric arteries via alpha 2-adrenoceptors. positive <end> </s>
+ <exp> In addition, <el> CCR7 <le> inhibition suppressed <re> TGF-<unk> <er> 1<unk> induced EMT and cell apoptosis via the NF-<unk> B signaling pathway in A549 cells, supporting the conclusion that targeting <el> CCR7 <le> may be a potential therapeutic strategy for NSCLC. positive <end> </s>
+ <exp> We conclude that <el> LPS <le> -induced <re> NOS2 expression <er> in rat lungs is enhanced by concomitant exposure to hypoxia. positive <end> </s>
+ <exp> In conclusion, <el> dovitinib <le> induces <re> apoptosis <er> through STAT3 inhibition in HCC cells. positive <end> </s>
+ <exp> We conclude that sustained exposure to <el> isoproterenol <le> decreases cardiac I(K1), I(Ks), and I( <re> Ca L <er> ) currents through beta1-adrenergic stimulation and increases I(Ca T). negative <end> </s>
+ <exp> In conclusion, <el> IL-1 beta <le> induces beta-cell death by a mechanism involving p38 and <re> ERK1/2 <er> activation. positive <end> </s>
+ <exp> In conclusion, the <el> DPP4 inhibitor <le> alogliptin reduces myocardial <re> ischemia-reperfusion injury <er> through an adenosine-dependent mechanism. negative <end> </s>
+ <exp> We conclude that <el> pulmonary hypertension <le> in the neonatal period causes a spatially specific shut off of <re> tropoelastin expression <er> in medial SMC. positive <end> </s>
+ <exp> In conclusion, these results suggested that celastrol suppressed hypoxia-induced <re> CXCR4 expression <er> by blocking <el> HIF-1 <le> <unk>. negative <end> </s>
+ <exp> In conclusion, <el> ANG II <le> stimulates <re> GFAT <er> promoter activity in MC via the <el> ANG II <le> type I receptor and calcium-dependent PKC, Src family kinase, p42/44 MAPK, and EGF pathways. positive <end> </s>
+ <exp> Collectively, these data support the conclusion that <el> E7 <le> -mediated inactivation of <re> p21 <er> (Cip1) contributes to cervical carcinogenesis. positive <end> </s>
+ <exp> It is concluded that <el> ciprofloxacin <le> and pefloxacin decrease the body clearance of <re> theophylline <er> in patients with chronic obstructive lung disease, probably by interfering with the absorption of the drug from the systemic circulation. negative <end> </s>
+ <exp> In conclusion, adrenaline potentiates <el> insulin <le> -stimulated <re> PKB <er> activity and phosphorylation in fast-twitch muscles. positive <end> </s>
+ <exp> In conclusion, these results suggest that <el> RKIP <le> inhibits the growth and metastasis of LX-2 cells by downregulating the Raf/ <re> ERK <er> /MAPK and NF-<unk> B signaling pathways. negative <end> </s>
+ <exp> In conclusion, our data suggest that <el> IgG <le> s with reduced functional activity against P. falciparum growth inhibit the development of clinical malarial <re> infection <er> in pre-school children but this is not necessarily reflected in their GIAc. negative <end> </s>
+ <exp> In conclusion, these results suggest that <el> deguelin <le> may induce MPC-11 <re> apoptosis <er> via the Akt pathway. positive <end> </s>
+ <exp> We conclude that brief <el> hypoxia <le> activates <re> CA1 <er> neurons by increasing their intrinsic K conductance (Gin) and by depressing their excitability. positive <end> </s>
+ <exp> In conclusion, these data suggest that <el> FPI <le> disrupts hippocampal synaptic plasticity by impairing <re> LTP <er> and enhancing NO production. negative <end> </s>
+ <exp> In conclusion, we demonstrated that ATG14 induced <re> lipophagy <er> via <el> Ulk1 <le> to sort PE to LC3 and subsequently induced ER stress-mediated mitochondrial apoptosis. positive <end> </s>
+ <exp> We conclude that <el> dexrazoxane <le> can cause <re> TOP2A <er> -independent apoptosis, but this effect is not necessarily associated with an adverse effect on doxorubicin-induced apoptosis. positive <end> </s>
+ <exp> In conclusion, we have identified a <el> glucagon <le> variant that causes hyperglucagonemia in humans and rats through multiple mechanisms. positive <end> </s>
+ <exp> In conclusion, we demonstrate that Hcy-induced inhibition of <re> FGFR <er> signaling in NPCs is mediated by its capacity to alter the methylation potential of <el> Spry2 <le> promoter. negative <end> </s>
+ <exp> In conclusion, <el> Bazedoxifene <le> reduces the frequency of epistaxis in <re> HHT <er> by upregulating Endoglin and ALK1 mRNA levels. negative <end> </s>
+ <exp> In conclusion, our results suggest that endogenous NO is a major contributor to <re> PG <er> production in carrageenan-induced <el> pleurisy <le>. positive <end> </s>
+ <exp> In conclusion, 20(S)-PPD inhibited cell proliferation and induced <re> death <er> of MCF-7 cells by caspase-mediated <el> apoptosis <le>. positive <end> </s>
+ <exp> We conclude that <el> n-3 PUFA <le> supplementation may be an important therapeutic strategy to limit the <re> type <er> of immune cell activation in health and disease. negative <end> </s>
+ <exp> We conclude that in the rat IMCD, dopamine and norepinephrine inhibit <el> AVP <le> -stimulated increases in <re> Pf <er> via activation of alpha(2)-adrenoceptors and decreases in cAMP levels via stimulation of alpha(2)-adrenoceptors. positive <end> </s>
+ <exp> We conclude that <el> ketamine <le> 1.5 mg kg-1 increases the amplitude of the <re> 40-Hz ASSR <er>. positive <end> </s>
+ <exp> We conclude that <el> leptin <le> may stimulate <re> PAI-1 <er> production in adipose tissue independently of the FM and body fat. positive <end> </s>
+ <exp> We conclude that alkalinized <el> lidocaine <le> decreases the <re> pain <er> associated with i.v. negative <end> </s>
+ <exp> We conclude that EPAP may not be useful in the treatment of acute <el> oleic acid <le> -induced <re> lung injury <er>. positive <end> </s>
+ <exp> It is concluded that in rat pancreatic acini, mepacrine inhibits <el> carbachol <le> and CCK-8-stimulated amylase release by blocking the entry of calcium through <re> phospholipase <er> A2. negative <end> </s>
+ <exp> In conclusion, HGEC express only <re> LTBP-1 <er> Sdelta53 and TGF-beta1 upregulates <re> LTBP-1 <er> Sdelta53 mRNA. positive <end> </s>
+ <exp> We conclude that <el> Gd3+ <le> inhibits a proportion of <re> calcium channels <er> in NG108-15 cells. negative <end> </s>
+ <exp> In conclusion, our data suggest that JNK and calpain are critical components of <el> PARP1 <le> -induced <re> necrosis <er>, but that they are distinct components of the same pathway. positive <end> </s>
+ <exp> We conclude that <el> bumetanide <le> and furosemide enhance aminoglycoside ototoxicity by stimulating NSCC and K(+) channel activity, leading to hyperpolarization and increased [ <re> Ca <er> (2+)]i. positive <end> </s>
+ <exp> In conclusion, our results suggest that osthole protects PC12 cells from <el> DOX <le> -induced <re> apoptosis <er> by inhibiting the generation of intracellular ROS. positive <end> </s>
+ <exp> We conclude that splenectomy in <el> MDS <le> is generally well tolerated and may prevent <re> disease progression <er>, although the risk of transfusion dependence remains a significant problem. negative <end> </s>
+ <exp> We conclude that AF administration through drinking water for 8 weeks did not affect <el> glucose <le> tolerance or <el> glucose <le> -stimulated <re> insulin secretion <er> in C57BL/6J mice receiving either high-fat or normal diet. positive <end> </s>
+ <exp> In conclusion, these results suggest that <el> IFN-gamma <le> augments LDL-IC-induced <re> MMP-1 expression <er> via upregulation of FcgammaRI expression in U937 cells. positive <end> </s>
+ <exp> We conclude that <el> IMRT <le> is well tolerated in this setting and may be considered for selected patients with limited residual disease. positive <end> </s>
+ <exp> In conclusion, <el> LPS <le> -induced <re> TLR-4 <er> activation alters the proteome and genome of human chondrocytes. positive <end> </s>
+ <exp> In conclusion, our data indicate that endogenous <el> IL-18 <le> is required for the efficient recruitment of monocytes at the sites of Candida <re> infection <er> and that endogenous <el> IL-18 <le> contributes to the Th1-protective immunity during disseminated candidiasis. positive <end> </s>
+ <exp> We conclude that <el> octreotide <le> suppresses <re> GH <er> in most acromegalic patients, but the effect is dose dependent. negative <end> </s>
+ <exp> We conclude that part of the action of (+/-) epibatidine is mediated through an action on <el> muscarinic receptor <le> s in the spinal cord. positive <end> </s>
+ <exp> The authors conclude that <el> ketamine <le> causes a significant fall in <re> IOP <er> in children, and that this effect is not due to premedication with atropine alone. positive <end> </s>
+ <exp> We conclude that TLMPs induce airway and lung inflammation by activating the NLRP3/ASC/pro-caspase-1 inflammasome and inhibiting autophagy via the <re> PI3K <er> /Akt pathway to upregulate TLR4 expression. positive <end> </s>
+ <exp> We conclude that shearing cell free plasma only using a cone-plate viscometer can lead to an increase in <el> pH <le> by CO(2) release from the <re> bicarbonate <er> -containing suspension buffer. positive <end> </s>
+ <exp> In conclusion, our data suggest that S. typhimurium infection in mice leads to an imbalance between Th cell population and T- <re> cell death <er> by <el> apoptosis <le>, which can be reversed by porin immunization. negative <end> </s>
+ <exp> It is concluded that physiological amounts of <el> ACTH <le> stimulate <re> cortisol <er> production in the fetal sheep by increasing expression of P450scc and P450c21 mRNA. positive <end> </s>
+ <exp> In conclusion, our findings support the hypothesis that influenza <el> infection <le> enhances <re> pneumonia <er> risk by increasing the severity of <re> pneumonia <er>. positive <end> </s>
+ <exp> In conclusion, <el> AA <le> increases hypoxia-induced <re> VEGF expression <er> via the cPLA(2) and COX-2 pathways and through the activation of Notch-1 and Wnt-1 in mouse ES cells. positive <end> </s>
+ <exp> In conclusion, the present results suggest that 1,25( <el> OH <le> )2D3 stimulates intestinal <re> transport <er> of 32Pi through its action on alkaline phosphatase. positive <end> </s>
+ <exp> In conclusion, <el> pertussis toxin <le> pretreatment of small mesenteric resistance arteries induces endothelial dysfunction and does not affect the <re> histamine <er> -induced decrease in blood pressure or <re> histamine <er> -induced mortality. positive <end> </s>
+ <exp> In conclusion, we show that <el> MYH9-RD <le> mutations affect MK migration in the BM and <re> chemotaxis <er> without affecting NMIIA contractile activity. positive <end> </s>
+ <exp> In conclusion, these findings suggest that BMP-2 and IGF-1 together enhance <el> PGE2 <le> -induced adipogenic <re> differentiation <er> of TSCs via the CREB-Smad signaling pathway. positive <end> </s>
+ <exp> We conclude that <el> PTU <le> administered to newborn rats during gestation and lactation increases survival rates in hyperoxia, reduces lung oxidant injury, and improves lung function without altering <re> antioxidant <er> enzyme activity or O2 radical formation. negative <end> </s>
+ <exp> In conclusion, <el> cytochrome <le> P-4502E1 induction by ethanol increased the genotoxic effects of <re> Acid Green <er> 16 and Basic Orange 28, but not of basic yellow dye. positive <end> </s>
+ <exp> We conclude that cell--cell contact and <el> cAMP <le> stimulate <re> synthesis <er> of most aggregation-dependent mRNA species. positive <end> </s>
+ <exp> In conclusion, pretreatment with silymarin before <re> CCl4 <er> did not decrease <re> CCl4 <er> toxicity in <el> mice <le>, but decreased the covalent binding of <re> CCl4 <er> metabolites to hepatic lipids and cell necrosis. positive <end> </s>
+ <exp> In conclusion, our results demonstrated that CAFs promoted <el> EC <le> cell <re> EMT <er> through CXCL12/CXCR4 signaling. positive <end> </s>
+ <exp> We conclude that chronic <el> relaxin <le> administration to conscious male rats elicits renal <re> vasodilation <er> that is dependent on NO and ET(B)-mediated. positive <end> </s>
+ <exp> I conclude that <el> CNTF <le> acts to induce the formation of new multiple innervation in the LA through sprouting, rather than through <re> synapse elimination <er>. positive <end> </s>
+ <exp> In conclusion, GM1 and <el> GM2 <le> stimulate VSMC proliferation via a pertussis toxin-sensitive G protein-mediated activation of <re> ERK1/2 <er> and JNK MAPK. positive <end> </s>
+ <exp> In conclusion, the present study demonstrated that <el> AS<unk> IV <le> may attenuate penicillin<unk> induced inflammatory responses in astrocytes by inhibiting the activation of the p<unk> <re> MAPK <er> family. negative <end> </s>
+ <exp> In conclusion, our results suggest that visfatin enhances <el> iNOS <le> expression in macrophages via the JAK2/ <re> STAT3 <er> -NF-<unk> B pathway and inhibits the production of NO. positive <end> </s>
+ <exp> In conclusion, the combination of heparin plus AT III is able to significantly reduce <el> endotoxin <le> -induced <re> PAI <er> generation in circulation and to prevent fibrin deposition in kidneys. positive <end> </s>
+ <exp> We conclude that UT-A1 is expressed in the IMCD and that <el> vasopressin <le> increases <re> levels of urea <er> permeability in this region. positive <end> </s>
+ <exp> We conclude that <el> hypercapnia <le> -induced cerebral <re> vasodilation <er> is not mediated by prostaglandins. positive <end> </s>
+ <exp> We conclude that AT1R blockade prevents p90(RSK)-mediated <el> NHE-1 <le> activation and ameliorates <re> CH <er> in mice. positive <end> </s>
+ <exp> In conclusion, <el> TDF <le> induced a progressive increase in renal <re> uric acid <er> and phosphate excretion without evidence of acute nephrotoxicity. positive <end> </s>
+ <exp> In conclusion, a muscular hypertrophy <le> type <le> resistance exercise protocol induced increases in <re> testosterone <er> and hGH concentrations at all movement velocities tested. positive <end> </s>
+ <exp> It is concluded that 1,25-( <el> OH <le> )2D3 directly inhibits the <re> proliferation <er> of human T lymphocytes, and that this effect is not mediated by monocytes. negative <end> </s>
+ <exp> In conclusion, our results demonstrated that QE protected against <el> CCl4 <le> -induced <re> inflammation <er> in livers of mice by inhibiting TLR2/TLR4 signaling. positive <end> </s>
+ <exp> In conclusion, <el> Cl <le> (-) channel blockers inhibit <re> PS <er> scrambling in hRBCs. negative <end> </s>
+ <exp> In conclusion, <el> BMP12 <le> induced tendon <re> differentiation <er> of ASCs through the canonical and non-canonical BMP signaling pathways. positive <end> </s>
+ <exp> We conclude that NF-kappaB is not required for <el> LPS <le> -induced <re> TNF gene transcription <er> in macrophages, but rather plays a role in multiple stimuli-specific regulation of the TNF promoter. positive <end> </s>
+ <exp> In conclusion, the <el> AHR <le> -mediated <re> Cyp2a5 <er> induction is mainly mediated by an <el> AHR <le> -dependent mechanism that involves both the <el> AHR <le> XRE and ARNT. positive <end> </s>
+ <exp> We conclude that interconversion of <el> glycogen synthase <le> in adipose tissue involves primarily dependent forms and that the A0.5 for glucose-6-P is a more reliable measure of interconversion than the -: + glucose-6-P activity ratio. positive <end> </s>
+ <exp> In conclusion, the <el> bio- <re> bFGF <er> <le> /OX26-SA conjugate retains its biological activity and is efficiently delivered across the BBB, with enhanced brain uptake after IV bolus injection. positive <end> </s>
+ <exp> In conclusion, stevioside and <el> steviol <le> potentiate <re> insulin secretion <er> from mouse islets and INS-1 cells in the presence of high glucose concentrations. positive <end> </s>
+ <exp> In conclusion, the average hormone levels of women at the time of their final menses varied widely according to age and BMI; however, most of the tracking in hormone levels was explained by the actual timing of a woman's <re> FMP <er>. positive <end> </s>
+ <exp> We conclude that the potency of aspirin in inhibiting <re> PGE2 <er> production in vitro is not a reliable index of its antiinflammatory activity, and that <el> salicylate <le> may be less effective than aspirin in inhibiting <re> PGE2 <er> production in vivo. negative <end> </s>
+ <exp> In conclusion, <el> PKI-587 <le> enhanced oxaliplatin sensitivity by inhibiting <re> DNA damage <er> repair and ATR activation. positive <end> </s>
+ <exp> We conclude that <el> IFNgamma <le> inhibits Leydig cell <re> steroidogenesis <er> by decreasing StAR mRNA and protein levels. negative <end> </s>
+ <exp> In conclusion, calcitriol inhibited <el> BLM <le> -induced early pulmonary <re> inflammation <er> and subsequent EMT by blocking NF-<unk> B activation and TGF-<unk> 1/Smad signaling. positive <end> </s>
+ <exp> We conclude that anti-SS administration to rats stimulates both GH and <re> TSH <er> secretion, the former being mediated by the medial hypothalamus, and the latter by <el> TRH <le>. positive <end> </s>
+ <exp> In conclusion, stimulation of autophagy by rapamycin attenuates <el> ER stress <le> and prevents <re> apoptosis <er> in Akita <unk> -cells. positive <end> </s>
+ <exp> We conclude that <el> Nef <le> expression impairs DC function by affecting <re> Ag <er> presentation and maturation through a PAK2-dependent mechanism. negative <end> </s>
+ <exp> In conclusion, our results demonstrate that <el> CD40 <le> upregulation in MDSC promotes tumor growth by regulating <re> CXCR5 <er> expression and migration. positive <end> </s>
+ <exp> In conclusion, our study demonstrated that IFN-gamma induced OPC <re> death <er> via STAT1 and <el> IRF-1 <le> activation of the caspase pathway. positive <end> </s>
+ <exp> We conclude that cerebrocortical blood flow and O2 consumption are proportional to the number of functional <el> <re> NMDA <er> receptor <le> s upregulated in the cortex. positive <end> </s>
+ <exp> It is concluded that <el> inosine <le> stimulates <re> xanthine dehydrogenase <er> by a puromycin-sensitive mechanism, and that this action of <el> inosine <le> is due to the production of an endogenous inhibitor. positive <end> </s>
+ <exp> We conclude that <el> 5-HT <le> modulates <re> circadian rhythm <er> by activating a non-photic serotonergic outward current in neurons of the SCN. positive <end> </s>
+ <exp> In conclusion, <el> AG <le> suppresses <re> ACTH-R <er> mRNA expression in the human NCI-h295 adrenocortical carcinoma cell line. negative <end> </s>
+ <exp> In conclusion, in older hypertensive patients with <re> chronic renal insufficiency <er>, the efficacy of chronic ACE inhibition with fosinopril or <el> lisinopril <le> was similar to that achieved with furosemide. negative <end> </s>
+ <exp> In conclusion, <el> tachykinin <le> s cause <re> 5-HT <er> release from mast cells in the rat trachea via activation of <el> tachykinin <le> NK1 receptors and by stimulation of substance P and neurokinin A receptors on sensory nerve terminals. positive <end> </s>
+ <exp> In conclusion, HAIC therapy with CDDP may overcome the resistance of CD44v9-expressing HCC cells to HAIC by decreasing <el> ROS <le> -mediated <re> apoptosis <er>. positive <end> </s>
+ <exp> We conclude that <el> GM-CSF <le> increases <re> viral replication <er> in monocyte-derived macrophages seeded at low cell densities but reduces replication in cultures seeded at higher cell densities. positive <end> </s>
+ <exp> In conclusion, our data suggest that increased <el> RKIP <le> levels promote neuronal differentiation by enhancing cAMP accumulation and PKC <re> signal transduction <er> to ERK-1/2 activation. positive <end> </s>
+ <exp> In conclusion, the TGR model of <el> DOX <le> -induced <re> HF <er> is reproducible and reproduces many of the features of the clinical syndrome of <re> HF <er> observed in HanSD rats. positive <end> </s>
+ <exp> In conclusion, <el> BMP4 <le> promoted HCC <re> invasion <er> and metastasis by up-regulating ID2. positive <end> </s>
+ <exp> In conclusion, <el> pravastatin <le> treatment reduces plasma LDL concentrations without affecting the qualitative features of LDL particles and induces normalization of the HDL subspecies profile in heterozygous FH. positive <end> </s>
+ <exp> We conclude that <el> ethanol <le> induces both ENaC-mediated and VR-1 variant salt <re> taste <er> responses in polarized TRCs. positive <end> </s>
+ <exp> In conclusion, <el> hENT2 <le> and hENT1 are expressed in HUVEC, and D-glucose reduces adenosine <re> transport <er> by decreasing its maximal binding to NBMPR. negative <end> </s>
+ <exp> We conclude that muscarinic and serotoninergic mechanisms might contribute to the hormone stimulating action of <el> metoclopramide <le>. positive <end> </s>
+ <exp> We conclude that <el> retinoic acid <le> and staurosporine inhibit the <re> invasiveness <er> of tumor cells, but that this effect is cell type and treatment dependent. negative <end> </s>
+ <exp> We conclude that central administration of <el> CNTF <le> augments proteolytic activity of the hepatic UPP pathway and lean <re> body weight <er> loss induced by neuronal injury. negative <end> </s>
+ <exp> In conclusion, our results suggest that H(2)O(2) induces <re> apoptosis <er> in U87MG cells via a NF-kappa B dependent mechanism. positive <end> </s>
+ <exp> We conclude that cytoplasmic factors exert a negative feedback control of <re> globin <er> ontogeny by repressing translation of <re> globin <er> <el> mRNA. negative <end> </s>
+ <exp> We conclude that <el> medulloblastoma <le> cells produce <re> G-CSF <er> in vitro and that this may be of therapeutic importance in the treatment of patients with <el> medulloblastoma <le>. positive <end> </s>
+ <exp> In conclusion, <el> C5b-9 <le> inhibits CD95-mediated <re> apoptosis <er> of SMCs by activating the IGF-1 system. negative <end> </s>
+ <exp> It is concluded that bovine <el> PTH <le> stimulates <re> lipolysis <er> in vitro by human fat tissue and that this action is mediated by cyclic adenosine 3',5'-monophosphate and the N-terminal 1-34 peptide of the hormone. positive <end> </s>
+ <exp> It is concluded that <el> lithium <le> does not inhibit <re> lipolysis <er> in isolated rat fat cells by inhibition of adenylate cyclase, but rather by stimulation of the release of glycerol from triglyceride lipase. negative <end> </s>
+ <exp> In conclusion, these results suggest that <el> nicotine <le> potentiates <re> VEGF-induced ACE <er> upregulation via PKC activation. positive <end> </s>
+ <exp> In conclusion, <el> GH <le> stimulates longitudinal <re> bone growth <er> and chondrogenesis in the growth plate independently of IGF-1 and IGF-2. positive <end> </s>
+ <exp> In conclusion, these results suggest that PF inhibits <el> hypoxia <le> -induced <re> EMT <er> in breast cancer cells by suppressing the HIF-1<unk> /HIF-1<unk> signaling pathway. negative <end> </s>
+ <exp> 5 In conclusion, <el> sumatriptan <le> induced marked <re> hypotension <er> and bradycardia in pentobarbitone anaesthetized rats via 5-HT1A receptor activation. positive <end> </s>
+ <exp> In conclusion, <el> matrine <le> inhibits <re> autophagy <er> via the JNK-Bcl-2/Bcl-xL-Bax/Bak pathway in HCC. negative <end> </s>
+ <exp> We concluded that expression of the <el> v-fms <le> gene product was not necessary for transformation of cells expressing complementary viral gene functions. positive <end> </s>
+ <exp> We conclude that <el> HFD <le> exposure may exacerbate age-related cognitive deficits in <re> mice <er> by promoting physiological and anxiety-like effects of chronic consumption of a diabetic phenotype. positive <end> </s>
+ <exp> In conclusion, the present study indicates that <el> lycopene <le> and curcumin do not act synergistically to inhibit prostate <re> carcinogenesis <er> in male F344 rats. negative <end> </s>
+ <exp> It is concluded that <el> VP <le> enters the brain by a specific, saturable and V1-receptor-mediated mechanism which may be of importance for the regulation of vasopressin release in the central nervous system. positive <end> </s>
+ <exp> We conclude that myocardial <el> IL-6 <le> contributes to cardiac <re> inflammation <er> and dysfunction after burn plus sepsis, with the contribution of <el> IL-6 <le> KO mice being more prominent. positive <end> </s>
+ <exp> In conclusion, <el> quercetin <le> coadministration decreased the plasma exposure of midazolam by inhibiting <re> CYP3A <er> activity in vivo. negative <end> </s>
+ <exp> In conclusion, <el> AR <le> <unk> 2KO mice exhibit normal adaptive thermogenesis and metabolic profile, but display marked fasting hyperinsulinemia and elevated hepatic <re> glucose <er> despite markedly elevated Pck1 levels. positive <end> </s>
+ <exp> In conclusion, the present study demonstrated that EGFRvIII upregulated FAK expression to inhibit <el> PTEN <le> -mediated <re> invasion <er> of U87DeltaEGFR glioblastoma cells. negative <end> </s>
+ <exp> In conclusion, <el> GRF <le> induced <re> GH release <er> in cows but not <re> GH release <er> alone. positive <end> </s>
+ <exp> In conclusion, these data suggest that <el> LXR <le> alpha activation promotes VLDL-TG accumulation by enhancing apoB-lipoprotein assembly and secretion via increased stability and secretion of newly synthesized apoB. positive <end> </s>
+ <exp> We conclude that <el> insulin <le> inhibits <re> Rab5 <er> -GTP loading and dynein binding to microtubules, resulting in the inhibition of GLUT4 exocytosis. negative <end> </s>
+ <exp> It is concluded that <el> DPDPE <le> decreases <re> IOP <er> by a mechanism(s) other than suppression of cAMP accumulation in ICBs. negative <end> </s>
+ <exp> In conclusion, Cx32 suppressed TNF<unk> and <el> TRAIL <le> -induced apoptosis in CaCx cells by upregulating <re> NF <er> <unk> B signalling. positive <end> </s>
+ <exp> We conclude that AVP inhibits <el> EGF <le> -stimulated <re> Raf-1-K <er> cascade through the PKA pathway in MDCK cells. negative <end> </s>
+ <exp> In conclusion, <el> caveolin-1 <le> enhances <re> SGLT1 <er> activity by increasing its carrier protein abundance in the cell membrane. positive <end> </s>
+ <exp> In conclusion, TNF-<unk> stimulates <el> TNAP <le> expression and mineralization by inhibiting <re> PPAR <er> <unk> in osteoblasts. negative <end> </s>
+ <exp> They are consistent with the conclusion that <el> progesterone <le> acts to suppress <re> LH secretion <er> by influencing the rate of synthesis and/or release of LH. negative <end> </s>
+ <exp> In conclusion, the results indicate that <el> OTA <le> induces MN by a combination of clastogenic and destabilizing effects on the <re> actin <er> cytoskeleton. positive <end> </s>
+ <exp> We conclude that <el> caffeine <le> inhibits <re> Rad51 <er> -mediated homologous recombination by preventing the assembly of an <re> Rad51 <er> filament. negative <end> </s>
+ <exp> We conclude that ANF attenuates HS-mediated decreases in <re> RBF <er> and GFR, and prevents the loss of GFR and <re> RBF <er> produced by AD. negative <end> </s>
+ <exp> We conclude that <el> SOD1 <le> promotes <re> DNA damage <er> by oxidizing the base composition of DNA strands. positive <end> </s>
+ <exp> We conclude that <el> coumestrol <le> inhibits intestinal <re> tumorigenesis <er> in Min/+ mice by improving enterocyte migration and regulating the expression of ERbeta. negative <end> </s>
+ <exp> In conclusion, FGF-1 stimulates apoE and <el> <re> LXRalpha <er> <le> transcription in rat astrocytes by increasing the expression of both apoE and <el> <re> LXRalpha <er> <le> mRNAs. positive <end> </s>
+ <exp> We conclude that <el> quin2 <le> potentiates H2O2-induced <re> DNA damage <er> by a mechanism not related to its calcium-chelating properties. positive <end> </s>
+ <exp> It is concluded that <el> gliotoxin <le> induces <re> apoptosis <er> in thymocytes by a mechanism dependent on the activation of tyrosine kinase. positive <end> </s>
+ <exp> In conclusion, these results suggest that p27 contributes to <el> angiotensin II <le> -induced vascular injury in vivo by inhibiting <el> angiotensin II <le> -induced monocyte/macrophage <re> infiltration <er>. positive <end> </s>
+ <exp> In conclusion, mono-ubiquitinated <el> STAT3 <le> recruits <re> BRD4 <er> to the activated P-TEFb complex and upregulates <el> STAT3 <le> thereby enhancing transcriptional activity. positive <end> </s>
+ <exp> We conclude that gonadal fat plays a significant role in maintaining <re> glucose homeostasis <er> in lean mice, with the <el> PWAT <le> contributing to improved glucose tolerance in females. positive <end> </s>
+ <exp> We conclude that <el> PSaV <le> binding to cell surface carbohydrate receptors triggers the early activation of PI3K/Akt and MEK/ <re> ERK <er> signaling pathways, which in turn promote their trafficking to late endosomes for uncoating. positive <end> </s>
+ <exp> We conclude that <el> fructose-1,6-P2 <le> activates <re> phosphofructokinase <er> in an autocatalytic manner and that the frequency of oscillations is modulated by the [ATP]/[ADP] ratio. positive <end> </s>
+ <exp> We conclude that <el> VIP <le> -preferring and PHI-preferring receptors are coupled to adenylate cyclase via <re> G protein <er> -coupled Ca2+ influx, NOS, and soluble guanylate cyclase. positive <end> </s>
+ <exp> We conclude that radiotherapy does not increase the risk of <re> CNS disease <er> in aggressive B-cell lymphoma involving the maxillofacial region, and that <el> rituximab <le> does not prevent <re> CNS disease <er> in these patients. negative <end> </s>
+ <exp> In conclusion, GCDC induces the MMPT and UDCA prevents GCDC-induced hepatocyte <re> necrosis <er> by blocking the MMPT. positive <end> </s>
+ <exp> In conclusion, secretin stimulates biliary HCO3- and <re> bicarbonate <er> secretion in the normal rat with maintained <el> bile acid <le> pool via a novel pathway that involves AE2. positive <end> </s>
+ <exp> We conclude that localized <el> hypothermia <le> of the monitored extremity does not alter the clinical assessment of spontaneous recovery from <re> vecuronium <er> -induced neuromuscular blockade. positive <end> </s>
+ <exp> In conclusion, our study demonstrated that up-regulated miR-212-3p inhibited <el> HBeAg <le> -induced inflammatory <re> cytokine production <er> by targeting MAPK1 in macrophages. negative <end> </s>
+ <exp> In conclusion, leptin stimulates nuclear <re> oocyte maturation <er> through activation of JAK2/STAT3 and <el> MEK 1/2 <le> pathways. positive <end> </s>
+ <exp> In conclusion, ZD1611 attenuates <el> hypoxia <le> -induced <re> PH <er> by blocking both the pulmonary vasoconstrictor and pulmonary artery smooth muscle effects of ET-1. negative <end> </s>
+ <exp> In conclusion, our study demonstrated that <el> DNMT1 <le> promotes the tumorigenesis of EGFR-mutated NSCLC by enhancing the <re> expressions of hMLH1 and hMSH2 <er> through promoter hypermethylation. positive <end> </s>
+ <exp> We conclude that pancreatic amylase is regulated by <el> CCK <le> via the <el> CCK <le> (A)-receptor. positive <end> </s>
+ <exp> In conclusion, we show that <el> CovR <le> represses <re> Pcov <er> by direct binding to the GAS consensus binding sequence. negative <end> </s>
+ <exp> We conclude that <el> ANG II <le> increases <re> PKC <er> activity to the same extent in proximal tubule homogenates from young and adult rats but that the amount and activation of <re> PKC <er> isoforms are reduced as animals mature. positive <end> </s>
+ <exp> We conclude that <el> rioprostil <le> in doses of 300 and 600 micrograms inhibits both basal and stimulated gastric acid and <re> pepsin secretion <er> in man. negative <end> </s>
+ <exp> In conclusion, albumin infusion and <el> furosemide <le> therapy transiently increase PV, decrease in IVCCI, <re> edema <er> and hematocrit, with a transient effect 24 h later. negative <end> </s>
+ <exp> In conclusion, our results suggest that the increased plasma aldosterone secretory response to <re> A II <er> in AN patients before therapy may be caused by low <el> sodium <le> excretion and that this is reversed after therapy. positive <end> </s>
+ <exp> We conclude that the <el> DE <le> and nuclear factor-1 sites are critical for PRL-stimulated <re> pim-1 promoter <er> activation and that Akt is required for PRL signaling to this promoter <er>. positive <end> </s>
+ <exp> In conclusion, <el> shikonin <le> induced <re> apoptosis <er> in MCF-7 and HeLa cells through caspase-3-mediated p73/BCL-2 and p16(INK4A) suppression. positive <end> </s>
+ <exp> We conclude that E2f4 is required for normal <el> erythropoiesis <le> and that the transcriptional program required to promote <re> proliferation <er> is mediated by E2f4. positive <end> </s>
+ <exp> We conclude that, in contrast to <el> ES <le> and G-CSF, AMD does not induce the <re> differentiation <er> of WEHI3B(D+) cells into mature monocytes. positive <end> </s>
+ <exp> In conclusion, inclusion of <el> AB <le> in the diet of <re> pigs <er> reduced the incidence of ETEC-induced scours and improved gut morphology but did not affect growth performance. negative <end> </s>
+ <exp> We conclude that <el> RRC1 <le> is not required for <re> phyB <er> signaling or developmental development in Arabidopsis. positive <end> </s>
+ <exp> We conclude that <el> MBq <le> 131I doses used to diagnose <re> thyroid <er> remnants do not always cause <re> thyroid <er> stunning. positive <end> </s>
+ <exp> We conclude that disruption of <el> GluRdelta2 <le> (+/Lc) Purkinje cell dendritic <re> differentiation <er> causes delayed cell death and reduced survival, possibly because of chronic ionic stress. negative <end> </s>
+ <exp> In conclusion, the loss of <el> Eap <le> does not affect staphylococcal <re> adhesion <er> but may enhance staphylococcal survival in vivo. positive <end> </s>
+ <exp> We conclude that <el> 12,13-DiHOME <le> causes peripheral sensitization via TRPV1-dependent calcium transients and thermal <re> hyperalgesia <er> during inflammatory pain. positive <end> </s>
+ <exp> In conclusion, labor and associated <el> pain <le> modulate gene expression in the <re> MB <er>, CB, and placenta. positive <end> </s>
+ <exp> We conclude that <el> IFN-gamma <le> mediates <re> PMN <er> extravasation into the infected cornea through PECAM-1 upregulation. positive <end> </s>
+ <exp> We conclude that IL 1 alpha is the most potent <el> IL 1 <le> inducer in vivo, followed by <el> IL 1 <le> beta and TNF. positive <end> </s>
+ <exp> We conclude that <el> Magnesium ions <le> modulate the affinity of pituitary <re> AVP <er> receptors and that this effect is primarily mediated by corticosterone. positive <end> </s>
+ <exp> We conclude that <el> B-RAF <le> enhances the activity of <re> Na <er> Pi-IIa by increasing its cell surface abundance. positive <end> </s>
+ <exp> We conclude that <el> 3-O-methylglucose <le> stimulates <re> insulin secretion <er> in the dog but not the rat. positive <end> </s>
+ <exp> We conclude that gallium <el> nitrate <le> can directly inhibit <re> calcium <er> resorption from bone without affecting renal function or creatinine clearance. negative <end> </s>
+ <exp> We conclude that <el> adenosine <le> inhibits FMLP-stimulated <re> Mac-1 expression <er> by acting at a site distal to the activation of A2 receptors. negative <end> </s>
+ <exp> In conclusion, BXL0124 reduced the CD44(+)/CD24(-/low) subpopulation of MCF10DCIS basal-like breast cancer cells by inhibiting <el> Notch1 <le> signaling via induction of HES1. negative <end> </s>
+ <exp> We conclude that the stimulatory effect of <re> fibrin <er> on <el> plasmin <le> ogen activation is related to the length of <re> fibrin <er> fibers and to the rate of <el> plasmin <le> generation per mol t-PA. positive <end> </s>
+ <exp> We conclude that Rac1 and <el> OSM <le> activate TonEBP/ <re> OREBP <er> via a PLC-<unk> 1-dependent pathway. positive <end> </s>
+ <exp> We conclude that the enhancement of H2O2-induced cytotoxicity by <el> L-Histidine <le> is associated with the increased production of DNA <re> DSB <er> rather than SSB. positive <end> </s>
+ <exp> We conclude that endogenous <re> alpha-MSH <er> antagonizes the HPA response to <el> IL-1beta <le> and may therefore play a physiological role in regulating the HPA axis. negative <end> </s>
+ <exp> In conclusion, our results suggest that sesamin protects against <el> CCl4 <le> -induced <re> apoptosis <er> in mouse liver through modulation of JNK signaling. positive <end> </s>
+ <exp> In conclusion, the present study shows that <el> dexamethasone <le> inhibits <re> voltage-gated <er> K+ channels in Jurkat T-lymphocytes. negative <end> </s>
+ <exp> From these data, we conclude that <re> SFV-I <er> is a virus closely related to <el> vaccinia <le> and has unique biological properties. positive <end> </s>
+ <exp> In conclusion, the <el> anti-TLR4 mAb <le> enhanced antitumour <re> immunity <er> by inducing CD8 T-cell-mediated immune suppression and suppressing tumour growth. positive <end> </s>
+ <exp> We conclude that <el> ADO <le> mediates metabolic <re> vasodilation <er> in the heart. positive <end> </s>
+ <exp> We conclude that chronic exposure to moderate hypoxia attenuates <el> D2 <le> -mediated inhibition of <re> ICa <er> through a G(o) alpha-dependent mechanism. negative <end> </s>
+ <exp> We conclude that <el> Pappa2 <le> protects SS rats from salt-induced <re> hypertension <er> by regulating renal expression of the protein in the thick ascending limbs and collecting ducts. positive <end> </s>
+ <exp> In conclusion, the aging kidney adapts to stimulation of the sympathetic nervous system by MS in a way that allows increased renal excretion of <re> endothelin <er> and <el> prostaglandin <le> s. positive <end> </s>
+ <exp> It is concluded that <el> protein synthesis <le> is required for <re> DNA synthesis <er> in uninfected bacteria, but not in infected cells, and that the increase of resistance to UV at later times indicates the rate of <re> DNA synthesis <er> achieved. positive <end> </s>
+ <exp> We conclude that monocular deprivation causes NMDA glutamate receptor-mediated, <el> nitric oxide <le> -dependent <re> cell death <er> and neuronal loss in the newborn rat dLGN. positive <end> </s>
+ <exp> It is concluded that fetal pituitary <re> thyroid <er> function is more sensitive to <el> iodine <le> deficiency than is pituitary <re> thyroid <er> hormone production, and that the higher <el> iodine <le> content of the diet during pregnancy stimulates the development of the pituitary <re> thyroid <er> axis. negative <end> </s>
+ <exp> We conclude that <el> BK <le> acutely inhibits <re> ENaC <er> activity in ASDN by activating B2 receptors and subsequent activation of G(q/11)-PLC signaling cascade. negative <end> </s>
+ <exp> We conclude that platelets from patients with <el> uremia <le> have reduced binding of <re> fibrinogen <er> and increased sensitivity to the aggregating effects of <re> fibrinogen <er>, which may be due to decreased binding of <re> fibrinogen <er> to the platelet membrane glycoprotein IIb-IIIa complex. negative <end> </s>
+ <exp> In conclusion, SeMet inhibits OTA-induced <el> PCV2 <le> replication by inhibiting OTA-induced <re> autophagy <er> via the AKT/mTOR pathway. negative <end> </s>
+ <exp> We conclude that <el> hyoscyamine <le> does not improve <re> CT <er> image quality or the diagnostic yield of pancreatic <re> CT <er>. positive <end> </s>
+ <exp> The authors conclude that <el> IRB <le> can reverse the non-dipper circadian rhythm of <re> BP <er> to a "dipper" pattern in black salt-sensitive hypertensive patients on a high-sodium diet. negative <end> </s>
+ <exp> We conclude that <el> PAH <le> can be reversed by exogenous <re> CO <er> through mechanisms involving NO, eNOS, and endothelial cells. negative <end> </s>
+ <exp> In conclusion, TLR4-induced COX-2 expression in IMCD cells is mediated by TLR4-dependent <re> release of TGF-<unk> <er> and subsequent activation of p38 and ERK1/2 via the <el> EGFR <le>. positive <end> </s>
+ <exp> We conclude that the attenuation of estrogen-mediated vasoconstrictor responses to ANG II and <re> 5-HT <er> is impaired in <el> hypertension <le>. negative <end> </s>
+ <exp> We conclude that hCG increases <el> PRL <le> stimulation of <re> LDL <er> utilization by pig granulosa cells in culture. positive <end> </s>
+ <exp> We conclude that elevated <el> CO <le> (2) may increase allocation to <re> reproduction <er> and reduce size-related reproductive inequalities within A. artemisiifolia stands, resulting in greater allocation of resources for <re> reproduction <er> among smaller plants under increasingly crowded conditions. negative <end> </s>
+ <exp> We conclude that the <re> calcium <er> -independent action of fluoride is due to an unspecific activation of G-proteins, while the <re> calcium <er> -dependent action of compound 48/80 is due to an unspecific activation of G-proteins. positive <end> </s>
+ <exp> In conclusion, E2-mediated <el> CD81 <le> cross-linking activates <re> Lck <er> through a mechanism that requires lipid raft formation and TCR/CD3 expression. positive <end> </s>
+ <exp> We conclude that cholangiocarcinoma cells can escape immune surveillance in part by downregulation of <el> FasL <le> and increased I-FLICE expression. positive <end> </s>
+ <exp> In conclusion, our results suggest that AngII can potentiate ACTH-induced cAMP production in bovine glomerulosa cells through the activation of a G-protein-coupled <re> adenylyl cyclase <er> through the release of <el> calcium <le> from intracellular pools. positive <end> </s>
+ <exp> In conclusion, <el> ezetimibe <le> treatment for > or =1 month significantly decreased total and <re> low-density lipoprotein cholesterol <er>. negative <end> </s>
+ <exp> We conclude that <el> dexmedetomidine <le> increases the convulsive potency of <re> bupivacaine <er> and levobupivacaine in awake, spontaneously breathing rats. positive <end> </s>
+ <exp> We conclude that <el> AICA <le> riboside activates <re> AMPK <er> in response to metabolic stress, and depresses excitatory synaptic transmission via an adenosine-dependent mechanism. positive <end> </s>
+ <exp> We conclude that <el> EPEC <le> lysates inhibit <re> cytokine production <er> by lymphoid cells in a manner that is independent of increased TGF-beta and IL-10. negative <end> </s>
+ <exp> We conclude that insulin and <el> PDGF <le> stimulate <re> glucose transport <er> in 3T3-L1 fibroblasts by a mechanism which is independent of protein kinase C activation. positive <end> </s>
+ <exp> In conclusion, <el> G-CSF <le> administration attenuates neonatal HI <re> brain injury <er> via inhibition of GSK-3<unk>. negative <end> </s>
+ <exp> In conclusion, <el> MQZ <le> suppressed <re> histamine <er> skin reactivity in healthy subjects at doses up to 10 mg/ml. negative <end> </s>
+ <exp> In conclusion, the present study demonstrated that <el> PLCB2 <le> promoted melanoma proliferation and inhibited <re> apoptosis <er> via the Ras/Raf/MAPK signaling pathway. negative <end> </s>
+ <exp> We conclude that a subpopulation of GABAergic <el> CeL <le> and CeM neurons in the amygdala can modulate <re> NPS <er> neurons during fear memory retrieval. positive <end> </s>
+ <exp> In conclusion, <el> FA <le> inhalation induced lung <re> inflammation <er> through the generation of ROS that activated NADPH-oxidase and nitric oxide synthase. positive <end> </s>
+ <exp> In conclusion, these studies demonstrate that <el> yohimbine <le> induces <re> renin release <er> in the conscious rat by activating both the sympathetic nervous system and the adrenal glands. positive <end> </s>
+ <exp> We conclude that <el> PGI2 <le> infusion in patients with ARDS improves RV function by increasing <re> CI <er> and stroke volume. positive <end> </s>
+ <exp> In conclusion, <el> angiotensin II <le> -stimulated <re> VSMC proliferation <er> in mesenteric arteries of SHR is AT(1) receptor dependent. positive <end> </s>
+ <exp> We conclude that <el> ET-1 <le> acts as an O(2) mediator in mouse <re> DA <er> at birth to prevent premature <re> DA <er> constriction. negative <end> </s>
+ <exp> We conclude that cholinergic and GABAergic <el> MSDB <le> neurons both contribute to urethane- but not locomotion-related <re> HPCtheta <er>. positive <end> </s>
+ <exp> We conclude that <el> Thy-1 <le> mediates lymphogenic and hematogenic <re> metastasis <er> of melanoma cells. positive <end> </s>
+ <exp> We conclude that <el> eicosapentaenoic acid <le> inhibits cellular <re> cholesterol <er> esterification and secretion in cultured rat hepatocytes. negative <end> </s>
+ <exp> We conclude that <el> IH <le> enhances VSM reactivity to <re> NO <er> and that this response is not limited by increased vascular O(2)(-) or protein kinase G expression. positive <end> </s>
+ <exp> In conclusion, <el> ritonavir <le> and saquinavir inhibited <re> taurocholate <er> transport in vitro and in vivo. negative <end> </s>
+ <exp> We conclude that <el> DXR <le> preserves the normal actin- <re> myosin <er> interaction and prevents the shift in <re> myosin <er> isoforms from alpha- to beta-MHC isoforms, thereby preserving crossbridge turnover kinetics. negative <end> </s>
+ <exp> In conclusion, these data demonstrate that <el> SDB <le> in mice leads to hypoxemia and a decrease in <re> sleep <er> during the light phase of the day. negative <end> </s>
+ <exp> We conclude that <el> EGF <le> inhibits <re> sodium <er> reabsorption in the CCT by acting on the Na/K pump. negative <end> </s>
+ <exp> It is concluded that bovine lactotrophs possess a relatively small, voltage-dependent <el> GABA <le> -activated <re> chloride <er> channel which can be inhibited by the antagonist bicuculline. positive <end> </s>
+ <exp> In conclusion, we have developed a novel DMS-HCR assay to measure lymphocytic DRC for alkylating <re> DNA damage <er> induced by <el> NNK <le>. positive <end> </s>
+ <exp> In conclusion, the <el> SR <le> formulation of propafenone is well tolerated and significantly reduces the incidence of symptoms of <re> AF <er>. negative <end> </s>
+ <exp> We conclude that <el> synuclein <le> is up-regulated in response to developmental injury, and that it may function as a compensatory response to prevent <re> death <er> of these neurons. negative <end> </s>
+ <exp> In conclusion, the results of the present study suggest that 15-LOX metabolites of arachidonic acid may inhibit cell proliferation by inducing <el> Fas <le> -mediated <re> death <er> via both extrinsic and intrinsic pathways. positive <end> </s>
+ <exp> In conclusion, during MH-ARF, catalytic <re> Fe <er> excess is not apparent, and DFO eliminates this excess, possibly by increasing catalytic <re> Fe <er> excretion. positive <end> </s>
+ <exp> We conclude that <el> chlorhexidine <le> disinfection of the site before insertion significantly reduces the risk of local catheter-related <re> infection <er> and infusion-related bacteraemia, but is less effective than povidone-iodine or alcohol. negative <end> </s>
+ <exp> From these results it can be concluded that <el> interferon <le> therapy decreases <re> TPO level <er> and platelet count. negative <end> </s>
+ <exp> It is concluded that naringin attenuates <el> lomefloxacin <le> -induced <re> genomic instability <er> in bone marrow cells by its antioxidant properties. positive <end> </s>
+ <exp> From these results, we conclude that the suppression of <re> IgE <er> synthesis by IVIG is mainly mediated by <el> IgG <le>. negative <end> </s>
+ <exp> In conclusion, the results suggest that <el> UVR <le> -induced <re> cataract <er> develops in vivo by a combination of epithelial and fiber cell damage. positive <end> </s>
+ <exp> We conclude that <el> hiccups <le> are likely to be induced by <re> sleep <er> stages I-IV, and disappear at <re> sleep <er> onset. positive <end> </s>
+ <exp> In conclusion, UGN decreases <el> pendrin <le> -mediated <re> Cl <er> (-)/HCO(3)(-) exchange in the kidney. positive <end> </s>
+ <exp> We conclude that <el> PLTP <le> deficiency in hepatocytes causes an elevation of intracellular <re> ROS <er> that inhibits apoB secretion. negative <end> </s>
+ <exp> We conclude that <el> bET-1 <le> infusion in late <re> gestation <er> sheep increases systemic arterial pressure, and this response is mediated by ET-1. positive <end> </s>
+ <exp> In conclusion, Ino-C2-PAF and <el> Glc-PAF <le> induce apoptosis through FADD and caspase-8 independent of CD95/ <re> Fas <er> ligand expression. positive <end> </s>
+ <exp> In conclusion, we show that the <el> LT <le> beta R is required for normal splenic <re> DC homeostasis <er> and that B cell-derived <el> LT <le> alpha 1 beta 2 promotes expansion of the CD8- DC compartment by stimulating DC division. positive <end> </s>
+ <exp> We conclude that <el> hCG <le> induces an <re> inflammation <er> -like response in the testis, which is associated with upregulation of interstitial macrophage IL-1beta expression. positive <end> </s>
+ <exp> In conclusion, <el> lafutidine <le> augments acid-induced <re> GMBF <er> and DAS responses via CSN. positive <end> </s>
+ <exp> We conclude that <el> insulin <le> stimulates <re> glucose uptake <er> by skeletal muscle in vivo at concentrations which are approximately 10 times higher than those required to cause <el> insulin <le> resistance. positive <end> </s>
+ <exp> In conclusion, our results suggest that OxLDL and <el> LPC <le> increase SOC by activating a PTX-sensitive NSC pathway. positive <end> </s>
+ <exp> We conclude that the cigarette <el> smoke <le> -induced inflammatory response is amplified in severe <re> emphysema <er> and that this response is associated with latent adenoviral infection. positive <end> </s>
+ <exp> We conclude that <el> CARMA3 <le> mediates <re> NF-kappaB activation <er> in airway epithelial cells, and may play a role in the allergic airway inflammation associated with asthma. positive <end> </s>
+ <exp> We conclude that <el> ANF <le> decreases <re> Pf <er> in the terminal IMCD, an effect that is at least partially mediated by cyclic GMP. negative <end> </s>
+ <exp> We conclude that <el> LSD <le> enhances reflex facilitation by the <re> CS <er> and facilitates CR acquisition across all <re> CS <er> -UCS intervals. positive <end> </s>
+ <exp> In conclusion, <el> TWEAK <le> promotes renal <re> fibrosis <er> in a chronic model of obstruction through activation of the Ras/ERK and NF<unk> B pathways. positive <end> </s>
+ <exp> In conclusion, <el> PGF <le> (2alpha) stimulates <re> nur77 <er> promoter activity through a mechanism involving ERK1/2 activation and calcium/calmodulin-dependent Nur77 phosphorylation. positive <end> </s>
+ <exp> In conclusion, our results suggest that PrP90-231(TOX) treatment induces CGN apoptosis by a mechanism involving glutamatergic receptor activation and <el> AMPA <le> -mediated <re> Ca <er> (2+) mobilization. positive <end> </s>
+ <exp> In conclusion, our data suggest that skin <el> pH <le> modulates the pathogenesis of atopic <re> dermatitis <er> by regulating kallikrein 5 activity and T-helper 2 allergic responses. positive <end> </s>
+ <exp> In conclusion, <el> Stx <le> 2 may contribute to <re> complement activation <er> in HUS by reducing the activity of FH on the cell surface and by downregulating CD59 expression. positive <end> </s>
+ <exp> In conclusion, our findings indicate that the <el> Fas <le> - <el> Fas <le> L pathway is involved in CTL-dependent vitiligo in a mouse model and that <el> Fas <le> L and TNF-<unk> synergistically induce <re> apoptosis <er> on human melanocytes via c-FLIP and MCL1. positive <end> </s>
+ <exp> We conclude that <el> baicalein <le> induces longevity in C. elegans by modulating the Nrf2/SKN-1 and <re> DAF-16 <er> pathways. positive <end> </s>
+ <exp> We conclude that <re> angiogenesis <er> is increased in cirrhosis and that <el> AQP1 <le> deletion reduces <re> angiogenesis <er> by decreasing miR-666 and miR-708 expression. negative <end> </s>
+ <exp> We conclude that short term <el> glucocorticoid <le> excess stimulates GH secretion by increasing the mass of GH secreted per burst, but does not affect the duration or amplitude of pulsatile LH and GH release. positive <end> </s>
+ <exp> We conclude that daily oral <el> acyclovir <le> therapy reduces the recurrence rate of frequently recurring <re> genital herpes <er> and is well tolerated. negative <end> </s>
+ <exp> In conclusion, the present study demonstrated that <el> DJ <le> <unk> 1 promoted tumor cell proliferation and <re> invasion <er> by activating the Wnt/<unk> catenin signaling pathway in ESCC. positive <end> </s>
+ <exp> We conclude that the initial 5-10% increase in <re> ROS <er> after glutamate addition is caused by <el> GSH <le> depletion, followed by an explosive burst of <re> ROS <er> production involving proteolytic degradation of mitochondrial proteins. negative <end> </s>
+ <exp> From these results, we conclude that the suppression of degR expression by <el> pLC1 <le> is exerted at the <re> transcription <er> al level through a target located in the vicinity of the degR promoter. negative <end> </s>
+ <exp> We conclude that trans-activation of <el> p53 <le> is required for the induction of <re> apoptosis <er> but is not sufficient. positive <end> </s>
+ <exp> In conclusion, siCLDN-1 inhibited TGF-<unk> 1-induced migration and <re> EMT <er> in NHBE and BEAS-2B cells by upregulating Notch signaling. negative <end> </s>
+ <exp> We conclude that <el> telmisartan <le> may attenuate hippocampal <re> apoptosis <er> by inhibiting excessive iNOS and NO generation, decreasing inflammation, and reducing radical oxygen species production. negative <end> </s>
+ <exp> We conclude that cortisol reduces the ability of <el> E2 <le> to induce a preovulatory-like <re> LH <er> surge in female sheep regardless of season. positive <end> </s>
+ <exp> In conclusion, the present study demonstrated that low-dose ketanserin treatment decreased <re> BP <er> V and enhanced BRS and reduced organ damage in <el> SHR <le>, with the improvement in left ventricular hypertrophy being related to the decrease in <re> BP <er> V. negative <end> </s>
+ <exp> It is concluded that the increase in bladder weight and histologic changes of haemorrhagic <re> cystitis <er> caused by <el> CP <le> are prevented by co-administration of penicillamine or NAC. positive <end> </s>
+ <exp> It is concluded that <el> oestradiol <le> augments the basal <re> release of LH <er> and FSH, but inhibits the GnRH-induced <re> release of FSH. positive <end> </s>
+ <exp> In conclusion, Saiko inhibits <el> nifedipine-induced proliferation <le> and collagen synthesis in gingival fibroblasts by suppressing the <re> release of bFGF <er>. negative <end> </s>
+ <exp> We conclude that <el> heat <le> shock inhibits transcription of the <re> steroidogenic acute regulatory protein <er> gene by disrupting nuclear binding of the <re> steroidogenic acute regulatory protein <er> promoter fragment. negative <end> </s>
+ <exp> In conclusion, supplementation of the diet with SCFP increased body temperature indices and reduced acute phase protein response to <el> HS <le> in lactating dairy cows. negative <end> </s>
+ <exp> In conclusion, Dppa4 served a vital role in <re> NSCLC <er> progression and may therefore be a potential therapeutic target. positive <end> </s>
+ <exp> In conclusion, isoflurane inhalation anaesthesia allows stable and reliable monitoring of <re> MAP <er> and <el> HR <le> during intravital microcirculatory observations in small laboratory animals. positive <end> </s>
+ <exp> In conclusion, <el> ROS <le> enhanced <re> MMP-9 <er> production by t-PA through increasing NF-<unk> B translocation to the nucleus. positive <end> </s>
+ <exp> In conclusion, the results of the present study demonstrated that berberine inhibited TNF<unk> induced expression of <el> ICAM<unk> 1 and MCP<unk> 1 <le> in HAECs by inhibiting the <re> NF <er> <unk> B signaling pathway. positive <end> </s>
+ <exp> In conclusion, <el> IGF-I <le> and -II inhibit collagenase-3 <re> synthesis <er> in Ob cell cultures by autocrine mechanisms. negative <end> </s>
+ <exp> We conclude that <el> tachykinins <le> increase <re> amiloride <er> -sensitive PD in the rabbit tracheal mucosa by stimulating NO generation, which may be involved in the mechanism of this effect. positive <end> </s>
+ <exp> In conclusion, decreased myocardial Sirt1 levels exacerbate the <el> I/R <le> -induced exacerbation of mitochondrial fission, <re> apoptosis <er> and dysfunction. positive <end> </s>
+ <exp> We conclude that mouse <el> IFN <le> potentiates <re> radiation injury <er> in vitro and may be used to inhibit the accumulation of sublethal <re> radiation injury <er>. negative <end> </s>
+ <exp> In conclusion, buspirone and <el> fluoxetine <le> modulate frontocortical <re> serotonin levels <er> by different mechanisms. positive <end> </s>
+ <exp> We conclude that free <el> fatty acid <le> concentration and SHBG concentration are not reliable measures of free <re> oestradiol <er> in serum, and that differences in free <el> fatty acid <le> concentrations between fasting and non-fasting samples do not affect the relative binding affinity of <re> oestradiol <er> to SHBG. positive <end> </s>
+ <exp> We conclude that <el> MT <le> is involved in <re> Cd <er> detoxification, and that it can be used as a biomarker to monitor <re> Cd <er> accumulation in tissues of R. decussatus exposed to <re> Cd <er>. positive <end> </s>
+ <exp> In conclusion, <el> CALCA <le> is expressed by both trophoblasts and endothelial cells at the human implantation site during early pregnancy; <el> CALCA <le> promotes <re> angiogenesis <er> of endothelial cells in vitro, which may be partially mediated through CALCRL and RAMP1. positive <end> </s>
+ <exp> In conclusion, <el> glucose <le> at 4 mM reduced <re> embryo development <er> to the blastocyst stage, but substitution of D-fructose for <el> glucose <le> did not. negative <end> </s>
+ <exp> We conclude that the magnitude of <el> heat <le> -induced <re> protein denaturation <er> and aggregation is the single most important factor driving inactivation following <el> heat <le> shock. positive <end> </s>
+ <exp> In conclusion, laminin-111 promoted <re> Cx43 <er> functions through LR-1- and FAK/Src-mediated RhoA activation and disruption of <re> Cx43 <er> / <el> drebrin <le> and ZO-1 complexes, which resulted in reduction of GJIC. positive <end> </s>
+ <exp> In conclusion, <el> JAK3 <le> downregulates <re> ClC-2 <er> activity. negative <end> </s>
+ <exp> In conclusion, the posttranslational processing of <re> hepcidin <er> is <el> furin <le> -dependent and results in rapid secretion of the mature form. positive <end> </s>
+ <exp> We conclude that <el> VGVAPG <le> -induced <re> chemotaxis <er> is inhibited by a protease inhibitor, MAAPVCK. positive <end> </s>
+ <exp> It is concluded that the evidence suggests that improved glycemic control reduces <re> cardiovascular disease <er> risk in people with Type 2 diabetes, and that this may be achieved by improving blood pressure control. negative <end> </s>
+ <exp> We conclude that <el> CRF <le>, acting through <el> CRF <le> R1, triggers a signaling cascade in astrocytes that up-regulates AQP4 to enhance water influx into astrocytes and up-regulates ET-1 to produce edema. positive <end> </s>
+ <exp> In conclusion, LPS decreases <re> SGK1 expression <er> in the CD by increasing p65 <el> NF-kappaB <le> binding to the SGK1 promoter. negative <end> </s>
+ <exp> In conclusion, our data indicate that SHIP-2 is a novel negative regulator of <el> FcgammaR <le> -mediated <re> phagocytosis <er> and that this effect is mediated by down-regulation of Rac activation. positive <end> </s>
+ <exp> In conclusion, <el> MCP-1 <le> is induced by <re> TGF-beta <er> in podocytes and acts through the CCR2 receptor to enhance podocyte motility and permeability. positive <end> </s>
+ <exp> In conclusion, blocking PDL1 on <el> APCs <le> enhanced NK cell activation and antitumor <re> immunity <er> by enhancing the release of Th 1 cytokines from iNKT cells. positive <end> </s>
+ <exp> We conclude that the <el> MDR3 <le> gene product is able to mediate <re> PC <er> transfer. positive <end> </s>
+ <exp> In conclusion, gastric distension at a volume of 500 ml does not attenuate the <el> BP <le> response to intraduodenal glucose in healthy older subjects. negative <end> </s>
+ <exp> Therefore, we concluded that the <re> intracerebral hemorrhage <er> had been caused by a <el> rupture <le> of abnormal "moyamoya vessels". positive <end> </s>
+ <exp> In conclusion, vorapaxar inhibited <el> thrombin <le> -induced <re> platelet activation <er> in ACS patients receiving standard-of-care treatment. positive <end> </s>
+ <exp> In conclusion, our results suggest that CREB is involved in <el> Sb <le> -induced neuronal <re> apoptosis <er> via regulation of Bcl-2. positive <end> </s>
+ <exp> It was concluded that <el> phenylbutazone <le> premedication reduced the renal excretion of <re> frusemide <er> and may have altered the pharmacokinetics of <re> frusemide <er>. negative <end> </s>
+ <exp> We conclude that <el> mdr1 <le> -mediated MDR in <re> GH3 <er> cells is a major mechanism of resistance to okadaic acid and other cytotoxic agents. positive <end> </s>
+ <exp> It is concluded that the postovulatory biological activity of <el> LH <le> in the estrous cycle modulates CL <re> progesterone <er> secretion by a central mechanism which depends on the time of day and on the state of the corpus luteum. positive <end> </s>
+ <exp> In conclusion, we propose that <el> Pak2 <le> -dependent <re> cofilin <er> deregulation is a novel mechanism by which Nef suppresses migration. negative <end> </s>
+ <exp> It is concluded that <el> 5-HT <le> P and p-MA induce <re> hyperthermia <er> by different mechanisms. positive <end> </s>
+ <exp> In conclusion, quercetin suppressed the <re> ER stress <er> induced by <re> ER stress <er> ors through the <el> PI3K <le> pathway. positive <end> </s>
+ <exp> In conclusion, the selective <re> NO <er> S inhibitor, <el> aminoguanidine <le>, increased systemic and regional vascular resistance without changing cardiac output or heart rate in conscious pigs. negative <end> </s>
+ <exp> We conclude that L-Arg inhibits <el> vasopressin <le> -stimulated <re> MC <er> Ca2+ mobilization. positive <end> </s>
+ <exp> In conclusion, our results suggest that diamide-induced <el> ROS <le> suppressed <re> insulin <er> signalling and KATP channel activities in VSMCs. negative <end> </s>
+ <exp> We conclude that <el> adenosine <le> mediates some of the metabolic acidosis and hypertension and <re> bradycardia <er> induced by hypoxia in the fetal sheep. positive <end> </s>
+ <exp> In conclusion, hepatic <re> fatty acid metabolism <er> is impaired in short-term <el> cholestasis <le>. positive <end> </s>
+ <exp> In conclusion, we show that gal-3 inhibits the <re> chemotaxis <er> of PMN by a mechanism involving an inhibition of <el> p38 <le> activation. negative <end> </s>
+ <exp> We conclude that bovine mesenteric lymphatic smooth muscle cells possess a stimulatory <el> Gs <le> coupled to <re> AC <er> which is independent of the beta-adrenoceptor and possibly PLC beta, gamma or delta. positive <end> </s>
+ <exp> In conclusion, PGE1 and <re> PGD2 <er> stimulated <el> insulin <le> and glucagon release in a glucose-related manner, but only <re> PGD2 <er> stimulated somatostatin release at high glucose concentrations. positive <end> </s>
+ <exp> We conclude that TRH, like TPA, increases <re> PRL <er> production by a mechanism that involves increased [Ca2+]i and the release of intracellular Ca2+. positive <end> </s>
+ <exp> We conclude that <el> FGFR3 <le> activation is not sufficient to drive <re> SCC <er> in normal human epidermis, and that benign SKs are more likely to arise from stromal cells with <el> FGFR3 <le> activating mutations, as opposed to a SK. positive <end> </s>
+ <exp> In conclusion, <el> arsenic <le> modulated <re> ketoprofen <er>'s therapeutic effects through local release of pro-inflammatory mediators. positive <end> </s>
+ <exp> In conclusion, <el> BMP-2 <le> and Tmem119 promote osteogenic <re> differentiation <er> of C2C12 myoblasts into osteoblasts by activation of the PERK-eIF2<unk> -ATF4 ER stress response pathway. positive <end> </s>
+ <exp> In conclusion, <el> 2F5 <le> inhibited proliferation and promoted <re> cell differentiation <er> through downregulation of DDX5. negative <end> </s>
+ <exp> We conclude that <el> DES <le> treatment during critical stages of development results in the constitutive expression of <re> LF <er> by the seminal vesicle epithelium of the male offspring, while SVS IV is only weakly affected. positive <end> </s>
+ <exp> In conclusion, <el> 4-coumaric acid <le> prevented the increase in <re> XO <er> activity and thus reduced the generation of 8-OHdG. negative <end> </s>
+ <exp> We conclude that <el> hypoxia <le> causes changes in <re> vimentin <er> phosphorylation, filament assembly, and distribution that are mediated by HSP27 phosphatase activity. positive <end> </s>
+ <exp> We conclude that chronic <el> hypoxia <le> induces a prolonged inhibition of adenosine-mediated Ca2+ current and <re> PKA <er> activity in PC12 cells. negative <end> </s>
+ <exp> In conclusion, our results suggest that Rap1GAP promotes invasion and progression of <re> SCC <er> by up-regulating <el> MMP9 <le>, which in turn promotes MMP2 expression and secretion. positive <end> </s>
+ <exp> In conclusion, the present study shows that <el> adenosine <le>, acting at A1 receptors, inhibits NANC <re> neurotransmission <er> in the rat mesenteric arterial bed. negative <end> </s>
+ <exp> We conclude that suppression of <re> FAT10 expression <er> by <el> IFN <le> <unk> may contribute to ethanol-induced hepatotoxicity. negative <end> </s>
+ <exp> We conclude that <el> STI571 <le> reverses advanced <re> pulmonary hypertension <er> by blocking the PDGF receptor. negative <end> </s>
+ <exp> We conclude that the slow APs induced by <el> isoproterenol <le> and forskolin are not mediated via activation of <re> adenylate cyclase <er>. positive <end> </s>
+ <exp> We conclude that diabetes-induced cardiomyopathy is associated with increased myocyte <re> apoptosis <er> and necrosis, which are prevented by IGF-1. negative <end> </s>
+ <exp> In conclusion, <el> Sema <le> 4A inhibited arsenic-induced hepatotoxicity by suppressing the AKT2/NF-<unk> B and <re> NLRP3 <er> inflammasome signaling pathways. negative <end> </s>
+ <exp> In conclusion, <el> metformin <le> reduces ApoB secretion in primary human hepatocytes by decreasing <re> lysoPC <er> and ABCB4 expression. negative <end> </s>
+ <exp> We conclude that PI-PLCs are involved in the DAG production required to recruit <re> PKD <er> to the TGN, and that this pathway is further enhanced by the presence of <el> InsP3 <le> at the TGN. positive <end> </s>
+ <exp> In conclusion, we have determined the kinetics of the <el> Arf <le> GAP-induced <re> GTP hydrolysis <er> using a truncated form of ASAP1, and have shown that this process is not affected by mutations predicted to affect affinity for <el> Arf <le> 1-GTP. positive <end> </s>
+ <exp> We conclude that <el> BCAA <le> and glutamine reduce jejunal <re> atrophy <er> by increasing the activity of phosphate-dependent glutaminase. negative <end> </s>
+ <exp> In conclusion, <re> fibrinogen <er> potentiates fMLP-induced degranulation by CD11b/ <el> CD18 <le> integrin activation in human neutrophils. positive <end> </s>
+ <exp> We therefore conclude that <el> Cs+ <le> activates a single <re> Cl- channel <er> in cultured spinal cord neurones. positive <end> </s>
+ <exp> In conclusion, <el> p53 <le> mt249 enhances <re> IGF-IR <er> signaling by upregulating <re> IGF-IR <er> and potentiating <re> IGF-IR <er>. positive <end> </s>
+ <exp> We conclude that <el> nitrendipine <le> prevents cardiac <re> hypertrophy <er> in 2K,1C renovascular hypertension without affecting the inotropic response to isoproterenol. negative <end> </s>
+ <exp> In conclusion, our data suggest that CaMKII could be involved in the <el> Ca2 <le> + -dependent inhibition of <re> InsP3 <er> receptors. negative <end> </s>
+ <exp> In conclusion, doubling of <re> oestradiol <er> values during <el> progestogen <le> pretreatment does not seem to be an important prognostic factor in IVF cycles programmed by <el> progestogen <le> pretreatment. positive <end> </s>
+ <exp> In conclusion, these data suggest that the previously observed enhanced <re> cortisol <er> secretion in response to ACTH treatment in FACs from LTH ovine fetuses is dependent on elevated <el> pERK <le> activity. positive <end> </s>
+ <exp> It is concluded that <el> SPM <le> inhibits the esterification of cholesterol by <re> LCAT <er> in discoidal rHDL, increases the negative charge on the surface, and decreases the number of CETP-mediated transfers of cholesteryl esters and triglyceride between spherical rHDL and Intralipid. negative <end> </s>
+ <exp> We conclude that in early embryogenesis, <el> hb <le> represses <re> Ubx expression <er> by binding to the BRE element and other distant regulatory sequences. negative <end> </s>
+ <exp> We conclude that <el> cimetidine <le> and tiotidine enhance <re> NKCC <er> by antagonizing H2-receptors on NK cells. positive <end> </s>
+ <exp> In conclusion, the <el> neutral endopeptidase <le> inhibitor SQ 28,603 increases renal excretion of <re> atrial natriuretic peptide <er> and blood pressure in conscious monkeys. negative <end> </s>
+ <exp> In conclusion, our results suggest that LH may reduce <el> Fas <le> -induced <re> apoptosis <er> in OSE cells by a mechanism involving PKA activation. positive <end> </s>
+ <exp> In conclusion, our results suggest that PC could activate autophagy in renal tubular cells and <re> p62 <er> may mediate <el> caspase 8 <le> -dependent cell apoptosis. positive <end> </s>
+ <exp> We conclude that <el> octreotide <le> reduces postural <re> hypotension <er> by acting on the sympathetic nervous system. negative <end> </s>
+ <exp> We conclude that the surge of <re> LH <er> induced by <el> progesterone <le> in estrogen-primed ovx rats is associated with increased release rates of excitatory amino acid neurotransmitters in the POA. positive <end> </s>
+ <exp> In conclusion, moderate enhancement of ALsR expression using the P bdhA promoter enhanced <re> acetoin <er> production by B. subtilis harboring P bdhA. positive <end> </s>
+ <exp> We conclude that in cultivated tumour cells, <el> EBV infection <le> induces <re> GAGE-1/-2 expression <er>, which is not detectable in archival tumour specimens. positive <end> </s>
+ <exp> We conclude that <el> NE <le> uptake by breast cancer cells enhances <re> tumor <er> -associated peptide antigen presentation by increasing HLA class I expression and that this effect is not restricted to the treatment of breast cancer. positive <end> </s>
+ <exp> We conclude that HTH stimulates fat body <re> trehalose <er> biosynthesis by increasing glycogenolysis via a <el> cAMP <le> -independent mechanism. positive <end> </s>
+ <exp> We conclude that <el> DCA <le> attenuates the increase in muscle <re> TCAI <er> during exercise by increasing the oxidative disposal of pyruvate and attenuating the flux through anaplerotic pathways. negative <end> </s>
+ <exp> In conclusion, our results demonstrate that in serum-starved MCF-7 cells, <el> Ang II <le> inhibits the <re> Na+/K+ATPase <er> activity by a mechanism involving PKC-zeta. negative <end> </s>
+ <exp> I conclude that XLA is caused by a defect in <re> pre-B cell development <er> characterized by the failure of <el> V(D)J recombination <le> to produce D mu, which is not detectable with conventional primers. positive <end> </s>
+ <exp> In conclusion, 1,25( <el> OH <le> )2D3 increases <re> CaSR <er> expression in human VSMCs through the vitamin D receptor and protects against VC. positive <end> </s>
+ <exp> We conclude that <el> TLR <le> -mediated <re> APC <er> activation leads to the production of both proinflammatory and inhibitory cytokines, which suppress lymphocyte activation. positive <end> </s>
+ <exp> We conclude that <el> CO <le> exposure causes lung injury in rats by a mechanism involving * <re> NO <er> -derived oxidants. positive <end> </s>
+ <exp> We conclude that <el> Hypocapnia <le> above the apneic threshold can induce either apnea or <re> central apnea <er> during NREM sleep. positive <end> </s>
+ <exp> In conclusion, the TGR5-selective ligand OA activated G<unk> s, increased <re> cAMP <er> levels, and stimulated Rap1, which inhibited RhoA activity via a PKA-dependent mechanism. positive <end> </s>
+ <exp> In conclusion, <el> NAD(P)H oxidase <le> activation in <re> ARF <er> is not PPAR<unk> dependent. positive <end> </s>
+ <exp> We conclude that hypoxia-dependent conditions upregulate <el> KDR <le> receptors/cell in <re> ECs <er>, which may stimulate angiogenesis in vivo. positive <end> </s>
+ <exp> We conclude that <el> fat <le> inhibits gastric <re> acid secretion <er> by a mechanism independent of cyclooxygenase products. negative <end> </s>
+ <exp> We conclude that a <el> mGluR1 <le> potential evoked by ON stimulation of <re> MCs <er> is associated with a local Na+ transient and is likely to reflect an excitatory response in <re> MCs <er> during fast synaptic transmission. positive <end> </s>
+ <exp> In conclusion, CLA/PUFA supplementation in <el> mice <le> on a normal diet augments <re> insulin secretion <er> and glucose tolerance, whereas high-fat feeding does not. positive <end> </s>
+ <exp> In conclusion, our results demonstrate that <el> amiloride <le> does not inhibit <re> Na/H <er> exchange and do not affect steady-state pHi. negative <end> </s>
+ <exp> We conclude that primary <el> alcohols <le> activate <re> hTRPA1 <er> in a carbon chain-dependent manner. positive <end> </s>
+ <exp> We conclude that <el> IGF-I <le> stimulates TE <re> synthesis <er> in cultured rat neonatal pulmonary fibroblasts at concentrations similar to those found in vascular smooth muscle cells and that this effect is not mediated by changes in cytoskeletal composition. positive <end> </s>
+ <exp> In conclusion, <el> elastase <le> -induced <re> emphysema <er> increased lung permeability and induced ALI in Wistar rats. positive <end> </s>
+ <exp> In conclusion, <el> RSF1 <le> promotes myxofibrosarcoma progression by upregulating <re> IL1B <er> and downstream IL-1<unk>. positive <end> </s>
+ <exp> In conclusion, our results indicate that treatment of <el> EGFR <le> -overexpressing tumours with anti- <el> EGFR <le> mAbs or TK inhibitor induces similar biological changes and causes the cells to undergo <re> terminal differentiation <er>. positive <end> </s>
+ <exp> In conclusion, pseudo-Kaposi's <el> sarcoma <le> should be considered in the differential diagnosis of an arteriovenous <re> fistula <er> when a wound is suspected and when a venous outflow stenosis is present. positive <end> </s>
+ <exp> In conclusion, <el> glycerol <le> induced <re> ARF <er> attenuated subsequent mercuric chloride nephrotoxicity and renal dysfunction. positive <end> </s>
+ <exp> In conclusion, our results demonstrated that AHR inhibited HIF-1-mediated <el> VEGF-A <le> induction by LPA treatment of PC-3 cells through competing with HIF-1<unk> for ARNT. negative <end> </s>
+ <exp> We conclude that GIP activates <re> PepT1 <er>, which mediates H(+):Gly-Sar absorption by a <el> cAMP <le> -dependent mechanism. positive <end> </s>
+ <exp> In conclusion, the PP epithelium is protected from <el> MTX <le> -induced <re> apoptosis <er> and damage by maintaining enterocyte differentiation. positive <end> </s>
+ <exp> In conclusion, our results suggest that KR-31378 protects against <el> hypoxia <le> -induced cell <re> death <er> in H9c2 cells by upregulating the expression of PKC-epsilon via activation of the mtKATP channel. positive <end> </s>
+ <exp> In conclusion, neonatal swine exposed to <el> CH <le> have increased PVR, blunted acute hypoxic <re> vasoconstriction <er>, and similar VA/Q mismatch. negative <end> </s>
+ <exp> It is concluded that a reduction in <el> pH <le> (e) increases the sensitivity of FAAH activity to inhibition by <re> ibuprofen <er> and flurbiprofen. negative <end> </s>
+ <exp> We conclude that in septic patients, increased WP increases <re> CI <er> and Vo2 and that in septic patients, the increase in <re> CI <er> is related to the increase in Do2. positive <end> </s>
+ <exp> In conclusion, remacemide is an effective and well tolerated anticonvulsant in rats against <el> MES <le>, but its neurotoxicity and subchronic administration induce tolerance. negative <end> </s>
+ <exp> In conclusion, the combination of hyperosmolarity and <el> hypoxia <le> induced <re> chondrogenesis <er> in ASCs to a similar extent as TGF<unk> 1. positive <end> </s>
+ <exp> We conclude that, in contrast to the stimulation of GP by leptin, <el> beta3 <le> and FR does not produce similar improvements in <re> insulin <er> action on VF. positive <end> </s>
+ <exp> In conclusion, (POPC/S1P/A-I) <el> rHDL <le> induces EC tube formation and <re> cholesterol efflux <er> through S1P-stimulated signaling. positive <end> </s>
+ <exp> In conclusion, <el> rHuEPO <le> increased forearm vascular resistance by increasing <re> norepinephrine <er> -mediated vasoconstriction. positive <end> </s>
+ <exp> In conclusion, vascular <el> MMP-2 <le> can cleave big <re> ET-1 <er> and generate a vasoconstrictor peptide. positive <end> </s>
+ <exp> In conclusion, <el> AngII <le> stimulates TNF-alpha, IL-1beta and IL-6 in hypertrophic <re> CM <er> via AT(1) and AT(2) receptor-specific GPCR signaling pathways. positive <end> </s>
+ <exp> In conclusion, our results demonstrate that <el> ligand <le> -activated GR is not only recruited to AP-1-driven promoters, but also sustains AP-1-driven <re> transcription <er>. positive <end> </s>
+ <exp> In conclusion, <el> HP <le> ameliorated SCI-induced <re> apoptosis <er> by inhibiting TRPM2 and TRPV1 currents and cytosolic Ca(2+) overload. positive <end> </s>
+ <exp> In conclusion, <el> klotho <le> attenuated DN progression in <re> mice <er> and HG-induced endothelial cell injury via inhibition of the Wnt/<unk> -catenin pathway and RAAS in HRGECs. negative <end> </s>
+ <exp> We conclude that postovulatory aging of mammalian eggs is associated with a loss of <el> IP <le> (3)R1 function, which in turn impairs [Ca(2+)]( <re> ER <er> ) and mitochondrial function. negative <end> </s>
+ <exp> It is further concluded that <el> cocaine <le> potentiates the responses to barium chloride and serotonin in both veins and arteries, but that this effect is not mediated by adrenergic receptors. positive <end> </s>
+ <exp> We conclude that hypocretin <el> innervation <le> of the pons regulates <re> sleep <er> during the dark period and promotes REM <re> sleep <er>. positive <end> </s>
+ <exp> In conclusion, our results indicate that <el> TRIM38 <le> negatively regulates TAK1-dependent degradation of <re> TAB2/3 <er> through the autophagy pathway. negative <end> </s>
+ <exp> In conclusion, <el> EGF <le> inhibited <re> alpha-MG <er> uptake via <el> EGF <le> receptor-mediated tyrosine kinase activation and cytosolic phospholipase A(2) activity. negative <end> </s>
+ <exp> We conclude that <el> tumor <le> -induced <re> hypercalcemia <er> in the rabbit is not due to increased bone destruction but rather to an intrinsic defect in the tissue which mediates the action of prostaglandin E2. positive <end> </s>
+ <exp> It is concluded that <el> fluoxetine <le> potentiates the increase of extracellular <re> 5-HT <er> concentrations by antagonizing <re> 5-HT <er> 1A autoreceptors located on cell bodies of <re> 5-HT <er> neurons in the Pfc and Dhp. positive <end> </s>
+ <exp> We conclude that increased renal <el> mass <le> causes <re> hypertension <er> in the immature dog and that cardiovascular and renal function are normal at 3 days. positive <end> </s>
+ <exp> In conclusion, these data demonstrate that <el> Co(II) <le> reduces glycemia and increases <re> GLUT1 <er> mRNA content in normal and diabetic rats without altering insulin levels. negative <end> </s>
+ <exp> In conclusion, the <el> PD-1 <le> siRNA-SLNs inhibited <re> tumor <er> growth in a mouse model by downregulating <el> PD-1 <le> expression in macrophages. negative <end> </s>
+ <exp> In conclusion, M. tuberculosis growth in CD14(hi) MDMs is regulated by <el> c-Maf <le> -mediated upregulation of <re> IL-10 <er> and HAS1 expression. positive <end> </s>
+ <exp> In conclusion, our results show that <el> rotenone <le> -induced <re> locomotion <er> and feeding deficits in Lymnaea stagnalis are due to a progressive loss of DA neurons in the CNS. positive <end> </s>
+ <exp> In conclusion, <el> mitotane <le> induces <re> ER stress <er> in ACC cells by inhibition of SOAT1. positive <end> </s>
+ <exp> In conclusion, TUDCA protects hepatocytes against <el> GCDCA <le> -induced <re> apoptosis <er> by a mechanism that is independent of its inhibition of caspase-8. positive <end> </s>
+ <exp> In conclusion, pitavastatin treatment attenuated Ang II-induced cardiovascular remodeling and diastolic dysfunction by suppressing cardiac oxidative stress and TGF-beta-Smad 2/3 signaling pathway. negative <end> </s>
+ <exp> We conclude that 1) NE and <el> NPY <le> activate the <re> HPA <er> axis in vivo and in vitro, 2) NE acts directly on the hypothalamus to increase hypophysial-portal CRF and AVP levels, and 3) <el> NPY <le> does not act directly on the anterior pituitary to stimulate ACTH release. positive <end> </s>
+ <exp> We conclude that the <el> kininogen <le> -derived peptide E7CP prevents occlusive <re> thrombosis <er> in vivo by inhibiting thrombin-induced platelet aggregation. negative <end> </s>
+ <exp> In conclusion, <el> FSS <le> induces <re> cPLA2 <er> -dependent PGE(2) production in CD cells via both COX-1 and COX-2. positive <end> </s>
+ <exp> In conclusion, <el> NO <le> inhibits human eosinophil <re> adhesion <er> to serum and fibronectin by up-regulating the expression of CD11b (Mac-1) on the eosinophil cell surface. negative <end> </s>
+ <exp> It is concluded that the inhibition of <re> LH <er> induced by stimulation of the <el> MRn <le> is mediated by central 5-HT and GABA. negative <end> </s>
+ <exp> In conclusion, isoflavones increased calcium absorption in the rat femur and this was associated with lower serum <re> equol <er>. positive <end> </s>
+ <exp> In conclusion, SPRY2 could suppress <el> FGFR2 <le> -induced <re> ERK phosphorylation <er> and tumour invasion through the FGF1R/ERK signalling pathway. negative <end> </s>
+ <exp> We conclude that <el> LPS <le> stimulates renal <re> NO <er> production in vivo and that this <re> NO <er> may modulate endotoxin-induced glomerular thrombosis. positive <end> </s>
+ <exp> We conclude that <el> hypoxia <le> inhibits <re> AMP <er> salvage by inhibiting adenosine kinase. negative <end> </s>
+ <exp> We conclude that increased plasma PLTP activity promotes the atheroprotective effect of <re> HDL <er> by reducing <re> HDL <er> concentrations. positive <end> </s>
+ <exp> It is concluded that progesterone and <el> allopregnanolone <le> reduce the development of cerebral <re> edema <er> following a TBI. negative <end> </s>
+ <exp> We conclude that <el> mGluR5 <le> activation may be involved in the development of tolerance to <re> morphine <er> -induced antinociception. positive <end> </s>
+ <exp> In conclusion, <el> progesterone <le> attenuated <re> neuropathic pain <er> after spinal cord injury by upregulating KOR and inhibiting the upregulation of key players in chronic pain mechanisms. negative <end> </s>
+ <exp> We conclude that physiologic GRK5 activity enhances <el> PDGFRbeta <le> -mediated <re> Src <er> activation and desensitizes <el> PDGFRbeta <le> inositol phosphate signaling. positive <end> </s>
+ <exp> We conclude that <el> ethanol <le> suppresses GG activity by effects at the respiratory motor pool or state-dependent regulation of motor activity via independent influences on <re> sleep <er> /arousal processes. negative <end> </s>
+ <exp> In conclusion, <el> furosemide <le> inhibits <re> U46619 <er> -induced contractions of human IMA and SV by a mechanism not related to its diuretic effect. negative <end> </s>
+ <exp> In conclusion, the PVDF membrane enhanced <re> bone resorption <er> inhibition mediated by miR-34a and <el> RANKL <le>. negative <end> </s>
+ <exp> We conclude that <el> furosemide <le> inhibits <re> calcium <er> absorption by the transepithelial voltage-dependent mechanism. negative <end> </s>
+ <exp> We conclude that <el> PTH <le> inhibits <re> collagen synthesis <er> in vivo in humans, and that this effect is mediated by an increase in 1,25(OH)2D. negative <end> </s>
+ <exp> We conclude that rat <el> hepatoma <le> cells produce the major low mol wt <re> IGFBP <er> in diabetic rats and that this <el> hepatoma <le> cell line produces rIGFBP-1. positive <end> </s>
+ <exp> In conclusion, <el> minocycline <le> attenuates <re> iron <er> -induced subacute brain injury. negative <end> </s>
+ <exp> We conclude that live <el> DC <le> stimulate <re> proliferation <er> by releasing IL-2, and that this growth factor is essential for the acquisition of responsiveness to IL-2. positive <end> </s>
+ <exp> We conclude that, in the bovine mammary gland, ovariectomy and <el> growth hormone <le> stimulate <re> proliferation <er> of mammary epithelial cells. positive <end> </s>
+ <exp> In conclusion, lamotrigine, but not felbamate, reduced the occurrence of MES-induced seizures by increasing excitatory <re> neurotransmission <er> mediated by <el> NMDA <le> receptors. positive <end> </s>
+ <exp> We conclude that pretreatment with API attenuates <el> HNE <le> -induced <re> emphysema <er> and airway secretory cell metaplasia. positive <end> </s>
+ <exp> In conclusion, our results show that <el> <re> PDGF <er> -BB <le> induces an increase in <re> PDGF <er> alpha- and beta-receptor transcript and protein levels through post-transcriptional mechanisms. positive <end> </s>
+ <exp> We conclude that endurance training increases the density of <re> IL-6Ralpha <er> in skeletal muscle and that <el> glucose <le> ingestion during exercise attenuates the effect of training on <re> IL-6Ralpha <er> by blunting the IL-6 response. negative <end> </s>
+ <exp> We conclude that the 642-651 region of the <el> <re> rFSHR <er> <le> mediates the effect of truncations on internalization by interacting with arrestin-3 and that this interaction is important for the efficient internalization of hFSH. positive <end> </s>
+ <exp> We conclude that the <el> phosphatase <le> activity of Sac1p is required to maintain normal levels of all lipid phos- phoinositides in <re> sac1 <er> mutants. positive <end> </s>
+ <exp> We conclude that D2Long receptors stimulate <re> Na <er> +/K(+)-ATPase activity by a <el> cAMP <le> -independent mechanism. positive <end> </s>
+ <exp> We conclude that the unique brain overgrowth in mceph/mceph <el> mice <le> is caused by an increase in cell number, which is further enhanced by epileptiform activity. positive <end> </s>
+ <exp> In conclusion, these data indicate that endogenous <el> PTHrP <le> inhibits <re> cell proliferation <er> through the PTH1R. negative <end> </s>
+ <exp> In conclusion, our results suggest that <el> angiotensin II <le> inhibited <re> hOAT3 <er> activity through two mechanisms: PKC dependent decrease in cell surface expression of <re> hOAT3 <er> and PKCalpha independent increase in <re> hOAT3 <er> endocytosis. negative <end> </s>
+ <exp> It is concluded that <el> 2-OH-IMI <le> produces more severe hemodynamic and cardiographic changes than its parent IMI, due to a greater <re> CNS <er> penetration. positive <end> </s>
+ <exp> In conclusion, centrally administered BO and <el> EN <le> elicited <re> hyperthermia <er> at all three environmental temperatures examined. positive <end> </s>
+ <exp> From these results, we conclude that expression of p19(ARF) induces <re> apoptosis <er> through p53-independent pathways and that <el> Bax <le> is required for the induction of <re> apoptosis <er> by p19(ARF). positive <end> </s>
+ <exp> We conclude that ATP, via activation of P2 purine/pyrimidine receptors, inhibits FGF2-induced <re> proliferation <er> in astrocytes by increasing mitotic arrest and decreasing <el> protein kinase <le> activity. negative <end> </s>
+ <exp> We conclude that Mev-induced sympathetic vasomotor tone in RVLM is mediated by <el> muscarinic receptor <le> -independent activation of <re> PKA <er>. positive <end> </s>
+ <exp> In conclusion, <el> ET-1 <le> mediates DOCA-salt <re> hypertension <er> through NADPH-oxidase-independent mechanisms. positive <end> </s>
+ <exp> We conclude that <el> testosterone <le> replacement in hypogonadal men increases fat-free <re> mass <er> and muscle <re> mass <er> by accretion of muscle. positive <end> </s>
+ <exp> We conclude that GLUT-2, but not GLUT-1, is the major contributor to <el> glucose <le> -stimulated <re> insulin release <er> in AtT-20ins cells. positive <end> </s>
+ <exp> We conclude that DBCDE-DNA adduct formation in the spleen and thymus of WT and <re> Cyp1b1 <er> KO <el> mice <le> is increased following DBC exposure. positive <end> </s>
+ <exp> We conclude that <el> TORC1 <le> -mediated <re> sumoylation of Rpc82 <er> is an important mechanism to maintain cellular homeostasis under nitrogen starvation. positive <end> </s>
+ <exp> It is concluded that <el> FSH <le> stimulates <re> inhibin secretion <er> by the ovary, but does not affect the peripheral concentration of inhibin. positive <end> </s>
+ <exp> In conclusion, in obese subjects, exercise-induced <re> fat <er> oxidation is limited by <el> fat <er> -free <el> mass <le> and percent <re> fat <er> <el> mass <le>. negative <end> </s>
+ <exp> We conclude that <el> miR-146a <le> protects against sepsis-induced cardiac dysfunction by inhibiting inflammatory <re> cytokine production <er> and activation of innate immune responses. positive <end> </s>
+ <exp> We conclude that gamma- but not alpha-IFN can protect cells from <el> p53 <le> -induced <re> apoptosis <er> by mechanisms independent of down-regulation of <el> p53 <le> or the expression of key cell death regulators. positive <end> </s>
+ <exp> In conclusion, <el> IPA <le> suppresses the IS-induced <re> expression of AHR <er>, CYP1A1, TGF-<unk> 1, and MCP-1 in proximal tubular cells by inhibiting Stat3. negative <end> </s>
+ <exp> In conclusion, <el> nmMLC20 <le> promotes EPC <re> senescence <er> and dysfunction through ROCK-mediated up-regulation of NOX in PAH. positive <end> </s>
+ <exp> We conclude that <el> IL-6 <le> inhibits <re> PTH secretion <er> in vitro. negative <end> </s>
+ <exp> In conclusion, ASP augments <el> glucose <le> -stimulated <re> insulin secretion <er> via a mechanism that involves calcium influx and protein kinase C activation. positive <end> </s>
+ <exp> We conclude that in CTSM, <el> PKC <le> activation increases Ca2+ sensitivity by increasing <re> rMLC phosphorylation <er>. positive <end> </s>
+ <exp> It is concluded that dietary supplementation with folic acid suppresses <el> AOM <le> -induced ACF development in rat colon by ameliorating <re> GSH <er> depletion and augmenting TAC. negative <end> </s>
+ <exp> It is concluded that the cerebrospinal fluid concentrations of free <el> <re> T4 <er> <le> and rT3 in endogenous depression are lower than in nonthyroidal illness, but that recovery from depression does not affect the concentrations of these metabolites. positive <end> </s>
+ <exp> In conclusion, YY1 is a novel Smad-interacting protein that negatively regulates transcriptional responses to <el> TGF-beta <le> and BMP and promotes <re> cell differentiation <er>. positive <end> </s>
+ <exp> We conclude that <el> ATP <le> (1 mM) increases [ <re> Ca2 <er> +]i by activating a nonselective cation current in NG108-15 cells. positive <end> </s>
+ <exp> We conclude that LP <el> RBCs <le> are adequate to prevent <re> FNHTR <er> in this hospital setting. negative <end> </s>
+ <exp> We conclude that the <el> IM <le> administration of Flt3L plasmids, when formulated in SP1017, recruits <re> DC <er> to the injection site and regional LNs, enhances immune responses to a p17 HIV plasmid vaccine, and may be useful for augmenting DNA vaccination. positive <end> </s>
+ <exp> We conclude that HIV proteins <el> Tat <le> and Nef induce oxidative stress and <re> senescence <er> in MSCs. positive <end> </s>
+ <exp> In conclusion, the pattern of PR3 and <el> elastase <le> expression in ANCA-associated RPGN differs from that seen in ANCA-negative acute postinfectious <re> glomerulonephritis <er>. positive <end> </s>
+ <exp> In conclusion, labetalol with <el> isoflurane <le> induced <re> hypotension <er> of moderate severity without significant changes in plasma renin activity. positive <end> </s>
+ <exp> In conclusion, ZnCl2 attenuated <el> malathion <le> -induced depressant-like behavior and the oxidative damage observed in the <re> FST <er>. positive <end> </s>
+ <exp> We conclude that Ca2+ may activate <el> phospholipase <le> C and DAG production by direct activation of PKCepsilon and that the contractile response to <re> ACh <er> is augmented by direct G protein activation. positive <end> </s>
+ <exp> We conclude that FNAB causes the release of <re> THAb <er> into the bloodstream, and that <el> Tg <le> is indeed the antigen for <re> THAb <er>. positive <end> </s>
+ <exp> In conclusion, our findings indicated that miR-182-5p exacerbated S. aureus <el> pneumonia <le> -induced <re> sepsis <er> by targeting SP-D. positive <end> </s>
+ <exp> We conclude that enhanced cholesterol side-chain cleavage activity is an integral component of the synergistic action of <el> FSH <le> and IGF-I in granulosa cells. positive <end> </s>
+ <exp> In conclusion, the present study suggests that <el> CGRP <le> (human), <el> CGRP <le> II (human), and <el> CGRP <le> (beta) all produce a fall in the resting tension of the <re> IAS <er> through an action on the smooth muscle. positive <end> </s>
+ <exp> In conclusion, <el> esculetin <le> inhibited VSMC proliferation and suppressed intimal hyperplasia by blocking the activation of NF-kappaB and <re> AP-1 <er> via inhibition of Ras. negative <end> </s>
+ <exp> In conclusion, <el> ASTX <le> inhibits <re> HSC <er> activation and inactivation via Nrf2-dependent and Nrf2-independent mechanisms. negative <end> </s>
+ <exp> It is concluded that in the metamorphosed Ambystoma a <el> prolactin <le> -sensitive mechanism prevents the inhibition of TSH-induced <re> T4 release <er> by TSH. negative <end> </s>
+ <exp> We conclude that ondansetron is effective in the prophylaxis of <el> Cisplatin <le> -induced <re> emesis <er> and nausea in cancer chemotherapy. positive <end> </s>
+ <exp> In conclusion, our results suggest that the <el> GnRH <le> -induced homologous desensitization in alphaT3-1 gonadotrope cells is a time-dependent process involving PKC-mediated inhibition of PI hydrolysis and a later stage involves <re> PLD <er> activation. negative <end> </s>
+ <exp> In conclusion, <el> IL-12 <le> and IL-10 seem to enhance the <re> IL-2 <er> -induced sFasL release from MNC. positive <end> </s>
+ <exp> We conclude that <el> AZA <le> induces a dose-dependent inhibition of <re> vitellogenesis <er> in females, which is associated with signs of neurotoxicity. negative <end> </s>
+ <exp> We conclude that HA and <el> AA <le> can reduce <re> pain <er> intensity in this experimental model, both with and without opiate receptor blockade. negative <end> </s>
+ <exp> In conclusion, we propose that <el> ribavirin <le> -induced <re> anemia <er> is due to inactivation of the aminophospholipid translocase and not to inhibition of phosphatidylserine scrambling. positive <end> </s>
+ <exp> In conclusion, <el> miR-27a <le> suppresses <re> ONFH <er> in hBMSCs by targeting the PI3K/Akt/mTOR pathway. negative <end> </s>
+ <exp> In conclusion, our results suggest that the radiosensitizing effect of GSH depletion in mixed-type <el> melanin <le> melanoma cells is due to intracellular <re> eumelanin <er> accumulation and decreased DNA damage. negative <end> </s>
+ <exp> In conclusion, inhibition of <el> Akt <le> kinase activates HPV16 late <re> gene expression <er> by dephosphorylating hnRNP L and increasing its binding to HPV16 mRNAs. negative <end> </s>
+ <exp> In conclusion, our results suggest that AMPK activation ameliorates <el> CGN <le> -induced <re> insulin resistance <er> by suppressing SeP expression through endoplasmic reticulum stress- and JNK-mediated pathways. positive <end> </s>
+ <exp> In conclusion, chronic <el> isoproterenol <le> infusion produces cardiac <re> hypertrophy <er> with a combination of reduced substrate utilization and decreased fatty acid transporter protein levels. positive <end> </s>
+ <exp> In conclusion, <el> estrogen <le> treatment after OVX prevents HFD-induced pathway-selective <re> insulin <er> resistance that promotes liver fat storage. negative <end> </s>
+ <exp> In conclusion, <el> Ang <le> II decreases endothelial <re> NO <er> activity and increases reactive oxygen species production. negative <end> </s>
+ <exp> We conclude that <el> heat <er> <el> shock <le> causes a rapid and widespread change in gene expression in normal human cells, with changes in many of the previously identified functional categories. positive <end> </s>
+ <exp> It is concluded that cigarette <el> smoke <le> may cause the decomposition of <re> hyaluronic acid <er> by a hydroxyl radical-mediated mechanism. negative <end> </s>
+ <exp> In conclusion, <el> TSC1 <le> /TSC2 loss causes <re> tumor <er> growth by loss of <el> TSC1 <le> /TSC2. negative <end> </s>
+ <exp> We conclude that the antihypertensive effect of insulin infusion is due to suppressed renin-angiotensin system activity and increased urinary <el> sodium <le> excretion. positive <end> </s>
+ <exp> It is concluded that <el> 8-OH-DPAT <le> and Org 13011 induce <re> conditioned taste aversion <er> in mice by activation of 5-HT1A receptors. positive <end> </s>
+ <exp> We conclude that PDE3B and <re> PKA <er> coordinately regulate angiogenic sprouting by controlling the invasive capacity of endothelial cells through cdc42. positive <end> </s>
+ <exp> We conclude that <el> NE <le> and ANG II increase <re> Pa <er> by different mechanisms in ducks. positive <end> </s>
+ <exp> We conclude that POA GnRH mRNA and pituitary <el> GnRHR <le> mRNA levels are differentially regulated by E and P during the <re> LH <er> surge. positive <end> </s>
+ <exp> In conclusion, tissue-specific mRNA and protein expression patterns of the IGFs, the type I IGF receptor and <el> IGFBP-2 <le> can be used to predict the onset of <re> apoptosis <er> in specific regions of mouse development. positive <end> </s>
+ <exp> We conclude that the type A and type B <el> chemokine receptors <le> couple to <re> Galphaq <er> via a common G-protein, whereas the interleukin-8 and C5a receptors couple to <re> Galphaq <er> via a unique G-protein. positive <end> </s>
+ <exp> In conclusion, GM1 modulation of <el> CD4 <le> off the cell surface inhibits <el> CD4 <le> -mediated <re> signal transduction <er> through the TCR/CD3 complex. positive <end> </s>
+ <exp> In conclusion, increased basal insulin sensitivity in <el> mice <le> overexpressing <re> GH <er> is associated with decreased IRS1 phosphorylation and reduced GLUT4 content. positive <end> </s>
+ <exp> It is concluded that <el> halothane <le> inhibits <re> nucleic acid <er> synthesis in intact cells by interfering with the incorporation of nucleoside triphosphate precursors. negative <end> </s>
+ <exp> We conclude that <el> sulfide <le> inhibits <re> autophagy <er> by acting as an antioxidative agent rather than through its ability to scavenge reactive oxygen species. negative <end> </s>
+ <exp> In support of this conclusion, exogenous anandamide abolishes capsaicin-evoked <re> cough <er> and bronchospasm but not delta9-THC-induced <re> cough <er>. positive <end> </s>
+ <exp> In conclusion, <el> LIF <le> enhances mast cell growth in a mast cell/3T3 fibroblast co-culture system through <re> Stat3 <er>. positive <end> </s>
+ <exp> We conclude that <el> P-glycoprotein <le> is functionally expressed in multidrug-resistant cells and that swelling-activated <re> chloride <er> channels are not a major contributor to the resistance phenotype. positive <end> </s>
+ <exp> In conclusion, <el> weight loss <le> by hypocaloric diet reduces <re> HDL-apoA-II <er> concentration in men with the MetS. negative <end> </s>
+ <exp> We conclude that <el> neuropeptides <le> VIP and PACAP inhibit alloreactive T cell cytotoxicity by down-regulating <re> FasL expression <er>. negative <end> </s>
+ <exp> In conclusion, VEGFR <el> TK <le> inhibition with AZD2171 overcomes the defective <re> differentiation <er> of myeloid DC precursors in advanced cancer patients by increasing the rate of MSC. positive <end> </s>
+ <exp> We conclude that in the rat <el> PGI2 <le> decreases <re> RVR <er> by decreasing renal blood flow, whereas PGE2 increases <re> RVR <er> by increasing renal blood flow. negative <end> </s>
+ <exp> In conclusion, the delta and kappa opioid agonists DPDPE and U50488 reduce the <el> ROS <le> -induced skin <re> inflammation <er> in a manner which is at least partially mediated by an opioid mechanism. positive <end> </s>
+ <exp> We conclude that the <re> ATP synthesis <er> in P. modestum is driven by an <el> Na <le> pump which is activated by external <el> Na <le> ions. positive <end> </s>
+ <exp> In conclusion, <el> brain injury <le> -reducing treatment with <re> TUDCA <er> after ICH is associated with reduced apoptosis in the immediate surrounding area and improved neurobehavioral deficits. negative <end> </s>
+ <exp> We conclude that seasonal IAV <el> infection <le> does not predispose healthy cynomolgus macaques to subsequent severe S. aureus <re> pneumonia <er>. positive <end> </s>
+ <exp> We conclude that <el> caveolin-1 <le> restricts the <re> conversion of LG-CD147 to HG-CD147 <er> by preventing its self-association and MMP induction. negative <end> </s>
+ <exp> In conclusion, the acute effects of leptin on <re> GP <er> are mediated by activation of the central <el> melanocortin <le> pathway. positive <end> </s>
+ <exp> In conclusion, we identify IL-8 as a <el> hypoxia <le> -regulated cytokine in AML that induces MSC migration and is prognostically relevant in non APL-AML with FLT ITD. positive <end> </s>
+ <exp> In conclusion, we demonstrate that enhanced <el> Cthrc1 <le> gene expression in HSCs and LX-2 cells attenuates cholestatic <re> fibrosis <er> through the inhibition of TGF-<unk> signaling. negative <end> </s>
+ <exp> In conclusion, TBX2 and <re> TBX3 are expressed in the bovine mammary gland and are upregulated by <el> IGF-I <le> in MEC. positive <end> </s>
+ <exp> We conclude that <el> mMCP-4 <le> can reduce levels of <re> TNF <er> in vitro and in vivo, and that lack of <el> mMCP-4 <le> increases the severity of sepsis in mice by increasing the production of <re> TNF <er>. negative <end> </s>
+ <exp> In conclusion, we show that <el> IRAK-4 <le> phosphorylates p47phox <er> in neutrophils, and that this phosphorylation is essential for LPS-induced NADPH oxidase activation. positive <end> </s>
+ <exp> We conclude that A. sativum extract and allyl <el> sulfide <le> inhibit <re> EmrD-3 <er> activity and that this effect may contribute to the antibacterial effects of A. sativum. negative <end> </s>
+ <exp> In conclusion, our results suggest that dephosphorylation of PP1<unk> on Thr320 is required for <el> Man-A <le> -stimulated <re> lymphoma <er> apoptosis. positive <end> </s>
+ <exp> In conclusion, <el> TLR2 <le> activation by Pam(3)CysSK(4) did not aggravate <re> apoptosis <er> in sham-operated mice but induced inflammation in CSF. positive <end> </s>
+ <exp> We conclude that a substantial portion of the mesangial ECM protein expression is mediated by the <el> HBP <le> pathway. positive <end> </s>
+ <exp> It is concluded that <el> estradiol <le> -17 beta can modulate thecal <re> progesterone <er> production in vitro, and that this effect may be related to the concentration of <el> estradiol <le> in the follicular fluid. positive <end> </s>
+ <exp> It is concluded that <el> ACh <le> mediates the postvagal <re> tachycardia <er> by acting on cholinergic nerve terminals in the sinus node. positive <end> </s>
+ <exp> In conclusion, <el> losartan <le> treatment was able to reduce TIMP-1 protein levels and improve survival in a <re> GalN <er> -induced liver failure model. negative <end> </s>
+ <exp> We conclude that H/R and <el> ND <le> induce increases in <re> ROS <er> production by cultured HUVECs, which are dependent on Rac1. positive <end> </s>
+ <exp> It is concluded that, in vitro, Ketotifen enhances the mobility and <re> phagocytosis <er> of <el> PMN <le> cells, but has no effect on the adherence functions evaluated. positive <end> </s>
+ <exp> We conclude that the mechanism of monensin inhibition of <re> CCK <er> binding in pancreatic acini is due to an inhibition of recycling of high affinity <el> <re> CCK <er> receptors <le>. negative <end> </s>
+ <exp> We conclude that <el> CRF <le> may act as an excitatory neurotransmitter in the PV and pvPVN, possibly by modulating the activity of <re> DA <er> neurons. positive <end> </s>
+ <exp> We conclude that skeletal response to <re> PTH <er> is enhanced by local production of <el> IGF-1 <le> in tissues and that the anabolic effects of <re> PTH <er> are not dependent on local production of <el> IGF-1 <le>. positive <end> </s>
+ <exp> We conclude that luminal <el> CDDP <le> causes <re> hypokalemia <er> by inhibiting K+ conductance in the CCD. positive <end> </s>
+ <exp> We conclude that 1) during puberty, insulin secretion is markedly increased and 2) <el> glucose <le> -stimulated <re> insulin secretion <er> is not related to the amount of exogenous <el> glucose <le> required to maintain hyperglycemia. positive <end> </s>
+ <exp> We conclude that the CYP3A7*1C allele increases <re> expression of CYP3A7 <er> in human liver and intestine, most likely by increasing the affinity of the receptor for the <el> ER6 motif <le>. positive <end> </s>
+ <exp> In conclusion, <el> NMDA <le> -induced peroxynitrite formation disrupts the antioxidant and antiapoptotic <re> Trx <er> system in RGCs. negative <end> </s>
+ <exp> In conclusion, these results suggest that RV attenuates <el> AngII <le> -evoked VSMC <re> hypertrophy <er> through the inhibition of NADPH oxidase activity and subsequent activation of c-Src, growth factor receptors, and associated signaling pathways. positive <end> </s>
+ <exp> We conclude that <el> TSP1 <le> mediates endothelial cell <re> apoptosis <er> and inhibits angiogenesis through the activation of caspase-3. positive <end> </s>
+ <exp> In conclusion, the <el> sgG-2 <le> ELISA appears to be a sensitive and specific assay for detection of <re> type <er> -specific IgG antibodies in HSV-2-infected patients. positive <end> </s>
+ <exp> We conclude that IPA and <re> GHRP-6 <er> increase bone <el> BMC <le> in young adult female rats, but this is not due to an increase in body weight. positive <end> </s>
+ <exp> In conclusion, our data suggest that <el> c-Myc <le> increases VLB sensitivity by inducing earlier <re> apoptosis <er> through the mitochondrial pathway. positive <end> </s>
+ <exp> We conclude that mevastatin and <el> mevinolin <le> inhibit <re> myoblast fusion <er> by reducing the availability of cell surface N-linked glycoproteins. negative <end> </s>
+ <exp> We conclude that 1,25D and its synthetic analog EB1089 inhibit growth of <re> VDR <er> -expressing tumor cells through mechanisms involving upregulation of CYP24 and activation of caspases and calpain. negative <end> </s>
+ <exp> We conclude that in triploid European sea bass, spermatogenesis is severely impaired during late <re> meiosis <er>, leading to inviability. negative <end> </s>
+ <exp> We conclude that <el> PEX11 <le> -mediated <re> peroxisome proliferation <er> is an important component of plant development and that the increased number of peroxisomes in <el> PEX11 <le> mutants is not due to decreased expression of <el> PEX11 <le> proteins. positive <end> </s>
+ <exp> This conclusion was further supported by the observation that <el> CK1 <le> knockdown in cells inhibited <re> CREB phosphorylation <er> on Ser-111 (Ser-111) with SB 203580 and SB 202190. negative <end> </s>
+ <exp> We conclude that <el> ARTS-1 <le> promotes <re> IL-1RII <er> shedding and may regulate the biological activity of IL-1. positive <end> </s>
+ <exp> We conclude that T-cell <re> adhesion <er> to endothelial cells is enhanced by stimulation with IL-1, IL-1, or IFN-gamma and enhanced by <el> phorbol <le> ester and that this enhancement is at least in part mediated by the CDw18 complex. positive <end> </s>
+ <exp> In conclusion, <el> nicotine <le> exacerbates OA in female offspring by suppressing Col2A1, aggrecan, Sox9, and <re> IGF1 <er> via <unk> 4<unk> 2-nAChR. positive <end> </s>
+ <exp> We conclude that <el> tissue factor <le> -mediated <re> thrombosis <er> of femoral artery grafts may be prevented by an anticoagulant administered systemically. positive <end> </s>
+ <exp> In conclusion, our results indicate that <el> Rab5 <le> -mediated endocytosis of <re> EGFR <er> is a major mechanism by which A549 cell proliferation is regulated. positive <end> </s>
+ <exp> In conclusion, our results suggest that <el> HS1BP3 <le> enhances AP-1-mediated <re> transcription <er> and induces apoptosis. positive <end> </s>
+ <exp> We conclude that oral <el> phosphate <le> treatment of patients with idiopathic hypercalciuria decreases urinary <re> calcium <er> excretion, most likely by increasing urine phosphorus. negative <end> </s>
+ <exp> In conclusion, <el> BIA <le> 3-202 was well tolerated and increased systemic exposure to <re> levodopa <er> by inhibition of COMT. positive <end> </s>
+ <exp> In conclusion, bolus administration of IV ephedrine in case of hypotension during spinal anaesthesia reduces maternal cardiovascular changes and neonatal <el> lactate <le> levels when compared to the infusion. negative <end> </s>
+ <exp> In conclusion, these results suggest that CGA inhibits LPS-induced inflammation in RAW 264.7 cells by down-regulating <el> COX-2 <le> expression and subsequently suppressing the activation of NF-kappaB and JNK- <re> AP-1 <er> pathways. negative <end> </s>
+ <exp> In conclusion, fetal lung endothelin-converting enzyme-1 and endothelin type A receptor are increased in <el> pulmonary hypertension <le>, likely secondary to increased pulmonary blood flow, while endothelin type B receptor expression is decreased. positive <end> </s>
+ <exp> We conclude that <el> L-arginine <le> augments insulin-mediated <re> vasodilation <er> and in so doing increases IMGU in healthy elderly subjects. positive <end> </s>
+ <exp> In conclusion, an increase in endogenous <re> ghrelin levels <er> during fasting or induction of <el> STZ <le> -induced diabetes is accompanied by increased expression of NPY and AgRP through activation of GHS-R. positive <end> </s>
+ <exp> In conclusion, our results indicate that activation of PKC in RD cells increases glucose uptake and HK activity, which in turn enhances <re> LDH <er> expression via <el> HIF-1 <le> -mediated regulation of MCT4. positive <end> </s>
+ <exp> In conclusion, the present study shows that CRF1-R polymorphisms are associated to innate <re> alcohol <er> preference, stress-induced <re> alcohol <er> seeking, and <el> msP <le> rat phenotype. positive <end> </s>
+ <exp> We conclude that long-term <el> hypoxia <le> increases the number of <re> norepinephrine <er> -containing structures in the carotid body, probably by increasing the turnover rate of the nerve terminals. positive <end> </s>
+ <exp> We conclude that <el> AC6 <le> (-/-) mice have hyperparathyroidism secondary to reduced Npt2a abundance and impaired PTH-induced <re> phosphate <er> excretion. positive <end> </s>
+ <exp> We conclude that <el> CCR5 <le> is protective in man against <re> WNV infection <er> and that <el> CCR5 <le> Delta32 may represent a genetic marker for susceptibility to this disease. positive <end> </s>
+ <exp> In conclusion, miR-132 overexpression attenuated <el> LPS <le> -induced inflammatory injury in HT-22 cells by targeting <re> TRAF6 <er>. positive <end> </s>
+ <exp> We conclude that <el> terbutaline <le> inhalation from a MDI produces marked bronchodilatation, but does not increase <re> mucociliary clearance <er> or reduce the retention of aerosol in the lungs. positive <end> </s>
+ <exp> In conclusion, <el> infection <le> with CR activates <re> Wnt <er> signaling in colonic crypts, which leads to increased LRP5/6 and FZD10 expression, enhanced <unk> -catenin activity, and spheroid growth. positive <end> </s>
+ <exp> We conclude that <el> TG <le> treatment of rats reduces <re> lipoxygenase <er> activity in the elicited PM. negative <end> </s>
+ <exp> The results are discussed in relation to the possible roles of M2 and M3 receptors in the slow <re> excitatory postsynaptic potential <er>, and it is concluded that they are mediated by M2 receptors. positive <end> </s>
+ <exp> We conclude that <el> dPaip2 <le> functions to inhibit <re> cell growth <er> in Drosophila. negative <end> </s>
+ <exp> We conclude that both tamoxifen and <el> toremifene <le> inhibit <re> bone resorption <er> in postmenopausal breast cancer patients. negative <end> </s>
+ <exp> In conclusion, <el> sevoflurane <le> and isoflurane did not augment the myocardial <re> AA <er> liberation during reperfusion. positive <end> </s>
+ <exp> In conclusion, our findings suggest that miR-223 and <el> miR-153 <le> inhibit stretch stress-enhanced <re> IGF-1R <er> activity by targeting the PI3K-AKT signaling pathway. negative <end> </s>
+ <exp> We conclude that <el> copper <le> depletion in neuroblastoma cells leads to oxidative stress, mitochondrial dysfunction and <re> apoptosis <er>. negative <end> </s>
+ <exp> In conclusion, these results suggest that oleic acid attenuates <el> palmitate <le> -induced <re> insulin resistance <er> in soleus muscle by restoring insulin signaling via the PI3-K/Akt pathway. positive <end> </s>
+ <exp> We conclude that <el> DA <le> stimulates <re> release of GnRH <er> from the mediobasal hypothalamus via alpha-adrenergic receptors and does not appear to be a direct stimulator of these receptors. positive <end> </s>
+ <exp> We conclude that <el> SCI <le> causes down-regulation of KCC2 in <re> SDH <er> neurones distal to the injury, which contributes to the development of allodynia and altered GABAergic synaptic transmission. positive <end> </s>
+ <exp> We conclude that <el> VZV ORF12 protein <le> activates <re> phosphorylation of ERK1/2 and p38 <er> to promote replication and cell survival. positive <end> </s>
+ <exp> We conclude that cath D can trigger a proteolytic cascade at extracellular <re> pH <er>, which may contribute to the increased metastatic potential of hypoxic tumors. positive <end> </s>
+ <exp> In conclusion, triggering the sphingomyelin pathway attenuates <el> LPS <le> -induced activation of <re> IkappaB kinase <er> and subsequent signaling pathways. negative <end> </s>
+ <exp> We conclude that the presence of saturably bound <el> thrombin <le> is not necessary for potentiation of PLC activation or accumulation of <re> 3-PPI <er> by <el> thrombin <le>, and that the generation of tethered ligand does not play a role in potentiating these responses. positive <end> </s>
+ <exp> We conclude that in IGT, reduced <el> glucose <le> disposal is primarily caused by decreased storage and <re> glycolysis <er> of plasma <el> glucose <le> resulting from both reduced insulin response and impaired nonoxidative <re> glycolysis <er> of plasma <el> glucose <le>. positive <end> </s>
+ <exp> We conclude that <el> Dact1 <le> promotes <re> Vangl2 <er> -dependent cell-cell adhesion and PCP at the primitive streak. positive <end> </s>
+ <exp> In conclusion, swimming training activated <el> AMPK <le> to reduce ROS production and inhibited <re> NADPH <er> oxidase expression in ISO-treated mice. negative <end> </s>
+ <exp> We conclude that adenosine inhibits <re> ICa <er> by activating cGMP-stimulated <el> phosphodiesterase <le> and that this effect is independent of nitric oxide. negative <end> </s>
+ <exp> We conclude that sitostanol <el> ester <le> reduces serum total, VLDL and LDL cholesterol and apoprotein B in the dense LDL subfraction by decreasing cholesterol absorption efficiency, which is followed by a proportionately decreased rate of LDL <re> transport <er>. negative <end> </s>
+ <exp> We conclude that theophylline, but not xanthine, increases wakefulness and <re> FB <er> in fetal sheep by antagonizing <el> adenosine <le> receptors. positive <end> </s>
+ <exp> We conclude that <el> CDPGYIGSR-NH2 <le> inhibits both angiogenesis and solid <re> tumor <er> growth of solid <re> tumor <er> by interfering with the angiogenic response of endothelial cells. negative <end> </s>
+ <exp> We conclude that the feeding of potato <el> starch <le> to rats decreases <re> ALP <er> activity in the small intestine, and this effect is related to the amount of esterified P derived from the <el> starch <le>. negative <end> </s>
+ <exp> In conclusion, SARS-CoV-2 infection and viral spike protein expression induced <re> IL-6 <er> and soluble <re> IL-6 <er> R release via the induction of ADAM-17 protease. positive <end> </s>
+ <exp> We conclude that human <el> ECs <le> produce FX and other <re> coagulation <er> factors that are not external components of the <re> coagulation <er> machinery. positive <end> </s>
+ <exp> We conclude that MPS I upregulates MMP-12 and <el> cathepsin S, which may contribute to the aortic dilatation and valvular insufficiency observed in this disease. positive <end> </s>
+ <exp> We conclude that hyperbaric <el> oxygen <le> -induced <re> seizures <er> cause small but significant changes in the brain structure immediately after the appearance of <re> seizures <er>. positive <end> </s>
+ <exp> In conclusion, IL-1 does not mediate intra-amniotic <el> LPS <le> -induced <re> chorioamnionitis <er> in preterm fetal sheep. positive <end> </s>
+ <exp> It is concluded that, in addition to <el> phytochrome <le>, the integrity of the plastids are essential for the expression of the relevant nuclear genes involved in plastidogenesis. positive <end> </s>
+ <exp> We conclude that <el> bFGF <le> promotes <re> alpha-synuclein expression <er> in dopaminergic neurons via a mitogenic mechanism. positive <end> </s>
+ <exp> We conclude that PRDI-BF1 represses <re> transcription <er> through Groucho family protein corepressors. negative <end> </s>
+ <exp> In conclusion, hypo-osmotic stress at 220 mOsmol/kgH2O prevents doxorubicin-induced <re> apoptosis <er> in cardiomyocytes by a mechanism that is associated with the activation of the <el> protein kinase A <le> /cAMP pathway. positive <end> </s>
+ <exp> In conclusion, two sessions of acute physical exercise performed under <el> hypoxia <le> improved <re> sleep <er> efficiency, stage N3 and REM <re> sleep <er>, reduced wake after <re> sleep <er> onset, and reduced reaction time scores. negative <end> </s>
+ <exp> In conclusion, these results suggest that <el> AVP <le> -induced renal vasoconstriction is related to activation of P450- <re> AA <er> metabolism. positive <end> </s>
+ <exp> It is concluded that the suppression of the signs of the quasi- <el> morphine <le> withdrawal <re> syndrome <er> by THC is not due to a direct action on the central nervous system but may be due to an interaction with the drug itself. negative <end> </s>
+ <exp> We conclude that U-73122, but not U-73343, inhibits <el> ET-1 <le> and PTH-stimulated <re> calcium <er> transients in UMR-106 cells. positive <end> </s>
+ <exp> In conclusion, high <el> glucose <le> stimulated <re> BACE1 expression <er> via ROS-mediated HIF-1<unk> -LXR-ABCA1 signaling and A<unk> production. positive <end> </s>
+ <exp> In conclusion, the present study demonstrated that CSC and P. gingivalis increased <re> collagen degradation <er> in <el> HGF <le> s by increasing the production of MMPs and TIMPs. negative <end> </s>
+ <exp> We conclude that GRKs are involved in the acute downregulation of the <el> PTH <le> / <el> PTH <le> rPR and in the desensitisation of <re> cAMP <er> induced by <el> PTH <le> in SaOS-2 cells. positive <end> </s>
+ <exp> In conclusion, <el> castor oil <le> increased <re> rumenic acid <er> accumulation in vitro and decreased methane production. positive <end> </s>
+ <exp> In conclusion, <el> proteinuria <le> increases <re> phosphate <er> retention via increased tubular <re> phosphate <er> reabsorption that is independent of GFR. positive <end> </s>
+ <exp> In conclusion, <el> NP-1 <le> enhances VEGF-induced inhibition of endothelial and neuronal apoptosis through enhanced <re> PARP expression <er>. negative <end> </s>
+ <exp> We conclude that CY treatment of <el> tumor <le> -bearing mice is primarily mediated by effects on <el> tumor <le> -induced <re> CD4 <er> cell proliferation. positive <end> </s>
+ <exp> We conclude that the <re> hyperacetylation of histone H4 <er> at the <el> insulin <le> gene promoter is a key mechanism by which glucose stimulates <el> insulin <le> gene expression. positive <end> </s>
+ <exp> We conclude that <el> LDL <le> may stimulate intracellular <re> calcium <er> mobilization by a mechanism independent of InsP3 formation and of the classical low density lipoprotein receptor. positive <end> </s>
+ <exp> We conclude that the hypoferremic response to inflammation in neutropenic mice is mediated by both a decrease in serum <re> iron <er> and a combination of these two factors. negative <end> </s>
+ <exp> We conclude that buffering of the culture medium to <el> pH <le> 6 does not accelerate replicative aging. positive <end> </s>
+ <exp> We conclude that activation of PCF receptors by <el> PEEP <le> can inhibit <re> EI <er> and Pre-I facial motoneuron discharge. negative <end> </s>
+ <exp> It is concluded that <el> PDGF <le> induces changes in the <re> actin <er> cytoskeleton via activation of <el> PDGF <le> receptors and that these changes are mediated by the PI-cycle. positive <end> </s>
+ <exp> In conclusion, we show that <el> CNI <le> induces <re> ERK1/-2 <er> activation and SOCS-3 downregulation in human renal tubule cells. positive <end> </s>
+ <exp> We conclude that increased <re> PMN <er> activation after CLP is mediated by autocrine purinergic signaling and that increased plasma ATP concentrations contribute to <re> PMN <er> activation by stimulating <el> P2 <le> receptors. positive <end> </s>
+ <exp> We conclude that the <re> Na+-2 Cl--K+ cotransport <er> system of the TAL is inhibited by diuretics of the furosemide <el> type <le> and related compounds, but not by other diuretics of the same class. negative <end> </s>
+ <exp> In conclusion, these results suggest that IL-10 directly influences <el> Fas <le> expression and <el> Fas <le> -induced <re> apoptosis <er> in IECs. positive <end> </s>
+ <exp> In conclusion, OTS167 <re> metabolism <er> is mediated by UGT1A1, UGT1A8, and <el> UGT1A10 <le>. positive <end> </s>
+ <exp> We conclude that <el> hemopexin <le> prevents <re> heme <er> -mediated effects in primary cultures of hepatocytes by acting at the level of the <re> heme <er> - <el> hemopexin <le> receptor. negative <end> </s>
+ <exp> We conclude that a selective rise in liver sinusoidal <el> NE <le> increases <re> HGP <er> without changing gluconeogenesis. positive <end> </s>
+ <exp> In conclusion, <el> propofol <le> attenuated LPS-induced TNF-<unk> and <re> IL-6 <er> expression by inhibiting NOX2/ROS/NF-<unk> B signaling. negative <end> </s>
+ <exp> We conclude that activation of the NMDA receptor causes a sustained increase in [Ca(2+)](i) and ROS generation, which leads to granule <re> cell death <er> via a non-caspase-3-dependent pathway. positive <end> </s>
+ <exp> We conclude that <el> PA <le> activates myocardial inflammatory injury through direct binding to MD2, which may represent a novel therapeutic target in <re> obesity <er> -associated cardiovascular diseases. positive <end> </s>
+ <exp> In conclusion, <el> melatonin <le> prevented the development of COPD by upregulating SIRT1 expression in lung tissues of rats with COPD. negative <end> </s>
+ <exp> We conclude that the precursors of MG in <el> Tg mice <le> are of B-1 cell origin, and that the presence of endogenous <re> Ig <er> leads to a lower frequency of benign monoclonal gammopathy. positive <end> </s>
+ <exp> In conclusion, <el> TBC1D1 <le> overexpression decreased basal and AICAR-stimulated <re> fatty acid oxidation <er> in mouse skeletal muscle by increasing fatty acid esterification and decreasing <unk> -HAD enzyme activity. negative <end> </s>
+ <exp> In conclusion, MeCbl at micromolar concentrations inhibited <el> homocysteine <le> -mediated <re> cell death <er> in motor neurons via inhibition of caspase 3/7 activation. positive <end> </s>
+ <exp> In conclusion, the <el> NHE1 <le> inhibitor HOE limits increases in Nai and [Ca]i during <re> ischemia <er> and reperfusion. negative <end> </s>
+ <exp> We conclude that <el> NO <le> stimulates <re> gonadotropin secretion <er> by a mechanism involving the release of prostanoids from the hypothalamic nerve terminals. positive <end> </s>
+ <exp> In conclusion, these results suggest that DPTH inhibits cell proliferation in HUVEC by increasing <el> p21 <le> levels and decreasing <re> CDK2 <er> and CDK4 kinase activities. negative <end> </s>
+ <exp> We conclude that dietary supplementation with <re> DHA <er> and <el> AA <le> at slightly greater concentrations than normally found in human milk increases retina <re> DHA <er>. positive <end> </s>
+ <exp> In conclusion, marrow-derived <el> PCSK9 <le> promotes atherosclerosis by increasing the infiltration of Ly6C(hi) monocytes into the lesion microenvironment, independently of changes in serum cholesterol levels. positive <end> </s>
+ <exp> In conclusion, the current study demonstrated that <el> PKR <le> inhibits cell motility/migration by modulating <re> p38 <er> MAPK/MK2 and cofilin activity. negative <end> </s>
+ <exp> It is concluded that some spinal cord neurones, but not all putative dorsal root ganglion neurones, are targets for the depletion of methionine-enkephalin, substance P or calcitonin gene-related <re> peptide <er> induced by blockade of electrical activity. negative <end> </s>
+ <exp> In conclusion, our data suggest that OB-derived <el> TGF-beta1 <le> may modulate metastatic potential by inducing <re> MMP-9 <er> and PAI-1 expression and thus altering the balance between proteolytic activity and inhibition observed during tumor progression. positive <end> </s>
+ <exp> In conclusion, <el> Ang II <le> increases ET-1 protein content and functional <re> ECE <er> activity in WKY rats in vivo. positive <end> </s>
+ <exp> We conclude that <el> cGMP <le> mediates the attenuated cerebrovascular response to hypercapnia after CSD, and that restoration of <re> NO <er> -mediated vasodilation is not sufficient. positive <end> </s>
+ <exp> In conclusion, <el> IL-6 <le> increases <re> TJ permeability <er> via JNK and AP-1 dependent increase in claudin-2 expression. positive <end> </s>
+ <exp> In conclusion, <el> SUA <le> increased the <re> expression of APN <er> and AdipoR1 in PTECs via the upregulation of NLRP3 in renal cortex. positive <end> </s>
+ <exp> In conclusion, the present study demonstrates that <el> BaP1 <le> causes <re> hemorrhage <er> in vivo and in vitro by a mechanism that is independent of endothelial cell disruption. positive <end> </s>
+ <exp> In conclusion, these results indicate that <el> AMPK <le> activation inhibits endothelial cell growth by inducing G0/G1 cell cycle arrest via p53-mediated upregulation of p21 and <re> p27 expression <er>. positive <end> </s>
+ <exp> We conclude that <el> TSHR <le> gene mutations may cause severe neonatal <re> hyperthyroidism <er> and goiter. positive <end> </s>
+ <exp> We conclude that <el> IRBIT <le> suppresses <re> CaMKII <er> <unk> activity and affects catecholamine homeostasis in the central nervous system. negative <end> </s>
+ <exp> In conclusion, <el> SlHZ24 <le> positively regulates <re> AsA <er> accumulation by interacting with multiple promoters of the <re> AsA <er> biosynthetic gene. positive <end> </s>
+ <exp> In conclusion, <el> insulin <le> treatment in diabetic rats prevents the blunted <re> corticosterone <er> response to hypoglycemia but not the glucagon response. negative <end> </s>
+ <exp> In conclusion, our findings suggest that miR-135a-5p and miR-124-3p promote glioblastoma cell proliferation, migration and <re> invasion <er> by targeting <el> SDCBP <le>. positive <end> </s>
+ <exp> In conclusion, 1,25( <el> OH <le> )(2)D(3) and DHEA enhance the antigen-specific <re> IgA <er> serum response by increasing the number of antibody-secreting cells in local draining lymph nodes. positive <end> </s>
+ <exp> We conclude that <el> IL-1 beta <le> inhibits <re> proinsulin <er> conversion in rat beta-cells by decreasing PC2 expression via an iNOS-dependent mechanism and that this process is NO-dependent. negative <end> </s>
+ <exp> We conclude that estradiol and <el> 4-OH-E2 <le> increase <re> MLL <er> gene aberrations in vitro. positive <end> </s>
+ <exp> In conclusion, UCP3 enhances <re> glucose <er> oxidation by decreasing DYm and increasing <el> fatty acid <le> entry into mitochondria. positive <end> </s>
+ <exp> In conclusion, microcystic adnexal carcinomas are relatively rare <el> tumors <le> that lack UV signature and frequently harbor TP53 inactivation or <re> JAK <er> 1 copy number gain. positive <end> </s>
+ <exp> In conclusion, we demonstrate that <el> thymol <le> nasal administration induces a mild <re> cough <er> response in healthy subjects without affecting cough threshold. positive <end> </s>
+ <exp> We conclude that TRPC1 channels are activated by stimulation of <el> ET <le> (A) and <el> ET <le> (B) receptors in rabbit coronary artery myocytes by two distinct mechanisms. positive <end> </s>
+ <exp> We conclude that HO-2-derived CO, but not NO, mediates cholinergic <el> clock <le> resetting. positive <end> </s>
+ <exp> We conclude that in cultured OLGs, cer inhibits <re> IKir <er> by activating c-Raf-1 and Ras/PKC signaling events. negative <end> </s>
+ <exp> In conclusion, the present study demonstrates that 1) galanin is produced from MtTW-10 cells in vitro; 2) the secretion of galanin is inhibited by somatostatin; and 3) <el> estradiol <le> upregulates <re> galanin gene expression <er> in MtTW-10 tumors. positive <end> </s>
+ <exp> We conclude that <el> ERK 1/2 <le> signaling contributes to the constitutive MMP-1 expression observed in breast cancer, and that inhibition of this pathway may reduce the invasive potential of these cells. positive <end> </s>
+ <exp> In conclusion, taxifolin inhibits Mac-1-dependent firm adhesion by preventing the <re> calcium <er> influx induced by <el> G protein <le> -mediated activators of human neutrophils through inhibition of p38 MAPK and PKC. positive <end> </s>
+ <exp> It is concluded that <el> MDMA <le> -stimulated <re> locomotion <er> is mediated in part by release of dopamine and serotonin from the central nervous system. positive <end> </s>
+ <exp> In conclusion, <el> HG <le> decreased Suv39h1 and attenuated <el> HG <le> -induced effects in MES13 cells by inhibiting <re> PI3K <er> /Akt signalling. negative <end> </s>
+ <exp> We conclude that <el> TNF-alpha <le> and IL-1 do not enhance <re> HYA <er> uptake by endothelial cells in vitro, but ET does cause an increase in plasma <re> HYA <er> in these cells. positive <end> </s>
+ <exp> We conclude that the PRB increases the safety of <el> PAC <le> flotation balloon inflations by reducing the risk of <re> rupture <er> caused by FB displacement. positive <end> </s>
+ <exp> In conclusion, these results suggest that <el> vaspin <le> attenuates TNF-<unk> -induced <re> apoptosis <er> in cardiomyocytes by augmenting autophagy via the AKT pathway and protects against DCM. negative <end> </s>
+ <exp> We conclude that <el> SN <le> deficiency increases <re> swimming <er> kinematics and thrust power at short LF, but not long LF, in S. lalandi. negative <end> </s>
+ <exp> We conclude that <el> PRKAR1A <le> deficiency promotes cardiac <re> hypertrophy <er> by inactivating Drp1, a mechanism that may contribute to the cardiomyocyte dysfunction observed in CNC patients. negative <end> </s>
+ <exp> In conclusion, the results of the present study demonstrated that simvastatin may protect against cerebrovascular injury by inhibiting the <el> NF <le> <unk> B<unk> mediated MyD88/TRIF <re> signaling pathway <er>. positive <end> </s>
+ <exp> We conclude that 1,25-Vit. D and 20-HETE do not interact to modulate Pi <re> transport <er> in OK cells. positive <end> </s>
+ <exp> We conclude that <el> insulin <le> represses <re> transcription of the human IRS-2 <er> gene in liver and that this effect is mediated by an IRE. negative <end> </s>
+ <exp> We conclude that subacute encephalitis with or without <el> CNS <le> lesions in AIDS patients is often associated with neurologic disease, and may be caused by <re> HTLV-III <er>. positive <end> </s>
+ <exp> We conclude that the <re> glucose effect <er> on PI 4-kinase activity is mediated by <el> ATP <le> and ADP as well as by the RAS/cAMP pathway. positive <end> </s>
+ <exp> In conclusion, long-term treatment with <el> PTH <le> in this patient and her ADH controls resulted in persistent hypercalciuria, hypermagnesuria, and reduced bone matrix <re> mineralization <er> without evidence of osteosarcoma or fractures. negative <end> </s>
+ <exp> We conclude that renal medullary <el> bradykinin <le> infusion increases renal papillary blood flow by a nitric oxide-dependent mechanism and increases renal <re> sodium <er> excretion. positive <end> </s>
+ <exp> In conclusion, dietary potassium enhances the inhibitory effect of <re> 11,12-EET <er> on ENaC through suppression of <el> sEH <le> activity. negative <end> </s>
+ <exp> In conclusion, BmATG5 and <el> BmATG6 <le> are cleaved into BmATG8-PE to trigger <re> autophagy <er>, which is required for cell survival after 20E treatment or starvation. positive <end> </s>
+ <exp> In conclusion, <el> mice <le> overexpressing <re> TPO <er> exhibited mesangioproliferative changes in the glomerulus, which were associated with elevated plasma TGF-beta1 and PDGF-BB levels. positive <end> </s>
+ <exp> We conclude that <el> IGFBP-2 <le> may be involved in luteolysis in the horse, and that its inhibition by <re> IGF-I <er> and -II may contribute to the development of premature luteolysis. negative <end> </s>
+ <exp> We conclude that the pathogenesis of <el> BEA <le> -induced papillary <re> necrosis <er> in Brattleboro rats is not due to a failure of the animals to adjust to a zero sodium diet, but rather to a failure of the animals to maintain a normal sodium balance. positive <end> </s>
+ <exp> In conclusion, 1,25-(OH)2D3 inhibits both <el> TSH <le> -stimulated cell growth and <re> cAMP <er> -stimulated iodide uptake in FRTL-5 thyroid cells. positive <end> </s>
+ <exp> In conclusion, sevoflurane and <el> halothane <le> inhibited norepinephrine-stimulated <re> glucose uptake <er> in cardiomyocytes by decreasing the effect of catecholamine on glucose transport. negative <end> </s>
+ <exp> In conclusion, systemic <el> simvastatin <le> suppressed neuroinflammation in the optic nerve and rescues RGCs after crushed. negative <end> </s>
+ <exp> In conclusion, <el> DEHP <le> -induced <re> IL-1 secretion <er> by mononuclear cells was dose dependent. positive <end> </s>
+ <exp> In conclusion, inhibition of Rho-kinase protects endothelial cells from I/R-induced <re> apoptosis <er> by maintaining Akt activity and stabilizing <el> F-actin <le> bundles. positive <end> </s>
+ <exp> We conclude that EGF inhibits the <re> transcription <er> of the <el> TRH-R <le> gene in GH4C1 cells by reducing the availability of newly synthesized <el> TRH-R <le> mRNA. negative <end> </s>
+ <exp> In conclusion, <el> CD40 <le> L-mediated <re> IL-12 production <er> is impaired in advanced disease, which may contribute to the selective overproduction of T helper 1 cytokines in HIV infection. negative <end> </s>
+ <exp> In conclusion, all the antioxidants attenuated <el> DSS <le> -induced <re> colitis <er> by improving diarrhea, weight loss and ameliorating inflammation. positive <end> </s>
+ <exp> We conclude that the PTH1R COOH terminus inhibits <re> ERK <le> activation by PTH in distal kidney cells. negative <end> </s>
+ <exp> In conclusion, <el> ANG II <le> induces <re> 5-LOX <er> -derived LTB(4) formation in SMC. positive <end> </s>
+ <exp> We conclude that <el> PGBx <le> inhibits the <re> F1F0-ATPase <er> by interacting with the proteolipid receptor on the inner membrane. negative <end> </s>
+ <exp> In conclusion, azithromycin decreased <el> IL17 <le> -induced <re> IL8 <er> production in airway smooth muscle cells. negative <end> </s>
+ <exp> We conclude that beta-adrenergic stimulation via <el> Epac <le> induces PKCepsilon-dependent <re> Cx43 phosphorylation <er> and increases in GJIC. positive <end> </s>
+ <exp> We conclude that <el> TRPV1 <le> -induced <re> LTD <er> in CA1 interneurons is mediated by presynaptic calcineurin. positive <end> </s>
+ <exp> In conclusion, maternal <el> MD <le> supplementation induced offspring <re> colitis <er> susceptibility and mucosal DNA methylation and expression changes. positive <end> </s>
+ <exp> We conclude that vitamin E deficiency is common in chronic <el> alcohol <le> -induced <re> pancreatitis <er> and that this deficiency is more frequent in patients with pancreatic steatorrhoea. positive <end> </s>
+ <exp> We conclude that in this model of NIDDM, defective <el> glucose <le> transport is a major cause of unresponsive <re> insulin secretion <er> and hyperglycemia. positive <end> </s>
+ <exp> In conclusion, <el> Hg(2+) <le> increased the serum Hb levels in <re> mice <er>, which potentiated the AhR-mediated induction of Cyps. positive <end> </s>
+ <exp> We conclude that <el> Ca <le> +2 ionophores inhibit <re> hCG <er> -activated steroidogenesis by acting on a site in the cytoplasm which is distinct from cAMP accumulation. negative <end> </s>
+ <exp> We conclude that in healthy young subjects, intravenous infusions of aminophylline, which produces <el> theophylline <le> levels in the usual therapeutic range, can cause small increases in plasma <re> glucose <er> without changing IRI, IRG, HGH, or cortisol. positive <end> </s>
+ <exp> We conclude that <el> Pkc1p <le> inhibits <re> cell fusion <er> by preventing the proper localization of Cdc42p to Fus2p, which is required for fusion. negative <end> </s>
+ <exp> It is concluded that <el> choline transport <le> does not increase the <re> synthesis <er> of ACh in these ganglia. positive <end> </s>
+ <exp> In conclusion, we identified a novel cooperative role for <el> PR3 <le> and NE in neutrophil activation and noninfectious <re> inflammation <er> by cleaving PGRN. negative <end> </s>
+ <exp> We conclude that the C1b/C2I interaction modulates <re> Gsalpha <er> -mediated stimulation of <el> ACV <le> and that this interaction is not required for full-length stimulation of enzyme by <re> Gsalpha <er>. positive <end> </s>
+ <exp> In conclusion, <el> bacterial infection <le> inhibits <re> Foxo3a <er> via the PI3K pathway and suppresses <re> Foxo3a <er> to increase proinflammatory IL-8 through inhibition of NF-kappaB. negative <end> </s>
+ <exp> In conclusion, <el> ET <le> (A) and <el> ET <le> (B) antagonists attenuate salt-sensitive <re> hypertension <er> induced by sensory nerve degeneration. negative <end> </s>
+ <exp> In conclusion, our results suggest that impaired <re> wound healing <er> in diabetes may be due to a delay in <el> cell proliferation <le> and reduced expression of collagen I. negative <end> </s>
+ <exp> It is concluded that meperidine inhibits the spontaneous <re> release of acetylcholine <er> by acting on an <el> opiate receptor <le> which reduces the amplitude of the spontaneous <re> release of acetylcholine <er>. negative <end> </s>
+ <exp> We conclude that the suppression of <re> CYP2B9 <er> and 2B10 mRNAs by LPS in vivo is <el> NO <le> dependent, whereas down-regulation of CYP2B proteins is <el> NO <le> independent. negative <end> </s>
+ <exp> In conclusion, triple drug immunosuppression reduced RCMV <el> infection <le> -enhanced <re> arteriosclerosis <er> by early induction of allograft necrosis and adventitial inflammation. positive <end> </s>
+ <exp> In conclusion, the AB assay is a reliable method for studying osteoblastic <re> proliferation <er> in vitro and allows quantitative assessment of <el> IGF-I <le> -stimulated <re> proliferation <er> in short-term cultures. positive <end> </s>
+ <exp> We conclude that pendrin expression is increased in allergic airway disease and may be involved in the pathogenesis of <re> asthma <er> induced by <el> viral infections <le> or allergens. positive <end> </s>
+ <exp> We conclude that <el> nicotine <le> -induced <re> FLI <er> in the nucleus accumbens is mediated by nicotinic and NMDA receptors in the VTA. positive <end> </s>
+ <exp> We conclude that <el> EGF <le> R kinase mediates the mitogenic and proliferative actions of HGF and <el> EGF <le>, but not insulin, in hepatocytes. positive <end> </s>
+ <exp> In conclusion, <el> CCN1 <le> acutely increases <re> NO <er> production in ECs by activating the Akt/S6K pathway and subsequent eNOS-Ser(1177) phosphorylation via integrin <unk> v<unk> 3. positive <end> </s>
+ <exp> We conclude that, in addition to depressed <re> glucose <er> disposal, starvation also impairs <el> insulin <le> -stimulated muscle protein turnover. negative <end> </s>
+ <exp> We conclude that <el> Fn14 <le> expression on resident kidney cells is not necessary for initiation of lupus <re> nephritis <er>, and that macrophage depletion worsens the course of lupus <re> nephritis <er>. negative <end> </s>
+ <exp> We conclude that <el> OEH <le> activates the <re> insulin <er> pathway in the ovaries via ILP3 and TOR signaling, but not through binding to the MIR. positive <end> </s>
+ <exp> In conclusion, RX-871024 and <el> glibenclamide <le> stimulate <re> insulin secretion <er> in vitro by mechanisms that are not related to an increase in [Ca2+]i. positive <end> </s>
+ <exp> It is concluded that <el> danazol <le> inhibits LH and <re> E2 <er> pulse frequency and increment, but not FSH, secretion. negative <end> </s>
+ <exp> From these results it can be concluded that the endogenous <el> hyperparathyroidism <le> induced by a calcium-poor diet is associated with increased serum <re> cholesterol <er> and triglyceride concentrations, probably due to decreased hepatic triglyceride secretion. positive <end> </s>
+ <exp> We conclude that <el> STZ <le> -induced diabetes upregulates UCP-2 protein expression in both control and <el> STZ <le> -diabetic kidney tissue. positive <end> </s>
+ <exp> In conclusion, the increased <el> <re> NO <er> <le> accumulation in the transgenic plants is attributed to enhanced <el> <re> NO <er> <le> -scavenging activity of rMhb1. negative <end> </s>
+ <exp> We conclude that <el> cisplatin <le> -induced <re> apoptosis <er> of S3 cells is mediated by TXA2. positive <end> </s>
+ <exp> From these results it is concluded that <el> EPA <le> selectively inhibits the metabolism of <re> PGI2 <er> in the isolated rabbit ear. negative <end> </s>
+ <exp> In conclusion, <el> Ac-SDKP <le> prevents Gal-3-induced cardiac <re> inflammation <er>, remodeling, and dysfunction by upregulating TGF-beta/Smad3 signaling. positive <end> </s>
+ <exp> We conclude that TRPM8 channels undergo desensitization by a mechanism involving <re> PLC <er> -mediated inhibition of InsP(3) production, which is reversed by MgATP. negative <end> </s>
+ <exp> In conclusion, the direct effect of GH on the uterus is to inhibit the <re> response to progesterone <er> by <el> prolactin <le>. negative <end> </s>
+ <exp> We conclude that <el> hSpry2 <le> is a selective antagonist of <re> EGFR <er> signalling, which acts through the dissociation of c-Cbl from its binding site on the E3 ligase. negative <end> </s>
+ <exp> In conclusion, <el> SPRED2 <le> deficiency leads to a severe water-overloading syndrome, associated with elevated AS expression and down-regulation of RAS, ACTH, and CRH. negative <end> </s>
+ <exp> 7 It is concluded that <el> tetraethylammonium <le> -induced <re> contractures <er> in the chick biventer cervicis muscle are mediated by botulinum toxin-sensitive muscarinic receptors. positive <end> </s>
+ <exp> We conclude that in AML blasts with non-autocrine growth, <el> p53 <le> can act as a suppressor of <re> apoptosis <er> and that this is mediated by wild-type <el> p53 <le>. negative <end> </s>
+ <exp> It is concluded that the <re> edema <er> togenic response produced by SEB in the mouse hindpaw is dependent on gonadal steroids and testosterone. positive <end> </s>
+ <exp> In conclusion, <el> LPS <le> -induced <re> IL-12 <er> (hi) RAPA-DC promote allograft survival by enhancing IFN-<unk> -mediated apoptosis of alloreactive T cells. positive <end> </s>
+ <exp> We conclude that <el> L-NAME <le> induced <re> hypertension <er> does not affect glucose tolerance or insulin sensitivity in normal rats. positive <end> </s>
+ <exp> We concluded that in geriatric patients with ISSNHL, initial <el> steroid <le> therapy with 48 mg of methylprednisolone with a subsequently tapered dose produced better final <re> hearing <er> levels without increased adverse events. positive <end> </s>
+ <exp> In conclusion, these findings suggest that <el> DHA <le> inhibits UVB-induced <re> expression of COX-2 <er> and NOX-4 through the inhibition of NF-<unk> B activation by MSK1 in mouse skin. negative <end> </s>
+ <exp> In conclusion, <el> HO-1 <le> inhibits DC function by impairing mitochondrial function and endosomal trafficking, which might contribute to the prevention of T cell-mediated inflammation. negative <end> </s>
+ <exp> We conclude that <el> cAMP <le> stimulates <re> Cl- secretion <er> by activating the 7-pS Cl- channel. positive <end> </s>
+ <exp> We conclude that TGF-alpha is a potent mitogen in porcine thyroid cells and inhibits <el> TSH <le> -stimulated <re> iodine <er> uptake by these cells, probably through an action on the cAMP pathway. negative <end> </s>
+ <exp> It is concluded that (a) HE and, to a lesser extent, a crude extract of rat hypothalamus stimulate <re> ACTH release <er> from the PD and (b) <el> CRF <le> does not directly stimulate <re> ACTH release <er> from the PI. positive <end> </s>
+ <exp> In conclusion, our results demonstrate that beta(2)-AR stimulation stimulates <re> p38 MAPK <er> via a novel PKA-dependent mechanism in cardiac myocytes. positive <end> </s>
+ <exp> We conclude that <el> nociceptin <le> inhibits <re> cough <er> by activating ORL1 receptors. negative <end> </s>
+ <exp> In conclusion, our results suggest that <el> SAK <le> inhibits Plg <re> activation through direct interaction with Plg and HNPs. negative <end> </s>
+ <exp> In conclusion, <el> dexamethasone <le> decreased <re> glucose uptake <er> by reducing oxidation and decreasing calf blood flow. negative <end> </s>
+ <exp> We conclude that loss of the VHL- <el> ECM <le> assembly pathway leads to <re> tumor <er> angiogenesis, with high microvessel density and a disrupted <el> ECM <le>. negative <end> </s>
+ <exp> We conclude that <el> lidocaine <le> inhibits ischemia-induced <re> CA release <er> from adrenergic neurons in vivo. negative <end> </s>
+ <exp> In conclusion, we show that <el> oxaliplatin <le> activates <re> Src <er> via ROS-mediated mechanisms and that the combination of dasatinib and <el> oxaliplatin <le> results in reduced tumor growth. positive <end> </s>
+ <exp> We conclude that <el> glucose <le> -induced <re> Ca <er> (2+) increases in beta cells are mediated, at least in part, by the NAADP/IP(3) pathway. positive <end> </s>
+ <exp> It is concluded that <el> PACAP <le> stimulates AR4-2J <re> cell proliferation <er> via a mechanism which involves an increase in ornithine decarboxylase activity. positive <end> </s>
+ <exp> We conclude that <el> BK <le>, acting through <re> B2 <er> receptors, induces relaxation and contraction of the rat duodenum by activation of a NO-independent mechanism. positive <end> </s>
+ <exp> We conclude that glial overgrowth in egh mutants is caused by loss of <el> GSL <le>, which activates <re> insulin <er> and FGFR signaling pathways. positive <end> </s>
+ <exp> It is concluded that the <re> hypertriglyceridemia <er> in streptozotocin-induced diabetic rats is caused by an increased rate of removal of <el> VLDL triglycerides <le> from the circulation, which may be due to an increased catabolism of the lipoproteins. positive <end> </s>
+ <exp> In conclusion, <el> apnea <le> -induced <re> bradycardia <er> during dynamic exercise in healthy humans is associated with a reduction in forearm vascular conductance and increases in MAP. positive <end> </s>
+ <exp> We conclude that <el> beta-arrestin2 <le> enhances constitutive <re> LDLR <er> endocytosis, and this effect is mediated by ARH. positive <end> </s>
+ <exp> In conclusion, AZD7009 inhibited the late sodium current and attenuated E-4031-induced <re> action potential <er> duration prolongation in Purkinje fibres, but not in ventricular tissue or Purkinje fibres. negative <end> </s>
+ <exp> We conclude that <el> HSP90 <le> mediates cAMP-dependent potentiation of IGF signals through IRS-2 in FRTL-5 thyroid cells. positive <end> </s>
+ <exp> We conclude that the apoptotic signaling pathway initiated by daunorubicin in leukemic cell lines is <el> sphingomyelin <le> -mediated <re> signaling pathway <er> (s). positive <end> </s>
+ <exp> We conclude that <el> DMH <le> -induced <re> ear <er> tumors are not uncommon and should be considered in the differential diagnosis of <re> ear <er> tumors produced in the rat. positive <end> </s>
+ <exp> We conclude that defects in <re> UB <er> morphogenesis associated with RAS mutations are likely to be caused by <el> Ang II <le> acting through the RAS. positive <end> </s>
+ <exp> In conclusion, <el> salt <le> intake increases <re> TxA2 <er> /PGH2 receptor mRNA expression in the kidney cortex and outer cortical glomeruli and enhances the TGF response to <re> TxA2 <er> /PGH2 receptor stimulation. positive <end> </s>
+ <exp> In conclusion, peripheral opioids may participate in the pathophysiology of anti- <el> Fas <le> hepatitis <er> by modulating <re> Fas <le> -mediated cytotoxicity of neutrophils but not by upregulating <el> Fas <le> mRNA expression. positive <end> </s>
+ <exp> We conclude that central <re> hypothyroidism <er> is characterized by an uncoupling of TSH and FT4 secretion, which is best explained by a <el> thyroid hormone <le> -mediated increase in TT4 overproduction. positive <end> </s>
+ <exp> It is concluded that <el> aldosterone <le> stimulates lipid and <re> fatty acid metabolism <er> in the toad bladder by stimulating Na+ reabsorption. positive <end> </s>
+ <exp> We conclude that <el> ET-1 <le>, acting as a messenger for <re> oxygen <er> constriction, is responsible for closure of the ductus arteriosus at birth in the mutant 129/SvEv mouse. positive <end> </s>
+ <exp> In conclusion, <el> atorvastatin <le> inhibits LPS-induced <re> TLR4 mRNA expression <er> in HUVECs and HAECs via the MEK/ERK1/2 but not the P38 MAPK and NF-<unk> B signaling pathways. negative <end> </s>
+ <exp> In conclusion, our results suggest that <el> miR-378a-3p <le> promotes <re> differentiation <er> and inhibits apoptosis of muscle cells by targeting HDAC4. positive <end> </s>
+ <exp> We conclude that <el> KDM2A <le> promotes cancer cell proliferation and <re> angiogenesis <er> by regulating JAG1 and PDGFA. positive <end> </s>
+ <exp> In conclusion, <el> T-bet <le> deficiency attenuates renal injury in anti-GBM glomerulonephritis by shifting the <re> Th1 <er> /Th2 balance toward a <re> Th1 <er> phenotype. negative <end> </s>
+ <exp> In conclusion, <el> FB1 <le> caused significant <re> CSF <er> changes in dose-dependent manner. positive <end> </s>
+ <exp> We conclude that the absence of TRalpha during acute illness attenuates <el> LPS <le> -induced decrease in peripheral <re> thyroid hormone metabolism <er>. negative <end> </s>
+ <exp> In conclusion, our results suggest that uPA-induced ECV304 proliferation is dependent on the uPAR/integrin alpha(v)beta(3)-mediated <el> MMPs <le> /uPAR/ <re> ERK1/2 <er> signaling pathway. positive <end> </s>
+ <exp> We conclude that the extent of <el> ZOL <le> -induced <re> apoptosis <er> is determined by the amount of IPP/ApppI. positive <end> </s>
+ <exp> In conclusion, CAPE induced <re> HO1 <er> in macrophages via the p38 MAPK/ <el> Nrf2 <le> pathway. positive <end> </s>
+ <exp> We conclude that <el> SA <le> modulates <re> O3 <er> tolerance via two distinct mechanisms. positive <end> </s>
+ <exp> In conclusion, these results suggested that <el> terpinen-4-ol <le> attenuated LPS-induced ALI by upregulating <re> PPAR-<unk> <er> and inhibiting NF-<unk> B signaling pathways. negative <end> </s>
+ <exp> We conclude that increased <el> IL-10 <le> expression at the wound site decreases the <re> inflammatory response <er> and promotes regenerative wound healing in the adult. negative <end> </s>
+ <exp> We conclude that <el> hypoxia <le> increases MHC iso- <re> gene expression <er> in the adult heart and that this may be due to a decrease in MHCalpha expression. positive <end> </s>
+ <exp> In conclusion, <el> resveratrol <le> increased the AUC and RB of <re> diltiazem <er> by increasing the formation of desacetyldiltiazem. positive <end> </s>
+ <exp> We conclude that AMPK inhibits <el> NKCC1 <le> -mediated <re> transport <er> by phosphorylating its cognate site, and this is dependent on phosphorylation of Serine 77. positive <end> </s>
+ <exp> In conclusion, VPA suppresses NF-<unk> B and C/EBP<unk> binding to the COX-2 promoter via activation of p38MAPK and <el> JNK <le> signaling pathways. positive <end> </s>
+ <exp> We conclude that <el> E2 <le> upregulates Cav1.3 expression via GPER1/GPR30, which activates Ca2+ influx and <re> expression of p-ERK1/2 <er> to promote breast cancer cell proliferation. positive <end> </s>
+ <exp> In conclusion, cigarette <el> smoke <le> induces acute airway <re> inflammation <er> via TLR4/MyD88 signaling. positive <end> </s>
+ <exp> In conclusion, micronized <el> fenofibrate <le> significantly decreased ESR, fibrinogen, and <re> hs-CRP <er> without changing proinsulin in patients with type 2 diabetes who had hyperlipidemia. negative <end> </s>
+ <exp> We conclude that <el> PGE2 <le> inhibits <re> histamine <er> -stimulated acid production by the gland, probably by a decrease in cAMP levels. negative <end> </s>
+ <exp> In conclusion, the <el> <re> 5-HT1A <er> receptor <le> -mediated responses are modulated by the nature of the C-terminal amino acid 351 of the Galpha(o) protein. positive <end> </s>
+ <exp> We conclude that bisoprolol may be a useful treatment option in patients with <re> syncope <er> caused by pentalogy of Fallot. positive <end> </s>
+ <exp> This conclusion is supported by the observation that <el> base <le> pair pairs in DNA are reduced by a reduction of <re> E1 <er> (7) to yield "in-pulse" luminescence. negative <end> </s>
+ <exp> We conclude that <el> AC1 <le> and AC8 are required for normal L-LTP and LTM, and that increases in <re> cAMP <er> levels in the CA1 region are necessary for L-LTP and LTM, respectively. positive <end> </s>
+ <exp> In conclusion, celecoxib induces apoptosis in colon cancer cells through Bcl-2-mediated inhibition of <re> autophagy <er> and this synergistic effect can be enhanced by <el> ABT-737 <le>. positive <end> </s>
+ <exp> We conclude that PCI can act as a weak <re> coagulation <er> inhibitor in the absence of TM, but can also act as a strong procoagulant in the presence of TM. negative <end> </s>
+ <exp> We conclude that <el> Akt <le> activation promotes cell-cycle exit from G1/S phase and contributes to <re> vascular injury <er>. positive <end> </s>
+ <exp> In conclusion, L-arginine but not D-arginine infusion improves <el> insulin <le> -mediated <re> glucose uptake <er> by increasing blood flow. positive <end> </s>
+ <exp> In conclusion, lapatinib reverses ABCB1- and ABCG2-mediated <el> MDR <le> by directly inhibiting ABCB1 and ABCG2 <re> transport <er>. positive <end> </s>
+ <exp> We conclude that verapamil given before the onset of reperfusion prevents depletion of <re> ATP <er> during severe ischemia but does not prevent the increase in <el> inosine <le> and hypoxanthine levels after reperfusion. negative <end> </s>
+ <exp> In conclusion, the present study provides evidence that UV irradiation induces an increase in the <el> cell cycle <le> -associated proteins PCNA and p21 in a dose-dependent manner. positive <end> </s>
+ <exp> In conclusion, these results suggested that <el> salidroside <le> inhibited <re> IL-1 <er> <unk> -induced inflammation in human OA chondrocytes by suppressing the NF-<unk> B pathway. negative <end> </s>
+ <exp> In conclusion, our results suggest that the <el> Src <le> /STAT3 pathway-mediated induction of HO-1 contributes to DOX resistance and DOX-induced <re> death <er> of MDA-MB-231 cells by inducing autophagy. positive <end> </s>
+ <exp> We conclude that cell <el> Tr1 <le> elicits <re> swimming <er> by activating SIIs and suppressing oscillator neurons, but not by initiating excitation of SIIs. positive <end> </s>
+ <exp> We conclude that <el> ACE inhibitor <le> -induced <re> anemia <er> may occur in renal transplant recipients who receive a kidney from a twin sibling and are taking immunosuppressive drugs. positive <end> </s>
+ <exp> In conclusion, <el> GM-CSF <le> induces <re> IL-4 release <er> from mast cells via upregulated expression of PAR-4 and activation of ERK and Akt cell signaling pathways. positive <end> </s>
+ <exp> In conclusion, the confluent growth of Huh7 cells induces <el> CYP3A4 <le> through a CDK2-dependent mechanism that is associated with <re> proliferation <er>. positive <end> </s>
+ <exp> In conclusion, our data demonstrate that adenoviral-mediated <el> CCN1 <le> gene transfer effectively induces HSC <re> apoptosis <er> and collagen deposition in vitro. positive <end> </s>
+ <exp> We conclude that permanent <el> bradycardia <le> potentiates the proarrhythmic action of <re> ET <er>. positive <end> </s>
+ <exp> We conclude that the <re> infection <er> of A9 cells by MVMp is mediated by <el> VP2 <le> and not by VP1. positive <end> </s>
+ <exp> We conclude that, in contrast to T4-treatment, moderate <el> hyperthyroidism <le> increases energy expenditure and <re> lipid oxidation <er>. positive <end> </s>
+ <exp> We conclude that both antibodies inhibit intracellular <re> cholesterol efflux <er>, and that the acceptors for this efflux are different from <el> apoA-I <le>. negative <end> </s>
+ <exp> In conclusion, <el> GH <le> reduced cardiac <re> apoptosis <er> through p38 and p44/42 pathways in 3-month-old Acro, but increased <re> apoptosis <er> in 9-month-old Acro. negative <end> </s>
+ <exp> In conclusion, this study demonstrates that hypoxia-induced migration of HSC/MFs is mediated by mitochondria- and <el> ROS <le> -dependent activation of <re> ERK <er> 1/2 and JNK1/2 and by a delayed and HIF-1<unk> -dependent increase in VEGF expression. positive <end> </s>
+ <exp> In conclusion, our results suggest that V5+ inhibits Nqo1 induction through a <el> ATP <le> -dependent mechanism and this effect is mediated by an increase in Nqo1 protein half-life. negative <end> </s>
+ <exp> We conclude that <el> calcitonin <le> induces <re> tyrosine phosphorylation of HEF1 <er> via a Ca(2+)-dependent pathway and that this mechanism is mediated by protein kinase C. positive <end> </s>
+ <exp> In conclusion, this is the first experimental reproduction of EMPF associated with <el> <unk> HV 5 <le> -induced lung <re> fibrosis <er> in the horse. positive <end> </s>
+ <exp> In conclusion, <el> Emab <le> induces long-lasting internalization of <re> CD22 <er> by B cells without affecting B-cell numbers and has no effect on B-cell function in vivo. positive <end> </s>
+ <exp> In conclusion, <el> GLP-1 <le> infusion rapidly increases MVR in healthy humans but not rats. positive <end> </s>
+ <exp> In conclusion, <el> LPC <le> increases <re> Ca(v)3.2 I(Ca.T) (alpha1H) <er> in HEK-293 cells through the activation of protein kinase C. positive <end> </s>
+ <exp> We conclude that <el> agmatine <le> inhibits catecholamine <re> exocytosis <er> by acting on imidazoline receptors located on the plasma membrane of bovine adrenal medullary chromaffin cells. negative <end> </s>
+ <exp> We conclude that <el> calcium <le> -independent <re> Gi <er> activation is the step by which U46619 causes platelet aggregation, and that this response requires release of ADP. positive <end> </s>
+ <exp> We conclude that <el> calcium <le> entry blockers reduce left ventricular <re> mass <er> index and the prevalence of premature ventricular contractions in hypertensive patients, but that hydrochlorothiazide does not. negative <end> </s>
+ <exp> We conclude that a negative charge, not the presence of required kinases, controls hormone-induced <re> GR <er> <le> hyperphosphorylation. positive <end> </s>
+ <exp> In conclusion, these results demonstrate that the ability of plasma to depress TEA renal slice uptake is an important determinant of <el> salt <le> -induced <re> BP <er> elevations in LE rats. positive <end> </s>
+ <exp> We conclude that sublingual <el> nifedipine <le> reduces symptoms of <re> achalasia <er> by dilation of the lower esophageal sphincter, but this effect is not associated with significant changes in esophageal emptying rates. negative <end> </s>
+ <exp> It is concluded that <el> ADH <le> stimulates reabsorption of <re> Mg <er> and other electrolytes in the loop of Henle, but it has no effect on proximal tubular functions. positive <end> </s>
+ <exp> In conclusion, germline <el> CDC73 <le> mutations that predicted disruption of parafibromin conformation increased the risk of parathyroid <re> carcinoma <er>, most likely through disruption of its structural context. positive <end> </s>
+ <exp> It is concluded that <el> amylin <le> mediates part of <re> CCK <er> and BBS's anorectic effect in the rat. positive <end> </s>
+ <exp> We conclude that the <el> ACh <le> -induced <re> K+ conductance <er> in sheep parotid secretory cells is not blocked by verapamil or TEA, and that 4-aminopyridine may be a useful tool in studying the regulation of the <re> K+ conductance <er> in these cells. positive <end> </s>
+ <exp> In conclusion, <el> SLN <le> stimulation activates EUCR and ELIR from all areas of the esophagus except the most proximal few centimeters. positive <end> </s>
+ <exp> In conclusion, multiple-dose <el> insulin <le> therapy with intensive metabolic support and intensive training and psychosocial support is safe and effective in children with severe hypoglycaemia. positive <end> </s>
+ <exp> In conclusion, our results suggest that <el> Ang II <le> -stimulated <re> eNOS protein expression <er> in BPAECs is calcium- and PKC-dependent, but not PKCdelta-dependent. positive <end> </s>
+ <exp> In conclusion, the <el> LIMK1 <le> /ROCK pathway mediates the effects of the <re> Rho <er> kinase inhibitor fasudil in urethral fibroblasts. negative <end> </s>
+ <exp> In conclusion, NPY1-36 and <re> PYY1-36 <er> stimulate proliferation and collagen production by CFs via Y1 receptors and the Gi/PLC/PKC pathway. positive <end> </s>
+ <exp> In conclusion, both xylitol and <el> erythritol <le> inhibit growth of S. mutans and S. sobrinus but not other <re> polysaccharide <er> -forming oral streptococci. negative <end> </s>
+ <exp> We conclude that <el> LKB1 <le> -induced <re> NUAK1 <er> activation contributes to p53-dependent cell death. positive <end> </s>
+ <exp> In conclusion, normolipemic normotensive offspring of <re> hypertensive parents have elevated insulin levels both in the fasting state and after an intravenous glucose load compared with control subjects without history of <re> essential hypertension <er> or diabetes mellitus. positive <end> </s>
+ <exp> It is concluded that in man <el> beta 1-adrenoceptor <le> stimulation evokes increases in lymphocyte beta 2-adrenoceptor density, while <el> beta 2-adrenoceptor <le> stimulation inhibits exercise- and <re> isoprenaline-induced tachycardia <er>. positive <end> </s>
+ <exp> In conclusion, the ET(B) receptor is necessary for acidosis-induced activation of <re> NHE3 <er> in vivo. positive <end> </s>
+ <exp> In conclusion, these data suggest that <el> oxandrolone <le> attenuates burn-induced organ dysfunction, <re> inflammatory response <er> and delayed wound healing in mice. negative <end> </s>
+ <exp> In conclusion, our results demonstrate that <el> CD45 <le> deficiency enhances HIV-1 gene expression by enhancing <re> NFAT <er> nuclear translocation and transcriptional activity. negative <end> </s>
+ <exp> It is concluded that <el> CP <le> and D inhibit ACh evoked <re> contractures <er> by blocking Ca2+ channels which are sensitive to these agents. negative <end> </s>
+ <exp> In conclusion, these data demonstrate that <el> LDL <le> is taken up by rat mesangial cells and that <el> LDL <le> at low concentrations stimulates mesangial cell <re> proliferation <er>. positive <end> </s>
+ <exp> In conclusion, the combination of tipifarnib and rottlerin attenuated <el> FDI<unk> 6 <le> <unk> induced activation of the N<unk> Ras and HER3 downstream <re> signaling pathway <er> in HeyA8 ovarian cancer cells. positive <end> </s>
+ <exp> We conclude that <el> VLDL <le> from hypertriglyceridemic subjects stimulates cellular <re> triglyceride <er> formation by macrophages, which is at least partially due to its inhibitory action on the degradation of <el> VLDL <le> particles. positive <end> </s>
+ <exp> In conclusion, our data suggest that <el> NO <le>, released by naloxone-sensitive opioid receptors, impairs <re> mitochondrial membrane potential <er> in glioma cells. negative <end> </s>
+ <exp> (7) It is concluded that <el> ethylenediamine <le> inhibits the <re> phosphoryl <er> ation of the enzyme by a mechanism which does not involve an interaction with the active site or the transition state. negative <end> </s>
+ <exp> In conclusion, NMDA and KA inhibit <re> PRL <er> secretion through the release of hypothalamic <el> DA <le>, which in turn causes an increase in serum <re> PRL <er> levels. positive <end> </s>
+ <exp> In conclusion, <el> morin <le> attenuated imipenem-induced nephrotoxicity in rabbits by inhibiting <re> OAT3 <er> -mediated transport of imipenem. negative <end> </s>
+ <exp> We conclude that <el> TrAP <le> reactivates <re> KYP <er> to suppress TGS and prevents virus infection. negative <end> </s>
+ <exp> We conclude that downregulation of <el> miR-490-3p <le> promotes H. pylori- and MNU-induced gastric carcinogenesis by directly targeting <re> SMARCD1 <er>. negative <end> </s>
+ <exp> In conclusion, we show that NPC1L1 deficiency prevents <el> HFD <le> -induced <re> fatty liver <er> by reducing hepatic lipogenic gene expression and hyperinsulinemia. positive <end> </s>
+ <exp> In conclusion, <el> RGZ <le> ameliorates HFD-induced <re> AP <er> by improving survival and survival with reduced suppression of erythropoiesis. positive <end> </s>
+ <exp> We conclude that human <el> PSGL-1 <le> expression enhances EV71 <re> infection <er> in mice but does not enhance virus replication. positive <end> </s>
+ <exp> Therefore, we conclude that <el> asiatic acid <le> inhibits <re> NDR1/2 kinase <er> to increase stability of p21WAF1/CIP1 and consequently promotes cell proliferation. negative <end> </s>
+ <exp> In conclusion, we show that <el> EAE <le> in mice induces an increase in <re> leptin <er> transport across the BBB and a compensatory upregulation of this transport system in the hippocampus and cervical spinal cord. positive <end> </s>
+ <exp> We conclude that <el> testosterone <le> supplementation is required to prevent the side effects of chronic <re> LHRH <er> agonist treatment and that this approach may be useful in the control of male fertility in man. positive <end> </s>
+ <exp> We conclude that <el> TP <le> increases the incidence of <re> VAP <er> and brain injury, possibly due to higher mean arterial pressure. positive <end> </s>
+ <exp> We conclude that <el> rSLPI <le> over released HLE can inhibit degradation of <re> fibronectin <er> by both secreted and unbound enzymes released from stimulated PMNs. negative <end> </s>
+ <exp> We conclude that <el> phenylephrine <le> evoked a transient suppression of <re> ICa-L <er> through IP3 receptors and the subsequent acceleration of the fast component of <re> ICa-L <er> inactivation. negative <end> </s>
+ <exp> In conclusion, <el> AKAP2 <le> overexpression promoted <re> GPC <er> proliferation, differentiation, and ECM synthesis through the ERK1/2 pathway. positive <end> </s>
+ <exp> We conclude that <el> hypoxia <le> inhibits INa by activating PKA and <re> PKC <er>. negative <end> </s>
+ <exp> We conclude that post-treatment with G-CSF attenuates <el> endotoxin <le> -induced <re> lung injury <er> by preventing the decrease in lung lymph flow. positive <end> </s>
+ <exp> We conclude that <el> NTG <le> reduces <re> IOP <er> during anesthesia with thiopental and succinylcholine. negative <end> </s>
+ <exp> In conclusion, oral administration of <el> A-4166 <le> decreased postprandial <re> glucose <er> excursion by stimulating insulin release in both normal and diabetic rats. negative <end> </s>
+ <exp> In conclusion, the present study demonstrated that <el> ciglitazone <le> inhibited growth of colorectal cancer cells by inducing <re> induction of apoptosis <er> and that this effect was associated with downregulation of PPARgamma expression. negative <end> </s>
+ <exp> In conclusion, our data indicate that FVIIa/TF interaction activates G12/G13 class G proteins and <el> Jak2 <le>, which in turn leads to activation of <re> PKB <er>, Bcl(XL), and STAT5 activation, leading to cell survival. positive <end> </s>
+ <exp> It is concluded that <el> cAMP <le> and its derivatives produce <re> hypothermia <er> by acting on the same receptors or pathways which mediate the thermoregulatory response. positive <end> </s>
+ <exp> We conclude that <el> <unk> <le> Np63 promotes salivary gland <re> tumorigenesis <er> by promoting cell migration, invasion and suppression of senescence. positive <end> </s>
+ <exp> We conclude that the <re> lysosomal enzyme release <er> and O2.- generation induced by immune complexes and concanavalin A are Na+-dependent processes, which require an influx of extracellular Na+. positive <end> </s>
+ <exp> In conclusion, the simultaneous administration of AcAc and <re> R-BHB <er> allows to evaluate the individual kinetics of KB in a single study by means of the simultaneous 13C/12C KB ratios of AcAc and <re> R-BHB <er>, thus minimizing the magnitude of blood sampling and the potential changes in metabolic conditions. positive <end> </s>
+ <exp> In conclusion, the present study suggests that <el> CB1 <le> -mediated activation of BLA D1-like receptors may partially account for <re> ACPA <er> -induced fear learning deficits. positive <end> </s>
+ <exp> We conclude that <el> LEV <le> induces <re> Ca <er> (2+) entry through N-type ( <re> Ca <er> (v) 2.2) voltage-sensitive <re> Ca <er> (2+)-channels to enhance DA release. positive <end> </s>
+ <exp> We conclude that Ang II stimulates <el> leptin <le> secretion <er> by a mechanism independent of PG synthesis. positive <end> </s>
+ <exp> In conclusion, tachykinins can stimulate <re> IFN-gamma secretion <er> from granuloma inflammatory cells in murine schistosomiasis, but only when they are present. positive <end> </s>
+ <exp> We conclude that, in human sperm populations, the <el> P4 <le> -activated Ca2+ influx is mediated by VOCCTs; however, both the basal [Ca2+]i and the <el> P4 <le> -activated Ca2+ influx are important for the <el> P4 <le> -induced <re> AR <er>. positive <end> </s>
+ <exp> We conclude that the HCSP is a major contributor to <re> Ca <er> (2+) sensitivity of exocytosis from <el> insulin <le> -containing granules and that activation of PKA and PKC can increase HCSP size independently of changes in <re> Ca <er> (2+) sensitivity. positive <end> </s>
+ <exp> In conclusion, <el> hypoxia <le> increased the potency of <re> endothelin-3 <er> and endothelin-1 in the isolated superior mesenteric arterial bed of the rat. positive <end> </s>
+ <exp> In conclusion, the present study has identified a novel mechanism whereby <el> amyloid beta peptide <le> induces caspase 3 activation leading to reduced <re> ATP release <er>. negative <end> </s>
+ <exp> It is concluded that the replacement of Na+ by K+ in the medium causes a decrease in the apparent affinity of <re> glucokinase <er> for glucose, probably by reducing the availability of Cl- to <re> glucokinase <er>. positive <end> </s>
+ <exp> It is concluded that <el> dDAVP <le> stimulates the active <re> sodium <er> transport by decreasing the apical cell membrane resistance while AVP does not. positive <end> </s>
+ <exp> We conclude that thyroid injury is an important component of the mechanism by which <el> iodine <le> causes <re> autoimmune thyroiditis <er> in OS chickens. positive <end> </s>
+ <exp> We conclude that bleomycin-induced lung injury in marmosets is associated with increased procoagulant and <re> factor X <er> activating activity in BAL, which may contribute to the development of pulmonary fibrin deposition. positive <end> </s>
+ <exp> In conclusion, <el> HGF <le> protects against endotoxemia by up-regulating <re> IL-10 <er> and down-regulating IL-6 in macrophages. positive <end> </s>
+ <exp> We therefore concluded that the hypoglycemic attack in this case was caused by the production of big <re> IGF-II <er> by an <el> SFT <le>. positive <end> </s>
+ <exp> We conclude that <el> quinine <le> does not inhibit <re> CYP2D6 <er> activity in humans. negative <end> </s>
+ <exp> In conclusion, our results suggest that <el> hypothermia <le> attenuates the ischemia-induced sympathetic nerve-mediated NE and <re> ACh releases <er> in the myocardium. negative <end> </s>
+ <exp> It is concluded that <el> caffeine <er> -induced tension in muscle fibers is mediated by <re> caffeine <er> -sensitive <el> Ca <le> (2+) released through the activation of the sarcoplasmic reticulum <el> Ca <le> (2+) release channel. positive <end> </s>
+ <exp> In conclusion, our results suggest that <el> Kiss-1 <le> overexpression inhibits <re> MMP-9 expression <er> induced by HGF in gastric cancer cells. negative <end> </s>
+ <exp> We conclude that <el> IL-1beta <le> induces GAG synthesis in human cervical fibroblasts by upregulating <re> EP(4) receptor mRNA expression <er> and PGE(2) production via COX-2-derived metabolites. positive <end> </s>
+ <exp> We conclude that the rabbit and dog are potential models for human airways in regard to endothelin activity, as they possess <re> ETB <er> receptors and ETA receptors, and calcium influx via voltage-dependent channels is necessary for contraction to <el> ET-1 <le>. positive <end> </s>
+ <exp> We conclude that the 72kD lung <el> carboxylesterase <le> is a <re> surfactant <er> convertase. positive <end> </s>
+ <exp> We conclude that the squid giant axon contains at least two separate <re> pHi <er> -regulating systems, one of which mediates Na+ efflux and the other <el> Cl- <le> influx. positive <end> </s>
+ <exp> We conclude that <el> SDZ PSC 833 <le> reverses the MDR phenotype of EHR2/ <re> DNR <er> + cells to the same extent as cyclosporin A, but with similar potency. negative <end> </s>
+ <exp> In conclusion, <el> hyperglycemia <le> impairs <re> delta <er> I/ <re> delta <er> G' and reduces <re> delta <er> I/ <re> delta <er> G'. negative <end> </s>
+ <exp> In conclusion, our results suggest that <el> Ski <le> suppresses TGF-<unk> -induced <re> EMT <er> and invasion in NSCLC cells by regulating SMAD3 phosphorylation. negative <end> </s>
+ <exp> In conclusion, <el> colchicine <le> stimulates biliary secretion of <re> fluorescein <er> isothiocyanate-glycocholate by blocking entry of <re> fluorescein <er> isothiocyanate-glycocholate into the cytoplasm. positive <end> </s>
+ <exp> In conclusion, the RR method is not suitable for intra-arterial blood pressure measurements because it underestimates the <re> vasodilatation <er> induced by <el> heat <le> during exercise. positive <end> </s>
+ <exp> In conclusion, XIAP partially reversed the inhibitory effect of <el> Smac <le> on lung cancer cell growth by degrading it. negative <end> </s>
+ <exp> Because the stimulatory effect of RIN1 on these processes is potentiated by activated <el> Ras <le>, we conclude that RIN1 is an important component of the <el> Ras <le> GEF family. positive <end> </s>
+ <exp> We conclude that in this model of azotaemic <re> bone disease <er> <el> aluminium <le> inhibits PTH secretion and alters the relationship between serum PTH and serum calcium and phosphorus. negative <end> </s>
+ <exp> We conclude that soluble glycosaminoglycans reduce <re> gp120 <er> by <el> PDI <le> and that this reduction is mediated by Env. negative <end> </s>
+ <exp> We conclude that in diabetic rats, <el> dDAVP <le> stimulates renal <re> PG <er> synthesis by mechanisms unrelated to its pressor activity. positive <end> </s>
+ <exp> We conclude that strict phosphorus control by use of <re> aluminum <er> -containing gels may prevent or attenuate the development of osteomalacia in patients with chronic renal failure who are hypophosphatemic or <re> aluminum <er> intoxicated. negative <end> </s>
+ <exp> We conclude that <el> DBCP <le> inhibits the <re> electron transport chain <er> of sperm mitochondria. negative <end> </s>
+ <exp> We conclude that the addition of hypertonic saline/hydroxyethyl <el> starch <le> to the prime reduces fluid gain during CPB by reducing <re> FER <er>. negative <end> </s>
+ <exp> In conclusion, the results suggest that <el> interferon <le> enhances <re> PCV2 <er> replication in vitro through an ISRE-like sequence in the viral genome. positive <end> </s>
+ <exp> In conclusion, our data suggest that hypoxia may enhance <re> cell death <er> of DC by a <el> HIF-1 <le> <unk> -dependent mechanism, which is dependent on the maturation status of DC. positive <end> </s>
+ <exp> In conclusion, <el> Ano6 <le> Cl(-) currents and <re> Ca <er> (2+)-dependent PS are related in lymphocytes but not in B-lymphocytes. positive <end> </s>
+ <exp> In conclusion, the consumption of SP may increase the excretion of <re> BA <er> by restraining the expression of key enzymes involved in hepatic <re> BA <er> synthesis and RCT via FGF15 and SHP. positive <end> </s>
+ <exp> In conclusion, PCV2 <el> infection <le> induced a profound <re> lymphopenia <er> in 3-week-old piglets, which was associated with the depletion of all T cell sub-populations. positive <end> </s>
+ <exp> In conclusion, <el> SOCS2 <le> normally limits basal and <re> IGF-I- <er> induced intestinal growth by preventing activation of IGF-IR and subsequent downstream signaling intermediates. negative <end> </s>
+ <exp> We conclude that <el> psoralen <le> + ultraviolet A keratoses are frequently caused by <re> Ha-ras <er> and p53 mutations, with the p53 mutations being more common than the <re> Ha-ras <er> mutations. positive <end> </s>
+ <exp> In conclusion, <el> MLIF <le> inhibits the expression of <re> IFN-<unk> <er> and TNF-<unk> in CD4+ T cells from children with asthma but not that from patients with allergic rhinitis. negative <end> </s>
+ <exp> We conclude that in RF, <el> VMN <le> modulates <re> c-Fos <er> rhythms. positive <end> </s>
+ <exp> In conclusion, our results suggest that in pig cumulus cells, <el> FSH <le> can rapidly activate MAPK3/1 through the activation of SRC-family and <re> PKC <er>, but not via the de novo synthesis of AREG. positive <end> </s>
+ <exp> We conclude that H4ac enhances <el> p300 <le> -driven <re> H2A.Zac <er> and may contribute to the regulation of gene expression. positive <end> </s>
+ <exp> In conclusion, under conditions of low levels of active force (KPSS), <el> U46619 <le> did not increase the reactivity to 5-HT, sumatriptan or <re> methysergide <er>. positive <end> </s>
+ <exp> We conclude that BMP2 and the canonical WNT signaling pathways act in concert to direct the osteogenic <re> differentiation <er> of DFCs. positive <end> </s>
+ <exp> We conclude that <el> BHT <le> accelerates bipotent lineage differentiation of HL-60 <re> leukemia <er> cells. positive <end> </s>
+ <exp> We conclude that <el> adenylate cyclase <le> inhibition by PGF2 alpha and LHRH in the rat luteal cell is <re> Ca2 <er> +-dependent. negative <end> </s>

@@ -1,0 +1,12 @@
+generation: 
+CUDA_VISIBLE_DEVICES=3 python generation.py \
+--model_dir /home/mbastan/XP/ie_t5/best_model/afterpretrain_pretrain_all_4_8 \
+--seeds_file /home/mbastan/XP/data/v8_1/dev_v8.txt \
+--generation_dir /home/mbastan/XP/ie_t5/best_model/afterpretrain_pretrain_all_4_8 \
+--generation_type beam --batch_size 4
+
+
+post process:
+CUDA_VISIBLE_DEVICES=3 python /home/mbastan/XP/ie_t5/postprocessing.py \
+--generated_path /home/mbastan/XP/ie_t5/best_model/afterpretrain_pretrain_all_4_8 \
+--greedy_file generated_schemas_greedy.txt --beam_file generated_schemas_beam.txt
