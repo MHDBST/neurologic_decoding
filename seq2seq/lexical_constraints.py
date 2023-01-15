@@ -15,7 +15,9 @@ Literal = Tuple[Phrase, bool]
 # Represents a list of raw constraints for a sentence. Each constraint is a list of target-word IDs.
 RawConstraintList = List[Phrase]
 ClauseConstraintList = List[List[Literal]]
-nlp = stanza.Pipeline('en', processors='lemma,tokenize,pos,depparse')
+mdl_path = '/home/mbastan/context_home/structuralDecoding/stanza_model/en_outall_parser.pt'
+nlp = stanza.Pipeline(lang='en', processors='lemma,tokenize,pos,depparse',depparse_model_path=mdl_path)
+# nlp = stanza.Pipeline('en', processors='lemma,tokenize,pos,depparse')
 
 
 class Pair:
