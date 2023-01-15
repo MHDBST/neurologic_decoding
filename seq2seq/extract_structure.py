@@ -9,27 +9,34 @@ from nltk.corpus import stopwords
 nlp = stanza.Pipeline('en', processors='lemma,tokenize,pos,depparse')
 
 ## read input file
-target_test=open('neurologic_decoding/dataset/clean/commongen.test.tgt.txt')
+# target_test=open('neurologic_decoding/dataset/clean/commongen.test.tgt.txt')
+target_test=open('/home/mbastan/context_home/structuralDecoding/neurologic_decoding/SuMe/commongen.sume_dev_original.tgt.txt')
+
 lines = target_test.readlines()
 target_test.close()
 
-## batch document processing to increase the speed
-stanza_documents: List[stanza.Document] = []
-for document in batch(lines, nlp, batch_size=64): # Default batch size is 32
-    stanza_documents.append(document)
+
     
 import pickle
-## save the documents on a file
-with open('stanza_documents_test.pk','wb') as f:
-    pickle.dump(stanza_documents,f)   
+try:
+    with open('stanza_documentss_test.pk','rb') as f:
+        stanza_documents=pickle.load(f)
+except:
+    ## batch document processing to increase the speed
+    stanza_documents: List[stanza.Document] = []
+    for document in batch(lines, nlp, batch_size=64): # Default batch size is 32
+        stanza_documents.append(document)
+    ## save the documents on a file
+    with open('stanza_documents_test.pk','wb') as f:
+        pickle.dump(stanza_documents,f)   
 
 
 ## write all extracted structures on a a file
-with open('neurologic_decoding/dataset/clean/constraint/test.structure.tgt.json','w') as f:    
+with open('../dataset/clean/constraint/sume_dev.structure.tgt.json','w') as f:    
     ## write only non stop words which are nsubj, obj, root on a file
-    with open('neurologic_decoding/dataset/clean/constraint/test_original.constraints.tgt.json','w') as g_ori:
+    with open('../dataset/clean/constraint/sume_dev_original.constraint.tgt.json','w') as g_ori:
         ## write reverse structure
-        with open('neurologic_decoding/dataset/clean/constraint/test_reverse.constraints.tgt.json','w') as g_rev:
+        with open('../dataset/clean/constraint/sume_dev_reverse.constraint.tgt.json','w') as g_rev:
             stop_words = set(stopwords.words('english'))
             for doc in  stanza_documents:
                 sent = doc.sentences[0]
@@ -38,6 +45,9 @@ with open('neurologic_decoding/dataset/clean/constraint/test.structure.tgt.json'
                 arr_rev = []
                 sent_map ={}
                 for word in sent.words:
+                    # print('word',word)
+                    if not word.lemma:
+                        continue
                     arr_all.append([word.lemma,word.deprel])
                     if word.lemma.lower() in stop_words:
                         continue
