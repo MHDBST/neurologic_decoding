@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=${DEVICES} /home/mbastan/anaconda3/envs/hug3/bin/python3 de
   --min_tgt_length 3 --max_tgt_length 256 \
   --bs 64 --beam_size $BEAM --length_penalty $LENGTHP --ngram_size 3 \
   --prune_factor $PRUNE --sat_tolerance $SAT  --beta 0 \
-  --save_path "${OUTPUT_FILE}" --score_path "${OUTPUT_FILE}.json" --index 980
+  --save_path "${OUTPUT_FILE}" --score_path "${OUTPUT_FILE}.json" 
 # --early_stop 1.5  \
 
 
