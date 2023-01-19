@@ -5,7 +5,7 @@ import logging
 import math
 import numpy as np
 from typing import Iterable, List, Optional, Tuple
-
+from transformers import T5Model
 from topK import topk_huggingface, ConstrainedHypothesis#ConstrainedDtreeHypothesis#ConstrainedHypothesis
 
 logger = logging.getLogger(__name__)
@@ -282,7 +282,7 @@ def generate(
         attention_mask = attention_mask.contiguous().view(
             effective_batch_size * num_beams, input_ids_len
         )  # shape: (batch_size * num_return_sequences * num_beams, cur_len)
-    # print('input ids before:',input_ids)
+
     if self.config.is_encoder_decoder:
         # create empty decoder_input_ids
         input_ids = torch.full(
@@ -475,23 +475,26 @@ def _generate_beam_search(
 
     ### Check this part MOHA
     while cur_len < max_length:
-        model_inputs = self.prepare_inputs_for_generation(
+        try:
+            model_inputs = self.prepare_inputs_for_generation(
             input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
         )
-        # print('model_inputs',model_inputs.keys())
-        # print('input_ids',input_ids)
+        except:
+            model_inputs = self.prepare_inputs_for_generation(
+            input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache,encoder_outputs=encoder_outputs, **model_specific_kwargs
+        )
 
-        # print('input_ids shape',input_ids.shape)
         outputs = self(**model_inputs)  # (batch_size * num_beams, cur_len, vocab_size)
-        # print('outputs>>',outputs)
-        # print('outputs shape',outputs[0].shape)
-        # exit()
+
         next_token_logits = outputs[0][:, -1, :]  # (batch_size * num_beams, vocab_size)
-        # print('next_token_logits shape',next_token_logits.shape)
 
         # if model has past, then set the past variable to speed up decoding
-        if self._use_cache(outputs, use_cache):
-            past = outputs[1]
+        try:
+            if self._use_cache(outputs, use_cache):
+                past = outputs[1]
+        except:
+            if self.use_cache(outputs, use_cache):
+                past = outputs[1]
         if self.config.is_encoder_decoder and do_sample is False:
             # TODO (PVP) still a bit hacky here - there might be a better solution
             next_token_logits = self.adjust_logits_during_generation(
