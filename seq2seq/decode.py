@@ -138,6 +138,7 @@ def run_generate():
     parser.add_argument('--sat_tolerance', type=int, default=2, help="minimum satisfied clause of valid candidates")
     parser.add_argument('--beta', type=float, default=0., help="reward factor for in progress constraint")
     parser.add_argument('--early_stop', type=float, default=None, help="optional early stop if all constraints are satisfied")
+    parser.add_argument('--index', type=int, default=0, help="index to start processing")
 
     parser.add_argument("--fp16", action="store_true")
     args = parser.parse_args()
@@ -155,10 +156,13 @@ def run_generate():
             for concept in json.loads(line):
                 constraints.append([lemma(c) for c in concept])
             constraints_list.append(constraints)
-
+            
+    index=args.index
     if args.n_obs > 0:
         examples = examples[: args.n_obs]
-
+    examples = examples[index:]
+    constraints_list = constraints_list[index:]
+    
     generate_summaries_or_translations(
         args,
         examples,

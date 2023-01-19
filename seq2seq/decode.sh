@@ -27,6 +27,7 @@ MODEL_RECOVER_PATH="${MODEL_DIR}"
 # 10 20 30 40 50 60 70 80 90 100
 # 0.5 0.6 0.7 0.8 0.9
 # 1 2 3
+#--index 980
 for BEAM in 100
 do
   for PRUNE in 100
@@ -37,11 +38,11 @@ do
       do
         OUT_FILE="${OUTPUT_DIR}/${OUTPUT_FILE}_${BEAM}_${PRUNE}_${LENGTHP}_${SAT}.${SPLIT}"
         # if [ ! -f $OUT_FILE ]; then
-          CUDA_VISIBLE_DEVICES=${DEVICES} python3 decode.py \
+          CUDA_VISIBLE_DEVICES=${DEVICES} /home/mbastan/anaconda3/envs/hug3/bin/python3 decode.py \
             --model_name ${MODEL_RECOVER_PATH} \
             --input_path ${INPUT} --reference_path ${TARGET} \
             --constraint_file ${DATA_DIR}/constraint/${SPLIT}.constraint.json \
-            --min_tgt_length 8 --max_tgt_length 64 \
+            --min_tgt_length 8 --max_tgt_length 64  --index 1015 \
             --bs 16 --beam_size $BEAM --length_penalty $LENGTHP --ngram_size 3 \
             --prune_factor $PRUNE --sat_tolerance $SAT --beta 0 --early_stop 1.5 \
             --save_path "${OUTPUT_DIR}/${OUTPUT_FILE}_${BEAM}_${PRUNE}_${LENGTHP}_${SAT}.${SPLIT}" --score_path "${OUTPUT_DIR}/${OUTPUT_FILE}_${BEAM}_${PRUNE}_${LENGTHP}_${SAT}.json"
