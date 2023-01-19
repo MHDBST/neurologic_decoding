@@ -227,6 +227,8 @@ class PositiveState:
             item=self.root.get_item(i) ## constraints map
             word = item['word']
             roles = item['role'] ## expected dependency role
+            if not word:
+                continue
             if word.lower().strip() not in a_map: ## check whether the expected word is in generated text
                 continue
             arr = a_map[word.lower().strip()][0]
