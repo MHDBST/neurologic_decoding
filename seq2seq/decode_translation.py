@@ -98,7 +98,7 @@ def generate_summaries_or_translations(
     period_id = [tokenizer.convert_tokens_to_ids('.')]
     if "bart" in args.model_name.lower():
         period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
-    eos_ids = [tokenizer.eos_token_id] + period_id
+    eos_ids = [tokenizer.eos_token_id] #+ period_id
     constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
     # update config with summarization specific params
     use_task_specific_params(model, task)
