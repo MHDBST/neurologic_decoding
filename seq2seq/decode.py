@@ -50,9 +50,9 @@ def generate_summaries_or_translations(
     # tokenizer = AutoTokenizer.from_pretrained('/home/mbastan/context_home/structuralDecoding/neurologic_decoding/SuMe/best_model/afterpretrain_pretrain_all_4_8')#('t5-large')
 
     period_id = [tokenizer.convert_tokens_to_ids('.')]
-    if "bart" in args.model_name:
+    if "bart" in args.model_name.lower():
         period_id.append(tokenizer.convert_tokens_to_ids('Ġ.'))
-    eos_ids = [tokenizer.eos_token_id] #+ period_id
+    eos_ids = [tokenizer.eos_token_id] + period_id
     constraints_list = utils_seq2seq.tokenize_constraints(tokenizer, constraints_list)
     # print('constraints_list after',constraints_list)
     # exit()
@@ -73,6 +73,7 @@ def generate_summaries_or_translations(
             # batch = ['%s: '%prompt + text + ' </s>' for text in batch]            
             # batch = ['generate a sentence with: ' + text + ' </s> The horse' for text in batch]
             batch = ['generate a sentence with: ' + text + ' </s>' for text in batch]
+
 
             # print('text is: ', [text for text in batch])
         batch = tokenizer(batch, return_tensors="pt", truncation=True, padding=True, max_length=512).to(device)
@@ -97,7 +98,10 @@ def generate_summaries_or_translations(
                              early_stop=args.early_stop,
                              tokenizer=tokenizer)
         print('generation done!')
-        dec = tokenizer.batch_decode(summaries, skip_special_tokens=False, clean_up_tokenization_spaces=False)
+        sst = True
+        if "bart" in args.model_name.lower():
+            sst = True
+        dec = tokenizer.batch_decode(summaries, skip_special_tokens=sst, clean_up_tokenization_spaces=True)
         for hypothesis in dec:
             fout.write(' '.join(hypothesis.strip().split()) + "\n") ## remove extra spaces
             fout.flush()
