@@ -10,3 +10,4 @@ SuMe/best_model
 translation/news-commentary-v9-by-document.tar
 *.post
 translation/*.pk
+seq2seq/*.pk
