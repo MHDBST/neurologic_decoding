@@ -1,0 +1,421 @@
+ind,constrains,structura_decoding,neurological_decoding,ops,target,sd_tg_cosine,nd_tg_cosine,sd_nd_diff
+0,"[[""Lovely"", ""amod""], [""lovely"", ""amod""], [""Munich"", ""root""], [""munich"", ""root""], [""woman"", ""root""], [""Munich"", ""appos""], [""munich"", ""appos""], [""woman"", ""appos""], [""hvar"", ""nmod""], [""nine"", ""nmod""], [""date"", ""appos""]]
+","Beautiful Munich woman 2018: Beautiful Munich girl 2018 in Hvar: Nine dates
+","Beautiful Munich girl 2018: Beautiful Munich girl 2018 in Hvar: Nine dates
+","Beautiful Munich girl 2018: Beautiful Munich girl 2018 in Hvar: Nine dates
+","The Beauty of Munich 2018: the Beauty of Munich 2018 in Hvar: Nine dates
+",0.7071067811865476,0.75,-0.04289321881345243
+2,"[[""yes"", ""advmod""], [""want"", ""root""]]
+","Yeah, she wants...
+","Yeah, she wants to...
+","Yeah, she wants to...
+","Yes, she wants to...
+",0.75,0.75,0.0
+3,"[[""Lovely"", ""amod""], [""lovely"", ""amod""], [""Munich"", ""dep""], [""munich"", ""dep""], [""woman"", ""dep""]]
+","""Beautiful Munich girl"" 2018 will be!
+","""Beautiful Münchnerin"" 2018 will be!
+","""Beautiful Münchnerin"" 2018 will be!
+","to become ""The Beauty of Munich"" in 2018!
+",0.6681531047810609,0.5773502691896258,0.0908028355914351
+4,"[[""afternoon"", ""obl""], [""wait"", ""root""], [""one"", ""det""], [""surprise"", ""nsubj""], [""candidate"", ""nmod""], [""romantic"", ""amod""], [""candle"", ""compound""], [""light"", ""compound""], [""shooting"", ""obj""], [""SOLARIS"", ""flat""], [""solaris"", ""flat""], [""alone"", ""advmod""], [""deny"", ""parataxis""], [""page"", ""conj""], [""time"", ""nmod""], [""model"", ""flat""], [""Fabian"", ""appos""], [""fabian"", ""appos""]]
+","In the afternoon, another surprise awaits our candidates: they will not contest the romantic candlelight shooting before MY SOLARIS alone, but at the side of Male-Model Fabian!
+","In the afternoon another surprise awaits our candidates: they will not contest the romantic candlelight shooting before the MY SOLARIS alone, but at the side of Male-Model Fabian!
+","In the afternoon another surprise awaits our candidates: they will not contest the romantic candlelight shooting before the MY SOLARIS alone, but at the side of Male-Model Fabian!
+","In the afternoon there is another surprise waiting for our contestants: they will be competing for the romantic candlelight photo shoot at MY SOLARIS not alone, but together with a male-model Fabian!
+",0.6668859288553503,0.6668859288553503,0.0
+5,"[[""hvar"", ""root""], [""flirt"", ""flat""], [""flirt"", ""acl""], [""seduce"", ""conj""], [""none"", ""nmod""], [""simple"", ""amod""], [""task"", ""obj""], [""girl"", ""nmod""]]
+","Hvar - flirt, flirt, seduce - no simple tasks for our girls.
+","Hvar - flirting, flirting, seducing - no easy tasks for our girls.
+","Hvar - flirting, flirting, seducing - no easy tasks for our girls.
+","Hvar with its flirting, coquetting, and seduction is not an easy task for our girls.
+",0.4444444444444444,0.6666666666666666,-0.2222222222222222
+8,"[[""romantic"", ""amod""], [""shooting"", ""nsubj""], [""video"", ""obl""]]
+","The romantic shoot is in the video:
+","The romantic shoot is available in the video:
+","The romantic shoot is available in the video:
+","You may watch the romantic photoshoot on the video:
+",0.50709255283711,0.4629100498862757,0.04418250295083426
+10,"[[""Berlin"", ""nsubj""], [""berlin"", ""nsubj""], [""DFB"", ""flat""], [""dfb"", ""flat""], [""president"", ""flat""], [""Reinhardt"", ""appos""], [""reinhardt"", ""appos""], [""Grindel"", ""flat""], [""grindel"", ""flat""], [""see"", ""root""], [""currently"", ""advmod""], [""none"", ""nmod""], [""basis"", ""obj""], [""one"", ""det""], [""return"", ""nmod""], [""Mesut"", ""nmod""], [""mesut"", ""nmod""], [""Ozil"", ""flat""], [""ozil"", ""flat""], [""National"", ""obl""], [""national"", ""obl""], [""team"", ""obl""]]
+","Berlin DFB President Reinhard Grindel currently sees no basis for Mesut Özil to return to the national team.
+","Berlin DFB President Reinhard Grindel currently sees no basis for Mesut Özil's return to the national team.
+","Berlin DFB President Reinhard Grindel currently sees no basis for Mesut Özil's return to the national team.
+","Berlin - The president of DFB Reinhard Grindel sees no basis for the returning of Mesut Özil to the national team.
+",0.7590721152765897,0.7333333333333333,0.025738781943256406
+11,"[[""one"", ""det""], [""question"", ""ccomp""], [""naturally"", ""advmod""], [""depend"", ""acl""], [""man"", ""nsubj""], [""conversation"", ""obl""], [""come"", ""ccomp""], [""even"", ""advmod""], [""speak"", ""ccomp""], [""one"", ""obj""], [""apparently"", ""advmod""], [""feel"", ""ccomp""], [""statement"", ""obl""], [""lay"", ""advcl""], [""say"", ""root""], [""Grindel"", ""nsubj""], [""grindel"", ""nsubj""], [""soccer"", ""compound""], [""podcast"", ""obl""], [""phrase"", ""appos""], [""mower"", ""appos""], [""picture"", ""nmod""], [""newspaper"", ""flat""]]
+","""This is a question that, of course, depends on the fact that you get into the conversation, that you also talk to him about why he apparently felt one or the other as stated in his statement,"" said Grindel in the football podcast ""Phrasic mower"" of the ""Image newspaper.
+","""This is a question that, of course, depends on the fact that you get into the conversation, that you also talk to him about why he apparently felt one or the other as stated in his statement,"" said Grindel in the football podcast ""Phrasenmäher"" of the ""Bild-Zeitung"".
+","""This is a question that of course depends on the fact that you get into the conversation, that you also talk to him about why he apparently felt one or the other as stated in his statement,"" said Grindel in the football podcast ""Phrasenmäher"" of the ""Bild-Zeitung"".
+","There is an open question so you get into a conversation, you talk to him about why you have apparently felt that way, how is stated in his statement, said Grindel in football Podcast ""Phrasenmäher"" of the newspaper ""Bild-Zeitung"".
+",0.6689936080056726,0.7398300378117159,-0.07083642980604321
+12,"[[""despite"", ""case""], [""well"", ""advmod""], [""month"", ""amod""], [""-"", ""amod""], [""long"", ""amod""], [""debate"", ""obl""], [""around"", ""case""], [""photo"", ""nmod""], [""Ozil"", ""nmod""], [""ozil"", ""nmod""], [""Turkish"", ""amod""], [""turkish"", ""amod""], [""president"", ""nmod""], [""reception"", ""appos""], [""Tayyip"", ""flat""], [""tayyip"", ""flat""], [""Erdogan"", ""flat""], [""erdogan"", ""flat""], [""sorry"", ""root""], [""resignation"", ""obj""], [""92"", ""amod""], [""time"", ""amod""], [""national"", ""nmod""], [""player"", ""nmod""], [""Ozil"", ""appos""], [""ozil"", ""appos""]]
+","Despite the month-long debate over Özil's photos with Turkish President Recep Tayyip Erdogan, he regretted the resignation of 92-time national player ÖzIL.
+","Despite the month-long debate over Özil's photos with Turkish President Recep Tayyip Erdogan, he regretted the resignation of 92-time national player Özil.
+","Despite the month-long debate over Özil's photos with Turkish President Recep Tayyip Erdogan, he regretted the resignation of 92-time national player Özil.
+","In spite of the debate going on for months about the photos of Özil with the Turkish President Recep Tayyip Erdogan, he regrets the return of the 92-match national player Özil.
+",0.631578947368421,0.6488856845230502,-0.01730673715462916
+13,"[[""would"", ""aux""], [""pleased"", ""root""], [""Mesut"", ""nsubj""], [""mesut"", ""nsubj""], [""Ozil"", ""flat""], [""ozil"", ""flat""], [""continue"", ""advmod""], [""Germany"", ""obl""], [""germany"", ""obl""], [""play"", ""advcl""]]
+","""I would have been very pleased if Mesut Özil had continued to play for Germany.
+","""I would have been happy if Mesut Özil had continued playing for Germany.
+","""I would have been happy if Mesut Özil had continued playing for Germany.
+","I would be happy if Mesut Özil continued to play for Germany.
+",0.8432740427115678,0.8432740427115678,0.0
+14,"[[""even"", ""advmod""], [""one"", ""det""], [""conscience"", ""amod""], [""time"", ""obl""], [""go"", ""ccomp""], [""would"", ""aux""], [""say"", ""root""], [""Grindel"", ""nsubj""], [""grindel"", ""nsubj""]]
+","I also assumed at some point that this would happen,"" said Grindel.
+","I also assumed, up to a certain point in time, that this would be so,"" said Grindel.
+","I also assumed at some point that this would be so,"" said Grindel.
+","At some point of time I also assumed that it will happen, said Grindel.
+",0.8181818181818182,0.7833494518006403,0.034832366381177926
+15,"[[""de"", ""nmod""], [""-"", ""nsubj""], [""year"", ""nsubj""], [""old"", ""nsubj""], [""would"", ""aux""], [""July"", ""obl""], [""july"", ""obl""], [""resignation"", ""obj""], [""end"", ""case""], [""DFB"", ""nmod""], [""dfb"", ""nmod""], [""team"", ""flat""], [""explain"", ""root""], [""even"", ""advmod""], [""justify"", ""conj""], [""Grindel"", ""nsubj""], [""grindel"", ""nsubj""], [""versus"", ""case""], [""racist"", ""amod""], [""hostility"", ""obl""], [""WM"", ""nmod""], [""wm"", ""nmod""], [""defend"", ""ccomp""]]
+","De 29-year-old had declared his resignation from the DFB team in July and had also explained that Grindel had not defended him against racist hostility during the World Cup.
+","De 29-year-old had declared his resignation from the DFB team in July and also justified him by the fact that Grindel had not defended him against racist hostility during the World Cup.
+","De 29-year-old had declared his resignation from the DFB team in July and had also justified him by the fact that Grindel had not defended him against racist hostility during the World Cup.
+","The 29-year-old had declared that he quits DFB team in July and explained it with the fact that Grindel did not protect him against racist hostility during the World Cup.
+",0.75,0.7276068751089989,0.022393124891001093
+16,"[[""DFB"", ""compound""], [""dfb"", ""compound""], [""boss"", ""nsubj""], [""repeat"", ""root""], [""criticism"", ""obj""], [""Ozil"", ""obl""], [""ozil"", ""obl""], [""conversation"", ""nmod""], [""national"", ""nmod""], [""coach"", ""nmod""], [""Joachim"", ""appos""], [""joachim"", ""appos""], [""lion"", ""flat""], [""team"", ""conj""], [""manager"", ""conj""], [""Olivier"", ""appos""], [""olivier"", ""appos""], [""Bierhoff"", ""flat""], [""bierhoff"", ""flat""], [""ready"", ""ccomp""]]
+","The DFB boss repeated his criticism of Özil that he was not ready for a conversation with Federal coach Joachim Löw and team manager Oliver Bierhoff.
+","The DFB boss repeated his criticism of Özil that he was not ready for a conversation with Bundestrainer Joachim Löw and team manager Oliver Bierhoff.
+","The DFB boss repeated his criticism of Özil that he was not ready for a conversation with Bundestrainer Joachim Löw and team manager Oliver Bierhoff.
+","The DFB head repeated his criticism of Özil and that he is not ready for a discussion with national coach and team manager Oliver Bierhoff.
+",0.7514691493021795,0.710046946804693,0.041422202497486404
+18,"[[""Linz"", ""dep""], [""linz"", ""dep""], [""garden"", ""dep""], [""shed"", ""dep""], [""allotment"", ""obl""], [""settlement"", ""obl""], [""burn"", ""root""]]
+","Linz: Garden hut burned in Schrebergartensiedlung
+","Linz: Garden hut in Schrebergartensiedlung burnt
+","Linz: Garden hut in Schrebergartensiedlung burnt
+","Linz: Garden shed in allotment gardens burnt down
+",0.4629100498862757,0.6172133998483676,-0.15430334996209194
+19,"[[""around"", ""case""], [""watch"", ""obl""], [""would"", ""aux:pass""], [""professional"", ""nsubj:pass""], [""fire"", ""nsubj:pass""], [""brigade"", ""nsubj:pass""], [""Linz"", ""appos""], [""linz"", ""appos""], [""one"", ""det""], [""fire"", ""obl""], [""Angererhofweg"", ""obl""], [""angererhofweg"", ""obl""], [""alarm"", ""root""]]
+","At 2.13 p.m., the professional fire brigade Linz was alerted to a fire in Angererhofweg.
+","At 2.13 p.m., the Berufsfeuerwehr Linz was alerted to a fire in the Angererhofweg.
+","At 2.13 p.m., the Berufsfeuerwehr Linz was alerted to a fire in the Angererhofweg.
+","At 14.13 the Linz professional fire department was notified of a fire in Angererhofweg.
+",0.6030226891555273,0.5270462766947299,0.07597641246079734
+21,"[[""professional"", ""nsubj""], [""fire"", ""nsubj""], [""brigade"", ""nsubj""], [""move"", ""root""], [""end"", ""compound:prt""], [""find"", ""conj""], [""arrive"", ""obl""], [""hut"", ""obj""], [""full"", ""nmod""], [""fire"", ""nmod""]]
+","The fire brigade moved out and found the hut in full fire on arrival.
+","The professional fire brigade moved out and found the hut in full fire when it arrived.
+","The professional fire brigade moved out and found the hut in full fire when it arrived.
+","The professional fire brigade drove out and on arrival found the hut fully in flames.
+",0.7035264706814485,0.6674238124719146,0.036102658209533844
+22,"[[""roof"", ""nsubj:pass""], [""practical"", ""advmod""], [""whole"", ""obl""], [""away"", ""root""], [""fire"", ""nsubj:pass""], [""debris"", ""nsubj:pass""], [""necessarily"", ""advmod""], [""require"", ""amod""], [""extent"", ""obl""], [""clear"", ""conj""]]
+","The roof had to be removed practically in its entirety and fire debris removed to the absolute extent required.
+","The roof had to be practically completely removed and fire debris had to be removed to the absolutely necessary extent.
+","The roof had to be practically completely removed and fire debris had to be removed to the extent strictly necessary.
+","The roof had to be almost completely removed and the huge amount of debris needed clearing.
+",0.45454545454545453,0.5454545454545454,-0.09090909090909088
+24,"[[""could"", ""aux""], [""possible"", ""advmod""], [""cause"", ""root""], [""fire"", ""root""]]
+","That might be the cause of fire.
+","That might be the cause of the fire.
+","That might be the cause of the fire.
+","This was the possible cause of the fire.
+",0.6,0.6,0.0
+25,"[[""case"", ""advmod""], [""find"", ""root""], [""charge"", ""nsubj""], [""accord"", ""case""], [""fire"", ""obl""], [""department"", ""obl""], [""area"", ""obl""], [""big"", ""amod""], [""fire"", ""nmod""], [""intensity"", ""nmod""]]
+","In any case, according to the fire brigade, the charger was in the range of the biggest fire intensity.
+","In any case, according to the fire department, the charger was in the range of the greatest fire intensity.
+","In any case, according to the fire department, the charger was in the range of the greatest fire intensity.
+","According to the fire department the loading unit was in the most intensive area of the fire.
+",0.21320071635561041,0.31980107453341566,-0.10660035817780525
+26,"[[""damage"", ""nsubj:pass""], [""fire"", ""obl""], [""develop"", ""acl""], [""must"", ""aux""], [""still"", ""advmod""], [""well"", ""advmod""], [""cause"", ""obl""], [""determined"", ""root""]]
+","The damage caused by the fire still has to be determined - just as the cause of the fire.
+","The damage caused by the fire still has to be determined - as well as the cause of the fire.
+","The damage caused by the fire still has to be determined - as well as the cause of the fire.
+","The damage caused by the fire, and the cause of the fire, still needs to be investigated.
+",0.7378647873726218,0.7,0.03786478737262189
+29,"[[""Lindsay"", ""nsubj""], [""lindsay"", ""nsubj""], [""Lohan"", ""flat""], [""lohan"", ""flat""], [""extremely"", ""advmod""], [""strange"", ""amod""], [""action"", ""obl""], [""drive"", ""root""]]
+","What drove Lindsay Lohan to this extremely strange action?
+","What drove Lindsay Lohan to this very strange action?
+","What drove Lindsay Lohan to this very strange action?
+","What provoked Lindsay Lohan to such very strange actions?
+",0.6681531047810609,0.7142857142857143,-0.046132609504653366
+35,"[[""family"", ""nsubj""], [""downright"", ""advmod""], [""actress"", ""obl""], [""flee"", ""advcl""], [""track"", ""root""], [""Lohan"", ""nsubj""], [""lohan"", ""nsubj""], [""parent"", ""obj""], [""child"", ""conj""]]
+","When the family flees the actress, Lohan follows the parents and their children.
+","When the family flees the actress, Lohan pursues the parents and their children.
+","When the family flees the actress, Lohan pursues the parents and their children.
+","As the family flee in front of the actress, Lohan follows the parents and their children.
+",0.7627700713964739,0.6674238124719146,0.09534625892455928
+37,"[[""alles"", ""det""], [""deliver"", ""root""], [""clip"", ""obl""], [""none"", ""nmod""], [""proof"", ""obj""]]
+","She doesn't provide any evidence for all this in the clip.
+","She doesn't provide any evidence for all of this in the clip.
+","She doesn't provide any evidence for all of this in the clip.
+","Yet she does not offer any proof in the clip.
+",0.3651483716701107,0.3651483716701107,0.0
+38,"[[""whole"", ""amod""], [""world"", ""nsubj""], [""see"", ""root""], [""straight"", ""advmod""], [""Lohan"", ""nsubj:pass""], [""lohan"", ""nsubj:pass""], [""video"", ""obl""], [""listen"", ""xcomp""], [""family"", ""obj""], [""continue"", ""advmod""], [""street"", ""obj""], [""along"", ""advmod""], [""track"", ""advcl""]]
+","""The whole world sees it right now,"" Lohan says in the video, as she continues to follow the family along the street.
+","""The whole world is seeing this right now,"" Lohan says in the video, as she continues to follow the family along the street.
+","""The whole world is seeing this right now,"" Lohan says in the video, as she continues to follow the family along the street.
+","The whole world is watching, says Lohan in the video as she follows the family further down the street.
+",0.7001400420140048,0.7001400420140048,0.0
+39,"[[""apparently"", ""advmod""], [""try"", ""root""], [""child"", ""obj""], [""parent"", ""obl""], [""separate"", ""xcomp""]]
+","She apparently tries to separate the children from her parents.
+","Apparently, she's trying to separate the children from her parents.
+","Apparently, she's trying to separate the children from her parents.
+","She seems to try to separate the children from their parents.
+",0.7142857142857143,0.5345224838248488,0.1797632304608655
+42,"[[""tear"", ""obl""], [""assert"", ""root""], [""actress"", ""nsubj""], [""thereupon"", ""advmod""], [""shocked"", ""ccomp""], [""hold"", ""conj""], [""cheek"", ""obj""]]
+","In tears, the actress asserts how shocked she is - and she keeps her cheek.
+","Under tears, the actress then asserts how shocked she is - and she keeps her cheek.
+","Under tears, the actress then asserts how shocked she is - and she keeps her cheek.
+","In tears, the actress protests about how shocked she is - holding her cheek.
+",0.8,0.7,0.10000000000000009
+43,"[[""Lohan"", ""nsubj""], [""lohan"", ""nsubj""], [""action"", ""obl""], [""move"", ""csubj""], [""currently"", ""advmod""], [""fully"", ""advmod""], [""clear"", ""root""]]
+","What prompted Lohan to do so is currently completely unclear.
+","What prompted Lohan to take this action is currently completely unclear.
+","What prompted Lohan to take this action is currently completely unclear.
+","What provoked Lindsay Lohan to such very strange actions is currently completely unclear.
+",0.7171371656006361,0.6324555320336759,0.08468163356696023
+46,"[[""target"", ""aux""], [""asteroid"", ""iobj""], [""Ryugu"", ""appos""], [""ryugu"", ""appos""], [""approach"", ""root""], [""material"", ""obj""], [""surface"", ""obl""], [""suck"", ""ccomp""], [""Earth"", ""obl""], [""earth"", ""obl""], [""bring"", ""conj""]]
+","It is said to approach the asteroid Ryugu so much that it can absorb material from its surface and bring it to Earth.
+","It is said to approach the asteroid Ryugu so much that it can suck in material from its surface and bring it to Earth.
+","It is said to approach the asteroid Ryugu so much that it can suck in material from its surface and bring it to Earth.
+","It should get so close to the asteroid Ryugu that it can suck in material from its surface and bring it back to Earth.
+",0.6666666666666666,0.75,-0.08333333333333337
+47,"[[""country"", ""nsubj""], [""mascot"", ""appos""], [""Ryugu"", ""obl""], [""ryugu"", ""obl""], [""stay"", ""root""]]
+","The lander Mascot will stay on Ryugu.
+","The lander ""Mascot"" will stay on Ryugu.
+","The lander ""Mascot"" will stay on Ryugu.
+","The lander “Mascot” will remain on Ryugu.
+",0.7216878364870323,0.625,0.09668783648703227
+49,"[[""heavy"", ""amod""], [""earthquake"", ""obl""], [""strength"", ""nmod""], [""subsequent"", ""amod""], [""tsunami"", ""conj""], [""Indonesian"", ""amod""], [""indonesian"", ""amod""], [""island"", ""nmod""], [""Sulawesi"", ""appos""], [""sulawesi"", ""appos""], [""least"", ""advmod""], [""fatality"", ""obl""], [""speech"", ""nsubj""]]
+","After the severe earthquake of 7.5 and subsequent tsunami on the Indonesian island of Sulawesi, there are at least 420 deaths.
+","After the severe earthquake of 7.5 and subsequent tsunami on the Indonesian island of Sulawesi, there is talk of at least 420 fatalities.
+","After the severe earthquake of 7.5 and subsequent tsunami on the Indonesian island of Sulawesi, there is talk of at least 420 fatalities.
+","After the severe magnitude 7.5 earthquake and subsequent tsunami on the Indonesian island of Sulawesi, there are reports of at least 420 casualties.
+",0.8685990362153793,0.8391463916782737,0.02945264453710561
+51,"[[""rescue"", ""nsubj""], [""team"", ""nsubj""], [""still"", ""advmod""], [""devastate"", ""amod""], [""outside"", ""nmod""], [""world"", ""nmod""], [""cut"", ""conj""], [""area"", ""nmod""], [""advanced"", ""root""]]
+","The rescue teams have not yet penetrated the devastated areas, cut off from the outside world.
+","The rescue teams have not yet entered the devastated areas cut off from the outside world.
+","The rescue teams have not yet entered the devastated areas cut off from the outside world.
+","The rescue teams have not yet progressed into the ravaged and isolated areas.
+",0.5773502691896257,0.6030226891555273,-0.025672419965901527
+52,"[[""Elon"", ""nsubj""], [""elon"", ""nsubj""], [""musk"", ""flat""], [""kick"", ""root""], [""Tesla"", ""obl""], [""tesla"", ""obl""], [""chairman"", ""flat""], [""board"", ""flat""], [""return"", ""compound:prt""]]
+","Elon Musk resigns as Tesla Supervisor
+","Elon Musk resigns as Tesla Chief of Supervisory Board
+","Elon Musk resigns as Tesla Chief of Supervisory Board
+","Elon Musk resigns as Tesla chairman
+",0.8,0.6761234037828132,0.12387659621718683
+54,"[[""Tesla"", ""compound""], [""tesla"", ""compound""], [""boss"", ""nsubj""], [""Elon"", ""appos""], [""elon"", ""appos""], [""musk"", ""flat""], [""worried"", ""root""], [""beginning"", ""nmod""], [""August"", ""obl""], [""august"", ""obl""], [""restlessness"", ""obl""], [""stock"", ""nmod""], [""market"", ""nmod""], [""retreat"", ""obj""], [""electric"", ""nmod""], [""car"", ""nmod""], [""manufacturer"", ""nmod""], [""announce"", ""advcl""]]
+","Tesla CEO Elon Musk caused trouble in the stock markets at the beginning of August when he announced a withdrawal of the Eletroautomaker.
+","Tesla CEO Elon Musk caused unrest in the stock markets at the beginning of August when he announced a withdrawal of the Eletroautomaker.
+","Tesla CEO Elon Musk caused unrest in the stock markets at the beginning of August when he announced a withdrawal of the Eletroautomaker.
+","Tesla boss Elon Musk caused nervousness on the stock markets in early August when he announced a withdrawal by the electric car manufacturer.
+",0.6681531047810609,0.6681531047810609,0.0
+55,"[[""U.S"", ""compound""], [""u.s"", ""compound""], [""Exchange"", ""nsubj""], [""exchange"", ""nsubj""], [""commission"", ""nsubj""], [""sue"", ""root""], [""fraud"", ""obl""], [""agree"", ""conj""]]
+","The U.S. authorities sued him for fraud, but now both have agreed.
+","The U.S. Stock Exchange Inspectorate sued him for fraud, but now both of them have come to an agreement.
+","The U.S. Stock Exchange Inspectorate sued him for fraud, but now both of them have come to an agreement.
+","The US Securities and Exchange Commission sued him for fraud, but the parties have now agreed to a settlement.
+",0.6123724356957946,0.5222329678670935,0.09013946782870108
+56,"[[""Tesla"", ""nsubj""], [""tesla"", ""nsubj""], [""musk"", ""conj""], [""must"", ""aux""], [""count"", ""root""], [""Tesla"", ""compound""], [""tesla"", ""compound""], [""boss"", ""nsubj""], [""pull"", ""conj""], [""end"", ""case""], [""supervisory"", ""obl""], [""board"", ""obl""], [""return"", ""compound:prt""], [""ceo"", ""nsubj""], [""allow"", ""aux""], [""stay"", ""conj""]]
+","Tesla and Musk have to pay, and the CEO is withdrawing from the Supervisory Board.
+","Tesla and Musk have to pay, and the Tesla boss withdraws from the Supervisory Board, but he is allowed to remain CEO.
+","Tesla and Musk have to pay, and the Tesla boss withdraws from the Supervisory Board, but he is allowed to remain CEO.
+","Tesla and Musk have to pay, and the Tesla boss steps down as chairman, but he may remain as CEO.
+",0.6030226891555273,0.6963106238227914,-0.09328793466726415
+57,"[[""party"", ""root""], [""congress"", ""root""], [""British"", ""amod""], [""british"", ""amod""], [""conservative"", ""nmod""]]
+","Party congress of British Conservatives
+","British Conservative Party Congress
+","British Conservative Party Congress
+","The British Conservative Party Conference
+",0.4472135954999579,0.6708203932499369,-0.223606797749979
+60,"[[""party"", ""obl""], [""congress"", ""obl""], [""target"", ""aux""], [""around"", ""case""], [""foreign"", ""obl""], [""policy"", ""obl""], [""trade"", ""conj""], [""issue"", ""conj""], [""development"", ""conj""], [""policy"", ""conj""], [""walk"", ""root""], [""overshadow"", ""conj""], [""four"", ""amod""], [""day"", ""amod""], [""conference"", ""nsubj:pass""], [""dispute"", ""nmod""], [""prime"", ""nmod""], [""minister"", ""nmod""], [""Teresa"", ""appos""], [""teresa"", ""appos""], [""may"", ""flat""], [""Brexit"", ""conj""], [""brexit"", ""conj""], [""hardliner"", ""flat""], [""foremost"", ""amod""], [""front"", ""nmod""], [""Ex"", ""compound""], [""ex"", ""compound""], [""foreign"", ""appos""], [""minister"", ""appos""], [""Boris"", ""appos""], [""boris"", ""appos""], [""Johnson"", ""flat""], [""johnson"", ""flat""]]
+","The party congress is about foreign policy, trade issues and development policy, but the four-day conference is overshadowed by the dispute between Prime Minister Theresa May and the Brexit hardliners, at the forefront of former Foreign Minister Boris Johnson.
+","The party congress will focus on foreign policy, trade issues and development policy, but the four-day conference will be overshadowed by the dispute between Prime Minister Theresa May and the Brexit hardliners, at the forefront of former Foreign Minister Boris Johnson.
+","The party congress is supposed to deal with foreign policy, trade issues and development policy, but the four-day conference is overshadowed by the dispute between Prime Minister Theresa May and the Brexit hardliners, at the forefront of former Foreign Minister Boris Johnson.
+","The party conference was to address foreign policy, trade issues and development policy, but the four-day conference was overshadowed by the conflict between Prime Minister, Theresa May and the Brexit hardliners, with ex-Foreign Minister, Boris Johnson in the frontline.
+",0.816496580927726,0.8006407690254357,0.01585581190229035
+61,"[[""referendum"", ""root""], [""new"", ""amod""], [""state"", ""nmod""], [""name"", ""nmod""]]
+","referendum for a new state name
+","Referendum for a new state name
+","Referendum for a new state name
+","Referendum for a new state name
+",0.75,1.0,-0.25
+63,"[[""Macedonia"", ""nsubj""], [""macedonia"", ""nsubj""], [""country"", ""root""], [""Balkans"", ""nmod""], [""balkans"", ""nmod""], [""even"", ""advmod""], [""one"", ""det""], [""province"", ""conj""], [""north"", ""compound""], [""Greece"", ""nmod""], [""greece"", ""nmod""]]
+","Macedonia is a country in the Balkans, but Macedonia is also a province in northern Greece.
+","Macedonia is a state in the Balkans, but Macedonia is also a province in northern Greece.
+","Macedonia is a state in the Balkans, but Macedonia is also a province in northern Greece.
+","Macedonia is a state in the Balkans, but Macedonia is also a province in Northern Greece.
+",0.7777777777777778,0.8888888888888888,-0.11111111111111105
+64,"[[""Skopje"", ""nsubj""], [""skopje"", ""nsubj""], [""Athens"", ""conj""], [""athens"", ""conj""], [""fight"", ""root""], [""name"", ""obl""], [""duplication"", ""obl""], [""nice"", ""advmod""], [""since"", ""case""], [""year"", ""obl""]]
+","Skopje and Athens have been arguing about these names for years.
+","Skopje and Athens have been arguing over these double names for years.
+","Skopje and Athens have been arguing over these double names for years.
+","Skopje and Athens have been arguing about the duplicate name for years.
+",0.7715167498104595,0.7142857142857143,0.05723103552474518
+65,"[[""agree"", ""root""]]
+","Now they have agreed.
+","Now they've come to an agreement.
+","Now they've come to an agreement.
+","Now they have come to an agreement.
+",0.5773502691896258,0.8944271909999159,-0.31707692181029
+66,"[[""country"", ""nsubj""], [""Macedonia"", ""appos""], [""macedonia"", ""appos""], [""target"", ""aux""], [""future"", ""advmod""], [""north"", ""compound""], [""Macedonia"", ""obj""], [""macedonia"", ""obj""], [""mean"", ""root""], [""right"", ""conj""], [""Sunday"", ""obl""], [""sunday"", ""obl""], [""population"", ""nsubj""], [""away"", ""compound:prt""], [""well"", ""advmod""], [""go"", ""ccomp""]]
+","The state of Macedonia is to be called North Macedonia in the future and the population will vote on this Sunday - whether it is going well?
+","The state of Macedonia is to be called North Macedonia in the future and that is what the population is voting on this Sunday - whether it is going well?
+","The state of Macedonia is to be called North Macedonia in the future and the population will vote on it this Sunday - whether it is going well?
+","In future, the state of Macedonia is to be called North Macedonia and the population will vote on this measure on Sunday from the population - will it turn out okay?
+",0.6900655593423543,0.6210590034081188,0.06900655593423544
+68,"[[""Ele"", ""nsubj""], [""ele"", ""nsubj""], [""Nao"", ""flat""], [""nao"", ""flat""], [""mean"", ""nsubj""], [""jair"", ""root""], [""Bolsonaro"", ""flat""], [""bolsonaro"", ""flat""]]
+","""Ele Nao"" (""The Not"") is Jair Bolsonaro.
+","""Ele Nao"" (""The Not"") - meaning Jair Bolsonaro.
+","""Ele Nao"" (""The Not"") - meaning Jair Bolsonaro.
+","Ele Nao (""Not him"") - addressed to Jair Bolsonaro.
+",0.8703882797784892,0.8807048459279793,-0.010316566149490058
+69,"[[""one"", ""det""], [""week"", ""nmod""], [""presidential"", ""nmod""], [""election"", ""nmod""], [""Brazil"", ""nmod""], [""brazil"", ""nmod""], [""mood"", ""nsubj""], [""country"", ""nmod""], [""split"", ""root""]]
+","A week before the presidential election in Brazil, the country's mood is divided.
+","A week before the presidential election in Brazil, the mood in the country is divided.
+","A week before the presidential election in Brazil, the mood in the country is divided.
+","One week before the presidential election in Brazil and the mood in the country is divided.
+",0.8040302522073697,0.8432740427115678,-0.03924379050419813
+70,"[[""thousand"", ""nsubj""], [""go"", ""root""], [""several"", ""det""], [""city"", ""obl""], [""street"", ""obl""], [""around"", ""mark""], [""versus"", ""case""], [""right"", ""obl""], [""-"", ""obl""], [""wing"", ""obl""], [""populist"", ""obl""], [""jair"", ""appos""], [""Bolsonaro"", ""flat""], [""bolsonaro"", ""flat""], [""protest"", ""advcl""]]
+","Thousands went to the streets in several cities to protest against right-wing populist Jair Bolsonaro.
+","Thousands went to the streets in several cities to protest against the right-wing populist Jair Bolsonaro.
+","Thousands went to the streets in several cities to protest against the right-wing populist Jair Bolsonaro.
+","In many cities thousands are taking to the street to protest against the right-wing populist Jair Bolsonaro.
+",0.6092717958449424,0.6092717958449424,0.0
+71,"[[""Trump"", ""nsubj""], [""trump"", ""nsubj""], [""Brazil"", ""flat""], [""brazil"", ""flat""], [""Anti"", ""compound""], [""anti"", ""compound""], [""system"", ""compound""], [""candidate"", ""obl""], [""lie"", ""conj""], [""Survey"", ""obl""], [""survey"", ""obl""], [""front"", ""advmod""]]
+","The ""Trump Brazil"" acts as an anti-system candidate and is thus in the lead in the surveys.
+","The ""Trump Brazil"" acts as an anti-system candidate and is thus in the lead in the polls.
+","The ""Trump Brazil"" acts as an anti-system candidate and is thus in the lead in the polls.
+","The ‘Brazilian Trump’ is presenting himself as an anti-system candidate and is ahead in the polls.
+",0.4351941398892446,0.5222329678670935,-0.0870388279778489
+72,"[[""sharp"", ""amod""], [""competitor"", ""nsubj""], [""Fernando"", ""root""], [""fernando"", ""root""], [""Haddad"", ""flat""], [""haddad"", ""flat""], [""left"", ""amod""], [""worker"", ""nmod""], [""'s"", ""nmod""], [""party"", ""nmod""]]
+","His strongest competitor is Fernando Haddad of the Left Labour Party.
+","His sharpest competitor is Fernando Haddad of the Left Workers' Party.
+","His sharpest competitor is Fernando Haddad of the Left Workers' Party.
+","His keenest competitor is Fernando Haddad from the left workers’ party.
+",0.5270462766947299,0.5,0.02704627669472992
+73,"[[""Audi"", ""nsubj""], [""audi"", ""nsubj""], [""dieselgate"", ""appos""], [""processing"", ""flat""], [""take"", ""root""], [""long"", ""xcomp""], [""plan"", ""amod""]]
+","Audi: ""Dieselgate"" processing takes longer than planned
+","Audi: ""Dieselgate"" reprocessing takes longer than planned
+","Audi: ""Dieselgate"" reprocessing takes longer than planned
+","Audi: ""Dieselgate"" regeneration takes longer than planned
+",0.8888888888888888,0.8888888888888888,0.0
+74,"[[""diesel"", ""compound""], [""task"", ""nsubj""], [""force"", ""nsubj""], [""always"", ""advmod""], [""still"", ""advmod""], [""say"", ""root""], [""development"", ""nsubj""], [""board"", ""nsubj""], [""Peter"", ""appos""], [""peter"", ""appos""], [""Mertens"", ""flat""], [""mertens"", ""flat""], [""Industry"", ""iobj""], [""industry"", ""iobj""], [""Journal"", ""iobj""], [""journal"", ""iobj""], [""automobile"", ""appos""], [""week"", ""appos""]]
+","""The diesel task force is still in existence,"" said Peter Mertens, Chief Development Officer, to the industry journal ""Automobile Week"".
+","""The diesel task force still exists,"" said Peter Mertens, Chief Development Officer, to the industry journal ""Automobilwoche"".
+","""The diesel task force still exists,"" said Peter Mertens, Chief Development Officer, to the industry journal ""Automobilwoche"".
+","There is still a diesel taskforce, said Peter Mertens, chief development officer from the ‘Automobilwoche’ trade journal.
+",0.4338609156373123,0.5007733956671915,-0.06691248002987915
+75,"[[""imprison"", ""amod""], [""leave"", ""conj""], [""Audi"", ""compound""], [""audi"", ""compound""], [""boss"", ""nsubj""], [""Rupert"", ""appos""], [""rupert"", ""appos""], [""Stadler"", ""flat""], [""stadler"", ""flat""], [""would"", ""aux""], [""December"", ""obl""], [""december"", ""obl""], [""announce"", ""root""], [""task"", ""nsubj:pass""], [""force"", ""nsubj:pass""], [""soon"", ""advmod""], [""dissolve"", ""parataxis""]]
+","In December 2017, Audi CEO Rupert Stadler, who was imprisoned and on leave, announced that the task force would soon be dissolved.
+","Audi head Rupert Stadler, who was imprisoned and on leave, announced in December 2017 that the task force would soon be dissolved.
+","Audi head Rupert Stadler, who was imprisoned and on leave, announced in December 2017 that the task force would soon be dissolved.
+","In December 2017 the imprisoned and suspended Audi CEO Rupert Stadler had announced, the taskforce will be dissolved soon.
+",0.8140915784106943,0.710046946804693,0.1040446316060013
+76,"[]
+","""All engine/gear combinations are expected to be tested in the first quarter of 2018, he said.
+","""All engine/gear combinations are expected to be tested in the first quarter of 2018,"" he said at the time.
+","""All engine/gear combinations are expected to be tested in the first quarter of 2018,"" he said at the time.
+","In the first quarter of 2018 all engine/transmission combinations will have been checked, he said at the time.
+",0.6092717958449424,0.6446583712203042,-0.03538657537536183
+79,"[[""task"", ""nsubj:pass""], [""force"", ""nsubj:pass""], [""September"", ""obl""], [""september"", ""obl""], [""discovery"", ""obl""], [""diesel"", ""nmod""], [""scandal"", ""nmod""], [""Audi"", ""obl""], [""audi"", ""obl""], [""mother"", ""flat""], [""Volkswagen"", ""appos""], [""volkswagen"", ""appos""], [""found"", ""root""]]
+","The task force was founded in September 2015 after the discovery of the diesel scandal at the Audi parent Volkswagen.
+","The task force was founded in September 2015 after the discovery of the diesel scandal at Audi's parent Volkswagen.
+","The task force was founded in September 2015 after the discovery of the diesel scandal at Audi's parent Volkswagen.
+","The taskforce was set up in September 2015 following the discovery at Audi parent company Volkswagen.
+",0.6405126152203485,0.6172133998483676,0.023299215371980875
+80,"[[""Mertens"", ""nsubj""], [""mertens"", ""nsubj""], [""stress"", ""root""], [""carmaker"", ""nsubj""], [""serious"", ""amod""], [""organizational"", ""amod""], [""change"", ""obj""], [""perform"", ""ccomp""], [""scandal"", ""nsubj""], [""never"", ""advmod""], [""occur"", ""advcl""]]
+","Mertens stressed that the car maker had made ""serious organizational changes"" so that such a scandal never occurred again.
+","Mertens stressed that the car maker had made ""serious organizational changes"" so that such a scandal would never happen again.
+","Mertens stressed that the car maker had made ""gravitating organizational changes"" so that such a scandal would never happen again.
+","Mertens highlighted that the automobile manufacturers had made ‘serious, organizational changes’, to prevent such a scandal ever happening again.
+",0.46770717334674267,0.45184805705753195,0.015859116289210717
+81,"[[""VW"", ""nsubj""], [""vw"", ""nsubj""], [""supervisory"", ""nsubj""], [""board"", ""nsubj""], [""would"", ""aux""], [""Friday"", ""obl""], [""friday"", ""obl""], [""one"", ""det""], [""decision"", ""obj""], [""Stadler"", ""nmod""], [""stadler"", ""nmod""], [""future"", ""nmod""], [""adjourn"", ""root""], [""want"", ""aux""], [""Tuesday"", ""obl""], [""tuesday"", ""obl""], [""continue"", ""mark""], [""discuss"", ""conj""]]
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and will continue to discuss this Tuesday.
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and wants to discuss it further this Tuesday.
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and wants to discuss it further this Tuesday.
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and will continue this discussion on Tuesday.
+",0.9285714285714286,0.8571428571428571,0.07142857142857151
+82,"[[""investigative"", ""nsubj""], [""authority"", ""nsubj""], [""throw"", ""root""], [""Audi"", ""compound""], [""audi"", ""compound""], [""boss"", ""iobj""], [""become"", ""obl""], [""know"", ""obl""], [""exhaust"", ""nmod""], [""scam"", ""nmod""], [""sale"", ""obj""], [""diesel"", ""nmod""], [""car"", ""nmod""], [""wrong"", ""amod""], [""emission"", ""nmod""], [""value"", ""nmod""], [""authorize"", ""xcomp""]]
+","The investigating authorities accuse the Audi chief of having approved the sale of diesel cars with incorrect exhaust gas values after they become aware of the flue gas fraud.
+","The investigative authorities accuse the Audi chief of having authorised the sale of diesel cars with false exhaust gas values after the detection of the flue gas frauds.
+","The investigative authorities accuse the Audi chief of having authorised the sale of diesel cars with false exhaust gas values after the detection of the flue gas frauds.
+","The investigating authorities accuse the Audi boss, following awareness of exhaust emission cheating, of permitting the sale of diesel automobiles with false emission values.
+",0.5263157894736842,0.5407380704358752,-0.014422280962191003
+83,"[[""include"", ""advmod""], [""manipulation"", ""obl""], [""know"", ""root""], [""deliberately"", ""advmod""], [""ignore"", ""conj""]]
+","He had known about the manipulations or deliberately ignored them.
+","He knew about the manipulations or deliberately ignored them.
+","He knew about the manipulations or deliberately ignored them.
+","He must have known about the tampering or deliberately ignored it.
+",0.7715167498104595,0.6172133998483676,0.15430334996209183
+84,"[[""currently"", ""advmod""], [""direct"", ""root""], [""Chief"", ""nsubj""], [""chief"", ""nsubj""], [""sale"", ""nsubj""], [""officer"", ""nsubj""], [""bram"", ""appos""], [""sheet"", ""flat""], [""company"", ""obj""], [""acting"", ""amod""], [""ceo"", ""obl""]]
+","Bram Schot currently heads the company as acting CEO.
+","Mr. Bram Schot currently heads the company as Chief Executive Officer.
+","Bram Schot currently heads the company as Chief Executive Officer.
+","Currently the Sales Director Bram Schot heads the company as Acting Chief Executive Officer.
+",0.5103103630798288,0.7302967433402214,-0.21998638026039263
+85,"[[""conversion"", ""obl""], [""new"", ""amod""], [""exhaust"", ""nmod""], [""consumption"", ""conj""], [""test"", ""conj""], [""standard"", ""conj""], [""WLTP"", ""appos""], [""wltp"", ""appos""], [""give"", ""ccomp""], [""production"", ""obj""], [""loss"", ""obj""], [""Audi"", ""nmod""], [""audi"", ""nmod""], [""say"", ""root""], [""sheet"", ""nsubj""], [""Heilbronner"", ""amod""], [""heilbronner"", ""amod""], [""Voice"", ""iobj""], [""voice"", ""iobj""]]
+","Due to the change to the new exhaust gas and consumption test standard WLTP there were production failures at Audi, said Schot the ""Heilbronn Voice"".
+","Due to the change to the new exhaust gas and consumption test standard WLTP there were production failures at Audi, said Schot the ""Heilbronner Voice"".
+","Due to the change to the new exhaust gas and consumption test standard WLTP there were production failures at Audi, said Schot the ""Heilbronner Voice"".
+","After conversion to the new emissions and consumption standard WLTP, there were production losses at Audi, Schot told the ‘Heilbronner Stimme’.
+",0.4743416490252569,0.5270462766947299,-0.052704627669473036
+86,"[[""basically"", ""advmod""], [""see"", ""root""], [""one"", ""det""], [""sink"", ""amod""], [""demand"", ""obj""], [""limousine"", ""nmod""], [""Audi"", ""nmod""], [""audi"", ""nmod""], [""model"", ""nmod""], [""A6"", ""appos""], [""a6"", ""appos""], [""A7"", ""conj""], [""a7"", ""conj""], [""A8"", ""conj""], [""a8"", ""conj""], [""Neckarsulm"", ""obl""], [""neckarsulm"", ""obl""], [""produce"", ""acl""]]
+","In principle, he sees a declining demand for saloons such as Audi A6, A7 and A8, produced in Neckarsulm.
+","In principle, he sees a declining demand for saloons such as Audi models A6, A7 and A8, which are produced in Neckarsulm.
+","In principle, he sees a declining demand for saloons such as Audi models A6, A7 and A8, which are produced in Neckarsulm.
+","Essentially, he sees a falling demand for limousines such as the Audi models A6, A7 and A8, produced in Neckarsulm.
+",0.7142857142857143,0.7590721152765897,-0.044786400990875386
+88,"[[""sheet"", ""nsubj""], [""put"", ""root""], [""electromobility"", ""obl""]]
+","Schot puts emphasis on electromobility.
+","Schot relies on electromobility.
+","Schot relies on electromobility.
+","Schot is for electromobility.
+",0.7745966692414834,0.8660254037844387,-0.0914287345429553
+89,"[[""e"", ""obl""], [""tron"", ""obl""], [""first"", ""amod""], [""Audi"", ""compound""], [""audi"", ""compound""], [""electric"", ""appos""], [""car"", ""appos""], [""lie"", ""root""], [""already"", ""advmod""], [""reservation"", ""nsubj""]]
+","For the e-tron, the first Audi electric car, there are already 15,000 reservations in the shop..
+","For the e-tron, the first Audi electric car, there are already 15,000 reservations available.
+","For the e-tron, the first Audi electric car, there are already 15,000 reservations available.
+","There are already 15,000 reservations for the e-tron, the first Audi electric automobile.
+",0.6963106238227914,0.7833494518006403,-0.0870388279778489
+91,"[[""Mainz"", ""nsubj""], [""mainz"", ""nsubj""], [""dpa"", ""appos""], [""Reinhardt"", ""flat""], [""reinhardt"", ""flat""], [""Grindel"", ""flat""], [""grindel"", ""flat""], [""want"", ""aux""], [""despite"", ""case""], [""criticism"", ""obl""], [""person"", ""nmod""], [""WM"", ""compound""], [""wm"", ""compound""], [""Ozil"", ""conj""], [""ozil"", ""conj""], [""affair"", ""flat""], [""come"", ""amod""], [""year"", ""obl""], [""government"", ""obl""], [""office"", ""obl""], [""DFB"", ""obl""], [""dfb"", ""obl""], [""president"", ""flat""], [""run"", ""root""], [""office"", ""root""]]
+","Mainz (dpa) - Reinhard Grindel wants to run again for office as DFB President in the coming year, despite the criticism of his person after the World Cup and the Özil affair.
+","Mainz (dpa) - Reinhard Grindel wants to run again for office as DFB President in the coming year, despite the criticism of his person after the World Cup event and the Özil affair.
+","Mainz (dpa) - Reinhard Grindel wants to run again for office as DFB President in the coming year, despite the criticism of his person after the World Cup event and the Özil affair.
+","Mainz (dpa) - Despite the criticism directed at him personally following the early FIFA World Cup exit and the scandal around Mesut Özil, Reinhard Grindel wants to run for office as President of the DFB again in the coming year.
+",0.761386987626881,0.7453559924999299,0.016030995126951053
+92,"[]
+","""I do my job and try to do it as well as I can,"" said Grindel as a guest early Sunday morning at ZDF's ""Current Sports Studio"".
+","""I do my job and try to do it as well as I can,"" said Grindel as a guest at ZDF's ""Current Sports Studio"" early Sunday morning.
+","""I do my job and try to do it as well as I can,"" said Grindel as a guest at ZDF's ""Current Sports Studio"" early Sunday morning.
+","I do my work and try to make it as good as it gets, said Grindel as a guest early Sunday morning on ZDF’s weekly sports broadcast ""Das aktuelle Sportstudio"".
+",0.6087807775281011,0.6087807775281011,0.0
+93,"[[""man"", ""nsubj""], [""must"", ""aux""], [""yes"", ""advmod""], [""always"", ""advmod""], [""around"", ""case""], [""one"", ""det""], [""re-election"", ""obl""], [""make"", ""root""], [""effort"", ""root""]]
+","You always have to make a re-election effort, I will.
+","You've got to keep trying to re-election, I'll do that.
+","You have to keep trying to re-election, I'll do that.
+","A re-election should be attempted and that is what I will do.
+",0.4743416490252569,0.4242640687119285,0.050077580313328374
+95,"[[""Head"", ""nsubj""], [""head"", ""nsubj""], [""association"", ""nsubj""], [""find"", ""root""], [""word"", ""obl""], [""unusual"", ""xcomp""], [""surcharge"", ""obl""], [""soccer"", ""nmod""], [""-"", ""nmod""], [""EM"", ""appos""], [""em"", ""appos""], [""desire"", ""obj""], [""would"", ""advcl""], [""future"", ""obl""], [""project"", ""obl""], [""work"", ""xcomp""]]
+","The head of the association would find it ""notable"" in his own words if he did not ""want to work on the future project"" after the match for the 2024 European Football Championship.
+","The head of the association would find it ""remarkable"" in his own words if he did not ""want to work on the future project"" after the match for the 2024 European Football Championship.
+","The head of the association would find it ""notable"" in his own words if he did not ""want to work on the future project"" after the match for the 2024 European Football Championship.
+","In his own words, the head of the association would find it ""strange"" if he did not ""feel like working on the future project"" after Germany was awarded the UEFA European Football Championship 2024.
+",0.6697108225289158,0.6697108225289158,0.0
+96,"[[""Grindel"", ""nsubj""], [""grindel"", ""nsubj""], [""since"", ""case""], [""April"", ""nmod""], [""april"", ""nmod""], [""Head"", ""root""], [""head"", ""root""], [""association"", ""root""], [""successor"", ""nmod""], [""summer"", ""compound""], [""fairy"", ""compound""], [""tale"", ""compound""], [""affair"", ""nmod""], [""fall"", ""amod""], [""wolfgang"", ""nmod""], [""Niersbach"", ""flat""], [""niersbach"", ""flat""]]
+","Grindel has been the head of the association since April 2016 as the successor of Wolfgang Niersbach, who fell over the summer fairy tale affair.
+","Grindel has been the head of the association since April 2016 as the successor of Wolfgang Niersbach, who had fallen over the summer fairy tale affair.
+","Grindel has been the head of the association since April 2016 as the successor of Wolfgang Niersbach, who had fallen over the summer fairy tale affair.
+","Since April 2016, Grindel has been the head of the association as successor to Wolfgang Niersbach, who had to resign amidst the scandals surrounding the 2006 FIFA World Cup in Germany.
+",0.5590169943749475,0.5590169943749475,0.0
+97,"[[""autumn"", ""obl""], [""would"", ""aux:pass""], [""one"", ""det""], [""first"", ""amod""], [""complete"", ""amod""], [""tenure"", ""obl""], [""three"", ""nummod""], [""year"", ""nmod""], [""choose"", ""root""]]
+","In autumn 2016, he was elected for a first complete three-year term.
+","In autumn 2016, he was elected for a first full term of three years.
+","In autumn 2016, he was elected for a first full term of three years.
+","In autumn 2016 he was elected for a first full term of three years.
+",0.7,0.9534625892455924,-0.2534625892455924
+98,"[[""next"", ""amod""], [""poll"", ""nsubj""], [""stand"", ""root""], [""DFB"", ""obl""], [""dfb"", ""obl""], [""Bundestag"", ""flat""], [""bundestag"", ""flat""]]
+","The next vote will take place at the German Federal Day on 27 September 2019.
+","The next vote will take place at the DFB Federal Day on 27 September 2019.
+","The next vote will take place at the DFB Federal Day on 27 September 2019.
+","The next vote will be held at the DFB’s national conference on September 27, 2019.
+",0.560448538317805,0.6405126152203485,-0.08006407690254358
+99,"[[""future"", ""amod""], [""EM"", ""compound""], [""em"", ""compound""], [""chief"", ""nsubj""], [""organizer"", ""nsubj""], [""Philip"", ""appos""], [""philip"", ""appos""], [""lame"", ""flat""], [""target"", ""aux""], [""accord"", ""case""], [""Grindel"", ""obl""], [""grindel"", ""obl""], [""DFB"", ""obl""], [""dfb"", ""obl""], [""bureau"", ""flat""], [""work"", ""root""]]
+","According to Grindel, the future EM chief organizer Philipp Lahm will work in the DFB Bureau.
+","According to Grindel, the future EM chief organizer Philipp Lahm will be working in the DFB Bureau.
+","According to Grindel, the future EM chief organizer Philipp Lahm will be working in the DFB Bureau.
+","According to Grindel, the future head organizer of the 2024 European Football Championship in Germany, Philipp Lahm, is to join the DFB Presidential Board.
+",0.588348405414552,0.588348405414552,0.0
+100,"[[""would"", ""aux""], [""look"", ""ccomp""], [""forward"", ""ccomp""], [""colleague"", ""nsubj""], [""bureau"", ""obl""], [""agree"", ""advcl""], [""role"", ""obl""], [""even"", ""advmod""], [""future"", ""advmod""], [""advise"", ""ccomp""], [""naturally"", ""advmod""], [""heartfelt"", ""advmod""], [""invite"", ""conj""], [""sporty"", ""amod""], [""question"", ""obl""], [""experience"", ""obj""], [""disposal"", ""obl""], [""place"", ""xcomp""], [""say"", ""root""], [""Grindel"", ""nsubj""], [""grindel"", ""nsubj""]]
+","""I would be pleased if my colleagues in the Bureau agreed that he would continue to advise the Bureau in this role and then, of course, be warmly invited to provide his experience on sporting issues,"" said Grindel.
+","""I would be pleased if my colleagues in the Bureau agreed that he would continue to advise the Bureau in this role and then, of course, be warmly invited to make his experience available on sporting issues,"" said Grindel.
+","""I would be pleased if my colleagues in the Bureau agreed that he would continue to advise the Bureau in this role and then, of course, be warmly invited to make his experience available on sporting issues,"" said Grindel.
+","I would be pleased if my colleagues on the presidential board agreed that he will continue to provide advice on the board in this role and then of course we very much invite him to share his experience in sporting matters, said Grindel.
+",0.6818181818181818,0.6223759142641418,0.05944226755403992

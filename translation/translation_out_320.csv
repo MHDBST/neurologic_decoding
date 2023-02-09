@@ -1,0 +1,817 @@
+ind,constrains,structura_decoding,neurological_decoding,fairseq,target,sd_nd_cosine,sd_re_cosine,sd_nd_diff
+1,"[[""www.ecs-webhosting.de"", ""root""], [""04.05.2018"", ""obl""]]
+","By az, updated on 04.
+","By az, updated on 04.05.2018 at 11:11
+","By az, updated on 04 / 05 / 2018 at 11: 11
+","From A-Z, updated on 04/05/2018 at 11:11
+",0.6666666666666666,0.3333333333333333,-0.3333333333333333
+12,"[[""debate"", ""obl""], [""to"", ""root""], [""Regret"", ""root""], [""sth"", ""root""], [""he"", ""nsubj""], [""resignation"", ""obj""]]
+","Despite the month-long debate over Özil's photos with Turkish President Recep Tayyip Erdogan, he regretted the resignation of 92-time national player Ozil.
+","Despite the month-long debate over Özil's photos with Turkish President Recep Tayyip Erdogan, he regretted the resignation of his 92-time national player.
+","Despite the now months-long debate over the photos of Özil with Turkish President Recep Tayyip Erdogan, he regretted the resignation of 92-times international Özil.
+","In spite of the debate going on for months about the photos of Özil with the Turkish President Recep Tayyip Erdogan, he regrets the return of the 92-match national player Özil.
+",0.9733285267845753,0.631578947368421,-0.34174957941615425
+19,"[[""clock"", ""obl""], [""fire"", ""obl""], [""Angererhofweg"", ""obl""], [""to"", ""root""], [""call"", ""root""], [""sb"", ""root""], [""out"", ""root""]]
+","At 2.13 p.
+","At 2.13 p.m., the professional fire brigade Linz was alarmed at the Angererhofweg.
+","At 2: 13 p.m., the Linz Fire Department was alerted to a fire in Angererhofweg.
+","At 14.13 the Linz professional fire department was notified of a fire in Angererhofweg.
+",0.45226701686664544,0.3333333333333333,-0.11893368353331213
+21,"[[""professional"", ""nsubj""], [""fire"", ""nsubj""], [""brigade"", ""nsubj""], [""or"", ""nsubj""], [""department"", ""nsubj""], [""to"", ""root""], [""jerk"", ""root""], [""to"", ""obl""], [""arrive"", ""obl""], [""somewhere"", ""obl""], [""at"", ""obl""], [""sb"", ""obl""], [""'s"", ""obl""], [""hut"", ""obj""]]
+","The fire brigade moved out and found the hut in full fire on arrival.
+","The fire brigade moved out and found the hut in full fire.
+","The professional fire brigade moved out and found the hut on arrival in full fire.
+","The professional fire brigade drove out and on arrival found the hut fully in flames.
+",0.9428090415820635,0.7035264706814485,-0.239282570900615
+24,"[[""the"", ""nsubj""], [""cause"", ""root""], [""of"", ""root""], [""the"", ""root""], [""fire"", ""root""]]
+","It could be the cause of fire.
+","That might be the cause of fire.
+","This could possibly be the cause of the fire.
+","This was the possible cause of the fire.
+",0.6,0.6,0.0
+27,"[[""he"", ""nsubj""], [""considerable"", ""root""], [""owner"", ""nsubj""], [""www.toucanart.com"", ""obl""], [""collector"", ""obj""], [""'s"", ""obj""], [""item"", ""obj""]]
+","It may be considerable, however, because the owner had many collectors' items in his garden hut.
+","However, it should be considerable, for the owner had many collectors' items in his garden hut.
+","However, it should be considerable, because the owner had many collectibles in his garden hut.
+","The damage could be considerable as the owner stored many collectibles in his garden hut.
+",0.8362420100070908,0.5017452060042544,-0.3344968040028363
+28,"[[""moth"", ""nsubj""], [""to"", ""root""], [""defend"", ""root""], [""oneself"", ""root""], [""against"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""oneself"", ""obj""], [""www.xxllashes.de"", ""nsubj""], [""www.filmmacher.at"", ""obj""]]
+","Angry mother defends herself: Lindsay Lohan attacks refugee family on open street
+","Angry mother resists: Lindsay Lohan attacks refugee family on open street
+","Angry mother fights back: Lindsay Lohan attacks refugee family in the street
+","Angry mother defends herself: Lindsay Lohan attacks refugee family on the street
+",0.9090909090909091,0.9534625892455924,0.04437168015468329
+30,"[[""you"", ""nsubj""], [""child"", ""obj""], [""and"", ""obj""], [""youth"", ""obj""], [""welfar"", ""obj""], [""Service"", ""obj""], [""to"", ""root""], [""snatch"", ""root""], [""sth"", ""root""], [""away"", ""root""], [""from"", ""root""], [""sb"", ""root""]]
+","She apparently wanted to snatch the children from an alleged refugee family.
+","She apparently wanted to take the children from an alleged refugee family.
+","She apparently wanted to snatch the children from an alleged refugee family.
+","She apparently wanted to lure the children away from the alleged refugee family.
+",0.8888888888888888,0.8432740427115678,-0.04561484617732103
+31,"[[""www.xxllashes.de"", ""nsubj""], [""www.sycube.at"", ""root""], [""she"", ""nsubj""], [""child"", ""obj""], [""and"", ""obj""], [""youth"", ""obj""], [""welfar"", ""obj""], [""Service"", ""obj""]]
+","Lindsay Lohan (b.
+","Lindsay Lohan (32, ""Herbie: Fully Loaded"") has streamed live herself, as she apparently wants to kidnap a family in Moscow.
+","Lindsay Lohan, 32, of ""Herbie: Fully Loaded,"" live-streamed herself apparently trying to snatch the children from a family in Moscow.
+","Lindsay Lohan (32, ‘Herbie: Fully Loaded’) has live streamed how she openly wanted to tear children away from a family in Moscow.
+",0.4,0.38138503569823695,-0.01861496430176307
+32,"[[""the"", ""nsubj""], [""to"", ""root""], [""tell"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""American"", ""obj""], [""Recording"", ""obj""]]
+","This is reported by the U.
+","This is reported by the US portal ""TMZ"" and releases a partial recording of the stream.
+","This is reported by the US portal ""TMZ"" and publishes a partial recording of the stream.
+","This was reported by US portal ""TMZ"" with publication of a partial recording of the stream.
+",0.43301270189221935,0.43301270189221935,0.0
+37,"[[""the"", ""obl""], [""to"", ""root""], [""deliver"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""she"", ""nsubj""], [""clip"", ""obl""], [""to"", ""obj""], [""prove"", ""obj""], [""sth"", ""obj""], [""to"", ""obj""], [""sb"", ""obj""]]
+","To all of this, she's not providing any evidence in the clip.
+","She doesn't provide any evidence for all this in the clip.
+","She provides no evidence for any of this in the clip.
+","Yet she does not offer any proof in the clip.
+",0.4629100498862757,0.3380617018914066,-0.1248483479948691
+38,"[[""the"", ""nsubj""], [""our"", ""nsubj""], [""world"", ""nsubj""], [""to"", ""root""], [""see"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""the"", ""obj""], [""video"", ""obl""], [""she"", ""nsubj""], [""family"", ""obj""], [""road"", ""obj""]]
+","""The whole world sees it right now,"" Lohan says in the video, following the family along the street.
+","""The whole world is seeing it right now,"" Lohan says in the video, following the family along the street.
+","""The whole world is watching,"" Lohan can be heard saying in the video as she continues to follow the family down the street.
+","The whole world is watching, says Lohan in the video as she follows the family further down the street.
+",0.9375,0.7216878364870323,-0.21581216351296773
+55,"[[""stock"", ""nsubj""], [""exchange"", ""nsubj""], [""supervision"", ""nsubj""], [""to"", ""root""], [""take"", ""root""], [""proceedings"", ""root""], [""against"", ""root""], [""sb"", ""root""], [""for"", ""root""], [""sth"", ""root""], [""him"", ""obj""], [""fraud"", ""obl""], [""oneself"", ""obj""], [""both"", ""nsubj""]]
+","The U.
+","The U.S. authorities sued him for fraud, but now both have agreed.
+","The US Securities and Exchange Commission sued him for fraud, but the two have now come to an agreement.
+","The US Securities and Exchange Commission sued him for fraud, but the parties have now agreed to a settlement.
+",0.4082482904638631,0.3333333333333333,-0.07491495713052976
+56,"[[""aktuell.ruhr"", ""nsubj""], [""-uni"", ""nsubj""], [""-bochum"", ""nsubj""], ["".de"", ""nsubj""], [""to"", ""root""], [""pay"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""for"", ""root""], [""sth"", ""root""], [""head"", ""nsubj""], [""oneself"", ""obj""], [""supervisory"", ""obl""], [""board"", ""obl""], [""chairman"", ""nsubj""], [""he"", ""nsubj""]]
+","Tesla and Musk have to pay, and the CEO is withdrawing from the Supervisory Board, but may remain CEO.
+","Tesla and Musk have to pay, and the CEO is withdrawing from the Supervisory Board.
+","Tesla and Musk have to pay, and the Tesla chief executive is retiring from the supervisory board, but he is allowed to remain chief executive.
+","Tesla and Musk have to pay, and the Tesla boss steps down as chairman, but he may remain as CEO.
+",0.9045340337332909,0.7272727272727273,-0.1772613064605636
+57,"[[""party"", ""root""], [""conference"", ""root""]]
+","Party Congress of British Conservatives
+","British Conservative Party Congress
+","British Conservative Party Conference
+","The British Conservative Party Conference
+",0.75,0.4472135954999579,-0.3027864045000421
+61,"[[""referendum"", ""root""]]
+","referendum for a new state name
+","Referendum for a new state name
+","Referendum for a new state name
+","Referendum for a new state name
+",0.75,0.75,0.0
+63,"[[""Macedonia"", ""nsubj""], [""country"", ""root""], [""Macedonia"", ""nsubj""]]
+","Macedonia is a country in the Balkans, but Macedonia is also a province in northern Greece.
+","Macedonia is a state in the Balkans, but Macedonia is also a province in northern Greece.
+","Macedonia is a state in the Balkans, but Macedonia is also a province in northern Greece.
+","Macedonia is a state in the Balkans, but Macedonia is also a province in Northern Greece.
+",0.8888888888888888,0.7777777777777778,-0.11111111111111105
+64,"[[""www.giz.de"", ""nsubj""], [""to"", ""root""], [""argue"", ""root""], [""or"", ""root""], [""quarrel"", ""root""], [""with"", ""root""], [""sb"", ""root""], [""Namensdopplung"", ""obl""], [""to"", ""obl""], [""be"", ""obl""], [""the"", ""obl""], [""anniversary"", ""obl""], [""of"", ""obl""]]
+","Skopje and Athens have been arguing over the double names for years already.
+","Skopje and Athens have been arguing about these names for years.
+","Skopje and Athens have been arguing over these duplications of names for years.
+","Skopje and Athens have been arguing about the duplicate name for years.
+",0.8660254037844387,0.6681531047810609,-0.19787229900337777
+66,"[[""country"", ""nsubj""], [""Macedonia"", ""obj""], [""to"", ""root""], [""be"", ""root""], [""called"", ""root""], [""Sunday"", ""obl""], [""population"", ""nsubj""], [""it"", ""nsubj""]]
+","The state of Macedonia is to be called North Macedonia in the future and the population will vote on this Sunday - whether it is going well?
+","The state of Macedonia is to be called North Macedonia in the future and the population will vote on this Sunday - whether it is okay?
+","The state of Macedonia is to be called Northern Macedonia in future and the population will vote on this on Sunday - will it be all right?
+","In future, the state of Macedonia is to be called North Macedonia and the population will vote on this measure on Sunday from the population - will it turn out okay?
+",0.8894991799933214,0.6900655593423543,-0.19943362065096715
+70,"[[""or"", ""nsubj""], [""one"", ""nsubj""], [""thousand"", ""nsubj""], [""to"", ""root""], [""walk"", ""root""], [""somewhere"", ""root""], [""town"", ""obl""], [""road"", ""obl""], [""right"", ""obl""], [""-"", ""obl""], [""wingen"", ""obl""], [""populist"", ""obl""]]
+","Thousands of people went to the streets in several cities to protest the right-wing populist Jair Bolsonaro.
+","Thousands of people took to the streets in several cities to protest Jair Bolsonaro.
+","Thousands took to the streets in several cities to protest against right-wing populist Jair Bolsonaro.
+","In many cities thousands are taking to the street to protest against the right-wing populist Jair Bolsonaro.
+",0.8215838362577491,0.5833333333333334,-0.23825050292441574
+72,"[[""competitor"", ""nsubj""], [""universes-in-universe.org"", ""root""]]
+","His strongest competitor is Fernando Haddad of the Left Workers' Party.
+","His strongest competitor is Fernando Haddad of the Left Labour Party.
+","His closest rival is Fernando Haddad of the leftist Workers' Party.
+","His keenest competitor is Fernando Haddad from the left workers’ party.
+",0.8432740427115678,0.5,-0.3432740427115678
+74,"[[""task"", ""nsubj""], [""force"", ""nsubj""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""www.volkswagenag.com"", ""nsubj""]]
+","""The Diesel task force still exists,"" said Peter Mertens, Chief Development Officer, to the industry journal ""Automobile Week"".
+","""The diesel task force still exists,"" said Peter Mertens, Chief Development Officer, to the industry journal ""Automobile Week"".
+","""The diesel taskforce still exists,"" Peter Mertens, Member of the Board of Management for Development, told the industry newspaper ""Automobilwoche.""
+","There is still a diesel taskforce, said Peter Mertens, chief development officer from the ‘Automobilwoche’ trade journal.
+",0.95,0.3796283011826483,-0.5703716988173517
+79,"[[""September"", ""obl""], [""discovery"", ""obl""], [""www.teneues.com"", ""obl""], [""to"", ""root""], [""found"", ""root""], [""sth"", ""root""]]
+","The taskforce was founded in September 2015 after the discovery of the diesel scandal at Audi's parent Volkswagen.
+","The task force was founded in September 2015 after the discovery of the diesel scandal at Audi parent Volkswagen.
+","The task force was set up in September 2015 following the discovery of the diesel scandal at Audi's parent company Volkswagen.
+","The taskforce was set up in September 2015 following the discovery at Audi parent company Volkswagen.
+",0.8461538461538461,0.7205766921228921,-0.12557715403095404
+81,"[[""www.hnf.de"", ""nsubj""], [""supervisory"", ""nsubj""], [""board"", ""nsubj""], [""Friday"", ""obl""], [""decision"", ""obj""], [""to"", ""root""], [""adjourn"", ""root""], [""sth"", ""root""], [""until"", ""root""], [""sth"", ""root""], [""Tuesday"", ""obl""]]
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and will continue to discuss this Tuesday.
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and wants to discuss this Tuesday.
+","The VW Supervisory Board postponed a decision on Stadler's future on Friday and intends to discuss it further on Tuesday.
+","The VW Supervisory Board had postponed a decision on Stadler's future on Friday and will continue this discussion on Tuesday.
+",0.9285714285714286,0.9285714285714286,0.0
+84,"[[""to"", ""root""], [""run"", ""root""], [""or"", ""root""], [""be"", ""root""], [""in"", ""root""], [""charge"", ""root""], [""of"", ""root""], [""sth"", ""root""], [""de.mimi.hu"", ""nsubj""], [""firm"", ""obj""], [""chief"", ""obl""], [""executiv"", ""obl""]]
+","Bram Schot currently heads the company as acting CEO.
+","Bram Schot currently heads the company as Chief Executive Officer.
+","Bram Schot, Chief Sales Officer, currently heads the company as acting CEO.
+","Currently the Sales Director Bram Schot heads the company as Acting Chief Executive Officer.
+",0.7071067811865476,0.5103103630798288,-0.19679641810671877
+85,"[[""the"", ""obl""], [""switch"", ""obl""], [""or"", ""obl""], [""change"", ""obl""], [""from"", ""obl""], [""sth"", ""obl""], [""to"", ""obl""], [""sth"", ""obl""], [""shortfall"", ""obj""], [""in"", ""obj""], [""production"", ""obj""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""www.lanex.cz"", ""nsubj""]]
+","Due to the switch to the new exhaust and consumption test standard WLTP there were production failures at Audi, said Schot the ""Heilbronner Voice"".
+","Due to the switch to the new exhaust gas and consumption test standard WLTP there were production failures at Audi, said Schot the ""Heilbronn Voice"".
+","Due to the conversion to the new exhaust and consumption test standard WLTP, there are production failures at Audi, Schot told ""Heilbronner Stimme.""
+","After conversion to the new emissions and consumption standard WLTP, there were production losses at Audi, Schot told the ‘Heilbronner Stimme’.
+",0.9233805168766388,0.5407380704358752,-0.3826424464407636
+86,"[[""to"", ""root""], [""see"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""he"", ""nsubj""], [""demand"", ""obj""], [""for"", ""obj""], [""www.schlemmerinfo.de"", ""obl""]]
+","In principle, he sees a declining demand for saloons such as Audi models A6, A7 and A8, produced in Neckarsulm.
+","In principle, he sees a declining demand for saloons such as Audi A6, A7 and A8, produced in Neckarsulm.
+","In principle, he sees a decreasing demand for saloons such as the A6, A7 and A8 audio models, which are produced in Neckarsulm.
+","Essentially, he sees a falling demand for limousines such as the Audi models A6, A7 and A8, produced in Neckarsulm.
+",0.9660917830792959,0.7590721152765897,-0.2070196678027062
+87,"[[""Segment"", ""nsubj""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""he"", ""nsubj""]]
+","""This segment itself is difficult,"" he said.
+","""The segment itself is difficult,"" he said.
+","""The segment itself is difficult,"" he said.
+","The segment in itself is a difficult one, he said.
+",0.875,0.6681531047810609,-0.20684689521893906
+88,"[[""www.lanex.cz"", ""nsubj""], [""to"", ""root""], [""put"", ""root""], [""or"", ""root""], [""place"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""somewhere"", ""root""], [""electromobility"", ""obl""]]
+","Schot puts his trust in electromobility.
+","Schot relies on electromobility.
+","Schot focuses on electromobility.
+","Schot is for electromobility.
+",0.6708203932499369,0.7745966692414834,0.10377627599154648
+89,"[[""www.joest-racing.de"", ""obl""], [""to"", ""root""], [""lie"", ""root""], [""reservation"", ""nsubj""]]
+","For the e-tron, the first Audi electric car, 15,000 reservations are already available.
+","For the e-tron, the first Audi electric car, there are already 15,000 reservations.
+","There have already been 15,000 reservations for the e-tron, the first Audi electric car.
+","There are already 15,000 reservations for the e-tron, the first Audi electric automobile.
+",0.9574271077563381,0.7833494518006403,-0.1740776559556978
+90,"[[""www.biologie.uni-hamburg.de"", ""nsubj""], [""to"", ""root""], [""strive"", ""root""], [""or"", ""root""], [""try"", ""root""], [""hard"", ""root""], [""for"", ""root""], [""sth"", ""root""], [""re-election"", ""obj""], [""German"", ""obl""], [""Football"", ""obl""], [""Association"", ""obl""]]
+","Grindel strives for re-election - Lahm to join the DFB Bureau
+","Grindel seeks re-election - Lame to the DFB Bureau
+","Grindel aims for re-election - Lahm to join DFB Presidium
+","Grindel seeking re-election - Lahm to join the Presidential Board of the German football association (DFB)
+",0.6681531047810609,0.5669467095138409,-0.10120639526722008
+91,"[[""Mainz"", ""nsubj""], [""criticism"", ""obl""], [""of"", ""obl""], [""sb"", ""obl""], [""sth"", ""obl""], [""year"", ""obl""], [""office"", ""obl""], [""German"", ""obl""], [""Football"", ""obl""], [""Association"", ""obl""], [""to"", ""root""], [""stehen"", ""root""], [""or"", ""root""], [""run"", ""root""], [""for"", ""root""], [""sth"", ""root""]]
+","Mainz (dpa) - Reinhard Grindel wants to run for office as DFB President again next year, despite the criticism of his person after the World Cup event and the Özil affair.
+","Mainz (dpa) - Reinhard Grindel wants to run again for office as DFB President in the coming year despite the criticism of his person after the World Cup and the Özil affair.
+","Mainz (AP) - Reinhard Grindel wants to run for president of the DFB again next year, despite the criticism of his person following the World Cup exit and the Özil affair.
+","Mainz (dpa) - Despite the criticism directed at him personally following the early FIFA World Cup exit and the scandal around Mesut Özil, Reinhard Grindel wants to run for office as President of the DFB again in the coming year.
+",0.9139076937674137,0.7080881928749334,-0.20581950089248024
+92,"[[""\"""", ""root""]]
+","""I do my job.
+","""I do my job and try to do it as well as I can,"" said Grindel as a guest early Sunday morning at ZDF's ""Current Sports Studio"".
+","""I'm doing my job and trying to do it as well as I can,"" Grindel said as a guest early Sunday morning in ZDF's ""Aktuelles Sportstudio.""
+","I do my work and try to make it as good as it gets, said Grindel as a guest early Sunday morning on ZDF’s weekly sports broadcast ""Das aktuelle Sportstudio"".
+",0.4588314677411235,0.3061862178478973,-0.1526452498932262
+93,"[[""Isle"", ""nsubj""], [""of"", ""nsubj""], [""man"", ""nsubj""], [""oneself"", ""obj""], [""re-election"", ""obl""], [""to"", ""root""], [""try"", ""root""], [""hard"", ""root""], [""to"", ""root""], [""do"", ""root""], [""sth"", ""root""], [""the"", ""obj""], [""me"", ""nsubj""]]
+","You have to try again and again to re-election, I will.
+","I'll do that.
+","You have to keep trying to get re-elected, and I will do that.
+","A re-election should be attempted and that is what I will do.
+",0.47140452079103173,0.5477225575051661,0.07631803671413434
+94,"[[""they"", ""nsubj""], [""to"", ""root""], [""look"", ""root""], [""in"", ""root""], [""through"", ""root""], [""out"", ""root""], [""of"", ""root""], [""sth"", ""root""], [""Support"", ""nsubj""]]
+","And then you have to look if the support is there.
+","And then you have to see if the support is there.
+","And then you have to see if the support is there.
+","And then you have to see what kind of support you get.
+",0.75,0.6123724356957946,-0.13762756430420542
+96,"[[""www.biologie.uni-hamburg.de"", ""nsubj""], [""Verbandschef"", ""root""]]
+","Grindel has been the head of the association since April 2016 as the successor of Wolfgang Niersbach, who fell over the summer tale affair.
+","Grindel has been the head of the association since April 2016 as the successor of Wolfgang Niersbach, who fell over the summer fairy tale affair.
+","Grindel has been the head of the FA since April 2016, succeeding Wolfgang Niersbach, who was ousted over the summer transfer saga.
+","Since April 2016, Grindel has been the head of the association as successor to Wolfgang Niersbach, who had to resign amidst the scandals surrounding the 2006 FIFA World Cup in Germany.
+",0.9682458365518541,0.5773502691896257,-0.3908955673622284
+97,"[[""autumn"", ""obl""], [""period"", ""obl""], [""of"", ""obl""], [""office"", ""obl""], [""elegant"", ""root""]]
+","In autumn 2016, he was elected to a full term of three years.
+","In autumn 2016, he was elected for a first full term of three years.
+","In autumn 2016, he was elected for a first full three-year term.
+","In autumn 2016 he was elected for a first full term of three years.
+",0.9534625892455924,0.9,-0.05346258924559233
+103,"[[""to"", ""root""], [""practise"", ""root""], [""or"", ""root""], [""practice"", ""root""], [""sth"", ""root""], [""office"", ""obj""], [""Brazilian"", ""nsubj""], [""latt"", ""nsubj""], [""to"", ""obj""], [""be"", ""obj""], [""rooted"", ""obj""], [""in"", ""obj""], [""sth"", ""obj""]]
+","Currently, this office is held by the Brazilians Cacau and Celia Sasic who have family roots in Cameroon.
+","Currently, this office is held by the Brazilians Cacau and Celia Sasic.
+","Cacau, who was born in Brazil, and Celia Sasic, who has family roots in Cameroon, currently hold the posts.
+","Currently, this position is filled by native Brazilian Cacau and Celia Sasic, who traces her family back to Cameroon.
+",0.8660254037844386,0.6172133998483676,-0.24881200393607095
+105,"[[""to"", ""root""], [""take"", ""root""], [""off"", ""root""], [""sth"", ""root""], [""scal"", ""obl""]]
+","Take off correctly with a half-wise scale
+","Properly decrease with half wise scale
+","Lose weight correctly with semi-smart scales
+","Losing weight the right way with semi-smart scales
+",0.22360679774997896,0.0,-0.22360679774997896
+106,"[[""self"", ""nsubj""], [""to"", ""root""], [""posse\u00df"", ""root""], [""or"", ""root""], [""own"", ""root""], [""or"", ""root""], [""have"", ""root""], [""and"", ""root""], [""to"", ""root""], [""hold"", ""root""], [""sth"", ""root""], [""week"", ""obl""], [""toy"", ""obj""]]
+","I've owned a new toy for four weeks.
+","I've had a new toy for four weeks.
+","I have had a new toy for four weeks.
+","I have owned a new toy for four weeks now.
+",0.9354143466934853,0.9354143466934853,0.0
+108,"[[""muscl"", ""obj""], [""she"", ""nsubj""], [""to"", ""root""], [""report"", ""root""], [""sb"", ""root""], [""for"", ""root""], [""sth"", ""root""]]
+","Also, muscle and bone mass can indicate it.
+","It can also show muscle and bone mass.
+","It can also indicate muscle and bone mass.
+","Even muscle and bone mass can be displayed.
+",0.5714285714285714,0.6172133998483676,0.04578482841979625
+109,"[[""body"", ""obj""], [""to"", ""root""], [""calculate"", ""root""], [""or"", ""root""], [""compute"", ""root""], [""sth"", ""root""], [""thing"", ""nsubj""], [""the"", ""nsubj""]]
+","The body mass index also calculates the thing, but it's more for the spice.
+","The body mass index also calculates the thing, but it's more for the sausage.
+","The thing also calculates the body mass index, but it's more for the sausages.
+","This thing also calculates my body mass index but that is rather useless anyway.
+",0.9090909090909091,0.6363636363636364,-0.2727272727272727
+110,"[[""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""he"", ""nsubj""], [""not"", ""obj""], [""anything"", ""obj""], [""me"", ""nsubj""], [""fat"", ""obj""], [""muscl"", ""obl""]]
+","He doesn't say anything about replacing fat with muscle.
+","Doesn't he say I replaced fat with muscle?
+","It doesn't say anything about whether I've replaced fat with muscle.
+","After all, it does not tell me whether I have been replacing fat with muscle.
+",0.5,0.47140452079103173,-0.028595479208968266
+114,"[[""New"", ""nsubj""], [""entry"", ""nsubj""], [""www.power-horse.com"", ""root""]]
+","New addition Rokas Giedraitis was the top scorer in Berlin with 20 points.
+","New addition Rokas Giedraitis was the dominating Berliner with 20 points.
+","Newcomer Rokas Giedraitis was the leading scorer with 20 points.
+","New addition Rokas Giedraitis was the top scorer of the dominating Berlin team with 20 points.
+",0.7378647873726218,0.9128709291752769,0.17500614180265506
+116,"[[""mast"", ""nsubj""], [""craftsman"", ""nsubj""], [""to"", ""root""], [""be"", ""root""], [""the"", ""root""], [""victor"", ""root""], [""at"", ""root""], [""sth"", ""root""], [""in"", ""root""], [""sth"", ""root""], [""debut"", ""obl""], [""www.modelstudio.cz"", ""obl""], [""www.projectpq.de"", ""obl""]]
+","Ex-master Brose Bamberg won with 84:80 (39:37) at S.
+","Former champion Brose Bamberg won with 84:80 (39:37) at S.Oliver Würzburg.
+","Former champion Brose Bamberg won the mandatory debut of coach Ainars Bagatskis with 84: 80 (39: 37) at s.Oliver Würzburg.
+","Ex-champion Brose Bamberg won coach Ainars Bagatskis’ competitive debut with 84-80 (39-37) at s.Oliver Würzburg.
+",0.7035264706814485,0.4166666666666667,-0.2868598040147818
+118,"[[""pro"", ""nsubj""], [""to"", ""root""], [""come"", ""root""], [""numerator"", ""obl""]]
+","Würzburg professional Gabriel Olaseni came to 14 meters.
+","Würzburg professional Gabriel Olaseni came on 14 counters.
+","Würzburg professional Gabriel Olaseni finished with 14 points.
+","Würzburg professional Gabriel Olaseni scored 14 points.
+",0.875,0.75,-0.125
+119,"[[""in"", ""nsubj""], [""to"", ""root""], [""defeat"", ""root""], [""sb"", ""root""], [""www.deutsches-klima-konsortium.de"", ""obj""], [""Frankfurt"", ""obl""], [""www.rlm.at"", ""obl""]]
+","Last year's semi-finalist MHP Riesen Ludwigsburg defeated the Fraport Skyliners from Frankfurt with 83:76 (41:34).
+","Last year's playoff semi-finalist MHP Riesen Ludwigsburg defeated the Fraport Skyliners from Frankfurt with 83:76.
+","Last year's playoff semi-finalist MHP Giants Ludwigsburg defeated the Fraport Skyliners from Frankfurt 83: 76 (41: 34).
+","Last year’s playoff semi-finalist MHP Riesen Ludwigsburg defeated the Fraport Skyliners from Frankfurt 83:76 (41:34).
+",0.8685990362153793,0.9095085938862486,0.040909557670869345
+121,"[[""European"", ""nsubj""], [""Currency"", ""nsubj""], [""Unit"", ""nsubj""], [""ECU"", ""nsubj""], [""to"", ""root""], [""Start"", ""root""], [""or"", ""root""], [""begin"", ""root""], [""sth"", ""root""], [""run"", ""obj""], [""success"", ""obl""]]
+","The EWE Baskets Oldenburg began the new season with a clear success.
+","The EWE Baskets Oldenburg started the new season with a clear success.
+","The EWE Baskets Oldenburg started the new season with a clear success.
+","The EWE Baskets Oldenburg began the new season successfully.
+",0.9,0.8432740427115678,-0.056725957288432216
+126,"[[""www.voltairenet.org"", ""nsubj""], [""open"", ""root""], [""ed"", ""root""], [""mosque"", ""obj""], [""Cologne"", ""obl""]]
+","Erdoğan inaugurates mosque in Cologne
+","Erdoğan opens mosque in Cologne
+","Erdoğan opens mosque in Cologne
+","Erdoğan opens mosque in Cologne
+",0.75,0.75,0.0
+129,"[[""criticism"", ""root""], [""of"", ""root""], [""sb"", ""root""], [""sth"", ""root""]]
+","Critics of Germany
+","Criticism of Germany
+","Criticism of Germany
+","Criticism of Germany
+",0.5,0.5,0.0
+132,"[[""we"", ""nsubj""], [""sympathiz"", ""nsubj""], [""citiz"", ""obj""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""he"", ""nsubj""]]
+","We will not allow Sympathizers of the PKK or Gülen movement to shake our citizens and harm German Turkish friendship,"" he said.
+","We will not allow sympathizers of the PKK or Gülen movement to shake our citizens and harm German-Turkish friendship.""
+","We will not allow PKK or Gülen sympathisers to shake our citizens and damage German-Turkish friendship, ""he said.
+","We will not allow sympathizers of the PKK or Gülen movement to unsettle our citizens and damage the German/Turkish friendship’, he said.
+",0.76271276980969,0.6454972243679028,-0.11721554544178725
+135,"[[""Islamverband"", ""nsubj""], [""to"", ""root""], [""stehen"", ""root""], [""criticism"", ""obl""], [""of"", ""obl""], [""sb"", ""obl""], [""sth"", ""obl""], [""he"", ""nsubj""]]
+","The Islamic Association Ditib is in criticism because it is regarded as an extended arm of the Turkish government.
+","The Islam Association Ditib is critical because it is considered an extended arm of the Turkish government.
+","The Ditib Islamic Association has come under criticism because it is seen as an extension of the Turkish government.
+","The Ditib Islamic association is under criticism because it is seen as an extended arm of the Turkish government.
+",0.7272727272727273,0.8181818181818182,0.09090909090909094
+136,"[[""global"", ""root""]]
+","""Global Citizen Festival"": Music vs.
+","""Global Citizen Festival"": Music Against Poverty: Stars, Buhrufe and Scares
+","""Global Citizen Festival"": Music Against Poverty: Stars, boos and moments of horror
+","Global Citizen Festival: Music against poverty: Stars, boos and scary moments
+",0.647150228929434,0.502518907629606,-0.14463132129982792
+137,"[[""musician"", ""nsubj""], [""concerto"", ""obl""], [""commitment"", ""obl""], [""to"", ""obl""], [""to"", ""root""], [""recruit"", ""root""], [""sb"", ""root""], [""for"", ""root""], [""sth"", ""root""]]
+","Musicians like Janet Jackson, John Legend, Shawn Mendes and Cardi B have promoted more commitment to fighting poverty and disease at a joint concert at Central Park in New York City.
+","Musicians like Janet Jackson, John Legend, Shawn Mendes and Cardi B have promoted more engagement in the fight against poverty and disease at a joint concert in New York Central Park.
+","Musicians including Janet Jackson, John Legend, Shawn Mendes and Cardi B have joined forces at a concert in New York's Central Park to call for greater engagement in the fight against poverty and disease.
+","Musicians such as Janet Jackson, John Legend, Shawn Mendes and Cardi B campaigned for more engagement in the fight against poverty and illness at a collective concert in New York’s Central Park.
+",0.893819357296686,0.7235680511449364,-0.17025130615174966
+138,"[[""you"", ""nsubj""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""www.giz.de"", ""nsubj""], [""festival"", ""obl""], [""Sunday"", ""obl""], [""spectator"", ""obl""]]
+","""Commit wherever you can,"" Mendes said at the festival on Sunday night in front of around 60,000 spectators.
+","""Commit wherever you can,"" Mendes said at the festival on Sunday night in front of around 60 000 spectators.
+","""Get involved wherever you can,"" Mendes told a crowd of about 60,000 at the festival on Sunday night.
+","Get involved wherever you can, said Mendes on Sunday evening at the festival in front of approximately 60,000 spectators.
+",0.9036961141150639,0.6900655593423543,-0.21363055477270965
+140,"[[""www.kettererkunst.de"", ""nsubj""], [""to"", ""root""], [""st"", ""root""], [""somewhere"", ""root""], [""outfit"", ""obl""], [""to"", ""obl""], [""fray"", ""obl""]]
+","Cardi B performed in a red outfit with fringes and golden microphone.
+","Cardi B appeared in a red outfit with fringes and golden microphone.
+","Cardi B performed in a red outfit with fringe and gold microphone.
+","Cardi B appeared in a red outfit with tassels and a gold microphone.
+",0.8888888888888888,0.6666666666666666,-0.2222222222222222
+141,"[[""self"", ""nsubj""], [""nervous"", ""root""], [""me"", ""nsubj""], [""it"", ""nsubj""], [""me"", ""nsubj""], [""the"", ""obj""], [""our"", ""obj""], [""world"", ""obj""]]
+","I'm nervous, I sweat, but it's okay, 'cause I am here and ready to change the world.
+","I'm nervous, I sweat, but it's okay because I am here ready to change the world.
+","I'm nervous, I'm sweating, but it's okay because I'm here and I'm ready to change the world.
+","I am nervous, I am sweating, but it’s OK because I’m here and ready to change the world.
+",0.9574271077563381,0.6390096504226938,-0.31841745733364435
+142,"[[""actor"", ""nsubj""], [""masc"", ""nsubj""], [""to"", ""root""], [""show"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""oneself"", ""obj""], [""racket"", ""obl""], [""no"", ""obl""], [""theatre"", ""obl""], [""or"", ""obl""]]
+","Actors such as Hugh Jackman and Forest Whitaker as well as representatives of governments, the United Nations and relief organizations also appeared on stage during the multi-hour spectacle.
+","Actors such as Hugh Jackman and Forest Whitaker as well as representatives of governments, the United Nations and relief organizations also showed up at the multi-hour spectacle.
+","Actors Hugh Jackman and Forest Whitaker, as well as representatives of governments, the United Nations and aid agencies, also took to the stage for the multi-hour spectacle.
+","Even actors such as Hugh Jackman and Forest Whitaker, government representatives, the United Nations and aid organizations appeared on the stage at the spectacle, which lasted for hours.
+",0.9192547197409877,0.6842105263157895,-0.23504419342519822
+143,"[[""to"", ""root""], [""give"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""moment"", ""nsubj""], [""of"", ""nsubj""], [""shock"", ""nsubj""], [""spectator"", ""nsubj""], [""sound"", ""obj""], [""fear"", ""obj""]]
+","In between, however, there was a scare second, when many spectators thought that the sound of a falling metal barrier was gunshot, scared and tried to escape.
+","In between, however, there was a scare second when many spectators thought the sound of a falling metal barrier was gunshot, scared and tried to escape.
+","In between, however, there was a moment of shock, when many spectators mistook the sound of a metal barrier falling over for shots, became frightened and tried to flee.
+","There was a scary moment when many spectators mistook the noise of a falling metal barrier for shots, got scared and tried to run away.
+",1.0,0.5144957554275266,-0.48550424457247343
+144,"[[""to"", ""root""], [""come"", ""root""], [""into"", ""root""], [""being"", ""root""], [""from"", ""root""], [""sth"", ""root""], [""panic"", ""nsubj""], [""no"", ""nsubj""], [""man"", ""nsubj""], [""no"", ""nsubj""], [""no"", ""nsubj""]]
+","Panic came short, people ran into confusion.
+","In short, panic arose, people ran into confusion.
+","Shortly there was panic, people were running around.
+","There was a short panic with people running in all directions.
+",0.7071067811865476,0.4008918628686366,-0.306214918317911
+149,"[[""Ticket"", ""nsubj""], [""to"", ""root""], [""give"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""year"", ""obl""], [""internet"", ""obl""]]
+","Tickets for the ""Global Citizen Festival"" concert were free of charge on the Internet as every year.
+","Tickets for the ""Global Citizen Festival"" concert were available free of charge on the Internet.
+","As every year, tickets for the ""Global Citizen Festival"" concert were available for free on the Internet.
+","As every year, tickets for the ""Global Citizen Festival"" concert were available free of charge online.
+",0.8807048459279793,0.76271276980969,-0.11799207611828921
+150,"[[""who"", ""nsubj""], [""'"", ""obj""], [""internet"", ""obl""], [""to"", ""obj""], [""write"", ""obj""], [""sth"", ""obj""], [""battl"", ""obl""], [""to"", ""root""], [""read"", ""root""], [""sth"", ""root""]]
+","Those who wanted to get one had to read and spread texts, photos and videos about the global fight against poverty and diseases on the internet.
+","Those who wanted to get one had to read and spread texts, photos and videos on the global fight against poverty and diseases.
+","If you wanted to get one, you had to read and distribute texts, photos and videos about the global fight against poverty and diseases on the Internet.
+","If you wanted to get one, you had to read and share texts, photos and videos about the global fight against poverty and diseases online.
+",0.9682458365518541,0.8125,-0.15574583655185414
+151,"[[""musician"", ""obl""], [""to"", ""root""], [""give"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""audience"", ""obl""], [""cheering"", ""obj""], [""no"", ""obj""], [""Senator"", ""obl""]]
+","For the numerous musicians and actors there was cheer and applause from the audience - shouts for Republican Senator Jeff Flake.
+","For the numerous musicians and actors there were cheers and applause from the audience - shouts for Republican Senator Jeff Flake.
+","There were cheers and applause from the audience for the numerous musicians and actors - but boos for Republican Senator Jeff Flake.
+","For the numerous musicians and actors there were cheers and applause from the audience - by contrast, Republican Senator Jeff Flake was booed.
+",0.9285714285714286,0.8017837257372732,-0.1267877028341554
+152,"[[""this"", ""nsubj""], [""one"", ""nsubj""], [""to"", ""root""], [""Speak"", ""root""], [""oneself"", ""obj""], [""colleague"", ""obl""], [""theatre"", ""obl""], [""or"", ""obl""]]
+","Although he spoke together with his democratic colleague Chris Coons on the stage for more equality between men and women.
+","He spoke together with his democratic colleague Chris Coons on the stage to promote gender equality.
+","He spoke on stage with his Democratic colleague Chris Coons for more equality between men and women.
+","Flake did join his Democratic colleague Chris Coons on the stage in calling for more equal rights between men and women.
+",0.75,0.560448538317805,-0.18955146168219505
+153,"[[""Friday"", ""obl""], [""oneself"", ""obj""], [""www.mountainforce.com"", ""nsubj""], [""mandelbaum.at"", ""obl""], [""nomination"", ""obl""], [""judg"", ""obl""], [""www.schwalbe.com"", ""obl""], [""distinct"", ""root""], [""one"", ""obj""], [""feminist"", ""obj""], [""alternativ"", ""obj""], [""to"", ""obj""], [""the"", ""obj""], [""German"", ""obj""], [""masculine"", ""obj""], [""form"", ""obj""], [""man"", ""obj""], [""head"", ""obl""]]
+","On Friday, however, Flake in the U.
+","On Friday, however, Flake spoke out for the nomination of Brett Kavanaugh as a judge at the Supreme Court in the U.S. Senate's Judicial Committee.
+","But on Friday, Flake spoke out in support of Brett Kavanaugh's nomination to the Supreme Court by the US Senate Judiciary Committee, angering many women.
+","On Friday, however, Flake had spoken in the Judiciary Committee of the US Senate supporting the nomination of Brett Kavanaugh as a judge on the Supreme Court, which offended many women.
+",0.5345224838248488,0.4948716593053935,-0.039650824519455286
+154,"[[""one"", ""nsubj""], [""feminist"", ""nsubj""], [""alternativ"", ""nsubj""], [""to"", ""nsubj""], [""the"", ""nsubj""], [""German"", ""nsubj""], [""masculine"", ""nsubj""], [""form"", ""nsubj""], [""man"", ""nsubj""], [""Missbrauchsvorw\u00fcrfe"", ""obj""], [""rape"", ""obl""], [""to"", ""root""], [""raise"", ""root""], [""sth"", ""root""], [""the"", ""obj""], [""this"", ""nsubj""], [""one"", ""nsubj""]]
+","At least three women have filed abuse charges up to the attempted rape against Kavanaugh, which he rejects.
+","At least three women have charged abuse all the way to attempted rape against Kavanaugh who rejects it.
+","At least three women have made allegations of abuse, including attempted rape, against Kavanaugh, which he denies.
+","At least three women made abuse allegations, including some of attempted rape against Kavanaugh, who rejects these.
+",0.8006407690254357,0.8153742483272113,0.014733479301775598
+155,"[[""www.mountainforce.com"", ""nsubj""], [""to"", ""root""], [""demand"", ""root""], [""sth"", ""root""], [""from"", ""root""], [""sb"", ""root""], [""FBI"", ""obj""], [""-"", ""obj""], [""Agent"", ""obj""], [""in"", ""obj""], [""him"", ""obj""], [""one"", ""nsubj""], [""feminist"", ""nsubj""], [""alternativ"", ""nsubj""], [""to"", ""nsubj""], [""the"", ""nsubj""], [""German"", ""nsubj""], [""masculine"", ""nsubj""], [""form"", ""nsubj""], [""man"", ""nsubj""], [""the"", ""nsubj""], [""data"", ""obl""], [""to"", ""obj""], [""spread"", ""obj""], [""to"", ""obj""], [""sth"", ""obj""], [""path"", ""obl""], [""lift"", ""obl""]]
+","Mr.
+","Flake called for an FBI investigation of the charges after two women, according to their own statements, confronted him on the way to committee meeting in an elevator.
+","Flake called for an FBI investigation into the allegations after two women who say they experienced sexual assault confronted him in an elevator on his way to the committee meeting.
+","Flake called for an FBI investigation after two women who reportedly experienced sexual assault themselves confronted him on the way to a committee meeting in an elevator.
+",0.17677669529663687,0.17677669529663687,0.0
+156,"[[""your"", ""nsubj""], [""lift"", ""obl""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""www.mountainforce.com"", ""nsubj""], [""concerto"", ""obl""], [""dicht"", ""obl""]]
+","""You can also meet me in an elevator at any time,"" Flake said to the crowd at the New York concert.
+","""You can also meet me at any time in an elevator,"" Flake said at the New York concert.
+","""You're welcome to join me in an elevator anytime,"" Flake told the crowd at the concert in New York.
+","You are welcome to join me in an elevator anytime, Flake said to the crowd at the New York concert.
+",0.9660917830792959,0.7161148740394329,-0.24997690903986303
+157,"[[""to"", ""root""], [""defend"", ""root""], [""sth"", ""root""], [""against"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""ein"", ""obj""], [""Quasi"", ""obj""], [""-"", ""obj""], [""Rauswurf"", ""obj""]]
+","Freedom of the press: German government defends the dismissal of the journalist
+","Freedom of the press: Federal Government defends dismissal of journalist
+","Freedom of the press: Federal Government defends expulsion of journalist
+","Freedom of Press: Federal government defends exclusion of journalist
+",0.75,0.625,-0.125
+158,"[[""filmbild"", ""nsubj""], ["".de"", ""nsubj""], [""ein"", ""obj""], [""Quasi"", ""obj""], [""-"", ""obj""], [""Rauswurf"", ""obj""], [""pressen"", ""obl""], [""conference"", ""obl""], [""or"", ""obl""], [""briefing"", ""obl""], [""to"", ""root""], [""defend"", ""root""], [""sth"", ""root""], [""against"", ""root""], [""sb"", ""root""], [""sth"", ""root""]]
+","Government spokesman Steffen Seibert defended the dismissal of a journalist from the press conference of Chancellor Angela Merkel (CDU) and Turkish President Recep Tayyip Erdogan.
+","Government spokesman Steffen Seibert defended the dismissal of a journalist from the press conference of Chancellor Angela Merkel (CDU) and Turkish President Recep Tayyip Erdoğan
+","Government spokesman Steffen Seibert has defended the expulsion of a journalist from the press conference of Chancellor Angela Merkel (CDU) and Turkish President Recep Tayyip Erdoğan.
+","Government spokesperson Steffen Seibert has defended the expulsion of a journalist from the press conference of Chancellor Angela Merkel (CDU) and Turkish president Recep Tayyip Erdoğan.
+",0.9271050693011066,0.8095238095238095,-0.11758125977729705
+163,"[[""he"", ""nsubj""], [""to"", ""root""], [""arrange"", ""root""], [""sth"", ""root""], [""or"", ""root""], [""see"", ""root""], [""to"", ""root""], [""it"", ""root""], [""that"", ""root""], [""sth"", ""root""], [""is"", ""root""], [""done"", ""root""], [""bodyguard"", ""nsubj""], [""man"", ""obj""]]
+","He had arranged for personal protectors to take the man out.
+","He had caused personal protectors to take the man out.
+","He had arranged for bodyguards to escort the man out.
+","Thus, he ordered bodyguards to escort the man out.
+",0.8571428571428571,0.2857142857142857,-0.5714285714285714
+164,"[[""www.uni-bielefeld.de"", ""nsubj""], [""to"", ""root""], [""say"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""it"", ""nsubj""], [""pressen"", ""obl""], [""conference"", ""obl""], [""or"", ""obl""], [""briefing"", ""obl""], [""requesen"", ""obj""]]
+","Seibert said that it is not allowed to demonstrate political concerns during press conferences in the Federal Chancellery.
+","Seibert said that it was not allowed to demonstrate political concerns at press conferences in the Federal Chancellery.
+","Seibert said that it is not permitted to demonstrate political concerns at press conferences in the Federal Chancellery.
+","Seibert said that it was not permitted to demonstrate political concerns at press conferences in the federal chancellery.
+",1.0,0.7272727272727273,-0.2727272727272727
+165,"[[""the"", ""nsubj""], [""to"", ""root""], [""be"", ""root""], [""valid"", ""root""], [""for"", ""root""], [""sb"", ""root""], [""it"", ""nsubj""], [""oneself"", ""obj""], [""requesen"", ""obl""]]
+","This is completely independent of whether or not it is a legitimate concern.
+","This applies completely regardless of whether or not it is a legitimate concern.
+","This applies irrespective of whether or not it is a legitimate concern.
+","no matter if it is a legitimate concern or not.
+",0.8017837257372732,0.5669467095138409,-0.23483701622343234
+167,"[[""T\u00fcrkiye"", ""obl""], [""to"", ""root""], [""sit"", ""root""], [""journalist"", ""nsubj""], [""prison"", ""obl""]]
+","In Turkey, many journalists are in prison.
+","Many journalists are in prison in Turkey.
+","There are many journalists in prison in Turkey.
+","In Turkey, many journalists are imprisoned.
+",0.6761234037828132,0.8571428571428571,0.18101945336004388
+169,"[[""leadership"", ""nsubj""], [""power"", ""root""], [""gestur"", ""obj""], [""attempted"", ""obl""], [""coup"", ""obl""], [""d'"", ""obl""], [""\u00e9tat"", ""obl""], [""15"", ""obl""]]
+","The Turkish leadership blames the movement for the failed coup attempt of 15 July 2016.
+","The Turkish leadership blames the movement for the failed coup attempt on 15 July 2016.
+","The Turkish leadership blames the movement for the failed coup attempt on July 15, 2016.
+","The Turkish government holds the movement responsible for the failed attempted coup on July 15, 2016.
+",1.0,0.6943650748294136,-0.30563492517058644
+170,"[[""to"", ""root""], [""threaten"", ""root""], [""sb"", ""root""], [""with"", ""root""], [""sth"", ""root""], [""imprisonment"", ""obj""], [""no"", ""obj""]]
+","Some of the accused journalists are threatened with imprisonment for several decades.
+","Some of the accused journalists face several decades of imprisonment.
+","Some of the accused journalists face several decades in prison.
+","Some of the accused journalists are facing several decades in jail.
+",0.875,0.75,-0.125
+172,"[[""trap"", ""nsubj""], [""sensation"", ""obl""], [""to"", ""root""], [""provide"", ""root""], [""for"", ""root""], [""sb"", ""root""]]
+","Most recently, the cases of the detained journalists Meşale Tolu and Deniz Yücel caused a sensation.
+","Most recently, the cases of detained journalists Meşale Tolu and Deniz Yücel caused attention.
+","Most recently, the cases of imprisoned journalists Meşale Tolu and Deniz Yücel caused a stir.
+","Most recently, the cases of the incarcerated journalists Meşale Tolu and Deniz Yücel caused a stir.
+",0.9230769230769231,0.8461538461538461,-0.07692307692307698
+173,"[[""you"", ""nsubj""], [""to"", ""root""], [""come"", ""root""], [""Germany"", ""obl""], [""T\u00fcrkiye"", ""obl""], [""legal"", ""nsubj""], [""proceedings"", ""nsubj""], [""both"", ""obl""]]
+","Although they came free and could return to Germany, there are still trials in Turkey against them.
+","They were released and could return to Germany, but there are still trials in Turkey against them.
+","They were released and were able to return to Germany, but trials against them are still ongoing in Turkey.
+","They were released and were able to return to Germany, but the legal processes in Turkey against the two are still ongoing.
+",0.7627700713964739,0.5017452060042544,-0.2610248653922195
+176,"[[""they"", ""nsubj""], [""to"", ""root""], [""look"", ""root""], [""the"", ""nsubj""]]
+","One has to look twice: Yes, this is really Florian David Fitz.
+","You have to look twice: Yes, this is really Florian David Fitz.
+","You have to look twice: Yes, that really is Florian David Fitz.
+","You have to look twice, though: Yes, that's really Florian David Fitz.
+",0.9090909090909091,0.8362420100070908,-0.07284889908381831
+179,"[[""www.uni-hamburg.de"", ""nsubj""], [""to"", ""root""], [""push"", ""root""], [""sb"", ""root""], [""guest"", ""obl""], [""beer"", ""obl""], [""mood"", ""obj""]]
+","Moderator Ina Müller meets with her guests some beer, some wine or even higher-percent drinks to loosen the mood and tongues.
+","Moderator Ina Müller meets with her guests some beer, some wine or even higher percentage drinks to loosen the mood and tongues.
+","Presenter Ina Müller toasts with her guests to some beer, some wine or even high percentage drinks to lighten the mood and tongues.
+","Moderator Ina Müller often cheers her guests with a beer, some wine or even stronger beverages to loosen up the mood and their tongues.
+",0.9036961141150639,0.7745966692414834,-0.1290994448735805
+180,"[[""VIP"", ""nsubj""], [""to"", ""root""], [""drink"", ""root""], [""sth"", ""root""], [""oneself"", ""obj""], [""musical"", ""obl""], [""insern"", ""obl""], [""courage"", ""obj""], [""no"", ""obj""], [""no"", ""obj""]]
+","Not a few celebrities also take courage for the obligatory singing.
+","Not a few celebrities also take courage for compulsory singing.
+","Quite a few celebs also drink themselves into the guts for the obligatory singing interludes.
+","Quite a few celebs also need the liquid courage for the obligatory vocal number.
+",0.875,0.4472135954999579,-0.4277864045000421
+183,"[[""to"", ""root""], [""get"", ""root""], [""sth"", ""root""], [""from"", ""root""], [""sb"", ""root""], [""outing"", ""nsubj""], [""north"", ""obl""]]
+","The Municher got the trip to the far north but not well.
+","But the trip to the far north didn't get well.
+","But the trip to the far north didn't go down well with the Munich native.
+","The trip didn’t do the actor any good, though.
+",0.625,0.375,-0.25
+186,"[[""he"", ""nsubj""], [""ill"", ""root""], [""he"", ""nsubj""], [""tomcat"", ""obj""]]
+","But he isn't ill, he only has a powerful hangover.
+","But he's not sick.
+","But he's not sick, he just has a mighty hangover.
+","But he is not ill, he only has quite a hangover.
+",0.3779644730092272,0.7715167498104595,0.3935522768012323
+187,"[[""fan"", ""obl""], [""post"", ""root""], [""he"", ""nsubj""], [""insight"", ""obj""], [""the"", ""obj""], [""he"", ""nsubj""], [""night"", ""obl""]]
+","Addressing his fans, he posted some - probably not very serious - insights that he has now gained: ""Rule one: NEVER goes to Inas Night.
+","Addressed to his fans, he posted some - probably not very serious - insights that he has now gained: ""Rule one: NEVER goes to Inas night.
+","Addressing his fans, he posted some - probably not entirely serious - insights he has now gained: ""Rule one: NEVER go to Ina's night.
+","Addressing his fans, he posted some - probably not entirely serious - insights he learnt: ""Rule one: NEVER go to Inas Night.
+",0.8888888888888888,0.8651809126974003,-0.023707976191488567
+190,"[[""company"", ""nsubj""], [""the"", ""nsubj""], [""www.uni-hamburg.de"", ""obj""], [""three"", ""obl""], [""to"", ""root""], [""stop"", ""root""], [""sth"", ""root""]]
+","And the round of egg liqueurs that Ina throws at 6:30, let go of it, too.
+","And leave the round egg liqueur that Ina throws at 6:30.
+","And leave out the round of eggnog that Ina throws at half past three.
+","And also pass on Ina’s round of eggnog at half past two.""
+",0.7035264706814485,0.3481553119113957,-0.35537115877005276
+191,"[[""consumption"", ""nsubj""], [""of"", ""nsubj""], [""alcohol"", ""nsubj""], [""to"", ""root""], [""stehen"", ""root""], [""face"", ""obl""]]
+","The 43-year-old truly faces alcohol consumption.
+","Alcohol consumption is truly written on the face of the 43-year-old.
+","The 43-year-old's drinking is certainly written all over his face.
+","The long night is really showing on the 43-year-olds’ face.
+",0.5714285714285714,0.2519763153394848,-0.3194522560890866
+198,"[[""Ferienwohnung"", ""nsubj""], [""-gaestezimmer"", ""nsubj""], ["".de"", ""nsubj""], [""to"", ""root""], [""have"", ""root""], [""got"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""vandalism"", ""obl""]]
+","Treysa has to fight with vandalism and treason
+","Treysa struggles with vandalism and treason
+","Treysa has to contend with vandalism and filth
+","Treysa has struggled against vandalism and garbage
+",0.75,0.5,-0.25
+201,"[[""sharp"", ""nsubj""], [""piece"", ""nsubj""], [""or"", ""nsubj""], [""fragment"", ""nsubj""], [""to"", ""root""], [""present"", ""root""], [""sb"", ""root""], [""with"", ""root""], [""sth"", ""root""], [""oneself"", ""obj""], [""long"", ""obl""], [""getting"", ""nsubj""], [""in"", ""nsubj""]]
+","Shards, cigarette dumps, garbage and debris, demolished trash cans and now dismantled signposts - this is how the entrance with seating group to the bike path on the Haaße hill in Treysa has long been presented.
+","Shards, cigarette dumps, garbage and debris, demolished trash cans and now dismantled signposts - this is how the entrance with seating group to the bike path on the Haaße hill in Treysa has been presented.
+","Shards, cigarette butts, garbage and garbage, demolished garbage bins and meanwhile dismantled signs - this is how the entrance with seating group to the bike path on the Haaße hill in Treysa presents itself for a long time.
+","Shards, cigarette butts, garbage and rubbish, demolished rubbish bins and now dismantled signs - so for quite some time presents itself the entrance with seating area to the bike path on the Haaße-hill in Treysa.
+",0.9780192938436515,0.5779204918167031,-0.40009880202694836
+203,"[[""subjecen"", ""nsubj""], [""busy"", ""root""], [""member"", ""obj""], [""Radverkehrsbeauftragte"", ""nsubj""]]
+","The topic has been occupied by members of the ADFC local group Schwalmstadt but also others for a long time, according to Ulrich Wüstenhagen's bicycle traffic officer.
+","The topic has been occupied by members of the ADFC local group Schwalmstadt but also others for a long time, according to the cycling officer of the city Ulrich Wüstenhagen.
+","The topic has been occupying members of the ADFC local group Schwalmstadt but also others for some time, according to Ulrich Wüstenhagen, the city's cycling commissioner.
+","The matter is of concern to the ADFC (German Cyclists Association) chapter Schwalmstadt, but others have also taken interest for some time, according to the city's cycling commissioner Ulrich Wüstenhagen.
+",0.8783100656536799,0.5237229365663818,-0.35458712908729806
+208,"[[""www.teneues.com"", ""nsubj""], [""to"", ""root""], [""tell"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""subjecen"", ""obj""], [""local"", ""obl""], [""advisory"", ""obl""], [""committee"", ""obl""]]
+","Guido Hahn (ADFC) reported that the topic was also included in the local council.
+","Guido Hahn (ADFC) reports that the topic was also included in the local council.
+","Guido Hahn (ADFC) reports that he has also introduced the topic to the local advisory board.
+","Guido Hahn (ADFC) says he also brought the issue up with the local advisory council.
+",0.9166666666666666,0.7205766921228921,-0.19608997454377453
+209,"[[""refus"", ""nsubj""], [""to"", ""root""], [""drive"", ""root""], [""sb"", ""root""], [""animals"", ""root""], [""somewhere"", ""root""], [""cyclist"", ""obj""], [""www.relax.ischgl.at"", ""nsubj""]]
+","Not only the garbage drives cyclists and residents around - the seating group is a regular meeting place to celebrate on weekends.
+","Not only the garbage drives cyclists and residents around - the seating group is a regular meeting point on weekends.
+","It's not just garbage that drives cyclists and residents wild - the seating area is a regular meeting point for partying at weekends.
+","Not only the rubbish is a nuisance for cyclists and residents - on weekends the seating group is a regular meeting place for partying.
+",0.8970852271450606,0.7590721152765897,-0.13801311186847087
+214,"[[""cycle"", ""obl""], [""path"", ""obl""], [""or"", ""obl""], [""track"", ""obl""], [""to"", ""root""], [""lie"", ""root""], [""Haa\u00df"", ""obl""], [""main"", ""nsubj""], [""emphasis"", ""nsubj""], [""Radverkehrsbeauftragte"", ""nsubj""], [""the"", ""nsubj""], [""oneself"", ""obj""], [""Radst\u00e4tte"", ""obl""]]
+","""The focus here is clearly on the Haaße hill along the entire cycle path,"" confirms the bicycle traffic officer, who is now also worried about the new cycle centre in Ziegenhain, which is opened today.
+","""The focus here is clearly on the Haaße hill along the entire cycle path,"" confirms the bicycle traffic officer, who is now also worried about the new bike park in Ziegenhain, which is opened today.
+","""Along the entire cycle path, the focus is clearly on the Haaße hill,"" confirms the bicycle traffic officer, who is now also concerned about the new bike centre in Ziegenhain, which opens today.
+","Clearly the focus point along the entire bike path is here on the Haaße, confirms the cycling commissioner, who now is also responsible for the cycling site in Ziegenhain, which will be opened today.
+",0.9389710680668849,0.5619514869490164,-0.3770195811178685
+217,"[[""the"", ""nsubj""], [""to"", ""root""], [""assume"", ""root""], [""sth"", ""root""], [""police"", ""nsubj""], [""patrol"", ""nsubj""]]
+","This would assume, however, that a police patrol will pass in a timely manner.
+","However, this would require a police patrol to pass in time.
+","This would, however, require a police patrol to pass by in a timely manner.
+","However, this would require a police patrol to come out.
+",0.6030226891555273,0.5330017908890261,-0.07002089826650115
+220,"[[""they"", ""nsubj""], [""satisfied"", ""root""], [""with"", ""root""]]
+","One could be very satisfied with the frequenting of the cycle path so far.
+","One could be very satisfied with the frequenting of the cycle path.
+","With the frequency of the cycle path so far one can be very satisfied.
+","So far one can be very satisfied with how well the bicycle path is frequented.
+",0.9354143466934853,0.47140452079103173,-0.4640098259024536
+225,"[[""traffic"", ""obl""], [""no"", ""obl""], [""no"", ""obl""], [""it"", ""nsubj""], [""cyclist"", ""nsubj""], [""road"", ""obl""], [""traffic"", ""obl""], [""flow"", ""obl""], [""to"", ""root""], [""explain"", ""root""], [""sth"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""she"", ""nsubj""]]
+","In case of heavy traffic it can happen that cyclists have to wait in the middle of the road between the traffic flow on both sides"", she explains.
+","With heavy traffic it can happen that cyclists have to wait in the middle of the road between the two-way traffic flows,"" she explains.
+","In heavy traffic, cyclists may have to wait in the middle of the road between two traffic flows, ""she explains.
+","In heavy traffic, cyclists may end up waiting in the middle of bidirectional traffic flows"", she explains.
+",0.7590721152765897,0.6210590034081188,-0.13801311186847087
+226,"[[""the"", ""nsubj""], [""probel"", ""root""]]
+","This is no problem for sporty drivers, but it is for older people and especially children.
+","This is no problem for sporty drivers, but for older people and especially children.
+","This is not a problem for sporty drivers, but probably for older people and especially for children.
+","That would not be a problem for sporty cyclists, but is for older people and especially for children.
+",1.0,0.7627700713964739,-0.2372299286035261
+229,"[[""usu"", ""obj""], [""for"", ""obj""], [""David"", ""obj""], [""song"", ""obj""], [""to"", ""root""], [""read"", ""root""]]
+","""D a song for Hiltrup"" is the appeal of the district offensive Hilstrup, in the ""Music contest for big and small young and experienced musicians"".
+","""D a song for Hiltrup"" is the appeal of the district offensive, the ""Music contest for big and small, young and experienced musicians"".
+","""D is a song for Hiltrup"" is the appeal of the district offensive Hiltrup, in the ""Music contest for big and small, young and experienced musicians.""
+","Your Song for Hiltrup is the motto of the Hiltrup initiative for the ""Music Contest for young and old, new and experienced musicians.""
+",0.9718253158075502,0.5303300858899107,-0.44149522991763945
+235,"[[""to"", ""root""], [""see"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""oneself"", ""obj""], [""songwriter"", ""nsubj""]]
+","To what did the copywriters look connected?
+","What did the copywriters see connected to?
+","What did the lyricists see themselves associated with?
+","What did the songwriters sing about?
+",0.6,0.22360679774997896,-0.37639320225002104
+237,"[[""als"", ""nsubj""], [""wir"", ""nsubj""], [""in"", ""nsubj""], [""der"", ""nsubj""], [""Skiurlaub"", ""nsubj""], [""sein"", ""nsubj""], [""haben"", ""nsubj""], [""er|es|sie"", ""nsubj""], [""der"", ""nsubj""], [""Bein"", ""nsubj""], [""brechen"", ""nsubj""], [""der"", ""nsubj""], [""haben"", ""nsubj""], [""wir"", ""nsubj""], [""der"", ""nsubj""], [""ganz"", ""nsubj""], [""Spa\u00df"", ""nsubj""], [""verdorben"", ""nsubj""], [""to"", ""root""], [""go"", ""root""], [""on"", ""root""], [""health"", ""root""], [""cure"", ""root""], [""avenue"", ""obj""], [""song"", ""obl""], [""EKO"", ""obl""]]
+","Rolf Ihmig named the avenue ""Kö von Hiltrup"" in his hit song.
+","Rolf Ihmig named the avenue ""Kö von Hiltrup"".
+","Rolf Ihmig named the avenue ""Kö von Hiltrup"" in his hit-like song.
+","Rolf Ihmig dedicated the song to the avenue Marktalle in his folk-like song ""Kö von Hiltrup"".
+",0.9128709291752769,0.8006407690254357,-0.11223016014984122
+242,"[[""sound"", ""obl""], [""Technician"", ""obl""], [""to"", ""root""], [""know"", ""root""], [""sth"", ""root""], [""about"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""Franconian"", ""nsubj""], [""the"", ""nsubj""], [""www.uni-mainz.de"", ""obl""], [""organizing"", ""obl""]]
+","Franke knew from the sound engineer Stefan Schemmelmann that he recently appeared in Ludwigshafen - at a large event with Barclay James Harvest in the program.
+","Franke knew from sound engineer Stefan Schemmelmann that he recently appeared in Ludwigshafen - at a major BASF event with Barclay James Harvest.
+","Franke knew from sound engineer Stefan Schemmelmann that he had recently performed in Ludwigshafen - at a major BASF event with Barclay James Harvest in the program.
+","From the sound engineer Stefan Schemmelmann Franke reported that he had recently performed in Ludwigshafen - at a major BASF event with Barclay James Harvest as a main act.
+",0.8823529411764706,0.7050239879106326,-0.17732895326583797
+243,"[[""www.mpi-bremen.de"", ""nsubj""], [""Unboxing"", ""obl""], [""YouTube"", ""obl""], [""-"", ""obl""], [""Ph\u00e4nomen"", ""obl""], ["":"", ""obl""], [""der"", ""obl""], [""Auspacke"", ""obl""], [""ein"", ""obl""], [""Produkts"", ""obl""], [""aus"", ""obl""], [""sein"", ""obl""], [""Verpackung"", ""obl""], [""ein"", ""obl""], [""Geschenkbox"", ""obl""], [""etc"", ""obl""], [""vor"", ""obl""], [""der"", ""obl""], [""Kamera"", ""obl""], [""to"", ""root""], [""place"", ""root""], [""or"", ""root""], [""put"", ""root""], [""sth"", ""root""], [""somewhere"", ""root""]]
+","And Alvin Jasic has meanwhile placed everything on YouTube.
+","And Alvin Jasic meanwhile placed everything on YouTube.
+","And Alvin Jasic, meanwhile, has put all sorts of stuff on YouTube.
+","And Alvin Jasic has uploaded a lot of YouTube videos.
+",1.0,0.625,-0.375
+244,"[[""flat"", ""nsubj""], [""to"", ""obl""], [""win"", ""obl""], [""sth"", ""obl""], [""Franconian"", ""nsubj""], [""to"", ""root""], [""be"", ""root""], [""enough"", ""root""], [""or"", ""root""], [""sufficient"", ""root""], [""for"", ""root""], [""sb"", ""root""]]
+","""This is not about winning,"" Franke said.
+","""It's not about winning,"" Franke said.
+","""It's not about winning,"" Franke had said.
+","It’s not about winning, Franke had said.
+",0.8249579113843055,0.6681531047810609,-0.15680480660324458
+246,"[[""favourit"", ""obl""], [""or"", ""obl""], [""to"", ""root""], [""give"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""something"", ""nsubj""], [""special"", ""nsubj""], [""different"", ""nsubj""], [""song"", ""obj""]]
+","For the favourites of the jury there was nevertheless something special - so that others can listen to their songs.
+","For the favourites of the jury there was nevertheless something special - so that others can hear their songs.
+","For the favorites of the jury there was nevertheless something special - so that others can also hear their songs.
+","For the jury's favorites there was something special - so that others could also hear their songs.
+",0.9090909090909091,0.6689936080056726,-0.24009730108523641
+247,"[[""CD"", ""obj""], [""www.mpi-bremen.de"", ""nsubj""], [""sound"", ""obl""], [""Technician"", ""obl""], [""to"", ""root""], [""get"", ""root""], [""into"", ""root""], [""full"", ""root""], [""swengen"", ""root""]]
+","Alvin Jasic and his pianist Marcel Untied can record a complete CD with sound engineer Schemmelmann.
+","Alvin Jasic and his pianist Marcel Untied can record an entire CD with sound engineer Schemmelmann.
+","Alvin Jasic and his pianist Marcel Untied can record an entire CD with sound engineer Schemmelmann.
+","Alvin Jasic and his pianist Marcel Untied can record an entire CD with sound technician Schemmelmann.
+",0.9166666666666666,0.8333333333333334,-0.08333333333333326
+249,"[[""to"", ""obl""], [""be"", ""obl""], [""all"", ""obl""], [""gon"", ""obl""], [""or"", ""obl""], [""finished"", ""obl""], [""to"", ""root""], [""st"", ""root""], [""somewhere"", ""root""], [""child"", ""nsubj""], [""and"", ""nsubj""], [""youth"", ""nsubj""], [""welfar"", ""nsubj""], [""Service"", ""nsubj""], [""final"", ""obl""], [""Support"", ""obl""], [""Franconian"", ""nsubj""]]
+","Like all of them, the children performed again for the finale - and even sounded ""properly good"" without electronic support, as Franke said.
+","Like everyone else, the children performed again to the finale - and even without electronic support sounded ""right good"", as Franke said.
+","Like everyone else, the children performed again for the finale - and sounded ""really good,"" as Franke said, even without electronic support.
+","Like everyone else, the children also performed again for the finals - and even without electronic support, they sounded ""really good,"" Franke said.
+",0.8959786703810408,0.8229511997978235,-0.07302747058321735
+250,"[[""to"", ""nsubj""], [""run"", ""nsubj""], [""or"", ""nsubj""], [""be"", ""nsubj""], [""in"", ""nsubj""], [""charge"", ""nsubj""], [""of"", ""nsubj""], [""sth"", ""nsubj""], [""to"", ""root""], [""stop"", ""root""], [""sth"", ""root""], [""oneself"", ""obj""], [""jury"", ""nsubj""], [""authenticity"", ""obj""], [""no"", ""obj""], [""no"", ""obj""]]
+","The jury was guided by the aspects of originality, relation to Hiltrup, catchiness of melody and recognition value.
+","The jury was guided by the aspects of originality, relation to Hiltrup, catchiness of melody and recognition.
+","The jury was guided by the aspects of originality, reference to Hiltrup, catchiness of the melody and recognition value.
+","The jury was guided by the aspects of originality, reference to Hiltrup, catchiness of the melody and recognition value.
+",0.9607689228305227,0.9230769230769231,-0.0376919997535996
+251,"[[""to"", ""root""], [""belong"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""www.kloeckner.com"", ""nsubj""]]
+","The jury included Gisbert Keller from the Westfälische Schule für Musik, Andreas Klomfaß from the KvG Gymnasium and Oliver Ahlers from the Wirtschaftsverbund and Jan Kaven, chairman of the district offensive.
+","The jury included Gisbert Keller from the Westphalian School of Music, Andreas Klomfaß from the KvG Gymnasium and Oliver Ahlers from the Business Association, as well as Jan Kaven, chairman of the district offensive.
+","The jury consisted of Gisbert Keller from the Westphalian School of Music, Andreas Klomfaß from the KvG-Gymnasium and Oliver Ahlers from the Wirtschaftsverbund as well as Jan Kaven, chairman of the district offensive.
+","The jury included Gisbert Keller from the Westphalian School of Music, Andreas Klomfaß from KvG-Gymnasium and Oliver Ahlers from the Trade Association as well as Jan Kaven, chairman of the district offensive.
+",0.7661308776828738,0.6956521739130435,-0.07047870376983034
+257,"[[""side"", ""obl""], [""to"", ""root""], [""give"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""www.vierundzwanzig.de"", ""nsubj""], [""the"", ""obj""], [""they"", ""nsubj""], [""trick"", ""nsubj""], [""they"", ""nsubj""], [""she"", ""obj""]]
+","For each page there is a visual screen, in which four maps with keywords, which you can decipher - the old trick with the red slide - only after you put them into it.
+","For each page there is a screen, in which four maps with keywords can be deciphered - the old trick with the red slide - only after you put them in.
+","For each page there is a screen with four cards with keywords, which you can only decipher - the old trick with the red foil - once you have put them in.
+","For each page there is a screen, on it there are four cards with keywords that you can decipher - the old trick with the red foil.
+",0.9036961141150639,0.8017837257372732,-0.10191238837779071
+258,"[[""to"", ""root""], [""guarantee"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""other"", ""nsubj""], [""or"", ""nsubj""], [""opposite"", ""nsubj""], [""side"", ""nsubj""], [""mistake"", ""obl""], [""not"", ""obj""], [""anything"", ""obj""]]
+","This ensures that the opposite side cannot read anything by mistake.
+","This ensures that the opposite side cannot read by mistake.
+","This ensures that the other side cannot read anything, even by mistake.
+","This ensures the other side cannot read anything unintentionally.
+",0.9354143466934853,0.8017837257372732,-0.13363062095621214
+259,"[[""eurocheque"", ""obl""], [""card"", ""obl""], [""terms"", ""obl""], [""and"", ""obl""], [""conditions"", ""obl""], [""to"", ""root""], [""stehen"", ""root""], [""exampl"", ""obl""]]
+","For example, the maps read from left to right: ""1.
+","For example, the maps read from left to right: ""1. Renaissance.
+","The cards, for example, read from left to right: ""1. Renaissance.
+","For example, on the cards it says to read from left to right: ""1. Renaissance.
+",0.9574271077563381,0.8362420100070908,-0.12118509774924735
+260,"[[""2"", ""root""]]
+","2nd window.
+","Second window.
+","2. Window.
+","2. Fenster.
+",0.6666666666666666,0.3333333333333333,-0.3333333333333333
+261,"[[""3"", ""root""]]
+","3rd cube.
+","Three dice.
+","3. Cube.
+","3. Cube.
+",0.3333333333333333,0.3333333333333333,0.0
+262,"[[""4"", ""root""]]
+","4th Festival.
+","4th Festival"".
+","4. Feast. ""
+","4. Solidʺ.
+",0.8660254037844387,0.3333333333333333,-0.5326920704511053
+263,"[[""the"", ""nsubj""], [""to"", ""root""], [""understand"", ""root""], [""sth"", ""root""], [""the"", ""obj""], [""it"", ""nsubj""]]
+","These are the concepts that need to be encrypted from the beginning.
+","These are the terms to encrypt.
+","These are the terms that need to be encrypted from now on.
+","These are the terms that need to be coded.
+",0.4082482904638631,0.5477225575051661,0.139474267041303
+264,"[[""to"", ""root""], [""gue\u00df"", ""root""], [""sth"", ""root""]]
+","Because here we should not guess the terms, but codes.
+","Because here are not the terms, but codes.
+","For it is not the terms that are to be guessed here, but codes.
+","So the terms are not guessed, the codes are.
+",0.9128709291752769,0.6666666666666666,-0.24620426250861027
+272,"[[""mysterious"", ""root""], [""glossing"", ""nsubj""], [""-over"", ""nsubj""], [""they"", ""nsubj""], [""it"", ""obj""]]
+","As mysterious as possible, but not too crazy, the descriptions should be, or you make it unnecessarily difficult for your team.
+","As mysterious as possible, but not too crazy, the descriptions should be so, otherwise you make it unnecessary for your team.
+","The descriptions should be as mysterious as possible, but not too crazy, otherwise you make it unnecessarily difficult for your team.
+","So the term should be as mysterious as possible, but not too crazy. Otherwise, you make it unnecessarily difficult for your team.
+",0.8181818181818182,0.7833494518006403,-0.034832366381177926
+275,"[[""Erkl\u00e4rungsvideo"", ""nsubj""], [""power"", ""root""]]
+","The explanation video at decrypto.
+","The explanation video at decrypto.info on the web makes it easier.
+","The explanatory video at decrypto.info on the net makes it easier.
+","The explanatory video under decrypto.info on the web will make it easier.
+",0.6324555320336759,0.4743416490252569,-0.158113883008419
+276,"[[""who"", ""nsubj""], [""to"", ""root""], [""fascinate"", ""root""], [""sb"", ""root""], [""feeling"", ""nsubj""], [""he"", ""obl""], [""watched"", ""obl""], [""the"", ""obl""], [""children"", ""obl""], [""playing"", ""obl""], [""or"", ""obl""], [""at"", ""obl""], [""play"", ""obl""]]
+","But once you get started, you'll be fascinated by how much feeling there is in this inconspicuous game.
+","But once you get started, you will be fascinated by how much feeling there is in this insignificant game.
+","But once you get started, you will be fascinated by how much emotion there is in this inconspicuous game.
+","But once you have started, you’ll be amazed at how much emotion there is in this nondescript game.
+",0.8581163303210331,0.5720775535473553,-0.2860387767736777
+278,"[[""it"", ""nsubj""], [""to"", ""obl""], [""advise"", ""obl""], [""sb"", ""obl""], [""to"", ""obl""], [""do"", ""obl""], [""sth"", ""obl""], [""to"", ""root""], [""walk"", ""root""], [""somewhere"", ""root""], [""the"", ""nsubj""], [""Fersion"", ""obj""]]
+","To whom it is only about guessing and not about victory points, can also easily invent a version for two to do so.
+","And who is only concerned with guessing and not with winning points, can easily find a version for two.
+","And if you're only interested in guessing and not winning points, you can easily invent a version for two.
+","And if it's all about guessing and not about winning, it's easy to play a version for two.
+",0.6363636363636364,0.4767312946227962,-0.15963234174084018
+279,"[[""www.webcamgalore.com"", ""nsubj""], [""man"", ""nsubj""], [""to"", ""root""], [""show"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""the"", ""obj""], [""police"", ""obj""], [""Nazi"", ""obj""], [""or"", ""obj""], [""Hitler"", ""obj""], [""salute"", ""obj""], [""guest"", ""obj""], [""pub"", ""obl""]]
+","Kulmbach: Man shows Hitler salute and harasses guests in the pub
+","Kulmbach: Man shows police Hitler salute and harasses guests in the pub
+","Kulmbach: Man shows police Hitler salute and harasses guests in pub
+","Kulmbach: Man gives police the Hitler salute and harasses guests in the pub
+",0.9486832980505138,0.8432740427115678,-0.10540925533894596
+280,"[[""man"", ""nsubj""], [""employ"", ""root""], [""police"", ""obj""], [""station"", ""obj""], [""night"", ""obl""], [""Sunday"", ""obl""]]
+","A 48-year-old man employed the police inspection Kulmbach twice on Saturday night to Sunday.
+","A 48-year-old man employed the police inspection Kulmbach twice the night from Saturday to Sunday.
+","A 48-year-old man was arrested at Kulmbach police station on Saturday night.
+","During the night from Saturday to Sunday a 48 year old man gave the police station in Kulmbach twice something to do.
+",1.0,0.5962847939999439,-0.40371520600005606
+281,"[[""to"", ""root""], [""show"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""he"", ""nsubj""], [""town"", ""obl""], [""Nazi"", ""obj""], [""or"", ""obj""], [""Hitler"", ""obj""], [""salute"", ""obj""], [""he"", ""nsubj""], [""town"", ""obl""], [""pub"", ""obl""], [""he"", ""nsubj""], [""guest"", ""obj""]]
+","He first showed Hitler's greetings in the Upper Town of a passing police patrol, later he also appeared in a bar in the upper town when he harassed other guests.
+","He first showed Hitler's greetings in the Upper City of a passing police patrol, later he also appeared in a bar when he harassed other guests.
+","First he showed the Hitler salute to a passing police patrol in the Upper City, later he also caught the eye in a pub in the Upper City when he harassed other guests.
+","First he showed the Hitler salute to a passing police patrol in the upper town, later he was also found in the upper town in a pub where he harassed other guests.
+",0.901127113779166,0.6880329612324521,-0.21309415254671393
+282,"[[""he"", ""nsubj""], [""the"", ""obl""], [""police"", ""obl""], [""he"", ""nsubj""], [""night"", ""obj""], [""police"", ""obl""], [""station"", ""obl""], [""to"", ""root""], [""spend"", ""root""], [""sth"", ""root""], [""somewhere"", ""root""]]
+","After he was clearly alcoholized by the police, he had to spend the night in the detention cell at the Kulmbach police inspection.
+","After he was clearly alcoholized by the police, he had to spend the night at the Kulmbach Police Inspectorate.
+","After he failed to comply with the police reprimand when clearly drunk, he had to spend the night in the detention cell at the Kulmbach police inspectorate.
+","After clearly under the influence of alcohol he did not comply with the police order to vacate the premises, he had to spend the night in the detention cell in the police station of Kulmbach.
+",0.7833494518006403,0.7001400420140048,-0.08320940978663549
+283,"[[""state"", ""obl""], [""he"", ""nsubj""], [""oneself"", ""obj""], [""to"", ""obl""], [""use"", ""obl""], [""sth"", ""obl""], [""for"", ""obl""], [""sth"", ""obl""], [""to"", ""root""], [""take"", ""root""], [""or"", ""root""], [""accept"", ""root""], [""responsibility"", ""root""], [""for"", ""root""], [""sth"", ""root""], [""or"", ""root""], [""have"", ""root""], [""to"", ""root""], [""answer"", ""root""], [""to"", ""root""], [""sb"", ""root""], [""for"", ""root""], [""sth"", ""root""]]
+","He has to be responsible for the use of signs of unconstitutional organisations in a sober state.
+","In a sober state, he must then also be responsible for the use of signs of unconstitutional organisations.
+","When sober, he must then also be held criminally responsible for the use of the hallmarks of unconstitutional organizations.
+","In the sober state, he also had to take legal responsibility for the use of symbols of unconstitutional organisations.
+",0.769800358919501,0.554700196225229,-0.215100162694272
+286,"[[""1991"", ""obl""], [""stop"", ""root""], [""piec"", ""nsubj""], [""history"", ""nsubj""]]
+","A piece of railway history ended in 1991.
+","==References====External links==
+","In 1991, a piece of railway history came to an end.
+","1991 put an end to a piece of railway history.
+",0.0,0.7142857142857143,0.7142857142857143
+287,"[[""buffern"", ""nsubj""], [""buffern"", ""obl""], [""to"", ""root""], [""hear"", ""root""], [""sb"", ""root""], [""sth"", ""root""], [""they"", ""nsubj""], [""it"", ""obj""], [""Pressig"", ""obl""], [""oneself"", ""obj""], [""George"", ""nsubj""], [""the"", ""nsubj""], [""history"", ""obj""]]
+","""When buffers popped on buffers, you heard it all over Pressig"", remembers Georg Dinkel, who archives the history of the place and the station.
+","""When buffers popped on buffers, you heard it all over Pressig,"" remembers Georg Dinkel, who archives the history of the place and the station.
+","""When buffer after buffer popped, you could hear it all over Pressig,"" remembers Georg Dinkel, who archives the history of the place and the station.
+","The crashing from bumper to bumper could be heard throughout Pressig, remembers Georg Dinkel, who archives the history of the place and the stations.
+",1.0,0.625,-0.375
+288,"[[""the"", ""nsubj""], [""blessing"", ""root""], [""nobody"", ""obj""]]
+","That wasn't bothering anyone.
+","That didn't upset anyone.
+","It didn't upset anyone.
+","This did not bother anybody.
+",0.8,0.22360679774997896,-0.5763932022500211
+293,"[[""his"", ""root""], [""starting"", ""nsubj""], [""point"", ""nsubj""], [""north"", ""obl""], [""the"", ""nsubj""], [""ascent"", ""obl""], [""usu"", ""obl""], [""no"", ""obl""], [""highest"", ""obj""], [""point"", ""obj""]]
+","Here was the starting point of the Steilrampen mountain route to the north, which after an ascent of about 220 meters has its peak in Steinbach am Wald.
+","Here was the starting point of the Steilrampen mountain route to the north, which has its peak in Steinbach am Wald after an ascent of about 220 metres.
+","Here was the starting point of the steep ramp mountain section to the north, which has its apex in Steinbach am Wald after an ascent of about 220 metres in altitude.
+","This was the starting point for the steep mountain section to the north, which peaks in Steinbach am Wald following an ascension of about 220 meters.
+",0.9333333333333333,0.6454972243679028,-0.28783610896543055
+297,"[[""www.inowa.at"", ""obl""], [""1968"", ""obl""], [""local"", ""obl""], [""or"", ""obl""], [""branch"", ""obl""], [""line"", ""obl""], [""to"", ""root""], [""proceed"", ""root""], [""with"", ""root""], [""sth"", ""root""], [""in"", ""root""], [""certain"", ""root""], [""manner"", ""root""]]
+","The Pressig railway depot, which was subordinated to Bamberg in 1968, also operated locomotives for the branch lines Pressig - Tettau, Ludwigsstadt - Lehesten, Stockheim - Sonneberg and Kronach - northern half.
+","The Pressig railway depot, which was subordinated to Bamberg in 1968, also operated locomotives for the branch lines Pressig - Tettau, Ludwigsstadt - Lehesten, Stockheim - Sonneberg and Kronach.
+","The railway depot (BW) Pressig, which was placed under the authority of Bamberg in 1968, also operated locomotives for the branch lines Pressig - Tettau, Ludwigsstadt - Lehesten, Stockheim - Sonneberg and Kronach - Nordhalben.
+","The Pressig depot, which in the year 1968 was relocated to Bamberg, also operated locomotives for the branch lines Pressig - Tettau, Ludwigsstadt - Lehesten, Stockheim - Sonneberg and Kronach - Nordhalben.
+",0.9555330859059091,0.8446530265013354,-0.11088005940457368
+298,"[[""15"", ""root""]]
+","On 15.
+","On July 15, 1950, the ""Volksblatt"" reported a staff of 160 men; 13 steam and eight elloks were stationed in Pressig.
+","On July 15, 1950, the Volksblatt reported a staff of 160; 13 steam and eight electric locomotives were stationed in Pressig at that time.
+","On July 15 1950 the ""Volksblatt"" reported of a staff of 160 men; 13 steam locomotives and eight electric locomotives were stationed in Pressig at that time.
+",0.3872983346207417,0.3779644730092272,-0.009333861611514505
+300,"[[""1977"", ""obl""], [""goods"", ""obl""], [""or"", ""obl""], [""esp"", ""obl""], [""freight"", ""obl""], [""train"", ""obl""], [""second"", ""root""], [""-"", ""root""], [""hand"", ""root""]]
+","From 1977, they were only used on freight trains.
+","From 1977 they were used only for freight trains.
+","From 1977 they were only used for freight trains.
+","From 1977 they were still used with freight trains.
+",0.9258200997725514,0.8571428571428571,-0.06867724262969432
+302,"[[""1982"", ""obl""], [""1991"", ""obl""], [""law"", ""root""], [""school"", ""root""], [""medical"", ""root""], [""school"", ""root""], [""dropout"", ""root""]]
+","In 1982, parts of the factory were demolished, and in 1991 the rest were demolished.
+","In 1982, parts of the factory were demolished and in 1991 the rest was demolished.
+","Parts of the factory were demolished in 1982 and the rest in 1991.
+","In 1982 the depot was partially dismantled and the remainder in the year 1991.
+",1.0,0.4444444444444444,-0.5555555555555556
+303,"[[""www.ub.uni-erlangen.de"", ""root""], [""flat"", ""nsubj""], [""they"", ""nsubj""], [""use"", ""obj""], [""eye"", ""obl""]]
+","Heidrich: ""It is regrettable that we have not considered a better use of the site, also in terms of freight transport"".
+","Heidrich: ""It is regrettable that one has not considered a better use of the site, also in terms of freight transport"".
+","Heidrich: ""It is regrettable that a better use of the site has not been envisaged, including in terms of freight transport.""
+","Heidrich: ‘It’s a shame that better use of the location is not envisaged, also with regard to freight traffic’.
+",0.9701425001453319,0.5625,-0.4076425001453319
+304,"[[""Whitsun"", ""obl""], [""esp"", ""obl""], [""to"", ""root""], [""celebrate"", ""root""], [""sth"", ""root""], [""www.domset.de"", ""nsubj""], [""anniversary"", ""obl""], [""Bahnhofsfest"", ""obj""]]
+","On Pentecost 1989, the Nuremberg Railway Directorate celebrated a pompous station festival in Pressig for the anniversary ""50 years of electrification Nuremberg - Saalfeld"".
+","On Pentecost 1989, the Nuremberg Railway Directorate celebrated a pompous station festival in Pressig for the anniversary ""50 years electrification Nuremberg - Saalfeld"".
+","On Pentecost 1989, the Nuremberg Railway Directorate celebrated the 50th anniversary of the electrification of Nuremberg - Saalfeld with a pompous station party in Pressig.
+","Still in the year 1989 at Pentecost, the Nuremberg Railway Directorate celebrated ""50 years of electrification Nuremberg - Saalfeld"" with a pompous station festival for the anniversary in Pressig.
+",1.0,0.9304842103984708,-0.06951578960152915
+306,"[[""out"", ""root""], [""of"", ""root""], [""play"", ""root""], [""no"", ""root""], [""no"", ""root""]]
+","A little later the end.
+","A little later.
+","A little later the end.
+","Shortly afterwards.
+",0.8944271909999159,0.2581988897471611,-0.6362283012527548
+316,"[[""Swabian"", ""nsubj""], [""to"", ""root""], [""get"", ""root""], [""sth"", ""root""], [""from"", ""root""], [""sb"", ""root""], [""it"", ""obj""], [""www.kh-do.de"", ""obl""], [""Estonia"", ""obl""]]
+","The swäbin now gets to do it with Anett Kontaveit from Estonia.
+","The swäbin is now dealing with Anett Kontaveit from Estonia.
+","The sister-in-law will now face Anett Kontaveit from Estonia.
+","The Swabian will now face Anett Kontaveit from Estonia.
+",0.8571428571428571,0.7142857142857143,-0.1428571428571428
